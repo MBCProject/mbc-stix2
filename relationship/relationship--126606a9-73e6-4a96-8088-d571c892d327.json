@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6e8499b2-097c-4ccf-bb3a-f62d142e623d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--126606a9-73e6-4a96-8088-d571c892d327",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:16.264Z",
+            "modified": "2020-02-05T20:28:16.264Z",
+            "relationship_type": "uses",
+            "description": "Gathers information from the victim's machine to create an encryption key.",
+            "source_ref": "malware--135968d7-8b5f-492e-9423-9c98bc4d9d06",
+            "target_ref": "attack-pattern--f54dfa9e-e208-4695-81e8-478d887dba7c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

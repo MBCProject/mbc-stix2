@@ -1,0 +1,85 @@
+{
+    "type": "bundle",
+    "id": "bundle--17d56821-99c4-45a7-8e7c-5f029736b5b5",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--fb7a6e89-4943-47a3-980f-d22c9f394d40",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.157Z",
+            "modified": "2020-02-05T20:28:15.157Z",
+            "name": "Software Packing",
+            "description": "This code characteristic - Software Packing - can make static and behavioral analysis difficult and includes packing with a software protectors, such as Themida and Armadillo [[1]](#1). Methods related to anti-analysis are below.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/anti-static-analysis/software-packing.md",
+                    "external_id": "E1045"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Ange Albertini, Packers, 5 April 2010,",
+                    "url": "https://gironsec.com/code/packers.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Jiang Ming et al, Towards Paving the Way for Large-Scale Windows Malware Analysis: Generic Binary Unpacking with Orders-of-Magnitude Performance Boost, October 2018,",
+                    "url": "https://dl.acm.org/citation.cfm?id=3243771."
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1045/",
+                    "external_id": "T1045"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_methods": [
+                {
+                    "definition": "the malware is packed by one packer, the result is packed, etc.",
+                    "name": "Nested Packing"
+                },
+                {
+                    "definition": "Uses a standard algorithm, such as UPX or LZMA, to compress an executable file.",
+                    "name": "Standard Compression"
+                },
+                {
+                    "definition": "Uses a standard algorithm to compress the opcode mnemonics.",
+                    "name": "Standard Compression of Code"
+                },
+                {
+                    "definition": "Uses a standard algorithm to compress strings and variables (executable file data).",
+                    "name": "Standard Compression of Data"
+                },
+                {
+                    "definition": "Uses a custom algorithm to compress an executable file.",
+                    "name": "Custom Compression"
+                },
+                {
+                    "definition": "Uses a custom algorithm to compress opcode mnemonics.",
+                    "name": "Custom Compression of Code"
+                },
+                {
+                    "definition": "Uses a custom algorithm to compress strings and variables (executable file data).",
+                    "name": "Custom Compression of Data"
+                }
+            ]
+        }
+    ]
+}

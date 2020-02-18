@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--415215f3-19bc-42d2-884c-b721ac0eaefb",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--425dafb4-d71e-4c13-b900-b93c4316d07f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.461Z",
+            "modified": "2020-02-05T20:28:15.461Z",
+            "name": "Private Keys",
+            "description": "Malware may gather private keys from compromised systems.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/credential-access/private-keys.md",
+                    "external_id": "T1145"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1145/",
+                    "external_id": "T1145"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

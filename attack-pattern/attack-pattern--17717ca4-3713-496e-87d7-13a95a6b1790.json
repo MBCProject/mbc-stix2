@@ -1,0 +1,99 @@
+{
+    "type": "bundle",
+    "id": "bundle--748f027a-f18a-4fbd-bd66-55a8acf5bc30",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--17717ca4-3713-496e-87d7-13a95a6b1790",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.150Z",
+            "modified": "2020-02-05T20:28:15.150Z",
+            "name": "Executable Code Obfuscation",
+            "description": "Executable code can be obfuscated to hinder disassembly and static code analysis. This behavior is specific to a malware sample's executable code (data and text sections).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/anti-static-analysis/exe-code-obfuscate.md",
+                    "external_id": "M0032"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://insights.sei.cmu.edu/cert/2019/03/api-hashing-tool-imagine-that.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://cofense.com/recent-geodo-malware-campaigns-feature-heavily-obfuscated-macros/"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Rob Simmons, \"Comparing Malicious Files,\" BSides, 2019.",
+                    "url": "http://www.irongeek.com/i.php?page=videos/bsidescharm2019/2-04-comparing-malicious-files-robert-simmons"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_methods": [
+                {
+                    "definition": "Instead of storing function names in the Import Address Table (IAT) and calling GetProcAddress, a DLL is loaded and the name of each of its exports is hashed until it matches a specific hash. Manual symbol resolution is then used to access and execute the exported function. This method is often used by shellcode because it reduces the size of each import from a human-readable string to a sequence of four bytes. The Method is also known as \"Imports by Hash\" and \"GET_APIS_WITH_CRC.\" [[1]](#1)",
+                    "name": "API Hashing"
+                },
+                {
+                    "definition": "Insert code to impede disassembly.\n   * *Dead Code Insertion*: Include \"dead\" code with no real functionality.\n   * *Fake Code Insertion*: Add fake code similar to known packers or known goods to fool identification. Can confuse some automated unpackers.\n   * *Jump Insertion*: Insert jumps to make analysis visually harder.\n   * *Thunk Code Insertion*: Variation on Jump Insertion. Used by some compilers for user-generated functions.\n   * *Junk Code Insertion*: Insert dummy code between relevant opcodes. Can make signature writing more complex.",
+                    "name": "Code Insertion"
+                },
+                {
+                    "definition": "Obfuscate data values through indirection of local or global variables. For example, the instruction *if (a == 0) do x* can be obfuscated by setting a global variable, *Z*, to zero and using it in the instruction: *if (a==Z) do x*.  [NEEDS REVIEW]",
+                    "name": "Data Value Obfuscation"
+                },
+                {
+                    "definition": "Obfuscate the entry point of the malware executable.",
+                    "name": "Entry Point Obfuscation"
+                },
+                {
+                    "definition": "Encrypt blocks of code individually and decrypt temporarily only upon execution.",
+                    "name": "Guard Pages"
+                },
+                {
+                    "definition": "Obfuscate the import address table.",
+                    "name": "Import Address Table Obfuscation"
+                },
+                {
+                    "definition": "Store and load imports with a compact import table format. Each DLL needed by the executable is mentioned in the IAT, but only one function from each/most is imported; the rest are imported via GetProcAddress calls.",
+                    "name": "Import Compression"
+                },
+                {
+                    "definition": "Jump after the first byte of an instruction to confuse disassembler.",
+                    "name": "Instruction Overlap"
+                },
+                {
+                    "definition": "Split code into sections that may be rearranged and are connected by unconditional jumps.",
+                    "name": "Interleaving Code"
+                },
+                {
+                    "definition": "Merge all sections resulting in just one entry in the sections table to make readability more difficult. May affect some detection signatures if written to be section dependent.",
+                    "name": "Merged Code Sections"
+                },
+                {
+                    "definition": "",
+                    "name": "Structured Exception Handling (SEH)"
+                },
+                {
+                    "definition": "Build and decrypt strings on the stack at each use, then discard to avoid obvious references.",
+                    "name": "Stack Strings"
+                },
+                {
+                    "definition": "Remove or rename symbolic information commonly inserted by compilers for debugging purposes.",
+                    "name": "Symbol Obfuscation"
+                }
+            ]
+        }
+    ]
+}

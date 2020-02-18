@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--c0e753f1-6827-4e5d-8bf5-a2736b0dfe6f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--568d881b-70b4-4b37-97ba-045c34335b1f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.373Z",
+            "modified": "2020-02-05T20:28:15.373Z",
+            "name": "Install Root Certificate",
+            "description": "Malware may install a root certificate to avoid warning prompts during certificate-enabled connections.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/defense-evasion/install-root-cert.md",
+                    "external_id": "T1130"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1130",
+                    "external_id": "T1130"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "type": "bundle",
+    "id": "bundle--3fbee9bb-be96-45fd-b2c7-149949bfcb17",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f92667e4-d874-4fee-afac-f4770cf6cede",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.228Z",
+            "modified": "2020-02-05T20:28:15.228Z",
+            "name": "Analysis Tool Discovery",
+            "description": "Malware can employ various means to detect whether analysis tools are present or running on the system on which it is executing. Note that analysis tools are used to *analyze* malware whereas security software (see [Security Software Discovery](https://github.com/MBCProject/mbc-markdown/blob/master/discovery/security-sw-discover.md)) aims to *detect/mitigate* malware on a system or network.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "discovery"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/discovery/analysis-tool-discover.md",
+                    "external_id": "M0013"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_methods": [
+                {
+                    "definition": "Malware can scan for the process name associated with common analysis tools: \n   * Debuggers: OllyDBG / ImmunityDebugger / WinDbg / IDA Pro\n   * SysInternals Suite Tools (Process Explorer / Process Monitor / Regmon / Filemon, TCPView, Autoruns)\n   * PCAP Utilities: Wireshark / Dumpcap\n   * Process Utilities: ProcessHacker / SysAnalyzer / HookExplorer / SysInspector\n   * PE Utilities: ImportREC / PETools / LordPE\n   * Sandboxes: Joe Sandbox, etc.",
+                    "name": "Process detection"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "type": "bundle",
+    "id": "bundle--9340454a-2cfd-4357-8393-c3de81a2ed2d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--fbe0f011-0dbb-4a6e-a860-32120311f74b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.175Z",
+            "modified": "2020-02-05T20:28:15.175Z",
+            "name": "Dynamic Analysis Evasion",
+            "description": "Malware may obstruct dynamic analysis in a sandbox, emulator, or virtual machine.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/anti-behavioral-analysis/evade-dynamic-analysis.md",
+                    "external_id": "M0003"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://joe4security.blogspot.com/2013/06/overloading-sandboxes-new-generic.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-profiles/trojan-variants/ursnif"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/current-threats/pdfs/pf/file/fireeye-hot-knives-through-butter.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://research.checkpoint.com/2019-resurgence-of-smokeloader/"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_methods": [
+                {
+                    "definition": "Overloads a sandbox by generating a flood of meaningless behavioral data. [[1]](#1)",
+                    "name": "Data Flood"
+                },
+                {
+                    "definition": "Inclusion of a demo binary/mode that is executed when token is absent or not enough privileged.",
+                    "name": "Demo Mode"
+                },
+                {
+                    "definition": "Original file is written to disk then executed. May confuse some sandboxes, especially if the dropped executable must be provided specific arguments and the original dropper is not associated with the drop file(s).",
+                    "name": "Drop Code"
+                },
+                {
+                    "definition": "Encode a file on disk, such as an implant's config file.",
+                    "name": "Encode File"
+                },
+                {
+                    "definition": "execution happens when a particular file or directory is accessed, often through hooking certain API calls such as CreateFileA and CreateFileW.",
+                    "name": "Hook File System"
+                },
+                {
+                    "definition": "modification of interrupt vector or descriptor tables.",
+                    "name": "Hook Interrupt"
+                },
+                {
+                    "definition": "Creates an illusion; makes the analyst think something happened when it didn't.",
+                    "name": "Illusion"
+                }
+            ]
+        }
+    ]
+}

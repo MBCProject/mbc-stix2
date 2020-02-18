@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--88fd398c-75ab-4c34-9917-b836881b6f28",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "id": "x-mitre-tactic--225d85b5-6806-4760-a9d7-b5e38ca66153",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.060Z",
+            "modified": "2020-02-05T20:28:15.060Z",
+            "name": "Anti-Static Analysis",
+            "description": "Behaviors and code characteristics that prevent static analysis or make it more difficult. Simple static analysis identifies features such as embedded strings, header information, hash values, and file metadata (e.g., creation date). More involved static analysis involves the disassembly of the binary code.\n\nTwo primary resources for anti-static analysis behaviors are [[1]](#1) and [[2]](#2).",
+            "external_references": [
+                {
+                    "source_name": "external_source",
+                    "description": "Unprotect Project, a database about malware self-defense and protection.",
+                    "url": "http://unprotect.tdgt.org/index.php/Unprotect_Project"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "InDepthUnpacking, course content for teaching malware anti-analysis techniques and mitigations, with emphasis on packers.",
+                    "url": "https://github.com/knowmalware/InDepthUnpacking"
+                },
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/anti-static-analysis/README.md",
+                    "external_id": "M9002"
+                }
+            ],
+            "spec_version": "2.1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "anti-static-analysis"
+        }
+    ]
+}

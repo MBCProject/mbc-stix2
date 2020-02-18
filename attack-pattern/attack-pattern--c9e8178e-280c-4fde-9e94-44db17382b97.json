@@ -1,0 +1,41 @@
+{
+    "type": "bundle",
+    "id": "bundle--1449eef3-6f26-49fc-9190-9f8ec40c4bb2",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c9e8178e-280c-4fde-9e94-44db17382b97",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.385Z",
+            "modified": "2020-02-05T20:28:15.385Z",
+            "name": "Parent PID Spoofing",
+            "description": "Malware may spoof the parent process identifier (PPID) of a new process to evade process-monitoring defenses or to elevate privileges.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/defense-evasion/parent-pid-spoof.md",
+                    "external_id": "T1502"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1502/",
+                    "external_id": "T1502"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

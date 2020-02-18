@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--99cdd1f0-2ad8-40b0-b344-8b553ce4c83f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f5d16822-4a48-4d9c-944e-67ef45a59d48",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:16.262Z",
+            "modified": "2020-02-05T20:28:16.262Z",
+            "relationship_type": "uses",
+            "description": "Stores malware files in the Registry instead of the hard drive.",
+            "source_ref": "malware--8c3f24a7-b0ca-4934-9374-b73508cd1be1",
+            "target_ref": "attack-pattern--ca41dedd-dddb-45bb-bbf7-ef5a17b1b4f5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

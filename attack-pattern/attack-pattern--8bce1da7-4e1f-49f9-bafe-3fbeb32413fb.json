@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--f4e45ad8-2b8a-4e42-b800-d45052704757",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8bce1da7-4e1f-49f9-bafe-3fbeb32413fb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.241Z",
+            "modified": "2020-02-05T20:28:15.241Z",
+            "name": "Multi-Stage Channels",
+            "description": "Malware may create multiple stages for command and control, making detection more difficult.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/command-and-control/multi-stage-channels.md",
+                    "external_id": "T1104"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1104/",
+                    "external_id": "T1104"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

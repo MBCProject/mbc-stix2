@@ -1,0 +1,91 @@
+{
+    "type": "bundle",
+    "id": "bundle--13f9a9a0-a066-434c-8287-1dcbee02b000",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5e8c37e7-530d-4da6-a520-83a39fc52d7a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.361Z",
+            "modified": "2020-02-05T20:28:15.361Z",
+            "name": "Rootkit Behavior",
+            "description": "Behaviors of a rootkit: \"A rootkit is a collection of computer software, typically malicious, designed to enable access to a computer or areas of its software that is not otherwise allowed and often masks its existence or the existence of other software.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/defense-evasion/rootkit-behavior.md",
+                    "external_id": "E1014"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://en.wikipedia.org/wiki/Rootkit"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-profiles/trojan-variants/poison-ivy"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1014",
+                    "external_id": "T1014"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_methods": [
+                {
+                    "definition": "Hides the usage of any kernel modules by the malware instance.",
+                    "name": "Hide Kernel Modules"
+                },
+                {
+                    "definition": "Hides any system services that the malware instance creates or injects itself into.",
+                    "name": "Hide Services"
+                },
+                {
+                    "definition": "Hides one or more threads that belong to the malware instance.",
+                    "name": "Hide Threads"
+                },
+                {
+                    "definition": "Hides the usage of userspace libraries by the malware instance.",
+                    "name": "Hide Userspace Libraries"
+                },
+                {
+                    "definition": "Prevents the API hooks installed by the malware instance from being removed.",
+                    "name": "Prevent API Unhooking"
+                },
+                {
+                    "definition": "Prevents access to the Windows registry, including to the entire registry and/or to particular registry keys/values.",
+                    "name": "Prevent Registry Access"
+                },
+                {
+                    "definition": "Prevent Windows registry keys and/or values associated with the malware instance from being deleted from a system.",
+                    "name": "Prevent Registry Deletion"
+                },
+                {
+                    "definition": "Prevents access to the file system, including to specific files and/or directories associated with the malware instance.",
+                    "name": "Prevent File Access"
+                },
+                {
+                    "definition": "Prevents files and/or directories associated with the malware instance from being deleted from a system.",
+                    "name": "Prevent File Deletion"
+                },
+                {
+                    "definition": "Prevents access to system memory where the malware instance may be storing code or data.",
+                    "name": "Prevent Memory Access"
+                },
+                {
+                    "definition": "Prevents other software from hooking native system APIs.",
+                    "name": "Prevent Native API Hooking"
+                }
+            ]
+        }
+    ]
+}

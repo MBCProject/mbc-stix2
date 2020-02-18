@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--c5d2f38b-6aa7-4d52-a0ba-3464d171ffa5",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--af8dfa93-7114-43fc-b57a-d1a3c61c4acd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.207Z",
+            "modified": "2020-02-05T20:28:15.207Z",
+            "name": "Emulator Detection",
+            "description": "Detects whether the malware instance is being executed inside an emulator. If so, conditional execution selects a benign execution path.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/anti-behavioral-analysis/detect-emulator.md",
+                    "external_id": "M0004"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://unprotect.tdgt.org/index.php/Sandbox_Evasion"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_methods": [
+                {
+                    "definition": "Checks whether particular files (e.g., QEMU files) exist.",
+                    "name": "Check for Emulator-related Files"
+                },
+                {
+                    "definition": "Checks for WINE via the `get_wine_version` function from WINE's `ntdll.dll`.",
+                    "name": "Check for WINE Version"
+                },
+                {
+                    "definition": "Emulators register artifacts in the registry, which can be detected by malware. For example, installation of QEMU results in the registry key: *HARDWARE\\DEVICEMAP\\Scsi\\Scsi Port 0\\Scsi Bus 0\\Target Id 0\\Logical Unit Id 0* with value=*Identifier* and data=*QEMU*, or registry key: *HARDWARE\\Description\\System* with value=*SystemBiosVersion* and data=*QEMU*. [[1]](#1)",
+                    "name": "Check Emulator-related Registry Keys"
+                },
+                {
+                    "definition": "Some emulated systems fail to handle some network communications; such failures will indicate the emulated environment.",
+                    "name": "Failed Network Connections"
+                }
+            ]
+        }
+    ]
+}

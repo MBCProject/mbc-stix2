@@ -1,0 +1,67 @@
+{
+    "type": "bundle",
+    "id": "bundle--17d2e8a0-abf4-440c-b3ec-a633144bafad",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--52aeeef7-8531-4bc9-969f-274798c4cc13",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.286Z",
+            "modified": "2020-02-05T20:28:15.286Z",
+            "name": "Exploit Software",
+            "description": "Software is exploited - either because of a vulnerability or through its designed features - to gain access for malware. In general, exploitation may be done by a human attacker, but MBC focuses on software exploits implemented in code. Malware-specific details are below.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/execution/exploit-software.md",
+                    "external_id": "E1203"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/cybercrime/2018/05/samsam-ransomware-need-know/"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1203",
+                    "external_id": "T1203"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_methods": [
+                {
+                    "definition": "",
+                    "name": "Remote Desktop Protocols (RDP)"
+                },
+                {
+                    "definition": "",
+                    "name": "Java-based Web Servers"
+                },
+                {
+                    "definition": "",
+                    "name": "File Transfer Protocol (FTP) Servers"
+                },
+                {
+                    "definition": "",
+                    "name": "Red Hat JBoss Enterprise Products"
+                },
+                {
+                    "definition": "Use Sysinternals tools for additional command line functionality.",
+                    "name": "Sysinternals"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--186a11c1-8eca-40c5-aed2-94364889d034",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b297f2d1-8322-4153-8e4c-ecc411302a79",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.422Z",
+            "modified": "2020-02-05T20:28:15.422Z",
+            "name": "Masquerading",
+            "description": "Malware may change the name or location of files to avoid detection.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/defense-evasion/masquerading.md",
+                    "external_id": "T1036"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1036",
+                    "external_id": "T1036"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

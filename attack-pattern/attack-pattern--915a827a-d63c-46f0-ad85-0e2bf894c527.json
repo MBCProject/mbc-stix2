@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--0f73dae4-4a83-4376-9187-98946d80f104",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--915a827a-d63c-46f0-ad85-0e2bf894c527",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.136Z",
+            "modified": "2020-02-05T20:28:15.136Z",
+            "name": "Automated Collection",
+            "description": "Malware uses automated techniques for collecting system data.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "collection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/collection/auto-collect.md",
+                    "external_id": "T1119"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1119/",
+                    "external_id": "T1119"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

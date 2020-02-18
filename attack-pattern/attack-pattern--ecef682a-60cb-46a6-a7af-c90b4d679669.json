@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--d1478fed-e0fc-4aaa-beed-c64353c2a295",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ecef682a-60cb-46a6-a7af-c90b4d679669",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.415Z",
+            "modified": "2020-02-05T20:28:15.415Z",
+            "name": "NTFS File Attributes",
+            "description": "Malware may store malicious data in file attribute metadata.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/defense-evasion/ntfs-file-attr.md",
+                    "external_id": "T1096"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1096/",
+                    "external_id": "T1096"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "type": "bundle",
+    "id": "bundle--a647017d-8cfd-47f7-b5e2-8a8e16779e3e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b8f24e74-d267-4783-be19-13cb060aaa2d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.459Z",
+            "modified": "2020-02-05T20:28:15.459Z",
+            "name": "Hooking",
+            "description": "Malware alters API behavior or redirects execution to a malicious API version for a variety of purposes. Malware may use hooking to load and execute code within the context of another process, hiding execution and gaining elevated privileges and access to the process's memory. Methods related to anti-behavioral analysis are below. For example, hooking can be used to prevent memory dumps - see also [Memory Dump Obstruction](https://github.com/MBCProject/mbc-markdown/blob/master/anti-behavioral-analysis/memory-dump-obstruct.md).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/credential-access/hooking.md",
+                    "external_id": "E1179"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/cybercrime/2017/08/inside-kronos-malware/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://docs.microsoft.com/en-us/windows/win32/winmsg/about-hooks?redirectedfrom=MSDN#hook-procedures"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1179/",
+                    "external_id": "T1179"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_methods": [
+                {
+                    "definition": "Patching this function to always return NULL prevents drivers from getting information about the physical address space layout, preventing memory dumps. [[1]](#1)",
+                    "name": "Patch MmGetPhysicalMemoryRanges"
+                },
+                {
+                    "definition": "Prevents memory dumps by preventing mapping of memory into the kernel's virtual address space. [[1]](#1)",
+                    "name": "Hook memory mapping APIs"
+                },
+                {
+                    "definition": "Intercepts and executes designated code in response to events such as messages, keystrokes, and mouse inputs. [[3]](#3)",
+                    "name": "Hook procedures"
+                },
+                {
+                    "definition": "",
+                    "name": "Import Address Hooking (IAT) Hooking"
+                },
+                {
+                    "definition": "overwrites the first bytes in an API function to redirect code flow.",
+                    "name": "Inline Hooking"
+                }
+            ]
+        }
+    ]
+}

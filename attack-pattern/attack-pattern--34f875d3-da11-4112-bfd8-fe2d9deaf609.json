@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--122bfc2e-38d3-4123-b52f-28121f6a119a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--34f875d3-da11-4112-bfd8-fe2d9deaf609",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.342Z",
+            "modified": "2020-02-05T20:28:15.342Z",
+            "name": "Automated Exfiltration",
+            "description": "Malware may exfiltrate data via automated processing or scripting.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "exfiltration"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/exfiltration/auto-exfiltrate.md",
+                    "external_id": "E1020"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1020/",
+                    "external_id": "T1020"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

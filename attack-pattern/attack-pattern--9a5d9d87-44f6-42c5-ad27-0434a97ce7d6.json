@@ -1,0 +1,41 @@
+{
+    "type": "bundle",
+    "id": "bundle--f4ce354a-2ca7-4129-956f-569346b427f7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9a5d9d87-44f6-42c5-ad27-0434a97ce7d6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.470Z",
+            "modified": "2020-02-05T20:28:15.470Z",
+            "name": "Disk Structure Wipe",
+            "description": "Disk data structures are corrupted or wiped, making the system unable to boot.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/impact/disk-structure-wipe.md",
+                    "external_id": "T1487"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://www.darkreading.com/attacks-breaches/disk-wiping-shamoon-malware-resurfaces-with-file-erasing-malware-in-tow/d/d-id/1333509"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1487/",
+                    "external_id": "T1487"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

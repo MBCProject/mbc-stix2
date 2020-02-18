@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--42e088f7-8792-4a01-9ab4-1ae3cbb06fc3",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1bcad6e7-bdb9-4cb1-acd2-12c3ef0d16a6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.399Z",
+            "modified": "2020-02-05T20:28:15.399Z",
+            "name": "TimeStomp",
+            "description": "Malware may modify the timestamps of a file to mimic files in the same folder and avoid detection.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/defense-evasion/timestomp.md",
+                    "external_id": "T1099"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1099",
+                    "external_id": "T1099"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

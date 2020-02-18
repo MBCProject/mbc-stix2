@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d8efe7b4-af6b-4080-9463-d9f76b776d3f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bfec970e-c03a-4732-857b-e636c78d01e0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:16.252Z",
+            "modified": "2020-02-05T20:28:16.252Z",
+            "relationship_type": "uses",
+            "description": "Injects miner code into a running process.",
+            "source_ref": "malware--d1fb45bc-676d-4f46-9bc8-9890ce9d7c10",
+            "target_ref": "attack-pattern--92557c19-d2a7-4b25-b77c-34954e99d3a8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

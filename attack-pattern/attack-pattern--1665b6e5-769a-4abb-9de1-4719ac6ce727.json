@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--5c6b797e-a04a-455a-b55b-e079f97df906",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1665b6e5-769a-4abb-9de1-4719ac6ce727",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.369Z",
+            "modified": "2020-02-05T20:28:15.369Z",
+            "name": "File Deletion",
+            "description": "Malware may remove dropped files or tools to avoid detection.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/defense-evasion/file-deletion.md",
+                    "external_id": "E1107"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1107",
+                    "external_id": "T1107"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

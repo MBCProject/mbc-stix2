@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--c4c26002-8d61-4eb0-8163-dd91c5b575a9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8ee90538-b608-4379-bfef-d906cb366305",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.290Z",
+            "modified": "2020-02-05T20:28:15.290Z",
+            "name": "Windows Management Instrumentation",
+            "description": "Malware may use Windows Management Instrumentation (WMI) to perform a variety of operations.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/execution/windows-mgt-inst.md",
+                    "external_id": "T1047"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1047",
+                    "external_id": "T1047"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

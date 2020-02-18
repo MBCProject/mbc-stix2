@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bd3d5dfc-9c6d-49e3-b649-a53b45ba3882",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cb13515b-a198-41ab-ac0b-8be56c0f099f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:16.264Z",
+            "modified": "2020-02-05T20:28:16.264Z",
+            "relationship_type": "uses",
+            "description": "Code virtualization is added to the Locky Bart binary using WPProtect.",
+            "source_ref": "malware--135968d7-8b5f-492e-9423-9c98bc4d9d06",
+            "target_ref": "attack-pattern--5a7483f3-b636-4f12-8925-21be3e0f3676",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

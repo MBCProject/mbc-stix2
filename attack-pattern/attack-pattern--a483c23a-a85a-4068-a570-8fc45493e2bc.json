@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--9fbd52c8-837a-457c-8bca-612b07eba98e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a483c23a-a85a-4068-a570-8fc45493e2bc",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.363Z",
+            "modified": "2020-02-05T20:28:15.363Z",
+            "name": "Access Token Manipulation",
+            "description": "Malware manipulates access tokens to make a running process appear as thought it belongs to someone other than the user who started the process.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/defense-evasion/access-token.md",
+                    "external_id": "T1134"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1134",
+                    "external_id": "T1134"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--a6723aa6-b956-4e0c-a341-2085f12893ea",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--05dab55a-36c8-47d0-9a60-28f19fe18cdf",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.335Z",
+            "modified": "2020-02-05T20:28:15.335Z",
+            "name": "Data Encrypted",
+            "description": "Malware may obfuscate data via encryption or encoding before exfiltration.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "exfiltration"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/exfiltration/data-encrypted.md",
+                    "external_id": "E1022"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1022/",
+                    "external_id": "T1022"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

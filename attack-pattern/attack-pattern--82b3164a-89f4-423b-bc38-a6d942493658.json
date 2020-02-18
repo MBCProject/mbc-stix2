@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--35d3537e-684c-420e-afdc-27034fdd5f7a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--82b3164a-89f4-423b-bc38-a6d942493658",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.108Z",
+            "modified": "2020-02-05T20:28:15.108Z",
+            "name": "Pass the Hash",
+            "description": "Malware may capture valid password hashes, which are then used for authentication, enabling lateral movement.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "lateral-movement"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/lateral-movement/pass-the-hash.md",
+                    "external_id": "T1075"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1075",
+                    "external_id": "T1075"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--ef2889bb-1bfb-4ce4-afdf-402fbbc8b9bc",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4799cdef-cff0-476b-adaa-685b8277ef7c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.451Z",
+            "modified": "2020-02-05T20:28:15.451Z",
+            "name": "Credentials in Files",
+            "description": "Malware may search local file system and remote file shares for files containing passwords.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/credential-access/credentials-in-files.md",
+                    "external_id": "T1081"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1081/",
+                    "external_id": "T1081"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--6596cfb1-7327-45e2-91a0-228ff5d41aca",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--fe182cf0-6215-458b-9b49-7a8b23aa430c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.447Z",
+            "modified": "2020-02-05T20:28:15.447Z",
+            "name": "LLMNR/NBT-NS Poisoning",
+            "description": "Link-Local Multicast Name Resolution (LLMNR) and NetBIOS Name Service (NBT-NS) are Microsoft Windows components that serve as alternate methods of host identification. Malware may spoof an authoritative source, poisoning the service.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/credential-access/LLMNR-poison.md",
+                    "external_id": "T1171"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1171/",
+                    "external_id": "T1171"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

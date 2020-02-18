@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--13f8cc46-064e-4b83-86d0-bbc15c9b45c8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f538e66c-fab9-4a8b-b547-a206e4ddfe1b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.321Z",
+            "modified": "2020-02-05T20:28:15.321Z",
+            "name": "Create Account",
+            "description": "Malware may create a local system or domain account for persistence.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/persistence/create-account.md",
+                    "external_id": "T1136"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1136",
+                    "external_id": "T1136"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

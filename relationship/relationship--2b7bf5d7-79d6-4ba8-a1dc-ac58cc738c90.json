@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--82caa671-eb68-47f1-8658-ad65eb7a93ec",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2b7bf5d7-79d6-4ba8-a1dc-ac58cc738c90",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:16.259Z",
+            "modified": "2020-02-05T20:28:16.259Z",
+            "relationship_type": "uses",
+            "description": "A 2018 variant includes a component that erases files and then wipes the master boot record, preventing file recovery.",
+            "source_ref": "malware--682044ae-1d33-445d-80d1-d923fade2663",
+            "target_ref": "attack-pattern--748576ac-427c-460a-98fd-ab14c2b4f65a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--294dee7d-5c37-4132-907e-f662f1741471",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e7f6dd03-80ee-4721-baed-949bd060ed48",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.144Z",
+            "modified": "2020-02-05T20:28:15.144Z",
+            "name": "Access Call Log",
+            "description": "Malware gathers call log data.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "collection"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/collection/access-call-log.md",
+                    "external_id": "T1433"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1433/",
+                    "external_id": "T1433"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

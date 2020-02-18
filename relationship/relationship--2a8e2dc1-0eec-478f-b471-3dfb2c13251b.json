@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--809b1fc6-0f82-47ca-bc93-42dfde17ec06",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2a8e2dc1-0eec-478f-b471-3dfb2c13251b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:16.257Z",
+            "modified": "2020-02-05T20:28:16.257Z",
+            "relationship_type": "uses",
+            "description": "GotBotKR monitors whether the first instance is still active.",
+            "source_ref": "malware--eee42dbc-18ca-4db7-9115-672245d8893d",
+            "target_ref": "attack-pattern--f54dfa9e-e208-4695-81e8-478d887dba7c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

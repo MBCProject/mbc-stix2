@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--21ac54d6-2229-47b3-b8ad-7a0717bb7584",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--00861a6a-98ef-40f5-9924-c94c7c5da687",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:16.257Z",
+            "modified": "2020-02-05T20:28:16.257Z",
+            "relationship_type": "uses",
+            "description": "GotBotKR installs two instances of itself.",
+            "source_ref": "malware--eee42dbc-18ca-4db7-9115-672245d8893d",
+            "target_ref": "attack-pattern--f42d3d87-e374-4114-bc93-a52cae45e3d0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--26ff5f61-f0eb-4cba-82a3-18046d0305cd",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--916ef5a6-4865-4da7-bd65-664a0bdd536a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.345Z",
+            "modified": "2020-02-05T20:28:15.345Z",
+            "name": "Exfiltration Over Physical Medium",
+            "description": "Malware may exfiltrate data via a physical medium or device (e.g., USB drive).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "exfiltration"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/exfiltration/exfil-over-physical-medium.md",
+                    "external_id": "T1052"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1052/",
+                    "external_id": "T1052"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

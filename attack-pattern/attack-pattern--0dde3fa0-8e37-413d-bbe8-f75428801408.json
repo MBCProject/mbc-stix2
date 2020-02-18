@@ -1,0 +1,41 @@
+{
+    "type": "bundle",
+    "id": "bundle--78e8210f-bed2-4234-ab76-17c8ac26ebde",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0dde3fa0-8e37-413d-bbe8-f75428801408",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.142Z",
+            "modified": "2020-02-05T20:28:15.142Z",
+            "name": "Capture SMS Messages",
+            "description": "Malware captures data sent via SMS (e.g., authentication credentials).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "collection"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/collection/capture-sms.md",
+                    "external_id": "T1412"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1412/",
+                    "external_id": "T1412"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

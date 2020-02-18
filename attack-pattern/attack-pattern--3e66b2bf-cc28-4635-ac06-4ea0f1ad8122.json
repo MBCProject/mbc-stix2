@@ -1,0 +1,41 @@
+{
+    "type": "bundle",
+    "id": "bundle--e7f68bf1-a388-4def-9392-fc56cc523c39",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3e66b2bf-cc28-4635-ac06-4ea0f1ad8122",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.292Z",
+            "modified": "2020-02-05T20:28:15.292Z",
+            "name": "AppleScript",
+            "description": "Malware may use AppleScript for execution or lateral movement.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "lateral-movement"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/execution/applescript.md",
+                    "external_id": "T1155"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1155",
+                    "external_id": "T1155"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

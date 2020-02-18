@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--eae70dbc-d234-4de2-bc48-319259a2d979",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--01051bb2-6339-4556-8363-3b94ba289ec1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.298Z",
+            "modified": "2020-02-05T20:28:15.298Z",
+            "name": "Send Email",
+            "description": "Sends an email message from the system on which the malware is executing to one or more recipients, mostly commonly for the purpose of spamming or for distributing a malicious attachment or URL (malspamming).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "lateral-movement"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/execution/send-email.md",
+                    "external_id": "M0020"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trustwave.com/Resources/SpiderLabs-Blog/Gamut-Spambot-Analysis/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://en.wikipedia.org/wiki/Bagle_(computer_worm)"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1193",
+                    "external_id": "T1193"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1192",
+                    "external_id": "T1192"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

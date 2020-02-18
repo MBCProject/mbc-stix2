@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--32ade3c4-5b7a-4799-afb4-f1f93e9b3d67",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9c2ea49a-ea29-47b4-acca-087733a71b2c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.250Z",
+            "modified": "2020-02-05T20:28:15.250Z",
+            "name": "Data Encoding",
+            "description": "Malware encodes its command and control information using a standard system such as Unicode, Base64, etc.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/command-and-control/data-encode.md",
+                    "external_id": "T1132"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1132/",
+                    "external_id": "T1132"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "type": "bundle",
+    "id": "bundle--05245889-303c-4e38-bed8-70d1da02c531",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8f470860-de90-44e9-b88f-4b188918bb7c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.270Z",
+            "modified": "2020-02-05T20:28:15.270Z",
+            "name": "Commonly Used Port",
+            "description": "Malware may use a common port to avoid detection of command and control activity.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/command-and-control/common-port.md",
+                    "external_id": "T1043"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1043/",
+                    "external_id": "T1043"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1436/",
+                    "external_id": "T1436"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

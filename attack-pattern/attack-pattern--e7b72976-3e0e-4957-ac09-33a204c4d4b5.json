@@ -1,0 +1,41 @@
+{
+    "type": "bundle",
+    "id": "bundle--7dd36a64-e5ed-4961-9bd8-3b9bdf45d9a8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e7b72976-3e0e-4957-ac09-33a204c4d4b5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.418Z",
+            "modified": "2020-02-05T20:28:15.418Z",
+            "name": "BITS Jobs",
+            "description": "Malware may abuse Windows Background Intelligent Transfer Service (BITS) to download and/or execute malicious code.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/defense-evasion/bits-jobs.md",
+                    "external_id": "T1197"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1197",
+                    "external_id": "T1197"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

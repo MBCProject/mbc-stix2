@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--9b63d724-a5c0-433f-8ebf-904d1664884a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--dcf577a4-f3c7-4abe-90f3-0e2cfeba0e2d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.242Z",
+            "modified": "2020-02-05T20:28:15.242Z",
+            "name": "Fallback Channels",
+            "description": "Malware may contain a secondary command and control server or may communicate over a backup channel.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/command-and-control/fallback-channels.md",
+                    "external_id": "T1008"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1008/",
+                    "external_id": "T1008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d5c33101-f278-45ea-bf03-7deb66563880",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--943fd319-6d73-41b0-a01f-b45474c5be87",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:16.263Z",
+            "modified": "2020-02-05T20:28:16.263Z",
+            "relationship_type": "uses",
+            "description": "An MBR bootkit and a BIOS bootkit targeting Award BIOS.",
+            "source_ref": "malware--cb0b4776-cbd6-417c-b6c1-51f67f44d5b1",
+            "target_ref": "attack-pattern--e9f0d1de-13f3-499a-a0ee-32fe37912720",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

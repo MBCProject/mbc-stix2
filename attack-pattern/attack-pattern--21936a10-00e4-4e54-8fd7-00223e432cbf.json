@@ -1,0 +1,51 @@
+{
+    "type": "bundle",
+    "id": "bundle--95009b1c-3cb0-4d4d-b8ef-becd4ae3db54",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--21936a10-00e4-4e54-8fd7-00223e432cbf",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.114Z",
+            "modified": "2020-02-05T20:28:15.114Z",
+            "name": "Supply Chain Compromise",
+            "description": "The supply chain may be compromised to enable initial malware infection. Malware-related methods are listed below to supplement the information available defined in ATT&CK: [**Supply Chain Compromise**](https://attack.mitre.org/techniques/T1195/).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "lateral-movement"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/lateral-movement/supply-chain-compromise.md",
+                    "external_id": "E1195"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://researchcenter.paloaltonetworks.com/2015/10/yispecter-first-ios-malware-attacks-non-jailbroken-ios-devices-by-abusing-private-apis/"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1195/",
+                    "external_id": "T1195"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_methods": [
+                {
+                    "definition": "Abusing enterprise certificates enables malware to exploit private APIs and infect a wide range of users (see *Exploit Private APIs* below).",
+                    "name": "Abuse Enterprise Certificates"
+                },
+                {
+                    "definition": "Malware can exploit private APIs to infect jailbroken and non-jailbroken iOS devices. Research shows that over 100 apps in the App Store have abused private APIs and bypassed Apple’s strict code review.",
+                    "name": "Exploit Private APIs"
+                }
+            ]
+        }
+    ]
+}

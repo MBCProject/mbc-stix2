@@ -1,0 +1,41 @@
+{
+    "type": "bundle",
+    "id": "bundle--1ed95a38-7b1c-4775-b6c6-cc3fb17fb94d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c969317c-d5ec-4886-91d5-6ed12aef2fd7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.431Z",
+            "modified": "2020-02-05T20:28:15.431Z",
+            "name": "File System Permissions Weakness",
+            "description": "Malware may exploit a software vulnerability to escalate privileges.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/privilege-escalation/file-system-perm-weakness.md",
+                    "external_id": "T1044"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1044",
+                    "external_id": "T1044"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

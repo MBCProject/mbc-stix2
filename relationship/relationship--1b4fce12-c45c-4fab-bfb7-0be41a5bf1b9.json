@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e532c9ec-126e-4307-9f19-4553466393bb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1b4fce12-c45c-4fab-bfb7-0be41a5bf1b9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:16.258Z",
+            "modified": "2020-02-05T20:28:16.258Z",
+            "relationship_type": "uses",
+            "description": "Redhip detects VMWare, Virtual PC and Virtual Box. It also detects VM environments in general by considering timing lapses.",
+            "source_ref": "malware--6cfae3aa-e8ee-4f11-aebd-b2ea95d60c27",
+            "target_ref": "attack-pattern--91907ea3-beed-40bd-b4d6-1875893568a6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

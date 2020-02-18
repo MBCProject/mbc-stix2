@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--9e70c569-233f-40c3-b0db-b00a31e5850d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--787fd5df-098b-4def-a02c-b840072a2962",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.296Z",
+            "modified": "2020-02-05T20:28:15.296Z",
+            "name": "Service Execution",
+            "description": "Malware may execute code via interaction with Windows services (e.g., Service Control Manager).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/execution/service-exe.md",
+                    "external_id": "T1035"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1035",
+                    "external_id": "T1035"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--21dbe1ac-21d1-4c03-89a1-bd0a562a736f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b4df4bd2-7208-4948-b649-7a5267f27e2e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.263Z",
+            "modified": "2020-02-05T20:28:15.263Z",
+            "name": "Remote Access Tools",
+            "description": "Malware may use legitimate desktop support and remote access software to establish an interactive command and control channel to target systems.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/command-and-control/remote-access-tools.md",
+                    "external_id": "T1219"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1219/",
+                    "external_id": "T1219"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

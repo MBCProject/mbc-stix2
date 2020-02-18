@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--e26f3fa4-fb38-45c6-b6ca-062b0099f827",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--28fb8dbd-1aae-42f1-aba5-f9062e7003ee",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.269Z",
+            "modified": "2020-02-05T20:28:15.269Z",
+            "name": "Multi-hop Proxy",
+            "description": "Malware may chain together multiple proxies to disguise the source of malicious C2 traffic.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/command-and-control/multihop-proxy.md",
+                    "external_id": "T1188"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1188/",
+                    "external_id": "T1188"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

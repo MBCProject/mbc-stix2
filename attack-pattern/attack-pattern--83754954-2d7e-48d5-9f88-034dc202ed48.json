@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--6433b830-0b8e-4adf-97ac-67ba2077c95d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--83754954-2d7e-48d5-9f88-034dc202ed48",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.494Z",
+            "modified": "2020-02-05T20:28:15.494Z",
+            "name": "Spamming",
+            "description": "Malware may use a victim machine to create and send spam.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/impact/spamming.md",
+                    "external_id": "M0039"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://techcrunch.com/2019/07/12/trickbot-spam-millions-emails/"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "type": "bundle",
+    "id": "bundle--e6eadc58-3147-4bf2-9ee9-2cb203e0dc6a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--999d34f4-c740-497f-9074-563b8c11d8ce",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.429Z",
+            "modified": "2020-02-05T20:28:15.429Z",
+            "name": "Launch Daemon",
+            "description": "Malware may install a new MacOS launch daemon that can be configured to execute at startup.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/privilege-escalation/launch-daemon.md",
+                    "external_id": "T1160"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1160",
+                    "external_id": "T1160"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2556e1a7-f1f3-48be-9650-1770f5691582",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--44515a0f-4716-40ef-b5d5-177849ce6987",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:16.251Z",
+            "modified": "2020-02-05T20:28:16.251Z",
+            "relationship_type": "uses",
+            "description": "Learns about security software.",
+            "source_ref": "malware--d1fb45bc-676d-4f46-9bc8-9890ce9d7c10",
+            "target_ref": "attack-pattern--03b4fd1e-96db-4c28-b9c7-18ef0510c129",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

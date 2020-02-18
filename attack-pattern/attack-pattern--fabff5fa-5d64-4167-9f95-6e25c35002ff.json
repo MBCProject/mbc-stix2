@@ -1,0 +1,41 @@
+{
+    "type": "bundle",
+    "id": "bundle--ae8522c8-395f-43e4-947e-7830749642a2",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--fabff5fa-5d64-4167-9f95-6e25c35002ff",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.260Z",
+            "modified": "2020-02-05T20:28:15.260Z",
+            "name": "Standard Cryptographic Protocol",
+            "description": "Malware may use a standard cryptographic protocol to conceal command and control traffic or other data.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/command-and-control/std-crypto-protocol.md",
+                    "external_id": "T1032"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-profiles/trojan-variants/poison-ivy"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1032/",
+                    "external_id": "T1032"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}
