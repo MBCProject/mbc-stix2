@@ -53,7 +53,7 @@ References - url | **external_references.url** where *external_references.source
         "external_id": "M9001",
         "url": "https://github.com/MBCProject/mbc-markdown/blob/master/anti-behavioral-analysis/README.md"
       }
-   ],
+   ]
   }
 ```
 
@@ -142,15 +142,15 @@ Reference(s) - url | **external_references.url** where *external_references.sour
    "malware_types": ["unknown"],
    "is_family": true,
    "external_references": [
-      {
-        "source_name": "mitre-mbc",
-        "url": "https://github.com/MBCProject/mbc-markdown/blob/master/xample-malware/kraken.md",
-        "external_id": "X0010"
-      },
-      {
-        "source_name": "external_source",
-        "url": "http://blog.threatexpert.com/2008/04/kraken-changes-tactics.html"
-      }
+     {
+       "source_name": "mitre-mbc",
+       "url": "https://github.com/MBCProject/mbc-markdown/blob/master/xample-malware/kraken.md",
+       "external_id": "X0010"
+     },
+     {
+       "source_name": "external_source",
+       "url": "http://blog.threatexpert.com/2008/04/kraken-changes-tactics.html"
+     }
    ],
    "x_mitre_aliases": ["Bobax"],
    "x_mitre_platform": ["Windows"],
@@ -172,10 +172,21 @@ MBC captures relationships between malware and the behaviors the malware exhibit
    "modified": "2020-01-28T21:09:21.331Z",
    "relationship_type": "uses",
    "source_ref": "malware--1a1054d0-616f-4968-9384-70c77293ca83",
-   "target_ref": "attack-pattern--af6955dd-e692-467b-804b-fe160306f2ac",
-}
+   "target_ref": "attack-pattern--af6955dd-e692-467b-804b-fe160306f2ac"
+ }
 ```
 
 # Accessing MBC Data Using Python
 
 MBC data stored in a STIX 2.1 repository can be queried and manipulated similarly to how ATT&CK data is queried and manipulated. Please see the Section entitled, "Using Python and STIX 2.0" in the [STIX usage document](https://github.com/mitre/cti/blob/master/USAGE.md) for details.
+
+# Using MBC Content in the ATT&CK® Navigator
+
+The [ATT&CK® Navigator](https://github.com/mitre-attack/attack-navigator) has documentation on their repo detailing how to run and load data from other data sources. The example below makes the assumption you are running Docker:
+
+1) Download a copy of this repo to your local system and locate the `mbc.json` file.
+2) Download a copy of the ATT&CK Navigator repo to your local system.
+3) Locate `attack-navigator/nav-app/src/assets/config.json` and open it.
+4) Change the "enterprise_attack_url" key to a path in your local system or to a path relative to the image (e.g., `assets/mbc.json`)
+5) Move the `mbc.json` file to `attack-navigator/nav-app/src/assets/`.
+6) Continue with the ATT&CK® Navigator instructions to build and run your instance.
