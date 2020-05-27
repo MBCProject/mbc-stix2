@@ -12,4 +12,4 @@ The Malware Behavior Catalog (MBC) is a catalog of malware objectives and behavi
 
 ## MBC and STIX ##
 
-Details on how MBC data maps to STIX 2.1, as well as information on how to query and manipulate MBC data, how to use the MBC Content in the [ATT&CK® Navigator](https://github.com/mitre-attack/attack-navigator), is given in [USAGE.md](https://github.com/MBCProject/mbc-stix2/blob/master/USAGE.md).
+Details on how MBC data maps to STIX 2.1, as well as information on how to query and manipulate MBC data and how to use the MBC Content in the [ATT&CK® Navigator](https://github.com/mitre-attack/attack-navigator), is given in [USAGE.md](https://github.com/MBCProject/mbc-stix2/blob/master/USAGE.md).
