@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--34eefcbc-a58e-46f5-8d3d-1cee31282f0f",
+    "id": "bundle--722f306e-d512-4dab-ba8d-bbea9ac9a815",
     "objects": [
         {
             "type": "attack-pattern",
@@ -8,7 +8,7 @@
             "id": "attack-pattern--43f3997b-88e5-4a2e-9b59-6af0892a89b2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.192Z",
-            "modified": "2020-02-05T20:28:15.192Z",
+            "modified": "2020-08-07T18:23:25.723306Z",
             "name": "Sandbox Detection",
             "description": "Detects whether the malware instance is being executed inside an instrumented sandbox environment (e.g., Cuckoo Sandbox). If so, conditional execution selects a benign execution path.",
             "kill_chain_phases": [
@@ -70,7 +70,7 @@
                 },
                 {
                     "definition": "Calling GetSystemTime or equiv and only executing code if the current date/hour/minute/second passes some check. Often this is for running only after or only until a specific date. This behavior can be mitigated in non-automated analysis environments.",
-                    "name": "Timing/Date Checks"
+                    "name": "Timing/Date Check"
                 },
                 {
                     "definition": "Comparing single GetTickCount with some value to see if system has been started at least *X* amount ago. This behavior can be mitigated in non-automated analysis environments.",

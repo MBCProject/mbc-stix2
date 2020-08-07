@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7dcea0b5-5190-4109-b45f-fc4e6158d6d5",
+    "id": "bundle--303e2d44-328f-46b5-952e-a90ca85dfa56",
     "objects": [
         {
             "type": "attack-pattern",
@@ -8,7 +8,7 @@
             "id": "attack-pattern--f7136ba2-6455-48f4-90df-63f8f43ae0f4",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.214Z",
-            "modified": "2020-02-05T20:28:15.214Z",
+            "modified": "2020-08-07T18:23:26.153304Z",
             "name": "System Information Discovery",
             "description": "Malware may attempt to get detailed information about the system.",
             "kill_chain_phases": [
@@ -21,11 +21,17 @@
                 {
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/master/discovery/system-info-discover.md",
-                    "external_id": "T1082"
+                    "external_id": "E1082"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_methods": [
+                {
+                    "definition": "malware may trigger an exception as a way of gathering system details.",
+                    "name": "Generate Windows Exception"
+                }
             ]
         }
     ]

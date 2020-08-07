@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--17d56821-99c4-45a7-8e7c-5f029736b5b5",
+    "id": "bundle--64cba387-d463-45fc-93e2-9a632e4269f6",
     "objects": [
         {
             "type": "attack-pattern",
@@ -8,9 +8,9 @@
             "id": "attack-pattern--fb7a6e89-4943-47a3-980f-d22c9f394d40",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.157Z",
-            "modified": "2020-02-05T20:28:15.157Z",
+            "modified": "2020-08-07T18:23:25.790307Z",
             "name": "Software Packing",
-            "description": "This code characteristic - Software Packing - can make static and behavioral analysis difficult and includes packing with a software protectors, such as Themida and Armadillo [[1]](#1). Methods related to anti-analysis are below.",
+            "description": "This code characteristic - Software Packing - can make static and behavioral analysis difficult and includes packing with software protectors, such as Themida and Armadillo [[1]](#1). Methods related to anti-analysis are below.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

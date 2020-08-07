@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c4c7009-11e0-492a-9bc9-6f09945e65fb",
+    "id": "bundle--c388f977-af18-4e37-87ef-4dc7f2a0d993",
     "objects": [
         {
             "type": "attack-pattern",
@@ -8,7 +8,7 @@
             "id": "attack-pattern--91907ea3-beed-40bd-b4d6-1875893568a6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.203Z",
-            "modified": "2020-02-05T20:28:15.203Z",
+            "modified": "2020-08-07T18:23:25.731305Z",
             "name": "Virtual Machine Detection",
             "description": "Detects whether the malware instance is being executed in a virtual machine (VM), such as VMWare. If so, conditional execution selects a benign execution path.",
             "kill_chain_phases": [
@@ -74,6 +74,10 @@
                     "name": "Check Running Services"
                 },
                 {
+                    "definition": "Malware may check whether software is relatively current.",
+                    "name": "Check Software"
+                },
+                {
                     "definition": "The presence of virtual devices can indicate a virtualized environment (e.g., \"\\\\.\\VBoxTrayIPC\"). [[5]](#5)",
                     "name": "Check Virtual Devices"
                 },
@@ -94,7 +98,7 @@
                     "name": "Human User Check"
                 },
                 {
-                    "definition": "Different aspects of the hardware are inspected to determine whether the machine has modern characteristics. A machine with substandard specifications indicates a virtual environment: \n   * *Total physical memory*: most modern machines have at leave 4 GB of memory. (GlobalMemoryStatusEx) [[5]](#5).\n   * *Drive size*: most modern machines have at least 80 GB disks. May use DeviceloControl (IOCTL_DISK_GET_LENGTH_INFO) or GetDiskFreeSpaceEx (TotalNumberOfBytes) [[5]](#5).\n   * *USB drive*: checks whether there is a potential USB drive; if not a virtual environment is suspected.\n   * *Printer*: checks whether there is a potential connected printer or default Windows printers; if not a virtual environment is suspected.\n   * *Processor count*: checks number of processors; single CPU machines are suspect.\n   * *Keyboard layout*\n   * *Software*: checks whether software is relatively current.",
+                    "definition": "Different aspects of the hardware are inspected to determine whether the machine has modern characteristics. A machine with substandard specifications indicates a virtual environment: \n   * *Total physical memory*: most modern machines have at leave 4 GB of memory. (GlobalMemoryStatusEx) [[5]](#5).\n   * *Drive size*: most modern machines have at least 80 GB disks. May use DeviceloControl (IOCTL_DISK_GET_LENGTH_INFO) or GetDiskFreeSpaceEx (TotalNumberOfBytes) [[5]](#5).\n   * *USB drive*: checks whether there is a potential USB drive; if not a virtual environment is suspected.\n   * *Printer*: checks whether there is a potential connected printer or default Windows printers; if not a virtual environment is suspected.\n   * *Processor count*: checks number of processors; single CPU machines are suspect.\n   * *Keyboard layout*",
                     "name": "Modern Specs Check"
                 },
                 {
@@ -103,7 +107,7 @@
                 },
                 {
                     "definition": "The execution of certain x86 instructions will result in different values when executed inside of a VM instead of on bare metal. Accordingly, these can be used to detect the execution of the malware in a VM. [[2]](#2)\n   * *SIDT (red pill)*: Red Pill is an anti-VM technique that executes the SIDT instruction to grab the value of the IDTR register. The virtual machine monitor must relocate the guest's IDTR to avoid conflict with the host's IDTR. Since the virtual machine monitor is not notified when the virtual machine runs the SIDT instruction, the IDTR for the virtual machine is returned.\n   * *SGDT/SLDT (no pill)*: The No Pill technique relies on the fact that the LDT structure is assigned to a processor not an Operating System. The LDT location on a host machine will be zero and on a virtual machine will be non-zero.\n   * *SMSW*\n   * *STR*\n   * *CPUID*: Checking the CPU ID found within the registry can provide information to system type.\n   * *IN*\n   * *RDTSC*\n   * *VMCPUID*\n   * *VPCEXT*",
-                    "name": "x86 Instruction Testing"
+                    "name": "Instruction Testing"
                 }
             ]
         }
