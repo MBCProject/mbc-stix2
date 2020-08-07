@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b7c3b088-ea5d-4ccb-bc75-29d4c7ea71ca",
+    "id": "bundle--c0c59249-7d44-407a-bda3-d32fa498470c",
     "objects": [
         {
             "type": "identity",
@@ -149,6 +149,32 @@
                     "source_name": "mitre-attack",
                     "url": "https://attack.mitre.org/techniques/T1025/",
                     "external_id": "T1025"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8ea0d074-f484-4848-b9d1-34344d14b5e4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-07T18:23:25.959306Z",
+            "modified": "2020-08-07T18:23:25.959306Z",
+            "name": "Covert Location",
+            "description": "Malware may hide data or binary files within other files, the registry, etc.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/defense-evasion/covert-location.md",
+                    "external_id": "M0040"
                 }
             ],
             "object_marking_refs": [
@@ -1014,7 +1040,7 @@
             "id": "attack-pattern--6246be32-1085-40b4-aa18-6ead153e84fc",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.318Z",
-            "modified": "2020-02-05T20:28:15.318Z",
+            "modified": "2020-08-07T18:23:26.398304Z",
             "name": "Kernel Modules and Extensions",
             "description": "Malware may use loadable kernel modules to persist on a system.",
             "kill_chain_phases": [
@@ -1027,7 +1053,7 @@
                 {
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/master/persistence/kernel-modules-ext.md",
-                    "external_id": "T1215"
+                    "external_id": "E1215"
                 },
                 {
                     "source_name": "mitre-attack",
@@ -2533,7 +2559,7 @@
             "id": "attack-pattern--f7136ba2-6455-48f4-90df-63f8f43ae0f4",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.214Z",
-            "modified": "2020-02-05T20:28:15.214Z",
+            "modified": "2020-08-07T18:23:26.153304Z",
             "name": "System Information Discovery",
             "description": "Malware may attempt to get detailed information about the system.",
             "kill_chain_phases": [
@@ -2546,11 +2572,17 @@
                 {
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/master/discovery/system-info-discover.md",
-                    "external_id": "T1082"
+                    "external_id": "E1082"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_methods": [
+                {
+                    "definition": "malware may trigger an exception as a way of gathering system details.",
+                    "name": "Generate Windows Exception"
+                }
             ]
         },
         {
@@ -3853,7 +3885,7 @@
             "id": "attack-pattern--91907ea3-beed-40bd-b4d6-1875893568a6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.203Z",
-            "modified": "2020-02-05T20:28:15.203Z",
+            "modified": "2020-08-07T18:23:25.731305Z",
             "name": "Virtual Machine Detection",
             "description": "Detects whether the malware instance is being executed in a virtual machine (VM), such as VMWare. If so, conditional execution selects a benign execution path.",
             "kill_chain_phases": [
@@ -3919,6 +3951,10 @@
                     "name": "Check Running Services"
                 },
                 {
+                    "definition": "Malware may check whether software is relatively current.",
+                    "name": "Check Software"
+                },
+                {
                     "definition": "The presence of virtual devices can indicate a virtualized environment (e.g., \"\\\\.\\VBoxTrayIPC\"). [[5]](#5)",
                     "name": "Check Virtual Devices"
                 },
@@ -3939,7 +3975,7 @@
                     "name": "Human User Check"
                 },
                 {
-                    "definition": "Different aspects of the hardware are inspected to determine whether the machine has modern characteristics. A machine with substandard specifications indicates a virtual environment: \n   * *Total physical memory*: most modern machines have at leave 4 GB of memory. (GlobalMemoryStatusEx) [[5]](#5).\n   * *Drive size*: most modern machines have at least 80 GB disks. May use DeviceloControl (IOCTL_DISK_GET_LENGTH_INFO) or GetDiskFreeSpaceEx (TotalNumberOfBytes) [[5]](#5).\n   * *USB drive*: checks whether there is a potential USB drive; if not a virtual environment is suspected.\n   * *Printer*: checks whether there is a potential connected printer or default Windows printers; if not a virtual environment is suspected.\n   * *Processor count*: checks number of processors; single CPU machines are suspect.\n   * *Keyboard layout*\n   * *Software*: checks whether software is relatively current.",
+                    "definition": "Different aspects of the hardware are inspected to determine whether the machine has modern characteristics. A machine with substandard specifications indicates a virtual environment: \n   * *Total physical memory*: most modern machines have at leave 4 GB of memory. (GlobalMemoryStatusEx) [[5]](#5).\n   * *Drive size*: most modern machines have at least 80 GB disks. May use DeviceloControl (IOCTL_DISK_GET_LENGTH_INFO) or GetDiskFreeSpaceEx (TotalNumberOfBytes) [[5]](#5).\n   * *USB drive*: checks whether there is a potential USB drive; if not a virtual environment is suspected.\n   * *Printer*: checks whether there is a potential connected printer or default Windows printers; if not a virtual environment is suspected.\n   * *Processor count*: checks number of processors; single CPU machines are suspect.\n   * *Keyboard layout*",
                     "name": "Modern Specs Check"
                 },
                 {
@@ -3948,7 +3984,7 @@
                 },
                 {
                     "definition": "The execution of certain x86 instructions will result in different values when executed inside of a VM instead of on bare metal. Accordingly, these can be used to detect the execution of the malware in a VM. [[2]](#2)\n   * *SIDT (red pill)*: Red Pill is an anti-VM technique that executes the SIDT instruction to grab the value of the IDTR register. The virtual machine monitor must relocate the guest's IDTR to avoid conflict with the host's IDTR. Since the virtual machine monitor is not notified when the virtual machine runs the SIDT instruction, the IDTR for the virtual machine is returned.\n   * *SGDT/SLDT (no pill)*: The No Pill technique relies on the fact that the LDT structure is assigned to a processor not an Operating System. The LDT location on a host machine will be zero and on a virtual machine will be non-zero.\n   * *SMSW*\n   * *STR*\n   * *CPUID*: Checking the CPU ID found within the registry can provide information to system type.\n   * *IN*\n   * *RDTSC*\n   * *VMCPUID*\n   * *VPCEXT*",
-                    "name": "x86 Instruction Testing"
+                    "name": "Instruction Testing"
                 }
             ]
         },
@@ -4185,7 +4221,7 @@
             "id": "attack-pattern--43f3997b-88e5-4a2e-9b59-6af0892a89b2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.192Z",
-            "modified": "2020-02-05T20:28:15.192Z",
+            "modified": "2020-08-07T18:23:25.723306Z",
             "name": "Sandbox Detection",
             "description": "Detects whether the malware instance is being executed inside an instrumented sandbox environment (e.g., Cuckoo Sandbox). If so, conditional execution selects a benign execution path.",
             "kill_chain_phases": [
@@ -4247,7 +4283,7 @@
                 },
                 {
                     "definition": "Calling GetSystemTime or equiv and only executing code if the current date/hour/minute/second passes some check. Often this is for running only after or only until a specific date. This behavior can be mitigated in non-automated analysis environments.",
-                    "name": "Timing/Date Checks"
+                    "name": "Timing/Date Check"
                 },
                 {
                     "definition": "Comparing single GetTickCount with some value to see if system has been started at least *X* amount ago. This behavior can be mitigated in non-automated analysis environments.",
@@ -4526,7 +4562,7 @@
             "id": "attack-pattern--c20a6281-74cb-41fe-8575-ca053579b768",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.274Z",
-            "modified": "2020-02-05T20:28:15.274Z",
+            "modified": "2020-08-07T18:23:26.195304Z",
             "name": "Execution through Module Load",
             "description": "Malware may use the Windows module loader to execute code on a system.",
             "kill_chain_phases": [
@@ -4539,7 +4575,7 @@
                 {
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/master/execution/execution-via-module-load.md",
-                    "external_id": "T1129"
+                    "external_id": "E1129"
                 },
                 {
                     "source_name": "mitre-attack",
@@ -4663,9 +4699,9 @@
             "id": "attack-pattern--fb7a6e89-4943-47a3-980f-d22c9f394d40",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.157Z",
-            "modified": "2020-02-05T20:28:15.157Z",
+            "modified": "2020-08-07T18:23:25.790307Z",
             "name": "Software Packing",
-            "description": "This code characteristic - Software Packing - can make static and behavioral analysis difficult and includes packing with a software protectors, such as Themida and Armadillo [[1]](#1). Methods related to anti-analysis are below.",
+            "description": "This code characteristic - Software Packing - can make static and behavioral analysis difficult and includes packing with software protectors, such as Themida and Armadillo [[1]](#1). Methods related to anti-analysis are below.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -6041,8 +6077,8 @@
             "id": "attack-pattern--52aeeef7-8531-4bc9-969f-274798c4cc13",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.286Z",
-            "modified": "2020-02-05T20:28:15.286Z",
-            "name": "Exploit Software",
+            "modified": "2020-08-07T18:23:26.222304Z",
+            "name": "Exploitation for Client Execution",
             "description": "Software is exploited - either because of a vulnerability or through its designed features - to gain access for malware. In general, exploitation may be done by a human attacker, but MBC focuses on software exploits implemented in code. Malware-specific details are below.",
             "kill_chain_phases": [
                 {
@@ -6074,6 +6110,10 @@
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
             "x_mitre_methods": [
+                {
+                    "definition": "a stack pivot (i.e., stack manipulation) can be used to exploit software.",
+                    "name": "Stack Pivot"
+                },
                 {
                     "definition": "",
                     "name": "Remote Desktop Protocols (RDP)"
@@ -7328,13 +7368,17 @@
             "id": "attack-pattern--a483c23a-a85a-4068-a570-8fc45493e2bc",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.363Z",
-            "modified": "2020-02-05T20:28:15.363Z",
+            "modified": "2020-08-07T18:23:25.924304Z",
             "name": "Access Token Manipulation",
             "description": "Malware manipulates access tokens to make a running process appear as thought it belongs to someone other than the user who started the process.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [
@@ -7561,37 +7605,37 @@
             ]
         },
         {
-            "created": "2020-01-01T00:00:00.000Z",
+            "type": "x-mitre-matrix",
             "spec_version": "2.1",
-            "description": "The Malware Behavior Catalog (MBC) is a catalog of malware objectives and behaviors, created to support malware analysis-oriented use cases, such as labeling, similarity analysis, and standardized reporting.",
+            "id": "x-mitre-matrix--d5eae189-586e-4f87-bf4f-51fa251f0ba6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-01-01T00:00:00.000Z",
+            "modified": "2020-01-01T00:00:00.000Z",
+            "name": "MBC",
+            "description": "The Malware Behavior Catalog (MBC) is a catalog of malware objectives and behaviors, created to support malware analysis-oriented use cases, such as labeling, similarity analysis, and standardized reporting.",
+            "tactic_refs": [
+                "x-mitre-tactic--eb6166b0-f3c9-4124-aeb9-662941baa19e",
+                "x-mitre-tactic--225d85b5-6806-4760-a9d7-b5e38ca66153",
+                "x-mitre-tactic--69c52ee6-8372-40be-8efc-200896493343",
+                "x-mitre-tactic--5ca03153-2bfb-4540-acad-4eb54f188589",
+                "x-mitre-tactic--4fd027ac-dddc-4744-aa72-d1b4598d9898",
+                "x-mitre-tactic--9b3422b7-bc43-4b28-8d51-ba68782a9da2",
+                "x-mitre-tactic--9f09f947-5fc6-455f-b7eb-504c2ba972aa",
+                "x-mitre-tactic--f95436cf-2e09-4541-b88a-f3fb6ec3b63b",
+                "x-mitre-tactic--911377e6-b712-4754-a865-3e2989512b9a",
+                "x-mitre-tactic--389367d2-9dea-4ffe-b794-cfeaba83bcf6",
+                "x-mitre-tactic--1f99e060-c0e8-449c-8629-216ef75d7828",
+                "x-mitre-tactic--d2f87328-9fe0-4f81-800e-ea1058f49906",
+                "x-mitre-tactic--d896bd1c-d0e9-4281-9755-9b76a7c963d3",
+                "x-mitre-tactic--97051199-043f-4e26-b548-beeccdd7be3e"
+            ],
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "external_id": "mbc",
-                    "url": "https://github.com/MBCProject"
+                    "url": "https://github.com/MBCProject",
+                    "external_id": "mbc"
                 }
             ],
-            "id": "x-mitre-matrix--d5eae189-586e-4f87-bf4f-51fa251f0ba6",
-            "modified": "2020-01-01T00:00:00.000Z",
-            "name": "MBC",
-            "tactic_refs": [
-                "x-mitre-tactic--97051199-043f-4e26-b548-beeccdd7be3e",
-                "x-mitre-tactic--1f99e060-c0e8-449c-8629-216ef75d7828",
-                "x-mitre-tactic--69c52ee6-8372-40be-8efc-200896493343",
-                "x-mitre-tactic--225d85b5-6806-4760-a9d7-b5e38ca66153",
-                "x-mitre-tactic--eb6166b0-f3c9-4124-aeb9-662941baa19e",
-                "x-mitre-tactic--9f09f947-5fc6-455f-b7eb-504c2ba972aa",
-                "x-mitre-tactic--5ca03153-2bfb-4540-acad-4eb54f188589",
-                "x-mitre-tactic--f95436cf-2e09-4541-b88a-f3fb6ec3b63b",
-                "x-mitre-tactic--d2f87328-9fe0-4f81-800e-ea1058f49906",
-                "x-mitre-tactic--911377e6-b712-4754-a865-3e2989512b9a",
-                "x-mitre-tactic--9b3422b7-bc43-4b28-8d51-ba68782a9da2",
-                "x-mitre-tactic--d896bd1c-d0e9-4281-9755-9b76a7c963d3",
-                "x-mitre-tactic--4fd027ac-dddc-4744-aa72-d1b4598d9898",
-                "x-mitre-tactic--389367d2-9dea-4ffe-b794-cfeaba83bcf6"
-            ],
-            "type": "x-mitre-matrix",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]
@@ -10119,271 +10163,223 @@
             }
         },
         {
-            "created": "2020-02-05T20:28:15.056Z",
+            "type": "x-mitre-tactic",
             "spec_version": "2.1",
-            "description": "Behaviors that enable propagation through a compromised system or infected files. The malware may move actively (e.g., gain access to a machine directly) or passively (e.g., send malicious email).",
+            "id": "x-mitre-tactic--1f99e060-c0e8-449c-8629-216ef75d7828",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.056Z",
+            "modified": "2020-02-05T20:28:15.056Z",
+            "name": "Lateral Movement",
+            "description": "Behaviors that enable propagation through a compromised system or infected files. The malware may move actively (e.g., gain access to a machine directly) or passively (e.g., send malicious email).",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "external_id": "M9011",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/lateral-movement/README.md"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/lateral-movement/README.md",
+                    "external_id": "M9011"
                 }
             ],
-            "id": "x-mitre-tactic--1f99e060-c0e8-449c-8629-216ef75d7828",
-            "modified": "2020-02-05T20:28:15.056Z",
-            "name": "Lateral Movement",
-            "type": "x-mitre-tactic",
-            "x_mitre_shortname": "lateral-movement",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_shortname": "lateral-movement"
         },
         {
-            "created": "2020-02-05T20:28:15.054Z",
+            "type": "x-mitre-tactic",
             "spec_version": "2.1",
-            "description": "The following malware behaviors have been theorized. Proof-of-concept code has been created for some, but there are no in-the-wild examples of the behavior. Therefore, they are not appropriate for inclusion in the MBC.",
+            "id": "x-mitre-tactic--97051199-043f-4e26-b548-beeccdd7be3e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.054Z",
+            "modified": "2020-02-05T20:28:15.054Z",
+            "name": "Theoretical Behaviors",
+            "description": "The following malware behaviors have been theorized. Proof-of-concept code has been created for some, but there are no in-the-wild examples of the behavior. Therefore, they are not appropriate for inclusion in the MBC.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/master/theoretical-behaviors/README.md"
                 }
             ],
-            "id": "x-mitre-tactic--97051199-043f-4e26-b548-beeccdd7be3e",
-            "modified": "2020-02-05T20:28:15.054Z",
-            "name": "Theoretical Behaviors",
-            "type": "x-mitre-tactic",
-            "x_mitre_shortname": "theoretical-behaviors",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_shortname": "theoretical-behaviors"
         },
         {
-            "created": "2020-02-05T20:28:15.074Z",
+            "type": "x-mitre-tactic",
             "spec_version": "2.1",
-            "description": "Behaviors to obtain credential access, allowing it or its underlying threat actor to assume control of an account, with the associated system and network permissions.",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "external_references": [
-                {
-                    "source_name": "mitre-mbc",
-                    "external_id": "M9005",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/credential-access/README.md"
-                }
-            ],
             "id": "x-mitre-tactic--4fd027ac-dddc-4744-aa72-d1b4598d9898",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.074Z",
             "modified": "2020-02-05T20:28:15.074Z",
             "name": "Credential Access",
-            "type": "x-mitre-tactic",
-            "x_mitre_shortname": "credential-access",
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
-        },
-        {
-            "created": "2020-02-05T20:28:15.064Z",
-            "spec_version": "2.1",
-            "description": "Behaviors malware may use to communicate with systems under its control within a target network. There are many ways malware can establish command and control with various levels of covertness, depending on system configuration and network topology. Behaviors may relate to C2 servers or a bot that is part of a botnet.",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "description": "Behaviors to obtain credential access, allowing it or its underlying threat actor to assume control of an account, with the associated system and network permissions.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "external_id": "M9004",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/command-and-control/README.md"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/credential-access/README.md",
+                    "external_id": "M9005"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "credential-access"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
             "id": "x-mitre-tactic--5ca03153-2bfb-4540-acad-4eb54f188589",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.064Z",
             "modified": "2020-02-05T20:28:15.064Z",
             "name": "Command and Control",
-            "type": "x-mitre-tactic",
-            "x_mitre_shortname": "command-and-control",
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
-        },
-        {
-            "created": "2020-02-05T20:28:15.062Z",
-            "spec_version": "2.1",
-            "description": "Behaviors that aim to gain knowledge about the system and internal network.",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "description": "Behaviors malware may use to communicate with systems under its control within a target network. There are many ways malware can establish command and control with various levels of covertness, depending on system configuration and network topology. Behaviors may relate to C2 servers or a bot that is part of a botnet.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "external_id": "M9007",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/discovery/README.md"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/command-and-control/README.md",
+                    "external_id": "M9004"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "command-and-control"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
             "id": "x-mitre-tactic--9f09f947-5fc6-455f-b7eb-504c2ba972aa",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.062Z",
             "modified": "2020-02-05T20:28:15.062Z",
             "name": "Discovery",
-            "type": "x-mitre-tactic",
-            "x_mitre_shortname": "discovery",
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
-        },
-        {
-            "created": "2020-02-05T20:28:15.068Z",
-            "spec_version": "2.1",
-            "description": "Behaviors that steal data from the system on which it executes. This includes stored data (e.g., files) as well as data input into applications (e.g., web browser).",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "description": "Behaviors that aim to gain knowledge about the system and internal network.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "external_id": "M9010",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/exfiltration/README.md"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/discovery/README.md",
+                    "external_id": "M9007"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "discovery"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
             "id": "x-mitre-tactic--911377e6-b712-4754-a865-3e2989512b9a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.068Z",
             "modified": "2020-02-05T20:28:15.068Z",
             "name": "Exfiltration",
-            "type": "x-mitre-tactic",
-            "x_mitre_shortname": "exfiltration",
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
-        },
-        {
-            "created": "2020-02-05T20:28:15.072Z",
-            "spec_version": "2.1",
-            "description": "Behaviors that aim to obtain a higher level of permission.",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "description": "Behaviors that steal data from the system on which it executes. This includes stored data (e.g., files) as well as data input into applications (e.g., web browser).",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "external_id": "M9013",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/privilege-escalation/README.md"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/exfiltration/README.md",
+                    "external_id": "M9010"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "exfiltration"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
             "id": "x-mitre-tactic--d896bd1c-d0e9-4281-9755-9b76a7c963d3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.072Z",
             "modified": "2020-02-05T20:28:15.072Z",
             "name": "Privilege Escalation",
-            "type": "x-mitre-tactic",
-            "x_mitre_shortname": "privilege-escalation",
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
-        },
-        {
-            "created": "2020-02-05T20:28:15.071Z",
-            "spec_version": "2.1",
-            "description": "Behaviors that evade detection or avoid other defenses.",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "description": "Behaviors that aim to obtain a higher level of permission.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "external_id": "M9006",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/defense-evasion/README.md"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/privilege-escalation/README.md",
+                    "external_id": "M9013"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "privilege-escalation"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
             "id": "x-mitre-tactic--9b3422b7-bc43-4b28-8d51-ba68782a9da2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.071Z",
             "modified": "2020-02-05T20:28:15.071Z",
             "name": "Defense Evasion",
-            "type": "x-mitre-tactic",
-            "x_mitre_shortname": "defense-evasion",
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
-        },
-        {
-            "created": "2020-02-05T20:28:15.067Z",
-            "spec_version": "2.1",
-            "description": "Malware aims to remain on a system regardless of system events.",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "description": "Behaviors that evade detection or avoid other defenses.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "external_id": "M9012",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/persistence/README.md"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/defense-evasion/README.md",
+                    "external_id": "M9006"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "defense-evasion"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
             "id": "x-mitre-tactic--d2f87328-9fe0-4f81-800e-ea1058f49906",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.067Z",
             "modified": "2020-02-05T20:28:15.067Z",
             "name": "Persistence",
-            "type": "x-mitre-tactic",
-            "x_mitre_shortname": "persistence",
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
-        },
-        {
-            "created": "2020-02-05T20:28:15.065Z",
-            "spec_version": "2.1",
-            "description": "Behaviors that execute code on a system to achieve a variety of goals.",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "description": "Malware aims to remain on a system regardless of system events.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "external_id": "M9009",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/execution/README.md"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/persistence/README.md",
+                    "external_id": "M9012"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "persistence"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
             "id": "x-mitre-tactic--f95436cf-2e09-4541-b88a-f3fb6ec3b63b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.065Z",
             "modified": "2020-02-05T20:28:15.065Z",
             "name": "Execution",
-            "type": "x-mitre-tactic",
-            "x_mitre_shortname": "execution",
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
-        },
-        {
-            "created": "2020-02-05T20:28:15.061Z",
-            "spec_version": "2.1",
-            "description": "Behaviors that prevent, obstruct, or evade behavioral analysis (sandbox, debugger, etc). Because the underlying methods differ, separate \"detection\" and \"evasion\" behaviors are defined for some anti-behavioral analysis areas (e.g., anti-debugger). \n\nTwo primary resources for anti-behavioral analysis behaviors are [[1]](#1) and [[2]](#2).",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "description": "Behaviors that execute code on a system to achieve a variety of goals.",
             "external_references": [
                 {
-                    "source_name": "external_source",
-                    "description": "Unprotect Project, a database about malware self-defense and protection.",
-                    "url": "http://unprotect.tdgt.org/index.php/Unprotect_Project"
-                },
-                {
-                    "source_name": "external_source",
-                    "description": "InDepthUnpacking, course content for teaching malware anti-analysis techniques and mitigations, with emphasis on packers.",
-                    "url": "https://github.com/knowmalware/InDepthUnpacking"
-                },
-                {
                     "source_name": "mitre-mbc",
-                    "external_id": "M9001",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/anti-behavioral-analysis/README.md"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/execution/README.md",
+                    "external_id": "M9009"
                 }
             ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "execution"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
             "id": "x-mitre-tactic--eb6166b0-f3c9-4124-aeb9-662941baa19e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.061Z",
             "modified": "2020-02-05T20:28:15.061Z",
             "name": "Anti-Behavioral Analysis",
-            "type": "x-mitre-tactic",
-            "x_mitre_shortname": "anti-behavioral-analysis",
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
-        },
-        {
-            "created": "2020-02-05T20:28:15.058Z",
-            "spec_version": "2.1",
-            "description": "Behaviors that identify and gather information, such as sensitive files, from a target network prior to exfiltration. This objective includes locations on a system or network where the malware may look for information to exfiltrate.",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "external_references": [
-                {
-                    "source_name": "mitre-mbc",
-                    "external_id": "M9003",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/collection/README.md"
-                }
-            ],
-            "id": "x-mitre-tactic--69c52ee6-8372-40be-8efc-200896493343",
-            "modified": "2020-02-05T20:28:15.058Z",
-            "name": "Collection",
-            "type": "x-mitre-tactic",
-            "x_mitre_shortname": "collection",
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
-        },
-        {
-            "created": "2020-02-05T20:28:15.060Z",
-            "spec_version": "2.1",
-            "description": "Behaviors and code characteristics that prevent static analysis or make it more difficult. Simple static analysis identifies features such as embedded strings, header information, hash values, and file metadata (e.g., creation date). More involved static analysis involves the disassembly of the binary code.\n\nTwo primary resources for anti-static analysis behaviors are [[1]](#1) and [[2]](#2).",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "description": "Behaviors that prevent, obstruct, or evade behavioral analysis (sandbox, debugger, etc). Because the underlying methods differ, separate \"detection\" and \"evasion\" behaviors are defined for some anti-behavioral analysis areas (e.g., anti-debugger). \n\nTwo primary resources for anti-behavioral analysis behaviors are [[1]](#1) and [[2]](#2).",
             "external_references": [
                 {
                     "source_name": "external_source",
@@ -10397,39 +10393,87 @@
                 },
                 {
                     "source_name": "mitre-mbc",
-                    "external_id": "M9002",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/anti-static-analysis/README.md"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/anti-behavioral-analysis/README.md",
+                    "external_id": "M9001"
                 }
             ],
-            "id": "x-mitre-tactic--225d85b5-6806-4760-a9d7-b5e38ca66153",
-            "modified": "2020-02-05T20:28:15.060Z",
-            "name": "Anti-Static Analysis",
-            "type": "x-mitre-tactic",
-            "x_mitre_shortname": "anti-static-analysis",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_shortname": "anti-behavioral-analysis"
         },
         {
-            "created": "2020-02-05T20:28:15.076Z",
+            "type": "x-mitre-tactic",
             "spec_version": "2.1",
-            "description": "Behaviors that enable malware to achieve its mission of manipulating, interrupting, or destroying systems and/or data.",
+            "id": "x-mitre-tactic--69c52ee6-8372-40be-8efc-200896493343",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.058Z",
+            "modified": "2020-02-05T20:28:15.058Z",
+            "name": "Collection",
+            "description": "Behaviors that identify and gather information, such as sensitive files, from a target network prior to exfiltration. This objective includes locations on a system or network where the malware may look for information to exfiltrate.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "external_id": "M9008",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/impact/README.md"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/collection/README.md",
+                    "external_id": "M9003"
                 }
             ],
-            "id": "x-mitre-tactic--389367d2-9dea-4ffe-b794-cfeaba83bcf6",
-            "modified": "2020-02-05T20:28:15.076Z",
-            "name": "Impact",
-            "type": "x-mitre-tactic",
-            "x_mitre_shortname": "impact",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_shortname": "collection"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--225d85b5-6806-4760-a9d7-b5e38ca66153",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.060Z",
+            "modified": "2020-02-05T20:28:15.060Z",
+            "name": "Anti-Static Analysis",
+            "description": "Behaviors and code characteristics that prevent static analysis or make it more difficult. Simple static analysis identifies features such as embedded strings, header information, hash values, and file metadata (e.g., creation date). More involved static analysis involves the disassembly of the binary code.\n\nTwo primary resources for anti-static analysis behaviors are [[1]](#1) and [[2]](#2).",
+            "external_references": [
+                {
+                    "source_name": "external_source",
+                    "description": "Unprotect Project, a database about malware self-defense and protection.",
+                    "url": "http://unprotect.tdgt.org/index.php/Unprotect_Project"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "InDepthUnpacking, course content for teaching malware anti-analysis techniques and mitigations, with emphasis on packers.",
+                    "url": "https://github.com/knowmalware/InDepthUnpacking"
+                },
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/anti-static-analysis/README.md",
+                    "external_id": "M9002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "anti-static-analysis"
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--389367d2-9dea-4ffe-b794-cfeaba83bcf6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-02-05T20:28:15.076Z",
+            "modified": "2020-02-05T20:28:15.076Z",
+            "name": "Impact",
+            "description": "Behaviors that enable malware to achieve its mission of manipulating, interrupting, or destroying systems and/or data.",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/impact/README.md",
+                    "external_id": "M9008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "impact"
         }
     ]
 }
