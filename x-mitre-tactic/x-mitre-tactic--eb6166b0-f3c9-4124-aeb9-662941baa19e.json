@@ -4,6 +4,7 @@
     "objects": [
         {
             "type": "x-mitre-tactic",
+            "spec_version": "2.1",
             "id": "x-mitre-tactic--eb6166b0-f3c9-4124-aeb9-662941baa19e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.061Z",
@@ -27,7 +28,6 @@
                     "external_id": "M9001"
                 }
             ],
-            "spec_version": "2.1",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],

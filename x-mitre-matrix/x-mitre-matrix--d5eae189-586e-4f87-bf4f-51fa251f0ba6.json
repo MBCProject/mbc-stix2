@@ -4,12 +4,29 @@
     "objects": [
         {
             "type": "x-mitre-matrix",
+            "spec_version": "2.1",
             "id": "x-mitre-matrix--d5eae189-586e-4f87-bf4f-51fa251f0ba6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-01-01T00:00:00.000Z",
             "modified": "2020-01-01T00:00:00.000Z",
             "name": "MBC",
             "description": "The Malware Behavior Catalog (MBC) is a catalog of malware objectives and behaviors, created to support malware analysis-oriented use cases, such as labeling, similarity analysis, and standardized reporting.",
+            "tactic_refs": [
+                "x-mitre-tactic--eb6166b0-f3c9-4124-aeb9-662941baa19e",
+                "x-mitre-tactic--225d85b5-6806-4760-a9d7-b5e38ca66153",
+                "x-mitre-tactic--69c52ee6-8372-40be-8efc-200896493343",
+                "x-mitre-tactic--5ca03153-2bfb-4540-acad-4eb54f188589",
+                "x-mitre-tactic--4fd027ac-dddc-4744-aa72-d1b4598d9898",
+                "x-mitre-tactic--9b3422b7-bc43-4b28-8d51-ba68782a9da2",
+                "x-mitre-tactic--9f09f947-5fc6-455f-b7eb-504c2ba972aa",
+                "x-mitre-tactic--f95436cf-2e09-4541-b88a-f3fb6ec3b63b",
+                "x-mitre-tactic--911377e6-b712-4754-a865-3e2989512b9a",
+                "x-mitre-tactic--389367d2-9dea-4ffe-b794-cfeaba83bcf6",
+                "x-mitre-tactic--1f99e060-c0e8-449c-8629-216ef75d7828",
+                "x-mitre-tactic--d2f87328-9fe0-4f81-800e-ea1058f49906",
+                "x-mitre-tactic--d896bd1c-d0e9-4281-9755-9b76a7c963d3",
+                "x-mitre-tactic--97051199-043f-4e26-b548-beeccdd7be3e"
+            ],
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
@@ -17,26 +34,9 @@
                     "external_id": "mbc"
                 }
             ],
-            "tactic_refs": [
-                "x-mitre-tactic--97051199-043f-4e26-b548-beeccdd7be3e",
-                "x-mitre-tactic--1f99e060-c0e8-449c-8629-216ef75d7828",
-                "x-mitre-tactic--69c52ee6-8372-40be-8efc-200896493343",
-                "x-mitre-tactic--225d85b5-6806-4760-a9d7-b5e38ca66153",
-                "x-mitre-tactic--eb6166b0-f3c9-4124-aeb9-662941baa19e",
-                "x-mitre-tactic--9f09f947-5fc6-455f-b7eb-504c2ba972aa",
-                "x-mitre-tactic--5ca03153-2bfb-4540-acad-4eb54f188589",
-                "x-mitre-tactic--f95436cf-2e09-4541-b88a-f3fb6ec3b63b",
-                "x-mitre-tactic--d2f87328-9fe0-4f81-800e-ea1058f49906",
-                "x-mitre-tactic--911377e6-b712-4754-a865-3e2989512b9a",
-                "x-mitre-tactic--9b3422b7-bc43-4b28-8d51-ba68782a9da2",
-                "x-mitre-tactic--d896bd1c-d0e9-4281-9755-9b76a7c963d3",
-                "x-mitre-tactic--4fd027ac-dddc-4744-aa72-d1b4598d9898",
-                "x-mitre-tactic--389367d2-9dea-4ffe-b794-cfeaba83bcf6"
-            ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ],
-            "spec_version": "2.1"
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--094283df-831f-44f2-bc3c-a3629897b9ab",
+    "id": "bundle--bffa4feb-4cec-4691-9e3a-ed1eff5938ab",
     "objects": [
         {
             "type": "attack-pattern",
@@ -8,7 +8,7 @@
             "id": "attack-pattern--6246be32-1085-40b4-aa18-6ead153e84fc",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.318Z",
-            "modified": "2020-02-05T20:28:15.318Z",
+            "modified": "2020-08-07T18:23:26.398304Z",
             "name": "Kernel Modules and Extensions",
             "description": "Malware may use loadable kernel modules to persist on a system.",
             "kill_chain_phases": [
@@ -21,7 +21,7 @@
                 {
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/master/persistence/kernel-modules-ext.md",
-                    "external_id": "T1215"
+                    "external_id": "E1215"
                 },
                 {
                     "source_name": "mitre-attack",
