@@ -1,6 +1,6 @@
 # Malware Behavior Catalog Expressed in STIX 2.1 #
 
-*The Malware Behavior Catalog has been expressed in STIX 2.1 JSON using the STIX 2.1 Committee Specification Draft 03 (CSD03). After STIX 2.1 is established as a Committee Specification (CS), this content will be updated as needed.*
+*The Malware Behavior Catalog has been expressed in STIX 2.1 JSON using the STIX 2.1 Committee Specification 01 (CS01).*
 
 ## Malware Behavior Catalog ##
 

@@ -1,5 +1,5 @@
 # MBC and STIX 2.1: Usage Notes
-Machine-readable Malware Behavior Catalog (MBC) data is available via a JSON-based [STIX 2.1](https://oasis-open.github.io/cti-documentation/stix/intro) format. *MBC has been expressed in STIX 2.1 JSON using the STIX 2.1 Committee Specification Draft 03 (CSD03). After STIX 2.1 is established as a Committee Specification (CS), the content will be updated as needed.*
+Machine-readable Malware Behavior Catalog (MBC) data is available via a JSON-based [STIX 2.1](https://oasis-open.github.io/cti-documentation/stix/intro) format. *MBC has been expressed in STIX 2.1 JSON using the STIX 2.1 Committee Specification 01 (CS01).*
 
 The sections below describes how MBC objects and properties map to STIX 2.1 objects and properties. It is assumed that the reader is familiar with STIX.
 
