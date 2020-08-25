@@ -8,7 +8,7 @@
             "id": "attack-pattern--5f63251a-e426-493e-9dd6-3b562c0e7157",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.223Z",
-            "modified": "2020-02-05T20:28:15.223Z",
+            "modified": "2020-08-25T21:10:06.08796Z",
             "name": "Application Window Discovery",
             "description": "Malware may try to get a list of open application windows.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "discovery"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

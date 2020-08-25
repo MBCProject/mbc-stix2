@@ -8,7 +8,7 @@
             "id": "attack-pattern--139411fc-5539-4254-825c-12a9d5b3973b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.378Z",
-            "modified": "2020-02-05T20:28:15.378Z",
+            "modified": "2020-08-25T21:10:05.786Z",
             "name": "Image File Execution Options Injection",
             "description": "Malware may use Image File Execution Options to launch a process.",
             "kill_chain_phases": [
@@ -25,6 +25,7 @@
                     "phase_name": "persistence"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

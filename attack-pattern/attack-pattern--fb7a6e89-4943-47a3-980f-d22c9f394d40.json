@@ -8,7 +8,7 @@
             "id": "attack-pattern--fb7a6e89-4943-47a3-980f-d22c9f394d40",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.157Z",
-            "modified": "2020-08-07T18:23:25.790307Z",
+            "modified": "2020-08-25T21:10:06.986981Z",
             "name": "Software Packing",
             "description": "This code characteristic - Software Packing - can make static and behavioral analysis difficult and includes packing with software protectors, such as Themida and Armadillo [[1]](#1). Methods related to anti-analysis are below.",
             "kill_chain_phases": [
@@ -25,6 +25,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

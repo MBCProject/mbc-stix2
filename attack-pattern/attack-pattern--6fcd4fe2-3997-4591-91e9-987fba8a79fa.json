@@ -8,7 +8,7 @@
             "id": "attack-pattern--6fcd4fe2-3997-4591-91e9-987fba8a79fa",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.424Z",
-            "modified": "2020-02-05T20:28:15.424Z",
+            "modified": "2020-08-25T21:10:06.166956Z",
             "name": "Regsvr32",
             "description": "Malware may use the Regsvr32.exe command-line program to execute binary code.",
             "kill_chain_phases": [
@@ -21,6 +21,7 @@
                     "phase_name": "execution"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

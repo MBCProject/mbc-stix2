@@ -8,7 +8,7 @@
             "id": "attack-pattern--91b54219-5f02-4c6d-aaec-7bfb45e22cc4",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.316Z",
-            "modified": "2020-02-05T20:28:15.316Z",
+            "modified": "2020-08-25T21:10:06.436956Z",
             "name": "AppInit DLLs",
             "description": "Malware may abuse DLLs specified in the registry AppInit_DLLs value to load and run malicious DLLs.",
             "kill_chain_phases": [
@@ -21,6 +21,7 @@
                     "phase_name": "privilege-escalation"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

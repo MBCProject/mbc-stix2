@@ -8,7 +8,7 @@
             "id": "attack-pattern--d6513614-2072-4aa9-b5fe-9bbb3994ab30",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.212Z",
-            "modified": "2020-02-05T20:28:15.212Z",
+            "modified": "2020-08-25T21:10:06.809968Z",
             "name": "Network Share Discovery",
             "description": "Malware may discover and/or scan shared network drives.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "discovery"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

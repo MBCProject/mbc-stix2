@@ -8,7 +8,7 @@
             "id": "attack-pattern--787fd5df-098b-4def-a02c-b840072a2962",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.296Z",
-            "modified": "2020-02-05T20:28:15.296Z",
+            "modified": "2020-08-25T21:10:06.233956Z",
             "name": "Service Execution",
             "description": "Malware may execute code via interaction with Windows services (e.g., Service Control Manager).",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "execution"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

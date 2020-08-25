@@ -8,7 +8,7 @@
             "id": "attack-pattern--a49e3ab1-4f38-49b4-8bb2-5bf5778ae503",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.450Z",
-            "modified": "2020-02-05T20:28:15.450Z",
+            "modified": "2020-08-25T21:10:06.567995Z",
             "name": "Credentials in Registry",
             "description": "Malware may query the Registry looking for credentials and passwords.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "credential-access"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

@@ -8,11 +8,12 @@
             "id": "relationship--e28f5300-c580-49dd-99fb-cd32aaf69be8",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:16.263Z",
-            "modified": "2020-02-05T20:28:16.263Z",
+            "modified": "2020-08-25T21:10:07.638954Z",
             "relationship_type": "uses",
             "description": "Sets \"2019\" as Windows' startup folder by modifying a registry value.",
             "source_ref": "malware--0823d7b2-2870-4bb8-9818-a31108708c93",
             "target_ref": "attack-pattern--e7dcd590-8f60-4f7d-bb91-ec2863e56e2a",
+            "revoked": true,
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

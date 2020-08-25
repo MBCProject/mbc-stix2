@@ -8,7 +8,7 @@
             "id": "attack-pattern--7178682e-9591-4ebe-a24e-25b7b2ee07a5",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.188Z",
-            "modified": "2020-02-05T20:28:15.188Z",
+            "modified": "2020-08-25T21:10:06.176956Z",
             "name": "Debugger Detection",
             "description": "Malware detects whether it's being executed inside a debugger. If so, conditional execution selects a benign execution path.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "anti-behavioral-analysis"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

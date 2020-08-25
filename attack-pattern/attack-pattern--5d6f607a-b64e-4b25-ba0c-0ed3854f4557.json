@@ -8,7 +8,7 @@
             "id": "attack-pattern--5d6f607a-b64e-4b25-ba0c-0ed3854f4557",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.218Z",
-            "modified": "2020-02-05T20:28:15.218Z",
+            "modified": "2020-08-25T21:10:06.071984Z",
             "name": "System Network Connections Discovery",
             "description": "Malware may try to get a listing of network connections to/from the compromised system.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "discovery"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

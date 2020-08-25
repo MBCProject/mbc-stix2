@@ -8,7 +8,7 @@
             "id": "attack-pattern--f92667e4-d874-4fee-afac-f4770cf6cede",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.228Z",
-            "modified": "2020-02-05T20:28:15.228Z",
+            "modified": "2020-08-25T21:10:06.968957Z",
             "name": "Analysis Tool Discovery",
             "description": "Malware can employ various means to detect whether analysis tools are present or running on the system on which it is executing. Note that analysis tools are used to *analyze* malware whereas security software (see [Security Software Discovery](https://github.com/MBCProject/mbc-markdown/blob/master/discovery/security-sw-discover.md)) aims to *detect/mitigate* malware on a system or network.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "discovery"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

@@ -8,7 +8,7 @@
             "id": "attack-pattern--e9f915ef-38e5-4c6a-a885-c26073023fe5",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.109Z",
-            "modified": "2020-02-05T20:28:15.109Z",
+            "modified": "2020-08-25T21:10:06.889999Z",
             "name": "Exploitation of Remote Services",
             "description": "Malware may exploit a vulnerability in a program, service, or operating system.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "lateral-movement"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

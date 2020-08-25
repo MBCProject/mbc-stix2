@@ -8,7 +8,7 @@
             "id": "attack-pattern--e7f6dd03-80ee-4721-baed-949bd060ed48",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.144Z",
-            "modified": "2020-02-05T20:28:15.144Z",
+            "modified": "2020-08-25T21:10:06.871959Z",
             "name": "Access Call Log",
             "description": "Malware gathers call log data.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "collection"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

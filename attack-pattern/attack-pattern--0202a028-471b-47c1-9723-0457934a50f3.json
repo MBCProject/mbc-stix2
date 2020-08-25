@@ -8,7 +8,7 @@
             "id": "attack-pattern--0202a028-471b-47c1-9723-0457934a50f3",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.498Z",
-            "modified": "2020-02-05T20:28:15.498Z",
+            "modified": "2020-08-25T21:10:05.704991Z",
             "name": "Compromise Data Integrity",
             "description": "Data stored on the file system of a compromised system is manipulated to compromise its integrity.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "impact"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

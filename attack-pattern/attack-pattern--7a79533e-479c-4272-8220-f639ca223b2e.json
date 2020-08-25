@@ -8,7 +8,7 @@
             "id": "attack-pattern--7a79533e-479c-4272-8220-f639ca223b2e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.332Z",
-            "modified": "2020-02-05T20:28:15.332Z",
+            "modified": "2020-08-25T21:10:06.252956Z",
             "name": "Malicious Network Driver",
             "description": "Malicious network drivers can be installed on several machines on a network via an exploited server with high uptime. Once the drivers are installed on the host machines, they can re-infect the server if it is restarted (persistence), can infect other machines on the network (lateral movement), and can redirect traffic on the network.",
             "kill_chain_phases": [
@@ -21,6 +21,7 @@
                     "phase_name": "persistence"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

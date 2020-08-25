@@ -8,11 +8,12 @@
             "id": "relationship--daaf4264-4102-4737-a69a-d68e315479ac",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:16.250Z",
-            "modified": "2020-02-05T20:28:16.250Z",
+            "modified": "2020-08-25T21:10:07.611954Z",
             "relationship_type": "uses",
             "description": "Gamut probes the infected system's SMTP port 25 by sending a test SMTP transaction to mail.ru and hotmail.com. If port 25 is open, the bot requests the spam template and email list, which it uses to send spam.",
             "source_ref": "malware--92c8c384-839c-40a2-b58d-3af2ee3f1938",
             "target_ref": "attack-pattern--01051bb2-6339-4556-8363-3b94ba289ec1",
+            "revoked": true,
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

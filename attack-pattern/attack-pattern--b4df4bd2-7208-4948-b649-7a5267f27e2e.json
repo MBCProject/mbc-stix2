@@ -8,7 +8,7 @@
             "id": "attack-pattern--b4df4bd2-7208-4948-b649-7a5267f27e2e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.263Z",
-            "modified": "2020-02-05T20:28:15.263Z",
+            "modified": "2020-08-25T21:10:06.666954Z",
             "name": "Remote Access Tools",
             "description": "Malware may use legitimate desktop support and remote access software to establish an interactive command and control channel to target systems.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "command-and-control"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

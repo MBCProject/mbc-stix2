@@ -8,7 +8,7 @@
             "id": "attack-pattern--7d617afd-819d-4588-9b22-38470d5b338c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.480Z",
-            "modified": "2020-02-05T20:28:15.480Z",
+            "modified": "2020-08-25T21:10:06.265956Z",
             "name": "Denial of Service",
             "description": "Malware may make a network unavailable, for example, by launching a network-based denial of service (DoS) attack.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "impact"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

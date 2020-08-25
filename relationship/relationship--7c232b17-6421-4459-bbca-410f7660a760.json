@@ -8,11 +8,12 @@
             "id": "relationship--7c232b17-6421-4459-bbca-410f7660a760",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:16.262Z",
-            "modified": "2020-02-05T20:28:16.262Z",
+            "modified": "2020-08-25T21:10:07.441955Z",
             "relationship_type": "uses",
             "description": "Uses API Hashing Method.",
             "source_ref": "malware--7d15a1bf-98dc-4da5-9867-15cba30ed3cc",
             "target_ref": "attack-pattern--17717ca4-3713-496e-87d7-13a95a6b1790",
+            "revoked": true,
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

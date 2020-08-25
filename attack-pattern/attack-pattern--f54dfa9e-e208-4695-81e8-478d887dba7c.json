@@ -8,7 +8,7 @@
             "id": "attack-pattern--f54dfa9e-e208-4695-81e8-478d887dba7c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.217Z",
-            "modified": "2020-02-05T20:28:15.217Z",
+            "modified": "2020-08-25T21:10:06.948955Z",
             "name": "Process Discovery",
             "description": "Malware may try to get information about running processes.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "discovery"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

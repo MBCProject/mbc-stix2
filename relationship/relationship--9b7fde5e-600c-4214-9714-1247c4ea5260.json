@@ -8,11 +8,12 @@
             "id": "relationship--9b7fde5e-600c-4214-9714-1247c4ea5260",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:16.253Z",
-            "modified": "2020-02-05T20:28:16.253Z",
+            "modified": "2020-08-25T21:10:07.51099Z",
             "relationship_type": "uses",
             "description": "Prevents the infected system from installing anti-virus software updates.",
             "source_ref": "malware--901ac923-57ee-4d6a-b14a-ae64e3225b8c",
             "target_ref": "attack-pattern--a5cd65d0-eee1-463e-a003-04f3a71bb813",
+            "revoked": true,
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

@@ -8,7 +8,7 @@
             "id": "attack-pattern--309cdc6a-244e-43a6-bc1a-40ea4b8a999c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.220Z",
-            "modified": "2020-02-05T20:28:15.220Z",
+            "modified": "2020-08-25T21:10:05.874974Z",
             "name": "System Owner/User Discovery",
             "description": "Malware may try to identify the users of the system.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "discovery"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

@@ -8,7 +8,7 @@
             "id": "attack-pattern--8da9c3ba-1ff0-4390-a2e4-7d859b4f5cc8",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.237Z",
-            "modified": "2020-02-05T20:28:15.237Z",
+            "modified": "2020-08-25T21:10:06.356958Z",
             "name": "SMTP Connection Discovery",
             "description": "Malware may test whether an outgoing SMTP connection can be made from the system on which the malware instance is executing to some SMTP server, by sending a test SMTP transaction.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "discovery"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

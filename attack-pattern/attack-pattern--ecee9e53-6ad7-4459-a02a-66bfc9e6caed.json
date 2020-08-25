@@ -8,7 +8,7 @@
             "id": "attack-pattern--ecee9e53-6ad7-4459-a02a-66bfc9e6caed",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.119Z",
-            "modified": "2020-02-05T20:28:15.119Z",
+            "modified": "2020-08-25T21:10:06.904Z",
             "name": "Data from Network Shared Drive",
             "description": "Malware collects from remote systems via shared network drives that are accessible from the compromised system.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "collection"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

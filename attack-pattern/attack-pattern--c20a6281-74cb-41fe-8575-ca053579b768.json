@@ -8,7 +8,7 @@
             "id": "attack-pattern--c20a6281-74cb-41fe-8575-ca053579b768",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.274Z",
-            "modified": "2020-08-07T18:23:26.195304Z",
+            "modified": "2020-08-25T21:10:06.719956Z",
             "name": "Execution through Module Load",
             "description": "Malware may use the Windows module loader to execute code on a system.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "execution"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

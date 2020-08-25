@@ -8,7 +8,7 @@
             "id": "attack-pattern--8ee90538-b608-4379-bfef-d906cb366305",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.290Z",
-            "modified": "2020-02-05T20:28:15.290Z",
+            "modified": "2020-08-25T21:10:06.373958Z",
             "name": "Windows Management Instrumentation",
             "description": "Malware may use Windows Management Instrumentation (WMI) to perform a variety of operations.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "execution"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

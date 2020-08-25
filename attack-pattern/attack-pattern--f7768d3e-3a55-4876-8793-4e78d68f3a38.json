@@ -8,7 +8,7 @@
             "id": "attack-pattern--f7768d3e-3a55-4876-8793-4e78d68f3a38",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.465Z",
-            "modified": "2020-02-05T20:28:15.465Z",
+            "modified": "2020-08-25T21:10:06.961958Z",
             "name": "Endpoint Denial of Service",
             "description": "Malware may make a system unavailable, for example, by locking a user out of a system. The ATT&CK technique, [Lock User Out of Device](https://attack.mitre.org/techniques/T1446/), pertains to the Android platform; the technique [Endpoint Denial of Service](https://attack.mitre.org/techniques/T1499/) is applicable to other platforms.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "impact"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

@@ -8,7 +8,7 @@
             "id": "attack-pattern--d1db8aeb-d1f6-466c-bf30-38d6ad72ade7",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.106Z",
-            "modified": "2020-02-05T20:28:15.106Z",
+            "modified": "2020-08-25T21:10:06.785959Z",
             "name": "Secondary CPU Execution (THEORETICAL)",
             "description": "Executes some or all of the code of the malware instance on a secondary, non-CPU processor (e.g., graphics processing unit (GPU)). This behavior is not included in the MBC because no real world examples have been found.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

@@ -8,7 +8,7 @@
             "id": "attack-pattern--fc82f55c-157b-40b6-ae7c-ade5f0fc9be2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.380Z",
-            "modified": "2020-02-05T20:28:15.380Z",
+            "modified": "2020-08-25T21:10:07.003991Z",
             "name": "Process Hollowing",
             "description": "Instead of performing [Process Injection](https://github.com/MBCProject/mbc-markdown/blob/master/defense-evasion/process-inject.md), malware may unmap (hollows out) legitimate code from the target process's memory (e.g., svchost.exe) and overwrite the memory space with a malicious code.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

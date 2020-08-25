@@ -8,7 +8,7 @@
             "id": "attack-pattern--fb4f9ec2-9c0e-4b28-9af7-b2bd4c69ff65",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.441Z",
-            "modified": "2020-02-05T20:28:15.441Z",
+            "modified": "2020-08-25T21:10:06.980954Z",
             "name": "Sudo",
             "description": "Malware may take advantage of the sudoers file in Linux or macOS for privilege escalation.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "privilege-escalation"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

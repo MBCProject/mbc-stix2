@@ -8,11 +8,12 @@
             "id": "relationship--1a213e38-6637-4d70-996c-0d25fe9e265c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:16.259Z",
-            "modified": "2020-02-05T20:28:16.259Z",
+            "modified": "2020-08-25T21:10:07.243953Z",
             "relationship_type": "uses",
             "description": "SamSam is ransomware.",
             "source_ref": "malware--1d8cb82f-6d6c-4726-aa93-e2a84e3e644e",
             "target_ref": "attack-pattern--4ea52273-1834-4df1-8bc7-6ee8738748a2",
+            "revoked": true,
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

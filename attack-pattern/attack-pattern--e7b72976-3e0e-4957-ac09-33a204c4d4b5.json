@@ -8,7 +8,7 @@
             "id": "attack-pattern--e7b72976-3e0e-4957-ac09-33a204c4d4b5",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.418Z",
-            "modified": "2020-02-05T20:28:15.418Z",
+            "modified": "2020-08-25T21:10:06.859955Z",
             "name": "BITS Jobs",
             "description": "Malware may abuse Windows Background Intelligent Transfer Service (BITS) to download and/or execute malicious code.",
             "kill_chain_phases": [
@@ -21,6 +21,7 @@
                     "phase_name": "persistence"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

@@ -8,7 +8,7 @@
             "id": "attack-pattern--131c6f15-5bc4-4583-9b8d-ea06ef139d0b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.481Z",
-            "modified": "2020-02-05T20:28:15.481Z",
+            "modified": "2020-08-25T21:10:05.774954Z",
             "name": "Inhibit System Recovery",
             "description": "Malware may delete OS data and turn off services designed to provide system recovery.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "impact"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

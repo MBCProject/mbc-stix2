@@ -8,10 +8,11 @@
             "id": "relationship--b7947355-7dfc-4ef4-9f62-efb0c755a48f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:16.256Z",
-            "modified": "2020-02-05T20:28:16.256Z",
+            "modified": "2020-08-25T21:10:07.579956Z",
             "relationship_type": "uses",
             "source_ref": "malware--0cc95157-e602-407e-9225-3d595cb1a6e8",
             "target_ref": "attack-pattern--c376d9bb-5e45-42f5-95ce-b57d6ce417b8",
+            "revoked": true,
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

@@ -8,7 +8,7 @@
             "id": "attack-pattern--82b3164a-89f4-423b-bc38-a6d942493658",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.108Z",
-            "modified": "2020-02-05T20:28:15.108Z",
+            "modified": "2020-08-25T21:10:06.290958Z",
             "name": "Pass the Hash",
             "description": "Malware may capture valid password hashes, which are then used for authentication, enabling lateral movement.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "lateral-movement"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

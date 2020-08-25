@@ -8,7 +8,7 @@
             "id": "attack-pattern--8ea0d074-f484-4848-b9d1-34344d14b5e4",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-07T18:23:25.959306Z",
-            "modified": "2020-08-07T18:23:25.959306Z",
+            "modified": "2020-08-25T21:10:06.368955Z",
             "name": "Covert Location",
             "description": "Malware may hide data or binary files within other files, the registry, etc.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

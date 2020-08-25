@@ -8,7 +8,7 @@
             "id": "attack-pattern--db4db0bf-8914-4cf2-b128-6fc458eceef0",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.131Z",
-            "modified": "2020-02-05T20:28:15.131Z",
+            "modified": "2020-08-25T21:10:06.830959Z",
             "name": "Audio Capture",
             "description": "Malware leverages system's peripheral devices to capture audio.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "collection"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

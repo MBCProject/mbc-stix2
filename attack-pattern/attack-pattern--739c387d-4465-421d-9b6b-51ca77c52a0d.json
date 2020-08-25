@@ -8,7 +8,7 @@
             "id": "attack-pattern--739c387d-4465-421d-9b6b-51ca77c52a0d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.406Z",
-            "modified": "2020-02-05T20:28:15.406Z",
+            "modified": "2020-08-25T21:10:06.220957Z",
             "name": "Code Signing",
             "description": "Malware code is digitally signed to appear as legitimate software.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

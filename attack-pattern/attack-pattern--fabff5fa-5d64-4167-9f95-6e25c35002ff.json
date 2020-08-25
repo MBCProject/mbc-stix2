@@ -8,7 +8,7 @@
             "id": "attack-pattern--fabff5fa-5d64-4167-9f95-6e25c35002ff",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.260Z",
-            "modified": "2020-02-05T20:28:15.260Z",
+            "modified": "2020-08-25T21:10:06.974956Z",
             "name": "Standard Cryptographic Protocol",
             "description": "Malware may use a standard cryptographic protocol to conceal command and control traffic or other data.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "command-and-control"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

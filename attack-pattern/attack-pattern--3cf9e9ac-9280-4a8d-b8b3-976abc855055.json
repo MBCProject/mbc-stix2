@@ -8,7 +8,7 @@
             "id": "attack-pattern--3cf9e9ac-9280-4a8d-b8b3-976abc855055",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.337Z",
-            "modified": "2020-02-05T20:28:15.337Z",
+            "modified": "2020-08-25T21:10:05.90596Z",
             "name": "Data Compressed",
             "description": "Malware may compress data prior to exfiltration.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "exfiltration"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

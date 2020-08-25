@@ -8,7 +8,7 @@
             "id": "attack-pattern--11d90b50-17e9-45f5-84aa-05899a63714e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.354Z",
-            "modified": "2020-02-05T20:28:15.354Z",
+            "modified": "2020-08-25T21:10:05.76796Z",
             "name": "Obfuscated Files or Information",
             "description": "Malware may make files or information difficult to discover or analyze by encoding, encrypting, or otherwise obfuscating the content. In addition, a malware sample itself can be encoded or encrypted (i.e., encoding/encryption is a code characteristic).",
             "kill_chain_phases": [
@@ -21,6 +21,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

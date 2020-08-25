@@ -8,7 +8,7 @@
             "id": "attack-pattern--915a827a-d63c-46f0-ad85-0e2bf894c527",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.136Z",
-            "modified": "2020-02-05T20:28:15.136Z",
+            "modified": "2020-08-25T21:10:06.392956Z",
             "name": "Automated Collection",
             "description": "Malware uses automated techniques for collecting system data.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "collection"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
