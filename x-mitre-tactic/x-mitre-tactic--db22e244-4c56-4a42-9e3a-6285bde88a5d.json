@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--dcb9a1d4-34ed-4dda-be70-1f29914b753e",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--db22e244-4c56-4a42-9e3a-6285bde88a5d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.275263Z",
+            "modified": "2020-08-21T20:49:59.275263Z",
+            "name": "Cryptography Micro-objectives",
+            "description": "Micro-behaviors that enable malware to use crypto.",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/cryptography-micro-objectives/README.md",
+                    "external_id": "OC0005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "cryptography-micro-objectives"
+        }
+    ]
+}

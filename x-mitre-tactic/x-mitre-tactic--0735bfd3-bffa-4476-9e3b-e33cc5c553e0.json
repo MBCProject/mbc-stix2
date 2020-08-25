@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--3944c6b4-c294-4e9b-a225-60d28dcd6504",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--0735bfd3-bffa-4476-9e3b-e33cc5c553e0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.283263Z",
+            "modified": "2020-08-21T20:49:59.283263Z",
+            "name": "File Manipulation Micro-objectives",
+            "description": "Micro-behaviors related to file manipulation.",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/file-manipulation-micro-objectives/README.md",
+                    "external_id": "OC0001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "file-manipulation-micro-objectives"
+        }
+    ]
+}

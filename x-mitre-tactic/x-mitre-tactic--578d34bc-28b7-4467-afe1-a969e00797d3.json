@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--7f38f082-a0ef-4da6-bae8-660673a37ed1",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--578d34bc-28b7-4467-afe1-a969e00797d3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.287265Z",
+            "modified": "2020-08-21T20:49:59.287265Z",
+            "name": "Hardware Micro-objectives",
+            "description": "Micro-behaviors related to hardware.",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/hardware-micro-objectives/README.md",
+                    "external_id": "OC0007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "hardware-micro-objectives"
+        }
+    ]
+}
