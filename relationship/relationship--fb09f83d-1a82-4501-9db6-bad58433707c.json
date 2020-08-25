@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--69e3eca6-ba96-492c-981c-3c563e58848f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fb09f83d-1a82-4501-9db6-bad58433707c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:50:04.613258Z",
+            "modified": "2020-08-21T20:50:04.613258Z",
+            "relationship_type": "uses",
+            "description": "Downloads and executes Claymore's Zcash miner from a remote server.",
+            "source_ref": "malware--8297b846-885e-4751-9e2b-d777ae7d21e3",
+            "target_ref": "attack-pattern--cbc563fa-1d9f-4e91-9803-4d5c2b9a7eae",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

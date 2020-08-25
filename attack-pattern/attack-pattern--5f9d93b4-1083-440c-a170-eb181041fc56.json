@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--25747324-0d4b-4119-8683-79405dcfea78",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5f9d93b4-1083-440c-a170-eb181041fc56",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.843259Z",
+            "modified": "2020-08-21T20:49:59.843259Z",
+            "name": "InternetReadFile::WinINet",
+            "description": "Reads data from an open Internet file (URL data).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/communication/wininet.md",
+                    "external_id": "C0005.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--7d370bfd-dfc3-4fdf-9dc6-7508cf4e30f7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--758df510-b765-4172-94ad-70561cd0ef62",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.534261Z",
+            "modified": "2020-08-21T20:49:59.534261Z",
+            "name": "Feed Misinformation",
+            "description": "API behavior can be altered to prevent memory dumps. For example, inaccurate data can be reported when the contents of the physical memory of the system on which the malware instance is executing is retrieved. See [Hooking](https://github.com/MBCProject/mbc-markdown/blob/master/credential-access/hooking.md).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/evade-memory-dump.md",
+                    "external_id": "B0006.008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

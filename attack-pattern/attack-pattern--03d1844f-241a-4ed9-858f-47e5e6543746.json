@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--aeed7634-b99e-49a9-b463-c1629f82aee8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--03d1844f-241a-4ed9-858f-47e5e6543746",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.458263Z",
+            "modified": "2020-08-21T20:49:59.458263Z",
+            "name": "API Hook Detection",
+            "description": "Module bounds based .",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-debugger.md",
+                    "external_id": "B0001.001"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Anti Debugging Tricks, Al-Khaser.",
+                    "url": "https://github.com/LordNoteworthy/al-khaser/wiki/Anti-Debugging-Tricks"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--0eaa9585-3312-4611-958b-5bfe9dff62fe",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0c8e2d2e-1324-4490-861f-f761cbac4e81",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.83826Z",
+            "modified": "2020-08-21T20:49:59.83826Z",
+            "name": "STUN Server::UDP Communication",
+            "description": "Uses a Session Traversal Utilities for NAT server to gather information to support UDP communication.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/communication/udp-comm.md",
+                    "external_id": "C0013.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

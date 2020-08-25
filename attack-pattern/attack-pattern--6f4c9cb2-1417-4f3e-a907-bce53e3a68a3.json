@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--d48fd734-c87a-4451-accd-73077f8f1d2c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6f4c9cb2-1417-4f3e-a907-bce53e3a68a3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.809259Z",
+            "modified": "2020-08-21T20:49:59.809259Z",
+            "name": "FTP Communication",
+            "description": "The FTP Communication micro-behavior focuses on FTP communication.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/communication/ftp-comm.md",
+                    "external_id": "C0004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

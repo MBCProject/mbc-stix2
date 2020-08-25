@@ -1,0 +1,40 @@
+{
+    "type": "bundle",
+    "id": "bundle--99202460-dc93-4e5d-982b-1b010bebe2a9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--33ac3946-4bd9-4904-b02e-45e2d17dbfdd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.77826Z",
+            "modified": "2020-08-21T20:49:59.77826Z",
+            "name": "Data Encrypted for Impact",
+            "description": "Malware may encrypt files stored on the system to prevent user access until a ransom is paid and/or to interrupt system availability. The encryption process usually iterates over all letter drives in the system (except for CD drives) and then recursively encrypts all files with specific suffixes.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/impact/encrypt-impact.md",
+                    "external_id": "E1486"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/cryptowall-ransomware/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/cryptolocker-ransomware/"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

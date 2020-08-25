@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--9e3f17c3-3040-48dd-9cae-1c1673bb1865",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--94813d2d-0eb5-4037-8c03-07896bd7233b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.842259Z",
+            "modified": "2020-08-21T20:49:59.842259Z",
+            "name": "InternetConnect::WinINet",
+            "description": "Opens an FTP or HTTP session for a given site.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/communication/wininet.md",
+                    "external_id": "C0005.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

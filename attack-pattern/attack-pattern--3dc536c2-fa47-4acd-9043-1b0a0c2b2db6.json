@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--cf5482e5-a351-4add-8cbc-f1b2151f77d9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3dc536c2-fa47-4acd-9043-1b0a0c2b2db6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.70226Z",
+            "modified": "2020-08-21T20:49:59.70226Z",
+            "name": "COMSPEC Environment Variable",
+            "description": "Uninstalls self via COMSPEC environment variable.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/self-deletion.md",
+                    "external_id": "F0007.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

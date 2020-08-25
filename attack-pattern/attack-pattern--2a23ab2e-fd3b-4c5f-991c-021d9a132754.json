@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--0142a692-2ff1-49e6-a100-ea12d123694d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2a23ab2e-fd3b-4c5f-991c-021d9a132754",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.689263Z",
+            "modified": "2020-08-21T20:49:59.689263Z",
+            "name": "Process Injection",
+            "description": "Malware may execute code in the address space of a separate process.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/process-inject.md",
+                    "external_id": "E1055"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-profiles/trojan-variants/poison-ivy"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://github.com/LordNoteworthy/al-khaser"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://citizenlab.ca/2016/04/between-hong-kong-and-burma/"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1055",
+                    "external_id": "T1055"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "type": "bundle",
+    "id": "bundle--931bf064-efcb-472e-8873-68a44b446bc3",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4294b63a-0b68-473a-8e57-bd5da8d90bf6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.92426Z",
+            "modified": "2020-08-21T20:49:59.92426Z",
+            "name": "Registry Run Keys / Startup Folder",
+            "description": "Malware may add an entry to the Windows Registry run keys or startup folder to enable persistence.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/persistence/registry-run-startup.md",
+                    "external_id": "F0012"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://threatvector.cylance.com/en_us/home/windows-registry-persistence-part-2-the-run-keys-and-search-order.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-profiles/trojan-variants/poison-ivy"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/HUPIGON"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/current-threats/pdfs/pf/file/fireeye-hot-knives-through-butter.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

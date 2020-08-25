@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--f882a436-31ee-4048-9ee2-03a54731bad8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3dc8ed56-d0c9-41ba-bd1b-caa8f1279c5d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.834262Z",
+            "modified": "2020-08-21T20:49:59.834262Z",
+            "name": "Receive Data::TCP Communication",
+            "description": "Receive data on socket.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/communication/tcp-comm.md",
+                    "external_id": "C0001.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

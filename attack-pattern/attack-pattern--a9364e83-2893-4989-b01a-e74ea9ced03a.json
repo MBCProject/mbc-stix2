@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--8abf6601-df9b-45b5-82cf-57716d4ffc62",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a9364e83-2893-4989-b01a-e74ea9ced03a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.493266Z",
+            "modified": "2020-08-21T20:49:59.493266Z",
+            "name": "Check Windows - Window size",
+            "description": "Malware may check windows for VM-related characteristics. Tiny window size may indicate a VM.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-vm.md",
+                    "external_id": "B0009.020"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--742f9f6b-72af-4d0f-98e9-73c6e818b83e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--be6d8982-3619-4f2f-b5c7-64d9e934ac43",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.784263Z",
+            "modified": "2020-08-21T20:49:59.784263Z",
+            "name": "Click Hijacking",
+            "description": "Malware alters DNS server settings to route to a rogue DNS server: when the user clicks on a search result link displayed through a search engine query, malware re-routes the user to different website. Instead of going to the requested site, the user is taken to an alternate website such that the click triggers payment to the threat actor.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/impact/generate-fraud-rev.md",
+                    "external_id": "E1472.m01"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.itworld.com/article/2734253/security/behind-the--massive--malware-ad-revenue-fraud-case.html"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

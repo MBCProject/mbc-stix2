@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--b7052a60-9f38-452a-bcde-b0818774a32f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1e4a21a9-2d09-48fc-bcea-13d1359f2bbd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.500263Z",
+            "modified": "2020-08-21T20:49:59.500263Z",
+            "name": "Modern Specs Check - Drive size",
+            "description": "Different aspects of the hardware are inspected to determine whether the machine has modern characteristics. A machine with substandard specifications indicates a virtual environment. Most modern machines have at least 80 GB disks. May use DeviceloControl (IOCTL_DISK_GET_LENGTH_INFO) or GetDiskFreeSpaceEx (TotalNumberOfBytes) .",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-vm.md",
+                    "external_id": "B0009.015"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://github.com/LordNoteworthy/al-khaser"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

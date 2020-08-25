@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--e0f27e48-6cf1-4335-8b83-bdae99504397",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a5bc5daf-255e-4e9b-a4c4-508dc3a434ff",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.754261Z",
+            "modified": "2020-08-21T20:49:59.754261Z",
+            "name": "Exfiltrate via File Hosting Service",
+            "description": "Malware may exfiltrate files to a file hosting location.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "exfiltration"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/exfiltration/auto-exfiltrate.md",
+                    "external_id": "E1020.m01"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

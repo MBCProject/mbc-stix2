@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--0cd785eb-87dc-4996-aa5f-df67db4ec616",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4e73edfc-9267-4f80-89e0-d66d05b08f32",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.757261Z",
+            "modified": "2020-08-21T20:49:59.757261Z",
+            "name": "Encoding",
+            "description": "Data is encoded.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "exfiltration"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/exfiltration/data-encrypted.md",
+                    "external_id": "E1560.m01"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

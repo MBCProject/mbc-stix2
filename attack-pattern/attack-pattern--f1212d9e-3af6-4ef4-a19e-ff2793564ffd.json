@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--5baa5c74-54bf-4bb3-849d-8f3660ae97cb",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f1212d9e-3af6-4ef4-a19e-ff2793564ffd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.849262Z",
+            "modified": "2020-08-21T20:49:59.849262Z",
+            "name": "rand::Generate Pseudo-random Sequence",
+            "description": "Generate random using rand.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/cryptography/gen-random.md",
+                    "external_id": "C0021.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

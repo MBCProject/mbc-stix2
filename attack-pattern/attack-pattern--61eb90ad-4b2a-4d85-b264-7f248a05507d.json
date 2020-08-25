@@ -1,0 +1,61 @@
+{
+    "type": "bundle",
+    "id": "bundle--afa2fdd5-e79d-48d9-8571-541a00f9c018",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--61eb90ad-4b2a-4d85-b264-7f248a05507d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.504264Z",
+            "modified": "2020-08-21T20:49:59.504264Z",
+            "name": "Virtual Machine Detection",
+            "description": "Detects whether the malware instance is being executed in a virtual machine (VM), such as VMWare. If so, conditional execution selects a benign execution path.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-vm.md",
+                    "external_id": "B0009"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fireeye.com/blog/threat-research/2011/01/the-dead-giveaways-of-vm-aware-malware.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://unprotect.tdgt.org/index.php/Sandbox_Evasion"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.hackread.com/gravityrat-malware-evades-detection-targets-india/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/webcobra-malware-uses-victims-computers-to-mine-cryptocurrency/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://github.com/LordNoteworthy/al-khaser"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fireeye.com/blog/threat-research/2011/01/the-dead-giveaways-of-vm-aware-malware.html"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1497/",
+                    "external_id": "T1497"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

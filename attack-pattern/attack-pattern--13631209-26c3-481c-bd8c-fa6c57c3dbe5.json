@@ -1,0 +1,40 @@
+{
+    "type": "bundle",
+    "id": "bundle--2a5cbb65-3392-4a3f-8e4d-ff2621ff37c9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--13631209-26c3-481c-bd8c-fa6c57c3dbe5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.583262Z",
+            "modified": "2020-08-21T20:49:59.583262Z",
+            "name": "VMProtect",
+            "description": "Uses VMProtect.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-static-analysis/software-packing.md",
+                    "external_id": "F0001.010"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

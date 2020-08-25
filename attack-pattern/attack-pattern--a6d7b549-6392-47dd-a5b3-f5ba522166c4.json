@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--c5031266-109f-40e7-905f-99f31ff621ec",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a6d7b549-6392-47dd-a5b3-f5ba522166c4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.75026Z",
+            "modified": "2020-08-21T20:49:59.75026Z",
+            "name": "User Interaction",
+            "description": "Malware may include code that relies on specific actions by a user to execute. Note that this MBC behavior differs from [User Execution](https://attack.mitre.org/techniques/T1204) in that it does do not include direct code execution (user action for *initial* execution) - MBE does not encompass ATT&CK's Initial Access Tactic.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/execution/user-interaction.md",
+                    "external_id": "E1204"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1204",
+                    "external_id": "T1204"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

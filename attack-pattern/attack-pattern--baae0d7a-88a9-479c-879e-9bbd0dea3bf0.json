@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--ea10fcd2-0200-48b2-ba04-055f09364eab",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--baae0d7a-88a9-479c-879e-9bbd0dea3bf0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.523261Z",
+            "modified": "2020-08-21T20:49:59.523261Z",
+            "name": "Hook Interrupt",
+            "description": "Modification of interrupt vector or descriptor tables.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/evade-dynamic-analysis.md",
+                    "external_id": "B0003.008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

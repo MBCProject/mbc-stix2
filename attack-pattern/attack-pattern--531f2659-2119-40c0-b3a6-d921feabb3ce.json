@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--860fadfa-1bf7-4fcd-baaf-548655190770",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--531f2659-2119-40c0-b3a6-d921feabb3ce",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.878261Z",
+            "modified": "2020-08-21T20:49:59.878261Z",
+            "name": "Change Memory Protection",
+            "description": "Malware may change memory protection. For example, read-write memory may be changed to read-execute. Changing memory protection may exploits (e.g., bypass Data Execution Prevention).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "memory-manipulation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/memory-manipulation/memory-protect.md",
+                    "external_id": "C0008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

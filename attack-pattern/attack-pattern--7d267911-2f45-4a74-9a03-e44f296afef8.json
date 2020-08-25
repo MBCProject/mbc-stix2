@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--4134ae84-ddd7-4ed6-bcf1-18a7d6225ea2",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--7d267911-2f45-4a74-9a03-e44f296afef8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.817261Z",
+            "modified": "2020-08-21T20:49:59.817261Z",
+            "name": "WinHTTP API::HTTP Communication",
+            "description": "An HTTP request is made via the Windows HTTP Services (WinHTTP) application programming interface (API).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/communication/http-comm.md",
+                    "external_id": "C0002.008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

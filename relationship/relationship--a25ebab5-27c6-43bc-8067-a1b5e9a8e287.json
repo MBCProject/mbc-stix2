@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6978c802-ac39-4b6f-b8d1-a879dca07d8a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a25ebab5-27c6-43bc-8067-a1b5e9a8e287",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:50:04.606264Z",
+            "modified": "2020-08-21T20:50:04.606264Z",
+            "relationship_type": "uses",
+            "description": "Redhip detects all publicly available automated malware analysis workbenches (ThreatExpert, JoeBox, etc.).",
+            "source_ref": "malware--b0625dd2-cc91-4936-9e12-289960aa0b41",
+            "target_ref": "attack-pattern--295a3b88-2a7e-4bae-9c50-014fce6d5739",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

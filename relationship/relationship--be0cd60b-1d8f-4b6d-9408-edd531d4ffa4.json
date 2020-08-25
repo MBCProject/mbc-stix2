@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2a70e1c1-9f54-4eb3-99e8-d972b24d12e7",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--be0cd60b-1d8f-4b6d-9408-edd531d4ffa4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:50:04.599252Z",
+            "modified": "2020-08-21T20:50:04.599252Z",
+            "relationship_type": "uses",
+            "description": "Primary behavior is encrypting data.",
+            "source_ref": "malware--4188f951-4400-406c-8281-509395fc8e11",
+            "target_ref": "attack-pattern--33ac3946-4bd9-4904-b02e-45e2d17dbfdd",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

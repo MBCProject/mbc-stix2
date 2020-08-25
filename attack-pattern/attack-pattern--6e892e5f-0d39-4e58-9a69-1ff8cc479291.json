@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--599466a6-1374-4224-9e1e-d1dc74f170ef",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6e892e5f-0d39-4e58-9a69-1ff8cc479291",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.497264Z",
+            "modified": "2020-08-21T20:49:59.497264Z",
+            "name": "Instruction Testing - RDTSC",
+            "description": "The execution of certain x86 instructions will result in different values when executed inside of a VM instead of on bare metal. Accordingly, these can be used to detect the execution of the malware in a VM.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-vm.md",
+                    "external_id": "B0009.036"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://unprotect.tdgt.org/index.php/Sandbox_Evasion"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

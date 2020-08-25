@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--869cd0d7-c0ef-4076-8a65-d455dd75c189",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--623daf49-2a74-4fd8-a7f0-e11a8475999f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.768261Z",
+            "modified": "2020-08-21T20:49:59.768261Z",
+            "name": "Delete Application/Software",
+            "description": "An application or software is deleted.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/impact/data-destruction.md",
+                    "external_id": "E1485.m03"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

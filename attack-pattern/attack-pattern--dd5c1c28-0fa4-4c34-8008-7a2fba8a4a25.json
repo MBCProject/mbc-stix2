@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--eb370938-0abd-4366-9a69-bd2734a9686f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--dd5c1c28-0fa4-4c34-8008-7a2fba8a4a25",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.666262Z",
+            "modified": "2020-08-21T20:49:59.666262Z",
+            "name": "Indicator Blocking",
+            "description": "Malware blocks indicators or events that would indicate malicious activity. Methods relevant to the malware domain are below.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/indicator-blocking.md",
+                    "external_id": "F0006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

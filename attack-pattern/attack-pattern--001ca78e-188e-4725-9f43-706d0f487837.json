@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--ad7bf282-e9ff-433e-b704-e56011357c20",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--001ca78e-188e-4725-9f43-706d0f487837",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.607265Z",
+            "modified": "2020-08-21T20:49:59.607265Z",
+            "name": "Send Data",
+            "description": "Send data to a C2 server.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/command-and-control/command-control-comm.md",
+                    "external_id": "B0030.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

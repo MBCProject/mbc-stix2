@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--0f0b8244-103c-49d6-9e08-4b71030b0260",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4ec39934-4cf3-4e7a-96fb-425ea2f56d15",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.861259Z",
+            "modified": "2020-08-21T20:49:59.861259Z",
+            "name": "Alter File Extension",
+            "description": "Malware alters a file extension. This could be done for many reasons, including to hide the file or as part of a ransomware's encryption process.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "file-manipulation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/file-manipulation/alter-extend.md",
+                    "external_id": "C0015"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

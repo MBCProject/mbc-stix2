@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--3ebce0c5-4217-41c8-93ca-003d58366b5c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b6679c6a-6312-44ec-a6fe-628a66d0cefe",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.501259Z",
+            "modified": "2020-08-21T20:49:59.501259Z",
+            "name": "Modern Specs Check - Printer",
+            "description": "Different aspects of the hardware are inspected to determine whether the machine has modern characteristics. A machine with substandard specifications indicates a virtual environment. Checks whether there is a potential connected printer or default Windows printers; if not a virtual environment is suspected.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-vm.md",
+                    "external_id": "B0009.017"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

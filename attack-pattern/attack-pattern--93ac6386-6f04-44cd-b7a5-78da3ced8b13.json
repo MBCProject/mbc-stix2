@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--69e863c5-a645-4fa4-a1dd-51055e0799bf",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--93ac6386-6f04-44cd-b7a5-78da3ced8b13",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.467265Z",
+            "modified": "2020-08-21T20:49:59.467265Z",
+            "name": "Parent Process",
+            "description": "(Explorer.exe); Executing an application by a debugger will result in the parent process being the debugger process rather than the shell process (Explorer.exe) or the command line. Malware checks its parent process; if it's not explorer.exe, it's assumed to be a debugger.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-debugger.md",
+                    "external_id": "B0001.018"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Anti Debugging Tricks, Al-Khaser.",
+                    "url": "https://github.com/LordNoteworthy/al-khaser/wiki/Anti-Debugging-Tricks"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

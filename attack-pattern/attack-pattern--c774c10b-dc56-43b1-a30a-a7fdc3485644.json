@@ -1,0 +1,56 @@
+{
+    "type": "bundle",
+    "id": "bundle--09feb1db-e3d5-4c6a-9a99-43502ea02c58",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c774c10b-dc56-43b1-a30a-a7fdc3485644",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.518266Z",
+            "modified": "2020-08-21T20:49:59.518266Z",
+            "name": "Debugger Evasion",
+            "description": "Behaviors that make debugging difficult.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/evade-debugger.md",
+                    "external_id": "B0002"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.synack.com/2016/02/17/analyzing-the-anti-analysis-logic-of-an-adware-installer/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://phishme.com/dridex-code-breaking-modify-the-malware-to-bypass-the-vm-bypass/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://antukh.com/blog/2015/01/19/malware-techniques-cheat-sheet/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://unprotect.tdgt.org/index.php/Unprotect_Project"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fireeye.com/blog/threat-research/2011/01/the-dead-giveaways-of-vm-aware-malware.html"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

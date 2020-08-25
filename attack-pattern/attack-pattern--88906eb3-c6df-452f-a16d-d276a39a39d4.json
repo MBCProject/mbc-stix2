@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--bc85d2ed-1042-4949-8c8e-e7671653daea",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--88906eb3-c6df-452f-a16d-d276a39a39d4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.87726Z",
+            "modified": "2020-08-21T20:49:59.87726Z",
+            "name": "Executable Heap::Change Memory Protection",
+            "description": "The heap is made executable.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "memory-manipulation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/memory-manipulation/memory-protect.md",
+                    "external_id": "C0002.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

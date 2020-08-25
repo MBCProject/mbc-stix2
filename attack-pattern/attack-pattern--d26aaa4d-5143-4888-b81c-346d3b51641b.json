@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--9f1997da-cc88-477b-8fc0-d83426132acc",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d26aaa4d-5143-4888-b81c-346d3b51641b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.86526Z",
+            "modified": "2020-08-21T20:49:59.86526Z",
+            "name": "Create Ransomware File::Create File",
+            "description": "Create a file used by ransomware.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "file-manipulation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/file-manipulation/create-file.md",
+                    "external_id": "C0016.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

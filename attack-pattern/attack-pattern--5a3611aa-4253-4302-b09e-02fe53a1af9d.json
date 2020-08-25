@@ -1,0 +1,44 @@
+{
+    "type": "bundle",
+    "id": "bundle--ff59adaa-bbe3-4726-af35-2817c2182d3b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5a3611aa-4253-4302-b09e-02fe53a1af9d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.611265Z",
+            "modified": "2020-08-21T20:49:59.611265Z",
+            "name": "Domain Name Generation",
+            "description": "Malware generates the domain name of the command and control server to which it connects. Access to on the fly domains enables C2 to operate as domains and IP addresses are blocked. The algorithm can be complicated in more advanced bots; understanding the details so that names can be predicted can be useful in mitigation and response.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/command-and-control/domain-name-generate.md",
+                    "external_id": "B0031"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/security-world/2016/12/explained-domain-generating-algorithm/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://blog.threatexpert.com/2008/04/kraken-changes-tactics.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://en.wikipedia.org/wiki/Conficker"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

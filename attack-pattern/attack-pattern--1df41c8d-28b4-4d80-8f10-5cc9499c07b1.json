@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--e8466282-f8f6-4096-8bff-4471f7270602",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1df41c8d-28b4-4d80-8f10-5cc9499c07b1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.695261Z",
+            "modified": "2020-08-21T20:49:59.695261Z",
+            "name": "Prevent API Unhooking",
+            "description": "Prevents the API hooks installed by the malware instance from being removed.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/rootkit-behavior.md",
+                    "external_id": "E1014.m06"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

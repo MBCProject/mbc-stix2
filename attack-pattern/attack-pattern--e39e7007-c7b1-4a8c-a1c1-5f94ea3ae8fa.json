@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--987712d8-1280-48b1-ace2-99757f310b98",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e39e7007-c7b1-4a8c-a1c1-5f94ea3ae8fa",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.562264Z",
+            "modified": "2020-08-21T20:49:59.562264Z",
+            "name": "Symbol Obfuscation",
+            "description": "Remove or rename symbolic information commonly inserted by compilers for debugging purposes.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-static-analysis/exe-code-obfuscate.md",
+                    "external_id": "B0032.018"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

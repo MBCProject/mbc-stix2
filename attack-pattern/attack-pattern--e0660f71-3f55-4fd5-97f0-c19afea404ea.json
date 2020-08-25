@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--7ad8f242-0773-4f9b-9396-4e453f663bc5",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e0660f71-3f55-4fd5-97f0-c19afea404ea",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.834262Z",
+            "modified": "2020-08-21T20:49:59.834262Z",
+            "name": "Send Data::TCP Communication",
+            "description": "Send data on socket.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/communication/tcp-comm.md",
+                    "external_id": "C0001.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

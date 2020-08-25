@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--3a90bfc7-508e-4e32-b3b0-7afebdc29cf6",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ae167f71-8166-4906-97ba-8b9efb6daca2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.475261Z",
+            "modified": "2020-08-21T20:49:59.475261Z",
+            "name": "UnhandledExceptionFilter",
+            "description": "The UnhandledExceptionFilter function is called if no registered exception handlers exist, but it will not be reached if a debugger is present. See  for details.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-debugger.md",
+                    "external_id": "B0001.030"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Anti Debugging Tricks, Al-Khaser.",
+                    "url": "https://github.com/LordNoteworthy/al-khaser/wiki/Anti-Debugging-Tricks"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

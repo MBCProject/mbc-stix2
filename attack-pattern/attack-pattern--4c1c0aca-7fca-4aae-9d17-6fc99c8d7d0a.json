@@ -1,0 +1,40 @@
+{
+    "type": "bundle",
+    "id": "bundle--6622de50-0945-484c-b169-ba52682eb54b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4c1c0aca-7fca-4aae-9d17-6fc99c8d7d0a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.641261Z",
+            "modified": "2020-08-21T20:49:59.641261Z",
+            "name": "Bootkit",
+            "description": "The boot sectors of a hard drive are modified (e.g., Master Boot Record (MBR)). ATT&CK associates bootkits with the Persistence. See ATT&CK: [**Pre-OS Boot: Bootkit**](https://attack.mitre.org/techniques/T1067/).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/boot-sector-mod.md",
+                    "external_id": "F0013"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.webroot.com/blog/2011/09/13/mebromi-the-first-bios-rootkit-in-the-wild/"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--68a49fd5-69e1-447c-998a-40d5a82776e8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--bc6ed4f1-4e73-477a-b05c-a49a3dd52642",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.462262Z",
+            "modified": "2020-08-21T20:49:59.462262Z",
+            "name": "Interrupt 1",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-debugger.md",
+                    "external_id": "B0001.007"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Anti Debugging Tricks, Al-Khaser.",
+                    "url": "https://github.com/LordNoteworthy/al-khaser/wiki/Anti-Debugging-Tricks"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

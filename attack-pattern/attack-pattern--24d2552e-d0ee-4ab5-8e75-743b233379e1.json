@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--77bec88d-4fcc-49c6-b4c8-4090659f1377",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--24d2552e-d0ee-4ab5-8e75-743b233379e1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.530265Z",
+            "modified": "2020-08-21T20:49:59.530265Z",
+            "name": "Extra Loops/Time Locks",
+            "description": "Add extra loops to make time-constraint emulators give up.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/evade-emulator.md",
+                    "external_id": "B0005.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

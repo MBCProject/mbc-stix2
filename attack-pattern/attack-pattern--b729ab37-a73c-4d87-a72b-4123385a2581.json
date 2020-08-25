@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--0efc5611-f1d8-486b-95dd-61e22b647360",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b729ab37-a73c-4d87-a72b-4123385a2581",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.608264Z",
+            "modified": "2020-08-21T20:49:59.608264Z",
+            "name": "Send System Information",
+            "description": "Client sends system information.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/command-and-control/command-control-comm.md",
+                    "external_id": "B0030.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

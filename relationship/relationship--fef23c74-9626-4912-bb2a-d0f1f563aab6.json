@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fc58e649-9739-4521-aae5-7c56c95a0a5e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fef23c74-9626-4912-bb2a-d0f1f563aab6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:50:04.601289Z",
+            "modified": "2020-08-21T20:50:04.601289Z",
+            "relationship_type": "uses",
+            "description": "GotBotKR reinstalls its running instance if it is removed.",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
+            "target_ref": "attack-pattern--cbc563fa-1d9f-4e91-9803-4d5c2b9a7eae",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

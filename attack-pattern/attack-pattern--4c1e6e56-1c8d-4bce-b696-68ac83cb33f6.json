@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--4928dfa5-997e-4760-b7ae-f2f65bd89c4b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4c1e6e56-1c8d-4bce-b696-68ac83cb33f6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.593264Z",
+            "modified": "2020-08-21T20:49:59.593264Z",
+            "name": "Mouse Events",
+            "description": "Mouse events are captured.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "collection"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/collection/input-capture.md",
+                    "external_id": "E1056.m01"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

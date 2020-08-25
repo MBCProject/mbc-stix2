@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--018ebdd0-be91-4f17-9909-028034fdaa8e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--57543e32-d9cc-4f12-b7f6-9a15aa1f1a73",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:50:04.603292Z",
+            "modified": "2020-08-21T20:50:04.603292Z",
+            "relationship_type": "uses",
+            "description": "Encrypts files for ransom without any connection to the Internet.",
+            "source_ref": "malware--542141d9-e98d-4d4a-9b15-dfc3f8933e48",
+            "target_ref": "attack-pattern--33ac3946-4bd9-4904-b02e-45e2d17dbfdd",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

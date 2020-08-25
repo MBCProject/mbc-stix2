@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--f8c8cb9a-6762-4f21-ab60-d7c3de328537",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8d80a1b7-b267-4f55-a2ef-f82e9b9edbf5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.679261Z",
+            "modified": "2020-08-21T20:49:59.679261Z",
+            "name": "Encryption - Standard Encryption of Code",
+            "description": "The malware sample, file, or other information is encrypted. A standard encryption algorithm is used to encrypt a file's executable code, but not necessarily the file's data.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/obfuscate-files.md",
+                    "external_id": "E1027.m06"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

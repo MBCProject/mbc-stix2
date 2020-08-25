@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--d8844941-06e4-47e3-b54b-3d4d76f51add",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--87adc62c-05e8-4594-94f6-d6e034597859",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.562264Z",
+            "modified": "2020-08-21T20:49:59.562264Z",
+            "name": "Executable Code Obfuscation",
+            "description": "Executable code can be obfuscated to hinder disassembly and static code analysis. This behavior is specific to a malware sample's executable code (data and text sections).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-static-analysis/exe-code-obfuscate.md",
+                    "external_id": "B0032"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://insights.sei.cmu.edu/cert/2019/03/api-hashing-tool-imagine-that.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://cofense.com/recent-geodo-malware-campaigns-feature-heavily-obfuscated-macros/"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Rob Simmons, \"Comparing Malicious Files,\" BSides, 2019.",
+                    "url": "http://www.irongeek.com/i.php?page=videos/bsidescharm2019/2-04-comparing-malicious-files-robert-simmons"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}
