@@ -14,8 +14,8 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/execution/README.md",
-                    "external_id": "M9009"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/execution/README.md",
+                    "external_id": "OB0009"
                 }
             ],
             "object_marking_refs": [
