@@ -6,11 +6,11 @@ The sections below describes how MBC objects and properties map to STIX 2.1 obje
 ## MBC Concepts
 The following table maps MBC high-level concepts to STIX 2.1 objects. The STIX object types shown are literal strings captured in the **type** property of the STIX object.
 
-**MBC Concept** | **STIX Object Type** | **Notes**
-----------------|----------------------|------------
-Objective | `x-mitre-tactic` | MBC objectives (similar to ATT&CK tactics) are captured using a custom object of type `x-mitre-tactic`, which was defined to capture ATT&CK tactics. Using it instead of defining a new "x-mitre-objective" object enables ATT&CK users to more easily use MBC.
-Behavior | `attack-pattern` | MBC behaviors (similar to ATT&CK techniques) are captured using the STIX Attack Pattern object.
-Malware | `malware` | MBC malware examples (aligns with ATT&CK's malware concept) are captured using the STIX Malware object.
+|**MBC Concept**|**STIX Object Type**|**Notes**|
+|---|---|---|
+|Objective|`x-mitre-tactic`|MBC objectives (similar to ATT&CK tactics) are captured using a custom object of type `x-mitre-tactic`, which was defined to capture ATT&CK tactics. Using it instead of defining a new "x-mitre-objective" object enables ATT&CK users to more easily use MBC.|
+|Behavior|`attack-pattern`|MBC behaviors (similar to ATT&CK techniques) are captured using the STIX Attack Pattern object.|
+|Malware|`malware`|MBC malware examples (aligns with ATT&CK's malware concept) are captured using the STIX Malware object.|
 
 ## MBC Content
 
@@ -21,141 +21,164 @@ Properties required by all STIX objects are included in the examples but are not
 ### Objectives
 An MBC Objective is captured in a custom object of type `x-mitre-tactic` via the following properties.
 
-**MBC Property** | **STIX Property**
----------------- | -----------------
-Name | **name**
- -- | **x_mitre_shortname** (referenced by Attack Pattern objects (MBC behaviors))
-ID | **external_references.external_id** where *external_references.source_name* == "mitre-mbc"
-Description | **description**
-References - description | **external_references.description** where *external_references.source_name* == "external_source"
-References - url | **external_references.url** where *external_references.source_name* == "external_source"
+|**MBC Property**|**STIX Property**|
+|---|---|
+|Name|**name**|
+| -- |**x_mitre_shortname** (referenced by Attack Pattern objects (MBC behaviors))|
+|ID|**external_references.external_id** where *external_references.source_name* == "mitre-mbc"|
+|Description|**description**|
+|References - description|**external_references.description** where *external_references.source_name* == "external_source"|
+|References - url|**external_references.url** where *external_references.source_name* == "external_source"|
 
 **Example:**
 
 ```json
- {
-   "type": "x-mitre-tactic",
-   "spec_version": "2.1",
-   "id": "x-mitre-tactic--746a2a9f-d463-43da-87b1-2eada9a458a6", 
-   "created": "2020-01-28T21:09:20.220Z",
-   "modified": "2020-01-28T21:09:20.220Z",
-   "name": "Anti-Behavioral Analysis",
-   "x_mitre_shortname": "anti-behavioral-analysis",
-   "description": "Behaviors that prevent, obstruct, or evade behavioral analysis (sandbox, debugger, etc)...",
-   "external_references": [
-      {
-        "source_name": "external_source",
-        "description": "Unprotect Project, a database about malware self-defense and protection.",
-        "url": "http://unprotect.tdgt.org/index.php/Unprotect_Project"
-      },    
-      {
-        "source_name": "mitre-mbc",
-        "external_id": "M9001",
-        "url": "https://github.com/MBCProject/mbc-markdown/blob/master/anti-behavioral-analysis/README.md"
-      }
-   ]
-  }
+{
+  "type": "x-mitre-tactic",
+  "spec_version": "2.1",
+  "id": "x-mitre-tactic--eb6166b0-f3c9-4124-aeb9-662941baa19e",
+  "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+  "created": "2020-02-05T20:28:15.061Z",
+  "modified": "2020-02-05T20:28:15.061Z",
+  "name": "Anti-Behavioral Analysis",
+  "description": "Behaviors that prevent, obstruct, or evade behavioral analysis (sandbox, debugger, etc). Because the underlying methods differ, separate \"detection\" and \"evasion\" behaviors are defined for some anti-behavioral analysis areas (e.g., anti-debugger). \n\nTwo primary resources for anti-behavioral analysis behaviors are [[1]](#1) and [[2]](#2).",
+  "external_references": [
+    {
+      "source_name": "external_source",
+      "description": "Unprotect Project, a database about malware self-defense and protection.",
+      "url": "http://unprotect.tdgt.org/index.php/Unprotect_Project"
+    },
+    {
+      "source_name": "external_source",
+      "description": "InDepthUnpacking, course content for teaching malware anti-analysis techniques and mitigations, with emphasis on packers.",
+      "url": "https://github.com/knowmalware/InDepthUnpacking"
+    },
+    {
+      "source_name": "mitre-mbc",
+      "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/README.md",
+      "external_id": "OB0001"
+    }
+  ],
+  "object_marking_refs": [
+    "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+  ],
+  "x_mitre_shortname": "anti-behavioral-analysis"
+}
 ```
 
 ### Behaviors
 An MBC behavior is captured in a STIX Attack Pattern object (`attack-pattern`) via the following properties:
 
-**MBC Property** | **STIX Property**
----------------- | -----------------
-Behavior Name | **name**
-ID | **external_references.external_id** where *external_references.source_name* == "mitre-mbc"
-Description | **description**
-Associated MBC Objective(s)    | **kill_chain_phases.kill_chain_phase.phase_name** where *kill_chain_phases.kill_chain_name* == "mitre-mbc"
-Related ATT&CK Technique(s) - ID | **external_references.external_id** where *external_references.source_name* == "mitre-attack"
-Related ATT&CK Technique(s) - url | **external_references.url** where *external_references.source_name* == "mitre-attack"
-Method(s) - name | **x_mitre_methods.name** where *x_mitre_methods* is a custom property defined to capture MBC methods
-Method(s) - description |  **x_mitre_methods.definition**
-Reference(s) - url | **external_references.url** where *external_references.source_name* == "external_source"
+|**MBC Property**|**STIX Property**|
+|---|---|
+|Behavior Name|**name**|
+|ID | **external_references.external_id** where *external_references.source_name* == "mitre-mbc"|
+|Description | **description**|
+|Associated MBC Objective(s)|**kill_chain_phases.kill_chain_phase.phase_name** where *kill_chain_phases.kill_chain_name* == "mitre-mbc"|
+|Related ATT&CK Technique(s) - ID|**external_references.external_id** where *external_references.source_name* == "mitre-attack"|
+|Related ATT&CK Technique(s) - url|**external_references.url** where *external_references.source_name* == "mitre-attack"|
+|Reference(s) - url|**external_references.url** where *external_references.source_name* == "external_source"|
 
 **Example:**
 
 ```json
- {
-   "type": "attack-pattern",
-   "spec_version": "2.1",
-   "id": "attack-pattern--c2b0f8ba-c26a-4590-a19f-82ea28f5ed1d",
-   "created": "2020-01-28T21:09:20.322Z",
-   "modified": "2020-01-28T21:09:20.322Z",
-   "name": "Sandbox Detection",
-   "description": "Detects whether the malware instance is being executed inside an instrumented sandbox environment...",
-   "kill_chain_phases": [
-     {
-       "kill_chain_name": "mitre-mbc",
-       "phase_name": "anti-behavioral-analysis"
-     }
-   ],
-   "external_references": [
-     {
-       "source_name": "mitre-mbc",
-       "url": "https://github.com/MBCProject/mbc-markdown/blob/master/anti-behavioral-analysis/detect-sandbox.md",
-       "external_id": "M0007"
-     },
-     {
-       "source_name": "external_source",
-       "url": "https://github.com/LordNoteworthy/al-khaser"
-     }
-   ],
-   "x_mitre_methods": [
-     {
-       "definition": "Checks clipboard data which can be used to detect whether execution is inside a sandbox.",
-       "name": "Check Clipboard Data"
-     },
-     {
-       "definition": "Sandboxes create files on the file system. Malware can check the different folders to find sandbox artifacts.",
-       "name": "Check Files"
-     }
-   ]
- }
+{
+  "type": "attack-pattern",
+  "spec_version": "2.1",
+  "id": "attack-pattern--295a3b88-2a7e-4bae-9c50-014fce6d5739",
+  "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+  "created": "2020-08-21T20:49:59.486264Z",
+  "modified": "2020-08-21T20:49:59.486264Z",
+  "name": "Sandbox Detection",
+  "description": "Detects whether the malware instance is being executed inside an instrumented sandbox environment (e.g., Cuckoo Sandbox). If so, conditional execution selects a benign execution path.",
+  "kill_chain_phases": [
+    {
+      "kill_chain_name": "mitre-mbc",
+      "phase_name": "anti-behavioral-analysis"
+    }
+  ],
+  "external_references": [
+    {
+      "source_name": "mitre-mbc",
+      "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-sandbox.md",
+      "external_id": "B0007"
+    },
+    {
+      "source_name": "external_source",
+      "url": "https://www.fireeye.com/blog/threat-research/2011/01/the-dead-giveaways-of-vm-aware-malware.html"
+    },
+    {
+      "source_name": "external_source",
+      "url": "http://labs.lastline.com/exposing-rombertik-turning-the-tables-on-evasive-malware"
+    },
+    {
+      "source_name": "external_source",
+      "url": "https://github.com/LordNoteworthy/al-khaser"
+    },
+    {
+      "source_name": "external_source",
+      "url": "https://www.fireeye.com/content/dam/fireeye-www/current-threats/pdfs/pf/file/fireeye-hot-knives-through-butter.pdf"
+    }
+  ],
+  "object_marking_refs": [
+    "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+  ]
+}
 ``` 
 
 ### Malware
 Malware is captured with a STIX Malware object (`malware`) via the following properties:
 
-MBC Property | STIX Property
---------------- | ---------------
-Name     | **name**
-ID | **external_references.external_id** where *external_references.source_name* == "mitre-mbc"
-Alias(es) | **x_mitre_aliases**
-Platform(s) | **x_mitre_platform**
-Year | **x_mitre_year**
-Description   | **description**
-Reference(s) - url | **external_references.url** where *external_references.source_name* == "external_source"
--- | **malware_types** where value == "unknown" (required in STIX 2.1)
--- | **is_family** where value == "true" (required in STIX 2.1)
+|**MBC Property**|**STIX Property**|
+|---|---|
+|Name|**name**|
+|ID|**external_references.external_id** where *external_references.source_name* == "mitre-mbc"|
+|Alias(es)|**x_mitre_aliases**|
+|Platform(s)|**x_mitre_platform**|
+|Year|**x_mitre_year**|
+|Description|**description**|
+|Reference(s) - url|**external_references.url** where *external_references.source_name* == "external_source"|
+|--|**malware_types** where value == "unknown" (required in STIX 2.1)|
+|--|**is_family** where value == "true" (required in STIX 2.1)|
 
 **Example:**
 
 ```json
- {
-   "type": "malware",
-   "spec_version": "2.1",
-   "id": "malware--b559872a-a3c4-4adf-92c7-d4e79d02a24a",
-   "created": "2020-01-28T21:09:21.242Z",
-   "modified": "2020-01-28T21:09:21.242Z",
-   "name": "Kraken",
-   "description": "Kraken is a family of bots.",
-   "malware_types": ["unknown"],
-   "is_family": true,
-   "external_references": [
-     {
-       "source_name": "mitre-mbc",
-       "url": "https://github.com/MBCProject/mbc-markdown/blob/master/xample-malware/kraken.md",
-       "external_id": "X0010"
-     },
-     {
-       "source_name": "external_source",
-       "url": "http://blog.threatexpert.com/2008/04/kraken-changes-tactics.html"
-     }
-   ],
-   "x_mitre_aliases": ["Bobax"],
-   "x_mitre_platform": ["Windows"],
-   "x_mitre_year": "2008"
- }
+{
+  "type": "malware",
+  "spec_version": "2.1",
+  "id": "malware--36e75009-8fd6-467a-aa8c-c6a4d3511dfa",
+  "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+  "created": "2020-08-21T20:50:04.345255Z",
+  "modified": "2020-08-21T20:50:04.345255Z",
+  "name": "Kraken",
+  "description": "A family of bots.",
+  "malware_types": [
+    "unknown"
+  ],
+  "is_family": true,
+  "external_references": [
+    {
+      "source_name": "mitre-mbc",
+      "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/xample-malware/kraken.md",
+      "external_id": "X0010"
+    },
+    {
+      "source_name": "external_source",
+      "url": "http://blog.threatexpert.com/2008/04/kraken-changes-tactics.html"
+    }
+  ],
+  "object_marking_refs": [
+    "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+  ],
+  "x_mitre_aliases": [
+    "Bobax"
+  ],
+  "x_mitre_platform": [
+    "Windows"
+  ],
+  "x_mitre_year": "2008"
+}
 ```
 
 ## Malware and Behavior Relationships
@@ -164,16 +187,21 @@ MBC captures relationships between malware and the behaviors the malware exhibit
 **Example:**
 
 ```json
- {
-   "type": "relationship",
-   "spec_version": "2.1",
-   "id": "relationship--5a75909d-89f5-4d86-93be-758fab713af3",
-   "created": "2020-01-28T21:09:21.331Z",
-   "modified": "2020-01-28T21:09:21.331Z",
-   "relationship_type": "uses",
-   "source_ref": "malware--1a1054d0-616f-4968-9384-70c77293ca83",
-   "target_ref": "attack-pattern--af6955dd-e692-467b-804b-fe160306f2ac"
- }
+{
+  "type": "relationship",
+  "spec_version": "2.1",
+  "id": "relationship--d1f3731f-61f7-45f4-be59-c3028c327241",
+  "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+  "created": "2020-08-21T20:50:04.603292Z",
+  "modified": "2020-08-21T20:50:04.603292Z",
+  "relationship_type": "uses",
+  "description": "Dumping Kraken's c.dll module from the heap of its own process is tricky because its PE-header is wiped out.",
+  "source_ref": "malware--36e75009-8fd6-467a-aa8c-c6a4d3511dfa",
+  "target_ref": "attack-pattern--7981f82d-ff58-4d38-a420-69d73a67bbc9",
+  "object_marking_refs": [
+    "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+  ]
+}
 ```
 
 # Accessing MBC Data Using Python
