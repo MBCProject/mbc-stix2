@@ -10,7 +10,7 @@
             "created": "2020-08-21T20:49:59.739261Z",
             "modified": "2020-08-21T20:49:59.739261Z",
             "name": "Remote Commands",
-            "description": "Malware may provide an attacker with explicit commands. This behavior differs from the [Remote Access](https://github.com/MBCProject/mbc-markdown/blob/master/impact/remote-access.md) behavior under the [Impact](https://github.com/MBCProject/mbc-markdown/tree/master/impact) objective in that *Impact: Remote Access* is potentially much broader and may include full remote access.",
+            "description": "Malware may provide an attacker with explicit commands. This behavior differs from the [Remote Access](https://github.com/MBCProject/mbc-markdown/blob/v2.0/impact/remote-access.md) behavior under the [Impact](https://github.com/MBCProject/mbc-markdown/tree/v2.0/impact) objective in that *Impact: Remote Access* is potentially much broader and may include full remote access.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

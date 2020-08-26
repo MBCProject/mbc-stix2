@@ -14,7 +14,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/hardware-micro-objectives/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/hardware/README.md",
                     "external_id": "OC0007"
                 }
             ],

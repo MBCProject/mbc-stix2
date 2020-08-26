@@ -10,7 +10,7 @@
             "created": "2020-08-21T20:49:59.534261Z",
             "modified": "2020-08-21T20:49:59.534261Z",
             "name": "Feed Misinformation",
-            "description": "API behavior can be altered to prevent memory dumps. For example, inaccurate data can be reported when the contents of the physical memory of the system on which the malware instance is executing is retrieved. See [Hooking](https://github.com/MBCProject/mbc-markdown/blob/master/credential-access/hooking.md).",
+            "description": "API behavior can be altered to prevent memory dumps. For example, inaccurate data can be reported when the contents of the physical memory of the system on which the malware instance is executing is retrieved. See [Hooking](https://github.com/MBCProject/mbc-markdown/blob/v2.0/credential-access/hooking.md).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

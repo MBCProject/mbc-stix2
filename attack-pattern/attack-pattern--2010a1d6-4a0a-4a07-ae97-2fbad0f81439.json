@@ -10,7 +10,7 @@
             "created": "2020-08-21T20:49:59.609265Z",
             "modified": "2020-08-21T20:49:59.609265Z",
             "name": "C2 Communication",
-            "description": "All command and control malware use client/server communication. The methods listed below can be used to capture explicit communication details. Remote file copy behavior is captured separately, as is done in ATT&CK - see [Remote File Copy](https://github.com/MBCProject/mbc-markdown/blob/master/command-and-control/remote-file-copy.md).",
+            "description": "All command and control malware use client/server communication. The methods listed below can be used to capture explicit communication details. Remote file copy behavior is captured separately, as is done in ATT&CK - see [Remote File Copy](https://github.com/MBCProject/mbc-markdown/blob/v2.0/command-and-control/remote-file-copy.md).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

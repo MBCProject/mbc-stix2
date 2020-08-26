@@ -10,7 +10,7 @@
             "created": "2020-08-21T20:49:59.883261Z",
             "modified": "2020-08-21T20:49:59.883261Z",
             "name": "Stack Pivot",
-            "description": "Stack pivoting involves pointing the stack pointer to an attacker-owned buffer, such as the heap, and facilitates exploits such as ROP-based exploits (see [Bypass DEP](https://github.com/MBCProject/mbc-markdown/blob/master/defense-evasion/bypass-dep.md) behavior).",
+            "description": "Stack pivoting involves pointing the stack pointer to an attacker-owned buffer, such as the heap, and facilitates exploits such as ROP-based exploits (see [Bypass DEP](https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/bypass-dep.md) behavior).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/memory-manipulation/stack-pivot.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/memory-manipulation/stack-pivot.md",
                     "external_id": "C0009"
                 }
             ],
