@@ -8,11 +8,12 @@
             "id": "relationship--08df9329-0616-4d5d-a3fb-841d730e9dda",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:16.263Z",
-            "modified": "2020-02-05T20:28:16.263Z",
+            "modified": "2020-08-25T21:10:07.210953Z",
             "relationship_type": "uses",
             "description": "A Trojan downloader.",
             "source_ref": "malware--cb0b4776-cbd6-417c-b6c1-51f67f44d5b1",
             "target_ref": "attack-pattern--b255fae3-82ad-4a9d-a76a-3301e0c3caed",
+            "revoked": true,
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

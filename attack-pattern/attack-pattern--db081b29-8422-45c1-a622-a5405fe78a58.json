@@ -8,7 +8,7 @@
             "id": "attack-pattern--db081b29-8422-45c1-a622-a5405fe78a58",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.330Z",
-            "modified": "2020-02-05T20:28:15.330Z",
+            "modified": "2020-08-25T21:10:06.821956Z",
             "name": "Modify Existing Service",
             "description": "Malware may modify an existing service to gain persistence. Modification may include disabling a service.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "persistence"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

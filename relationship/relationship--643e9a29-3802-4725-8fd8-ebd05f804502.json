@@ -8,11 +8,12 @@
             "id": "relationship--643e9a29-3802-4725-8fd8-ebd05f804502",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:16.264Z",
-            "modified": "2020-02-05T20:28:16.264Z",
+            "modified": "2020-08-25T21:10:07.396954Z",
             "relationship_type": "uses",
             "description": "Encrypts files for ransom without any connection to the Internet.",
             "source_ref": "malware--135968d7-8b5f-492e-9423-9c98bc4d9d06",
             "target_ref": "attack-pattern--4ea52273-1834-4df1-8bc7-6ee8738748a2",
+            "revoked": true,
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

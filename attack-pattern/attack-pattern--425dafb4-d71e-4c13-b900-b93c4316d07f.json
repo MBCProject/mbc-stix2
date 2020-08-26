@@ -8,7 +8,7 @@
             "id": "attack-pattern--425dafb4-d71e-4c13-b900-b93c4316d07f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.461Z",
-            "modified": "2020-02-05T20:28:15.461Z",
+            "modified": "2020-08-25T21:10:05.93496Z",
             "name": "Private Keys",
             "description": "Malware may gather private keys from compromised systems.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "credential-access"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

@@ -8,7 +8,7 @@
             "id": "attack-pattern--c87a9a20-73bb-4dd1-8531-2f7c246a4660",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.338Z",
-            "modified": "2020-02-05T20:28:15.338Z",
+            "modified": "2020-08-25T21:10:06.746957Z",
             "name": "Exfiltration Over Alternative Protocol",
             "description": "Malware may exfiltrate data with protocol different that the main C2 protocol or channel.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "exfiltration"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

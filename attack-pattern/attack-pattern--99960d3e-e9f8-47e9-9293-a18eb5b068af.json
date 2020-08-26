@@ -8,7 +8,7 @@
             "id": "attack-pattern--99960d3e-e9f8-47e9-9293-a18eb5b068af",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.323Z",
-            "modified": "2020-02-05T20:28:15.323Z",
+            "modified": "2020-08-25T21:10:06.473956Z",
             "name": "Startup Items",
             "description": "Malware may add an entry to the macOS StartupItems directory to enable persistence. Because StartupItems run during the bootup phase of macOS, they will run as root, enabling privilege escalation.",
             "kill_chain_phases": [
@@ -21,6 +21,7 @@
                     "phase_name": "privilege-escalation"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

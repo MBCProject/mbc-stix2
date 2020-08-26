@@ -8,7 +8,7 @@
             "id": "attack-pattern--d21cffb9-b381-47f4-9428-950873cccf21",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.324Z",
-            "modified": "2020-02-05T20:28:15.324Z",
+            "modified": "2020-08-25T21:10:06.797959Z",
             "name": "Backdoor",
             "description": "Malware achieves persistence via a backdoor. Installation of a backdoor is covered by the [Remote Access](https://github.com/MBCProject/mbc-markdown/blob/master/impact/remote-access.md) under the [Impact](https://github.com/MBCProject/mbc-markdown/tree/master/impact) objective.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "persistence"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

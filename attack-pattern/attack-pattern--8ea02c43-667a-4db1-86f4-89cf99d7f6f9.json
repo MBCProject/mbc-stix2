@@ -8,7 +8,7 @@
             "id": "attack-pattern--8ea02c43-667a-4db1-86f4-89cf99d7f6f9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.230Z",
-            "modified": "2020-02-05T20:28:15.230Z",
+            "modified": "2020-08-25T21:10:06.362955Z",
             "name": "Network Service Scanning",
             "description": "Malware may try to a listing of services running on remotes hosts.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "discovery"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

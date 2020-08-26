@@ -8,7 +8,7 @@
             "id": "attack-pattern--1341c511-1ecc-489b-902a-8a80577d2758",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.312Z",
-            "modified": "2020-02-05T20:28:15.312Z",
+            "modified": "2020-08-25T21:10:05.779957Z",
             "name": "Change Default File Association",
             "description": "Malware may change the file association selections (stored in the Windows Registry) to execute arbitrary commands.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "persistence"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

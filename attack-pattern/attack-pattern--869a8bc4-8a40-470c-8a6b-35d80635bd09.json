@@ -8,7 +8,7 @@
             "id": "attack-pattern--869a8bc4-8a40-470c-8a6b-35d80635bd09",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.210Z",
-            "modified": "2020-02-05T20:28:15.210Z",
+            "modified": "2020-08-25T21:10:06.329956Z",
             "name": "Device Type Discovery",
             "description": "Android malware may get device type information through the android.os.Build class.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "discovery"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

@@ -8,7 +8,7 @@
             "id": "attack-pattern--65fe37b4-19b9-4630-8d51-5afd6dc3234d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.403Z",
-            "modified": "2020-02-05T20:28:15.403Z",
+            "modified": "2020-08-25T21:10:06.120995Z",
             "name": "Indicator Blocking",
             "description": "Malware blocks indicators or events that would indicate malicious activity. Methods relevant to the malware domain are below.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

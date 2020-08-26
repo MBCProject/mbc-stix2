@@ -8,7 +8,7 @@
             "id": "attack-pattern--867bc93b-83c8-4bcd-876b-a8f190dd7de7",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.310Z",
-            "modified": "2020-02-05T20:28:15.310Z",
+            "modified": "2020-08-25T21:10:06.322955Z",
             "name": "System Firmware",
             "description": "Malware may overwrite the system firmware with malicious firmware that is difficult to detect and/or enables persistence.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "persistence"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

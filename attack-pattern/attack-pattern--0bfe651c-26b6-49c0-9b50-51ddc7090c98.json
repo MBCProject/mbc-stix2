@@ -8,7 +8,7 @@
             "id": "attack-pattern--0bfe651c-26b6-49c0-9b50-51ddc7090c98",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.245Z",
-            "modified": "2020-02-05T20:28:15.245Z",
+            "modified": "2020-08-25T21:10:05.744997Z",
             "name": "Remote File Copy",
             "description": "Malware may copy files from one system to another.",
             "kill_chain_phases": [
@@ -25,6 +25,7 @@
                     "phase_name": "persistence"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

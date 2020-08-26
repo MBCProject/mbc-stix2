@@ -8,7 +8,7 @@
             "id": "attack-pattern--4b89d6b6-fd08-4b39-bb01-b472ae95b93d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.121Z",
-            "modified": "2020-02-05T20:28:15.121Z",
+            "modified": "2020-08-25T21:10:05.966967Z",
             "name": "Email Collection",
             "description": "Malware targets user email for collection.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "collection"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

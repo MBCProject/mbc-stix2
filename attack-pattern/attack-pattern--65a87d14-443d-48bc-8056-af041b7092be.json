@@ -8,7 +8,7 @@
             "id": "attack-pattern--65a87d14-443d-48bc-8056-af041b7092be",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.496Z",
-            "modified": "2020-02-05T20:28:15.496Z",
+            "modified": "2020-08-25T21:10:06.114996Z",
             "name": "Disk Content Wipe",
             "description": "The contents of a storage device are partially or completely wiped. Rather than selecting individual files (see [Data Destruction](https://github.com/MBCProject/mbc-markdown/tree/master/impact/data-destruction.md)), arbitrary data is destroyed.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "impact"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

@@ -8,7 +8,7 @@
             "id": "attack-pattern--d77057dc-8454-4a4c-9dd4-3da26ae009be",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.302Z",
-            "modified": "2020-02-05T20:28:15.302Z",
+            "modified": "2020-08-25T21:10:06.815996Z",
             "name": "Conditional Execution",
             "description": "Malware checks system environment conditions or characteristics to determine execution path. For example, malware may not run or be dormant unless system conditions are right, or file that is dropped may vary according to execution environment. Conditional execution happens autonomously, not because of an attacker's command.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "execution"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

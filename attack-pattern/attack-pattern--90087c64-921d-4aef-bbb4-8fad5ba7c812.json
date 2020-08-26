@@ -8,7 +8,7 @@
             "id": "attack-pattern--90087c64-921d-4aef-bbb4-8fad5ba7c812",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.309Z",
-            "modified": "2020-02-05T20:28:15.309Z",
+            "modified": "2020-08-25T21:10:06.385956Z",
             "name": "Office Application Startup",
             "description": "Malware may use a mechanism with Office for persistence when an Office-based application is started.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "persistence"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

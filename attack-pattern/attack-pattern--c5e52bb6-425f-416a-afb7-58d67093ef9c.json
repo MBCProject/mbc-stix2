@@ -8,7 +8,7 @@
             "id": "attack-pattern--c5e52bb6-425f-416a-afb7-58d67093ef9c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.475Z",
-            "modified": "2020-02-05T20:28:15.475Z",
+            "modified": "2020-08-25T21:10:06.732956Z",
             "name": "Generate Fraudulent Advertising Revenue",
             "description": "Malware may generate advertising revenue by generating clicks of advertising links. The ATT&CK technique, [Generate Fraudulent Advertising Revenue](https://attack.mitre.org/techniques/T1472/), pertains only to mobile platform, but the behavior is applicable to other platforms as well.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "impact"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

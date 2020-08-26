@@ -8,7 +8,7 @@
             "id": "attack-pattern--1665b6e5-769a-4abb-9de1-4719ac6ce727",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.369Z",
-            "modified": "2020-02-05T20:28:15.369Z",
+            "modified": "2020-08-25T21:10:05.791996Z",
             "name": "File Deletion",
             "description": "Malware may remove dropped files or tools to avoid detection.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

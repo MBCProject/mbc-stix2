@@ -8,11 +8,12 @@
             "id": "relationship--6cfc5694-2afb-4727-9af1-3bdf4688947e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:16.261Z",
-            "modified": "2020-02-05T20:28:16.261Z",
+            "modified": "2020-08-25T21:10:07.422954Z",
             "relationship_type": "uses",
             "description": "Uses a domain name generator.",
             "source_ref": "malware--bf2e37d0-29cf-43ef-82d1-f970a128e6bf",
             "target_ref": "attack-pattern--51fb196e-4be8-4b21-ba5b-fce4d7de6767",
+            "revoked": true,
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

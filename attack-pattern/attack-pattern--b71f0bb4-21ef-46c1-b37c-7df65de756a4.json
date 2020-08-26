@@ -8,7 +8,7 @@
             "id": "attack-pattern--b71f0bb4-21ef-46c1-b37c-7df65de756a4",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.208Z",
-            "modified": "2020-02-05T20:28:15.208Z",
+            "modified": "2020-08-25T21:10:06.672955Z",
             "name": "Local Network Configuration Discovery",
             "description": "Android malware may try to get details of on-board network interfaces through the java.net.NetworkInterface class.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "discovery"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

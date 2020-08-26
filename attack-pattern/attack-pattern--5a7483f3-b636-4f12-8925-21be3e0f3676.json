@@ -8,9 +8,9 @@
             "id": "attack-pattern--5a7483f3-b636-4f12-8925-21be3e0f3676",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.152Z",
-            "modified": "2020-02-05T20:28:15.152Z",
+            "modified": "2020-08-25T21:10:06.065954Z",
             "name": "Executable Code Virtualization",
-            "description": "Original executable code is virtualized by translating the code into a special format that only a special virtual machine (VM) can run; the VM uses a customized virtual instruction set. A \"stub\" function calls the VM when the code is run. Virtualized code makes static analysis and reverse engineering more difficult; dumped code won’t run without the VM.",
+            "description": "Original executable code is virtualized by translating the code into a special format that only a special virtual machine (VM) can run; the VM uses a customized virtual instruction set. A \"stub\" function calls the VM when the code is run. Virtualized code makes static analysis and reverse engineering more difficult; dumped code won\u2019t run without the VM.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -21,6 +21,7 @@
                     "phase_name": "anti-static-analysis"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

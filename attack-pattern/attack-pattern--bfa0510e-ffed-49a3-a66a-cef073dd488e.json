@@ -8,7 +8,7 @@
             "id": "attack-pattern--bfa0510e-ffed-49a3-a66a-cef073dd488e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.162Z",
-            "modified": "2020-02-05T20:28:15.162Z",
+            "modified": "2020-08-25T21:10:06.704997Z",
             "name": "Disassembler Evasion",
             "description": "Malware code evades disassembly in a recursive or linear disassembler. Some methods apply to both types of disassemblers; others apply to one type and not the other.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "anti-static-analysis"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

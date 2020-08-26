@@ -8,7 +8,7 @@
             "id": "attack-pattern--587a54c2-89ae-42aa-9504-b820378e2aff",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.110Z",
-            "modified": "2020-02-05T20:28:15.110Z",
+            "modified": "2020-08-25T21:10:06.049997Z",
             "name": "Remote Desktop Protocol",
             "description": "Malware may connect to a remote system over Remote Desktop Protocol.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "lateral-movement"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

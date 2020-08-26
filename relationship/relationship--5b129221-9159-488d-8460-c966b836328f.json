@@ -8,11 +8,12 @@
             "id": "relationship--5b129221-9159-488d-8460-c966b836328f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:16.253Z",
-            "modified": "2020-02-05T20:28:16.253Z",
+            "modified": "2020-08-25T21:10:07.374953Z",
             "relationship_type": "uses",
             "description": "Alters DNS server settings to route to a rogue DNS server for the purpose of click hijacking.",
             "source_ref": "malware--901ac923-57ee-4d6a-b14a-ae64e3225b8c",
             "target_ref": "attack-pattern--c5e52bb6-425f-416a-afb7-58d67093ef9c",
+            "revoked": true,
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

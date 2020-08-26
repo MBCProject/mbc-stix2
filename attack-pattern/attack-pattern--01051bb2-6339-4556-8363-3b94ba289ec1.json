@@ -8,7 +8,7 @@
             "id": "attack-pattern--01051bb2-6339-4556-8363-3b94ba289ec1",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.298Z",
-            "modified": "2020-02-05T20:28:15.298Z",
+            "modified": "2020-08-25T21:10:05.697956Z",
             "name": "Send Email",
             "description": "Sends an email message from the system on which the malware is executing to one or more recipients, mostly commonly for the purpose of spamming or for distributing a malicious attachment or URL (malspamming).",
             "kill_chain_phases": [
@@ -21,6 +21,7 @@
                     "phase_name": "lateral-movement"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

@@ -8,7 +8,7 @@
             "id": "attack-pattern--03b4fd1e-96db-4c28-b9c7-18ef0510c129",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.216Z",
-            "modified": "2020-02-05T20:28:15.216Z",
+            "modified": "2020-08-25T21:10:05.716957Z",
             "name": "Security Software Discovery",
             "description": "Malware may try to get a listing of security software or defensive tools installed on the system. Note that security software aims to *detect/mitigate* malware on a system whereas analysis tools (see [Analysis Tool Discovery](https://github.com/MBCProject/mbc-markdown/blob/master/discovery/analysis-tool-discover.md)) are used to *analyze* malware.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "discovery"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

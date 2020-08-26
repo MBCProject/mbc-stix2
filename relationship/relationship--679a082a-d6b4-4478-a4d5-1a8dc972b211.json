@@ -8,11 +8,12 @@
             "id": "relationship--679a082a-d6b4-4478-a4d5-1a8dc972b211",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:16.264Z",
-            "modified": "2020-02-05T20:28:16.264Z",
+            "modified": "2020-08-25T21:10:07.405954Z",
             "relationship_type": "uses",
             "description": "Gathers information from the victim's machine to create an encryption key.",
             "source_ref": "malware--135968d7-8b5f-492e-9423-9c98bc4d9d06",
             "target_ref": "attack-pattern--7a0a5840-aed7-48bf-abcb-89056c1ba932",
+            "revoked": true,
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

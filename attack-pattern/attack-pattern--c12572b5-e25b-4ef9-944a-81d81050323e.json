@@ -8,7 +8,7 @@
             "id": "attack-pattern--c12572b5-e25b-4ef9-944a-81d81050323e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.343Z",
-            "modified": "2020-02-05T20:28:15.343Z",
+            "modified": "2020-08-25T21:10:06.713995Z",
             "name": "Exfiltration Over Command and Control Channel",
             "description": "Malware may exfiltrate data via the command and control channel.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "exfiltration"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

@@ -8,7 +8,7 @@
             "id": "attack-pattern--9188ea31-fa9e-4fad-949b-f705e0fabd20",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.172Z",
-            "modified": "2020-02-05T20:28:15.172Z",
+            "modified": "2020-08-25T21:10:06.407955Z",
             "name": "Debugger Evasion",
             "description": "Behaviors that make debugging difficult.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "anti-behavioral-analysis"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
@@ -125,7 +126,7 @@
                     "name": "Pre-Debug"
                 },
                 {
-                    "definition": "relocate API code in separate buffer (calls don’t lead to imported DLLs).",
+                    "definition": "relocate API code in separate buffer (calls don\u2019t lead to imported DLLs).",
                     "name": "Relocate API Code"
                 },
                 {

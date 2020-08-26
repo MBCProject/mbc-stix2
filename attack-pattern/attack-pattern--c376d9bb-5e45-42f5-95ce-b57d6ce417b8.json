@@ -8,7 +8,7 @@
             "id": "attack-pattern--c376d9bb-5e45-42f5-95ce-b57d6ce417b8",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.224Z",
-            "modified": "2020-02-05T20:28:15.224Z",
+            "modified": "2020-08-25T21:10:06.726992Z",
             "name": "System Network Configuration Discovery",
             "description": "Malware may try to find details about the system's network configuration.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "discovery"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

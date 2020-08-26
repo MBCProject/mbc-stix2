@@ -8,7 +8,7 @@
             "id": "attack-pattern--8f470860-de90-44e9-b88f-4b188918bb7c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.270Z",
-            "modified": "2020-02-05T20:28:15.270Z",
+            "modified": "2020-08-25T21:10:06.37996Z",
             "name": "Commonly Used Port",
             "description": "Malware may use a common port to avoid detection of command and control activity.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "command-and-control"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

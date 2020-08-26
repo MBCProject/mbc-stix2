@@ -8,7 +8,7 @@
             "id": "attack-pattern--b2c99aaa-a0e3-439d-92a3-402768d7282f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.236Z",
-            "modified": "2020-02-05T20:28:15.236Z",
+            "modified": "2020-08-25T21:10:06.658955Z",
             "name": "Software Discovery",
             "description": "Malware may try to identify all software and applications installed on the device.",
             "kill_chain_phases": [
@@ -21,6 +21,7 @@
                     "phase_name": "discovery"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
