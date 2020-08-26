@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--0ada2d1e-b690-4370-9217-771baa13b1af",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b59de826-0218-4163-a500-d010a756e43c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.69726Z",
+            "modified": "2020-08-21T20:49:59.69726Z",
+            "name": "Prevent Native API Hooking",
+            "description": "Prevents other software from hooking native system APIs.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/rootkit-behavior.md",
+                    "external_id": "E1014.m12"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--81a26b63-245d-4c90-b4c4-60e1bb5476b2",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c484a07a-2c0e-4141-bfd0-161a38812c64",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.75826Z",
+            "modified": "2020-08-21T20:49:59.75826Z",
+            "name": "Encoding - Standard Encoding",
+            "description": "Data is encoded. A standard algorithm, such as base64 encoding, is used to encode the exfiltrated data.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "exfiltration"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/exfiltration/data-encrypted.md",
+                    "external_id": "E1560.m03"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

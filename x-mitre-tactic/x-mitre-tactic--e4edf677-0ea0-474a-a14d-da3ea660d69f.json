@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--506b490f-d4f6-49c8-83ab-6a82196d51a8",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--e4edf677-0ea0-474a-a14d-da3ea660d69f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.292268Z",
+            "modified": "2020-08-21T20:49:59.292268Z",
+            "name": "Memory Manipulation Micro-objectives",
+            "description": "Micro-behaviors related to malware manipulating machine memory.",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/memory-manipulation/README.md",
+                    "external_id": "OC0002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "memory-manipulation-micro-objectives"
+        }
+    ]
+}

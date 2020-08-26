@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--2f27adf1-1bb4-4ab9-a8f6-602dd0109057",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--05c2f0b0-756c-4b6f-8bbe-f0a7c6380f61",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.83526Z",
+            "modified": "2020-08-21T20:49:59.83526Z",
+            "name": "TCP Communication",
+            "description": "This micro-behavior focuses on TCP communication.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/communication/tcp-comm.md",
+                    "external_id": "C0001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

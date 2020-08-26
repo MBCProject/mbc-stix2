@@ -8,14 +8,14 @@
             "id": "x-mitre-tactic--4fd027ac-dddc-4744-aa72-d1b4598d9898",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.074Z",
-            "modified": "2020-02-05T20:28:15.074Z",
+            "modified": "2020-08-21T20:50:04.602253Z",
             "name": "Credential Access",
             "description": "Behaviors to obtain credential access, allowing it or its underlying threat actor to assume control of an account, with the associated system and network permissions.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/credential-access/README.md",
-                    "external_id": "M9005"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/credential-access/README.md",
+                    "external_id": "OB0005"
                 }
             ],
             "object_marking_refs": [

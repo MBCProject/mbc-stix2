@@ -1,0 +1,31 @@
+{
+    "type": "bundle",
+    "id": "bundle--3965c483-2d2f-4d1c-8876-6ceb76fa1ef0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c2e926cc-5d54-4cce-91f3-acf946574563",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.737262Z",
+            "modified": "2020-08-21T20:49:59.737262Z",
+            "name": "Download File",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/execution/remote-commands.md",
+                    "external_id": "B0011.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

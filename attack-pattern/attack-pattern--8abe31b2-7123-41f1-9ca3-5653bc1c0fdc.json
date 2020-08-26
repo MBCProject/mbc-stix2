@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--c3a0360b-9a4a-4795-bcf6-13266e9991e4",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8abe31b2-7123-41f1-9ca3-5653bc1c0fdc",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.788262Z",
+            "modified": "2020-08-21T20:49:59.788262Z",
+            "name": "Cryptojacking",
+            "description": "Consume system resources to mine for cryptocurrency (e.g., Bitcoin, Litecoin, etc.).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/impact/hijack-sys-resources.md",
+                    "external_id": "B0018.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

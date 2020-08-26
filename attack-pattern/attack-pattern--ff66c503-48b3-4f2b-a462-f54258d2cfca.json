@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--13b101fd-08f7-4a4f-a6eb-f0768712272b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ff66c503-48b3-4f2b-a462-f54258d2cfca",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.514301Z",
+            "modified": "2020-08-21T20:49:59.514301Z",
+            "name": "Pre-Debug",
+            "description": "Prevents debugger from attaching to process or to break until after the code of interest has been executed.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/evade-debugger.md",
+                    "external_id": "B0002.019"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

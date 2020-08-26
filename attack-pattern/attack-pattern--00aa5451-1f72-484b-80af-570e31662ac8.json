@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--8f6e08b3-6b42-4852-8b2f-7d189fb6b484",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--00aa5451-1f72-484b-80af-570e31662ac8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.694261Z",
+            "modified": "2020-08-21T20:49:59.694261Z",
+            "name": "Hide Userspace Libraries",
+            "description": "Hides the usage of userspace libraries by the malware instance.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/rootkit-behavior.md",
+                    "external_id": "E1014.m05"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

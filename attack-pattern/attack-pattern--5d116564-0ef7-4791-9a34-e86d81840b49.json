@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--ec40a921-35ee-429c-85a4-b8639556058a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5d116564-0ef7-4791-9a34-e86d81840b49",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.920259Z",
+            "modified": "2020-08-21T20:49:59.920259Z",
+            "name": "Modify Existing Service",
+            "description": "Malware may modify an existing service to gain persistence. Modification may include disabling a service.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/persistence/modify-service.md",
+                    "external_id": "F0011"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-profiles/trojan-variants/poison-ivy"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

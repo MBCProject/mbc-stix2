@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--5ba426b1-a581-4e32-bf84-c9d96c79c419",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8548e081-1e05-413a-9790-7c088c979150",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.69826Z",
+            "modified": "2020-08-21T20:49:59.69826Z",
+            "name": "Prevent Registry Deletion",
+            "description": "Prevent Windows registry keys and/or values associated with the malware instance from being deleted from a system.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/rootkit-behavior.md",
+                    "external_id": "E1014.m08"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--ed92de27-2531-4dbf-b28e-a039351a869f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5b93eef5-683e-44cb-b737-0e80feb890d2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.887261Z",
+            "modified": "2020-08-21T20:49:59.887261Z",
+            "name": "Create Process via WMI::Create Process",
+            "description": "Malware uses WMI to create a process.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "processes"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/processes/create-process.md",
+                    "external_id": "C0017.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

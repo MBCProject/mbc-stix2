@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--5524b991-984a-4ab6-9a6e-77ab119cec4a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--187b4cd8-132e-4514-9ad2-e0b20abc2b70",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.479261Z",
+            "modified": "2020-08-21T20:49:59.479261Z",
+            "name": "Emulator Detection",
+            "description": "Detects whether the malware instance is being executed inside an emulator. If so, conditional execution selects a benign execution path.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-emulator.md",
+                    "external_id": "B0004"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://unprotect.tdgt.org/index.php/Sandbox_Evasion"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

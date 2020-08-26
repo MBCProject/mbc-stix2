@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--e54f37f9-af69-470d-b660-7b488c3a08c9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ae865c4b-d90b-46be-aae6-6fbe897b76d9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.769263Z",
+            "modified": "2020-08-21T20:49:59.769263Z",
+            "name": "Empty Recycle Bin",
+            "description": "Empties the recycle bin, which can be related to ransomware.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/impact/data-destruction.md",
+                    "external_id": "E1485.m02"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

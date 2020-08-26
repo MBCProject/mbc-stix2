@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--b1e9e1c2-efed-48f4-8f2a-d2895f5b3161",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--fbaedc87-7d0b-447c-a9e5-0f6c2658770a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.721261Z",
+            "modified": "2020-08-21T20:49:59.721261Z",
+            "name": "Suicide Exit",
+            "description": "Malware terminates its execution based on a trigger condition or value (or because it has completed).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/execution/conditional-execute.md",
+                    "external_id": "B0025.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

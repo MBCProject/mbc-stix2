@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--007b1418-6115-4e5d-b532-ca1c00f951f3",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4e6169c5-7791-4c39-b6c9-d79628a85448",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.655262Z",
+            "modified": "2020-08-21T20:49:59.655262Z",
+            "name": "AMSI Bypass",
+            "description": "Malware bypasses AMSI (Anti-malware Scan Interface).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/disable-security-tools.md",
+                    "external_id": "F0004.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "type": "bundle",
+    "id": "bundle--63612c86-ad3c-4137-a9fd-ba03cb121f58",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d6e1b096-1595-47e7-8230-223aa9cad622",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.823261Z",
+            "modified": "2020-08-21T20:49:59.823261Z",
+            "name": "Read Pipe::Interprocess Communication",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/communication/inter-process.md",
+                    "external_id": "C0003.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

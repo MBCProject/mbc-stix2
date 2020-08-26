@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f50c6f58-8522-4fa3-95c1-76f4b1ce3c1a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--17d45a89-9ebf-4a5b-8dc8-1e6e6e3e6089",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:50:04.603292Z",
+            "modified": "2020-08-21T20:50:04.603292Z",
+            "relationship_type": "uses",
+            "description": "Intercepts data coming into and going out of device.",
+            "source_ref": "malware--508cadaa-4fd5-4105-803e-8944e388ee45",
+            "target_ref": "attack-pattern--50e612f9-3481-42fc-aa7f-a468ce59a556",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

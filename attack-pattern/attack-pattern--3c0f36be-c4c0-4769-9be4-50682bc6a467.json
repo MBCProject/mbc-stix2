@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--39c19434-8708-4987-85b4-e9f251d18f52",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3c0f36be-c4c0-4769-9be4-50682bc6a467",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.516301Z",
+            "modified": "2020-08-21T20:49:59.516301Z",
+            "name": "Self-Unmapping",
+            "description": "UnmapViewOfFile() on itself.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/evade-debugger.md",
+                    "external_id": "B0002.025"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

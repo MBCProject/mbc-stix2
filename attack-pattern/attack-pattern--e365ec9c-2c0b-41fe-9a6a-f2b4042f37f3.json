@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--d0d27320-1124-4f3d-87b8-280e66cac7a3",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e365ec9c-2c0b-41fe-9a6a-f2b4042f37f3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.652263Z",
+            "modified": "2020-08-21T20:49:59.652263Z",
+            "name": "Covert Location",
+            "description": "Malware may hide data or binary files within other files, the registry, etc.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/covert-location.md",
+                    "external_id": "B0040"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

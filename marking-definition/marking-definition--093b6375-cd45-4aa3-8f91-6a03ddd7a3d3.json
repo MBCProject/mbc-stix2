@@ -6,6 +6,7 @@
             "type": "marking-definition",
             "spec_version": "2.1",
             "id": "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-01-01T00:00:00.000Z",
             "definition_type": "statement",
             "definition": {

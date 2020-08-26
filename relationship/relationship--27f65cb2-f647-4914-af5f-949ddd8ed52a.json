@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--380a6a6d-b111-4633-b8b8-e80cab023eaf",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--27f65cb2-f647-4914-af5f-949ddd8ed52a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:50:04.600252Z",
+            "modified": "2020-08-21T20:50:04.600252Z",
+            "relationship_type": "uses",
+            "description": "Allows an attacker to control the system via a GUI.",
+            "source_ref": "malware--19d14868-ff81-4c8c-9a6a-c57baf7e7f52",
+            "target_ref": "attack-pattern--c25f5d58-e8e5-49ef-a54d-68e17b4ac824",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

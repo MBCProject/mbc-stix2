@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--e384c2c5-942d-41f3-9426-763f3ce124a4",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2ff4ce39-a726-471a-92d9-21a5c51a0bc3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.769263Z",
+            "modified": "2020-08-21T20:49:59.769263Z",
+            "name": "Data Destruction",
+            "description": "Data, system files, or other files are destroyed. Individual files are selected, as opposed to wiping an entire sector.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/impact/data-destruction.md",
+                    "external_id": "E1485"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://www.darkreading.com/attacks-breaches/disk-wiping-shamoon-malware-resurfaces-with-file-erasing-malware-in-tow/d/d-id/1333509"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1485/",
+                    "external_id": "T1485"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1447/",
+                    "external_id": "T1447"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

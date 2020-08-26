@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--83f997bd-cc6e-4e28-8642-276a31661624",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c31eb81c-b21c-4ae2-aed3-bcc77821d3ca",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.861259Z",
+            "modified": "2020-08-21T20:49:59.861259Z",
+            "name": "Append Extension::Alter File Extension",
+            "description": "A new extension is appended.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "file-manipulation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/file-manipulation/alter-extend.md",
+                    "external_id": "C0015.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

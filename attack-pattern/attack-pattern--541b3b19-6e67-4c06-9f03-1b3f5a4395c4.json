@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--c631dcd3-a9cc-43f2-b06b-540d4ec6a1fe",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--541b3b19-6e67-4c06-9f03-1b3f5a4395c4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.828261Z",
+            "modified": "2020-08-21T20:49:59.828261Z",
+            "name": "SMTP Communication",
+            "description": "This micro-behavior focuses on SMTP communication.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/communication/smtp-comm.md",
+                    "external_id": "C0012"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

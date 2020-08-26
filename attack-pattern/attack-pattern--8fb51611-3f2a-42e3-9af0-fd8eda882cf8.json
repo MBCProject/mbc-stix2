@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--8b2df0e6-bb91-438f-bba0-35f9719f8d46",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8fb51611-3f2a-42e3-9af0-fd8eda882cf8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.513264Z",
+            "modified": "2020-08-21T20:49:59.513264Z",
+            "name": "Nanomites",
+            "description": "int3 with code replacement table; debugs itself.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/evade-debugger.md",
+                    "external_id": "B0002.015"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

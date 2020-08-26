@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7eccdc70-0c94-4d4b-a31a-f68ba6abc633",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--101b237e-e613-4c1c-a14e-5f6e023962ea",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:50:04.609253Z",
+            "modified": "2020-08-21T20:50:04.609253Z",
+            "relationship_type": "uses",
+            "description": "Modification of the router's firmware image that can be used to maintain persistence within a victim's network.",
+            "source_ref": "malware--6875c768-4212-474d-85dc-1e89c62e9a65",
+            "target_ref": "attack-pattern--66639ad1-1214-46af-9ce6-31b526ef6d9c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

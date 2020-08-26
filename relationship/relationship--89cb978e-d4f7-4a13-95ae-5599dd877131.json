@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--421785fa-ff30-4024-8d69-9681f5da6cd3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--89cb978e-d4f7-4a13-95ae-5599dd877131",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:50:04.607256Z",
+            "modified": "2020-08-21T20:50:04.607256Z",
+            "relationship_type": "uses",
+            "description": "Redhip samples are packed with different custom packers.",
+            "source_ref": "malware--b0625dd2-cc91-4936-9e12-289960aa0b41",
+            "target_ref": "attack-pattern--ff830778-b9bc-4636-9dc7-884d5dad8c2c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

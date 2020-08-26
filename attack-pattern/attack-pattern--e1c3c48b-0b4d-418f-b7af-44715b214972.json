@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--07fe65be-3c78-4864-9c88-f2193702229a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e1c3c48b-0b4d-418f-b7af-44715b214972",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.530265Z",
+            "modified": "2020-08-21T20:49:59.530265Z",
+            "name": "Undocumented Opcodes",
+            "description": "Use rare or undocumented opcodes to block non-exhaustive emulators.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/evade-emulator.md",
+                    "external_id": "B0005.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

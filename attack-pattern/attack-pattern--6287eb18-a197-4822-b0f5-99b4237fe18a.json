@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--624d9b8a-cb31-484c-8693-0f7946f88ccf",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6287eb18-a197-4822-b0f5-99b4237fe18a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.708261Z",
+            "modified": "2020-08-21T20:49:59.708261Z",
+            "name": "Process detection - SysInternals Suite Tools",
+            "description": "Malware can scan for the process name associated with common analysis tools. Process Explorer / Process Monitor / Regmon / Filemon, TCPView, Autoruns",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "discovery"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/discovery/analysis-tool-discover.md",
+                    "external_id": "B0013.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

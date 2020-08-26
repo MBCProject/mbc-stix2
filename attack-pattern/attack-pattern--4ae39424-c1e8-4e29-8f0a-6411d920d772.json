@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--af21e1e7-6c80-4c7d-a900-f1305face54d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4ae39424-c1e8-4e29-8f0a-6411d920d772",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.83326Z",
+            "modified": "2020-08-21T20:49:59.83326Z",
+            "name": "Create Socket::TCP Communication",
+            "description": "A server or client creates a TCP socket.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/communication/tcp-comm.md",
+                    "external_id": "C0001.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

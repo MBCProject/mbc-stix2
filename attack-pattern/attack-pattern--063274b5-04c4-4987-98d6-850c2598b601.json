@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--35b1b143-1c4b-4809-baa5-732ebf4c357a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--063274b5-04c4-4987-98d6-850c2598b601",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.805261Z",
+            "modified": "2020-08-21T20:49:59.805261Z",
+            "name": "Resolve Free Hosting Domain::DNS Communication",
+            "description": "Resolves a free hosting domain (e.g., freeiz.com).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/communication/dns-comm.md",
+                    "external_id": "C0011.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

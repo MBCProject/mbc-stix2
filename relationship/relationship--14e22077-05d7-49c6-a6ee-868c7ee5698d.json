@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ff2fa789-602e-4222-9a18-f1c27a639d82",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--14e22077-05d7-49c6-a6ee-868c7ee5698d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:50:04.602253Z",
+            "modified": "2020-08-21T20:50:04.602253Z",
+            "relationship_type": "uses",
+            "description": "Uses API Hashing Method.",
+            "source_ref": "malware--92f9ba45-2fb3-4d97-9865-eda477e7b779",
+            "target_ref": "attack-pattern--87adc62c-05e8-4594-94f6-d6e034597859",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

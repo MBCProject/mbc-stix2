@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--b5c84c03-0f0b-4bf8-8136-de10d82c45b9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1212c336-4105-477e-9e3a-0789790a3941",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.559264Z",
+            "modified": "2020-08-21T20:49:59.559264Z",
+            "name": "Interleaving Code",
+            "description": "Split code into sections that may be rearranged and are connected by unconditional jumps.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-static-analysis/exe-code-obfuscate.md",
+                    "external_id": "B0032.014"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

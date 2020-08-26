@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--6e2656b0-443e-4709-958d-b1000101f876",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f30b55fa-0ddf-49d9-884b-8cdb9e567758",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.805261Z",
+            "modified": "2020-08-21T20:49:59.805261Z",
+            "name": "Resolve TLD::DNS Communication",
+            "description": "Resolves top level domain.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/communication/dns-comm.md",
+                    "external_id": "C0011.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

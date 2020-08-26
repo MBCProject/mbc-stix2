@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--8274d69d-5a39-4bf7-b8f4-f02dc2b87068",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--7aa33db8-4800-430a-8068-8b57b85a9b8a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.512264Z",
+            "modified": "2020-08-21T20:49:59.512264Z",
+            "name": "Inlining",
+            "description": "Variation of static linking where full API code inserted everywhere it would have been called.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/evade-debugger.md",
+                    "external_id": "B0002.011"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

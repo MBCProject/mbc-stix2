@@ -24,8 +24,8 @@
                 },
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/master/anti-behavioral-analysis/README.md",
-                    "external_id": "M9001"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/README.md",
+                    "external_id": "OB0001"
                 }
             ],
             "object_marking_refs": [

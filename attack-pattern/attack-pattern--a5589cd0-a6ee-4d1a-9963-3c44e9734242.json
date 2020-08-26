@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--7d1a67fc-0161-4320-8379-f24a86585be1",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a5589cd0-a6ee-4d1a-9963-3c44e9734242",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-08-21T20:49:59.706262Z",
+            "modified": "2020-08-21T20:49:59.706262Z",
+            "name": "Process detection - Debuggers",
+            "description": "Malware can scan for the process name associated with common analysis tools. OllyDBG / ImmunityDebugger / WinDbg / IDA Pro",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "discovery"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/discovery/analysis-tool-discover.md",
+                    "external_id": "B0013.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}
