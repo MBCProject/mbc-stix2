@@ -21,7 +21,7 @@
                 {
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/communication/http-comm.md",
-                    "external_id": "C0002.008"
+                    "external_id": "C0002.009"
                 }
             ],
             "object_marking_refs": [

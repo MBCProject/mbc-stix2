@@ -21,7 +21,7 @@
                 {
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/memory-manipulation/memory-protect.md",
-                    "external_id": "C0002.001"
+                    "external_id": "C0008.001"
                 }
             ],
             "object_marking_refs": [

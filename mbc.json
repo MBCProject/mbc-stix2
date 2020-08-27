@@ -3142,7 +3142,7 @@
                 {
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/communication/http-comm.md",
-                    "external_id": "C0002.008"
+                    "external_id": "C0002.012"
                 }
             ],
             "object_marking_refs": [
@@ -7014,7 +7014,7 @@
                 {
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/memory-manipulation/memory-protect.md",
-                    "external_id": "C0002.002"
+                    "external_id": "C0008.002"
                 }
             ],
             "object_marking_refs": [
@@ -7992,7 +7992,7 @@
                 {
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/memory-manipulation/memory-protect.md",
-                    "external_id": "C0002.001"
+                    "external_id": "C0008.001"
                 }
             ],
             "object_marking_refs": [
@@ -8566,7 +8566,7 @@
                 {
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/communication/http-comm.md",
-                    "external_id": "C0002.008"
+                    "external_id": "C0002.011"
                 }
             ],
             "object_marking_refs": [
@@ -9879,7 +9879,7 @@
                 {
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/communication/http-comm.md",
-                    "external_id": "C0002.008"
+                    "external_id": "C0002.009"
                 }
             ],
             "object_marking_refs": [
@@ -11931,7 +11931,7 @@
                 {
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/communication/http-comm.md",
-                    "external_id": "C0002.008"
+                    "external_id": "C0002.010"
                 }
             ],
             "object_marking_refs": [
