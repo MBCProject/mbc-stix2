@@ -8,7 +8,7 @@
             "id": "attack-pattern--fe39ee83-4f97-4989-b1f4-11a95d36b9d2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.475261Z",
-            "modified": "2020-08-21T20:49:59.475261Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Timing/Delay Check QueryPerformanceCounter",
             "description": "Malware uses QueryPerformanceCounter in a timing/delay check.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

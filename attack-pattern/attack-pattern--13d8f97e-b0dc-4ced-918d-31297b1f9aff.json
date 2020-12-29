@@ -8,7 +8,7 @@
             "id": "attack-pattern--13d8f97e-b0dc-4ced-918d-31297b1f9aff",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.459263Z",
-            "modified": "2020-08-21T20:49:59.459263Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "CloseHandle",
             "description": "(NtClose); If an invalid handle is passed to the CloseHandle function and a debugger is present, then an EXCEPTION_INVALID_HANDLE (0xC0000008) exception will be raised.",
             "kill_chain_phases": [
@@ -31,7 +31,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

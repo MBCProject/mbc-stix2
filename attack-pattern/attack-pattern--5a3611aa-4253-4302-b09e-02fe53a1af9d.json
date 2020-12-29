@@ -8,7 +8,7 @@
             "id": "attack-pattern--5a3611aa-4253-4302-b09e-02fe53a1af9d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.611265Z",
-            "modified": "2020-08-21T20:49:59.611265Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Domain Name Generation",
             "description": "Malware generates the domain name of the command and control server to which it connects. Access to on the fly domains enables C2 to operate as domains and IP addresses are blocked. The algorithm can be complicated in more advanced bots; understanding the details so that names can be predicted can be useful in mitigation and response.",
             "kill_chain_phases": [
@@ -38,7 +38,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": false
         }
     ]
 }

@@ -8,7 +8,7 @@
             "id": "attack-pattern--6a54a038-71b7-4b4c-87c2-2e5b433404af",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.551264Z",
-            "modified": "2020-08-21T20:49:59.551264Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Value Dependent Jumps",
             "description": "Explicit use of computed values for control flow, often many times in the same basic block or function.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

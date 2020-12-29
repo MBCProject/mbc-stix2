@@ -10,7 +10,7 @@
             "created": "2020-08-21T20:50:04.615251Z",
             "modified": "2020-08-21T20:50:04.615251Z",
             "relationship_type": "uses",
-            "description": "WebCobra injects malicious code to svchost.exe and uses an infinite loop to check all open windows and to compare each window’s title bar text with a set of strings to determine whether it is running in an isolated, malware analysis environment.",
+            "description": "WebCobra injects malicious code to svchost.exe and uses an infinite loop to check all open windows and to compare each window\u2019s title bar text with a set of strings to determine whether it is running in an isolated, malware analysis environment.",
             "source_ref": "malware--8297b846-885e-4751-9e2b-d777ae7d21e3",
             "target_ref": "attack-pattern--61eb90ad-4b2a-4d85-b264-7f248a05507d",
             "object_marking_refs": [

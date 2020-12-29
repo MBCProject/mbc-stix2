@@ -8,7 +8,7 @@
             "id": "attack-pattern--878a631a-286b-4df2-bd6c-29a14053c402",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.57026Z",
-            "modified": "2020-08-21T20:49:59.57026Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Multiple VMs",
             "description": "Multiple virtual machines with different architectures (CISC, RISC, etc.) can be used inside of a single executable in order to make reverse engineering even more difficult.",
             "kill_chain_phases": [
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

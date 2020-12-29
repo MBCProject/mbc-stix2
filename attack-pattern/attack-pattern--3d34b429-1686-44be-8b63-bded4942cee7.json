@@ -8,7 +8,7 @@
             "id": "attack-pattern--3d34b429-1686-44be-8b63-bded4942cee7",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.514301Z",
-            "modified": "2020-08-21T20:49:59.514301Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Pipeline Misdirection",
             "description": "Take advantage of pipelining in modern processors to misdirect debugging, emulation, or static analysis tools. An unpacker can assume a certain number of opcodes will be cached and then proceed to overwrite them in memory, causing a debugger/emulator/analyzer to follow different code than is normally executed.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

@@ -8,13 +8,13 @@
             "id": "attack-pattern--013fce9b-0645-41a4-b6ec-03a70b319715",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.864259Z",
-            "modified": "2020-08-21T20:49:59.864259Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Create Office Document::Create File",
             "description": "An Office document is created.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
-                    "phase_name": "file-manipulation"
+                    "phase_name": "file-manipulation-micro-objectives"
                 }
             ],
             "external_references": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

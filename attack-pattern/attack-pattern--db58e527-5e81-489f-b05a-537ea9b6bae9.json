@@ -8,7 +8,7 @@
             "id": "attack-pattern--db58e527-5e81-489f-b05a-537ea9b6bae9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.498264Z",
-            "modified": "2020-08-21T20:49:59.498264Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Instruction Testing - SIDT (red pill)",
             "description": "The execution of certain x86 instructions will result in different values when executed inside of a VM instead of on bare metal. Accordingly, these can be used to detect the execution of the malware in a VM.  Red Pill is an anti-VM technique that executes the SIDT instruction to grab the value of the IDTR register. The virtual machine monitor must relocate the guest's IDTR to avoid conflict with the host's IDTR. Since the virtual machine monitor is not notified when the virtual machine runs the SIDT instruction, the IDTR for the virtual machine is returned.",
             "kill_chain_phases": [
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

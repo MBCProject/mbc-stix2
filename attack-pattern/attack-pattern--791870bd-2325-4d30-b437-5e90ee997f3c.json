@@ -8,7 +8,7 @@
             "id": "attack-pattern--791870bd-2325-4d30-b437-5e90ee997f3c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.706262Z",
-            "modified": "2020-08-21T20:49:59.706262Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Process detection - PE Utilities",
             "description": "Malware can scan for the process name associated with common analysis tools. ImportREC / PETools / LordPE",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

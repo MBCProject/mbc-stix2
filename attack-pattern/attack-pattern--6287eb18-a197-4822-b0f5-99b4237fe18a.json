@@ -8,7 +8,7 @@
             "id": "attack-pattern--6287eb18-a197-4822-b0f5-99b4237fe18a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.708261Z",
-            "modified": "2020-08-21T20:49:59.708261Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Process detection - SysInternals Suite Tools",
             "description": "Malware can scan for the process name associated with common analysis tools. Process Explorer / Process Monitor / Regmon / Filemon, TCPView, Autoruns",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

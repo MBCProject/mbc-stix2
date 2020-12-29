@@ -8,7 +8,7 @@
             "id": "attack-pattern--4f3bc817-8162-41b5-b617-5c9a261b66e0",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.460262Z",
-            "modified": "2020-08-21T20:49:59.460262Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Debugger Artifacts",
             "description": "Malware may detect a debugger by its artifact (window title, device driver, exports, etc.).",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

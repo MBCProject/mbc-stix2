@@ -8,7 +8,7 @@
             "id": "attack-pattern--a67c8a5d-cce9-4892-9338-9fec55e45419",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.491263Z",
-            "modified": "2020-08-21T20:49:59.491263Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Check Software",
             "description": "Malware may check software version; for example, to determine whether the software is relatively current.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

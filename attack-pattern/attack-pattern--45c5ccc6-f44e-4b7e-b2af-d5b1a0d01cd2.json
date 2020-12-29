@@ -8,7 +8,7 @@
             "id": "attack-pattern--45c5ccc6-f44e-4b7e-b2af-d5b1a0d01cd2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.489264Z",
-            "modified": "2020-08-21T20:49:59.489264Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Check Memory Artifacts",
             "description": "VMware leaves many artifacts in memory. Some are critical processor structures, which, because they are either moved or changed on a virtual machine, leave recognizable footprints. Malware can search through physical memory for the strings VMware, commonly used to detect memory artifacts.",
             "kill_chain_phases": [
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

@@ -8,7 +8,7 @@
             "id": "attack-pattern--a58162b1-4ec3-4b66-a682-3901ffc3cb32",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.630262Z",
-            "modified": "2020-08-21T20:49:59.630262Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Hook memory mapping APIs",
             "description": "Prevents memory dumps by preventing mapping of memory into the kernel's virtual address space.",
             "kill_chain_phases": [
@@ -47,7 +47,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

@@ -8,7 +8,7 @@
             "id": "attack-pattern--cb329a09-0291-4a05-ac20-3b35500bfd9b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.522264Z",
-            "modified": "2020-08-21T20:49:59.522264Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Encode File",
             "description": "Encode a file on disk, such as an implant's config file.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

@@ -8,7 +8,7 @@
             "id": "attack-pattern--85d9ce2b-1b52-4de5-8b03-74ed590639d6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.465264Z",
-            "modified": "2020-08-21T20:49:59.465264Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "NtSetInformationThread",
             "description": "Calling this API with a fake class length or thread handle can indicate whether it is hooked. After calling NtSetInformationThread properly, the HideThreadFromDebugger flag is checked with the NtQueryInformationThread API.",
             "kill_chain_phases": [
@@ -31,7 +31,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

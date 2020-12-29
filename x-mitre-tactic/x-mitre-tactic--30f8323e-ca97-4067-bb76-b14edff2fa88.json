@@ -8,7 +8,7 @@
             "id": "x-mitre-tactic--30f8323e-ca97-4067-bb76-b14edff2fa88",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.270263Z",
-            "modified": "2020-08-21T20:49:59.270263Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Communication Micro-objectives",
             "description": "Micro-behaviors that enable malware to communicate.",
             "external_references": [

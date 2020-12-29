@@ -8,7 +8,7 @@
             "id": "attack-pattern--0e2fb8df-bef3-4664-88f9-f6614b80f107",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.502264Z",
-            "modified": "2020-08-21T20:49:59.502264Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Modern Specs Check - Total physical memory",
             "description": "Different aspects of the hardware are inspected to determine whether the machine has modern characteristics. A machine with substandard specifications indicates a virtual environment. Most modern machines have at leave 4 GB of memory. (GlobalMemoryStatusEx) .",
             "kill_chain_phases": [
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

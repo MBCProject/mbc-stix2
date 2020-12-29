@@ -8,7 +8,7 @@
             "id": "attack-pattern--8562ca1c-8fc2-4604-97bc-b67d328fbd7f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.633261Z",
-            "modified": "2020-08-21T20:49:59.633261Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Patch MmGetPhysicalMemoryRanges",
             "description": "Patching this function to always return NULL prevents drivers from getting information about the physical address space layout, preventing memory dumps.",
             "kill_chain_phases": [
@@ -47,7 +47,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

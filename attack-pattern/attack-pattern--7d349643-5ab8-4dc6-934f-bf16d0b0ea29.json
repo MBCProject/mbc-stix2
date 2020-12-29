@@ -8,7 +8,7 @@
             "id": "attack-pattern--7d349643-5ab8-4dc6-934f-bf16d0b0ea29",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.638268Z",
-            "modified": "2020-08-21T20:49:59.638268Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Alternative Installation Location",
             "description": "Malware may install itself not as a file on the hard drive.",
             "kill_chain_phases": [
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": false
         }
     ]
 }

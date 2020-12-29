@@ -8,7 +8,7 @@
             "id": "x-mitre-tactic--dd9a101e-8fea-4b2e-afd0-4c0c3f0f864e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.296264Z",
-            "modified": "2020-08-21T20:49:59.296264Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Process Micro-objectives",
             "description": "Micro-behaviors related to processes.",
             "external_references": [

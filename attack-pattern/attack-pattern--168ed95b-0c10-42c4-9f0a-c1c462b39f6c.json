@@ -8,7 +8,7 @@
             "id": "attack-pattern--168ed95b-0c10-42c4-9f0a-c1c462b39f6c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.561265Z",
-            "modified": "2020-08-21T20:49:59.561265Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Stack Strings",
             "description": "Build and decrypt strings on the stack at each use, then discard to avoid obvious references.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

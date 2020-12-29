@@ -8,7 +8,7 @@
             "id": "attack-pattern--373bb770-4890-4e13-a0d6-94459bed37aa",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.566267Z",
-            "modified": "2020-08-21T20:49:59.566267Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Minification",
             "description": "Minification is 'the process of removing all unnecessary characters from source code without changing its functionality.'  A simple example is when all the unnecessary whitespace and comments are removed. Minification is distinguished from compression in that it neither adds to nor changes the code seen by the interpreter. Minification is often used for malware written in interpreted languages, such as JavaScript, PHP, or Python. Legitimate code that is transmitted many times a second, such as JavaScript on websites, often uses minification to simply reduce the number of bytes transmitted.",
             "kill_chain_phases": [
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

@@ -8,7 +8,7 @@
             "id": "attack-pattern--75109dae-5db7-4582-be8b-edcea907659d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.522264Z",
-            "modified": "2020-08-21T20:49:59.522264Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Drop Code",
             "description": "Original file is written to disk then executed. May confuse some sandboxes, especially if the dropped executable must be provided specific arguments and the original dropper is not associated with the drop file(s).",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

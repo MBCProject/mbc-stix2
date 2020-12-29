@@ -8,7 +8,7 @@
             "id": "attack-pattern--91b7e621-49fe-4f7b-a8c6-0a377ceac3cd",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.494264Z",
-            "modified": "2020-08-21T20:49:59.494264Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "HTML5 Performance Object Check",
             "description": "In three browser families, it is possible to extract the frequency of the Windows performance counter frequency, using standard HTML and Javascript. This value can then be used to detect whether the code is being executed in a virtual machine, by detecting two specific frequencies commonly used in virtual but not physical machines.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

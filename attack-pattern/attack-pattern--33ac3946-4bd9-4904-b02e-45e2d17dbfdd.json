@@ -8,7 +8,7 @@
             "id": "attack-pattern--33ac3946-4bd9-4904-b02e-45e2d17dbfdd",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.77826Z",
-            "modified": "2020-08-21T20:49:59.77826Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Data Encrypted for Impact",
             "description": "Malware may encrypt files stored on the system to prevent user access until a ransom is paid and/or to interrupt system availability. The encryption process usually iterates over all letter drives in the system (except for CD drives) and then recursively encrypts all files with specific suffixes.",
             "kill_chain_phases": [
@@ -34,7 +34,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": false
         }
     ]
 }

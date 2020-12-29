@@ -8,7 +8,7 @@
             "id": "attack-pattern--7981f82d-ff58-4d38-a420-69d73a67bbc9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.539263Z",
-            "modified": "2020-08-21T20:49:59.539263Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Memory Dump Evasion",
             "description": "Malware hinders retrieval and/or discovery of the contents of the physical memory of the system on which the malware instance is executing [[1]](#1).",
             "kill_chain_phases": [
@@ -43,7 +43,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": false
         }
     ]
 }
