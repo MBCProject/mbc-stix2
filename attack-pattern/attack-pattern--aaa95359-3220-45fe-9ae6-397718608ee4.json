@@ -8,7 +8,7 @@
             "id": "attack-pattern--aaa95359-3220-45fe-9ae6-397718608ee4",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.637267Z",
-            "modified": "2020-08-21T20:49:59.637267Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Fileless Malware",
             "description": "Stores itself in memory.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

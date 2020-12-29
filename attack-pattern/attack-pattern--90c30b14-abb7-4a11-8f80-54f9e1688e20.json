@@ -8,7 +8,7 @@
             "id": "attack-pattern--90c30b14-abb7-4a11-8f80-54f9e1688e20",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.696261Z",
-            "modified": "2020-08-21T20:49:59.696261Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Prevent File Deletion",
             "description": "Prevents files and/or directories associated with the malware instance from being deleted from a system.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

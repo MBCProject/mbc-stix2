@@ -8,7 +8,7 @@
             "id": "attack-pattern--2ff4ce39-a726-471a-92d9-21a5c51a0bc3",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.769263Z",
-            "modified": "2020-08-21T20:49:59.769263Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Data Destruction",
             "description": "Data, system files, or other files are destroyed. Individual files are selected, as opposed to wiping an entire sector.",
             "kill_chain_phases": [
@@ -40,7 +40,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": false
         }
     ]
 }

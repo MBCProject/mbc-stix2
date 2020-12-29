@@ -8,7 +8,7 @@
             "id": "attack-pattern--dcd263ce-1f73-4f82-a7cf-5571498a8d36",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.517264Z",
-            "modified": "2020-08-21T20:49:59.517264Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Stolen API Code",
             "description": "A variation of \"byte stealing\" where the first few instructions or bytes of an API are executed in user code, allowing the IAT to point into the middle of an API function. This confuses IAT rebuilders such as ImpRec and Scylla and may bypass breakpoints.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

@@ -8,13 +8,13 @@
             "id": "attack-pattern--0c8e2d2e-1324-4490-861f-f761cbac4e81",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.83826Z",
-            "modified": "2020-08-21T20:49:59.83826Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "STUN Server::UDP Communication",
             "description": "Uses a Session Traversal Utilities for NAT server to gather information to support UDP communication.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
-                    "phase_name": "communication"
+                    "phase_name": "communication-micro-objectives"
                 }
             ],
             "external_references": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

@@ -8,7 +8,7 @@
             "id": "attack-pattern--0c3159ab-1195-45cc-8188-ae1af63b3325",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.631265Z",
-            "modified": "2020-08-21T20:49:59.631265Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Hook procedures",
             "description": "Intercepts and executes designated code in response to events such as messages, keystrokes, and mouse inputs.",
             "kill_chain_phases": [
@@ -46,7 +46,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

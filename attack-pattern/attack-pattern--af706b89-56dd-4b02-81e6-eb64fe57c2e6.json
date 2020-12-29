@@ -8,7 +8,7 @@
             "id": "attack-pattern--af706b89-56dd-4b02-81e6-eb64fe57c2e6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.516301Z",
-            "modified": "2020-08-21T20:49:59.516301Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Static Linking",
             "description": "Copy locally the whole content of API code.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

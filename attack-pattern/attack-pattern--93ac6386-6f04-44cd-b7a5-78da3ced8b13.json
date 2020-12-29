@@ -8,7 +8,7 @@
             "id": "attack-pattern--93ac6386-6f04-44cd-b7a5-78da3ced8b13",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.467265Z",
-            "modified": "2020-08-21T20:49:59.467265Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Parent Process",
             "description": "(Explorer.exe); Executing an application by a debugger will result in the parent process being the debugger process rather than the shell process (Explorer.exe) or the command line. Malware checks its parent process; if it's not explorer.exe, it's assumed to be a debugger.",
             "kill_chain_phases": [
@@ -31,7 +31,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

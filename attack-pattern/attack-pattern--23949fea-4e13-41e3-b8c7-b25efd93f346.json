@@ -8,7 +8,7 @@
             "id": "attack-pattern--23949fea-4e13-41e3-b8c7-b25efd93f346",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.506259Z",
-            "modified": "2020-08-21T20:49:59.506259Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Memory-only Payload",
             "description": "Malware is never written to disk (e.g., RAT plugins received from the controller are never written to disk).",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

@@ -8,7 +8,7 @@
             "id": "attack-pattern--758df510-b765-4172-94ad-70561cd0ef62",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.534261Z",
-            "modified": "2020-08-21T20:49:59.534261Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Feed Misinformation",
             "description": "API behavior can be altered to prevent memory dumps. For example, inaccurate data can be reported when the contents of the physical memory of the system on which the malware instance is executing is retrieved. See [Hooking](https://github.com/MBCProject/mbc-markdown/blob/v2.0/credential-access/hooking.md).",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

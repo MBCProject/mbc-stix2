@@ -8,7 +8,7 @@
             "id": "attack-pattern--dc5231d1-332e-45ab-9995-412a5da4c10d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.485265Z",
-            "modified": "2020-08-21T20:49:59.485265Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Self Check",
             "description": "Malware may check its own characteristics to determine whether it's running in a sandbox. For example, a malicious Office document might check its file name or VB project name.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

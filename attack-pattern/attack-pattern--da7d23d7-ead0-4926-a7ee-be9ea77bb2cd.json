@@ -8,7 +8,7 @@
             "id": "attack-pattern--da7d23d7-ead0-4926-a7ee-be9ea77bb2cd",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.551264Z",
-            "modified": "2020-08-21T20:49:59.551264Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Variable Recomposition",
             "description": "Variables, often strings, are broken into multiple parts and store out of order, in different memory ranges, or both. They must then be recomposed before use.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

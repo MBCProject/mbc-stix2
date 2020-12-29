@@ -8,7 +8,7 @@
             "id": "attack-pattern--dd40dbb6-6220-4b7b-93e1-20fe081eb219",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.496265Z",
-            "modified": "2020-08-21T20:49:59.496265Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Instruction Testing",
             "description": "The execution of certain x86 instructions will result in different values when executed inside of a VM instead of on bare metal. Accordingly, these can be used to detect the execution of the malware in a VM.",
             "kill_chain_phases": [
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

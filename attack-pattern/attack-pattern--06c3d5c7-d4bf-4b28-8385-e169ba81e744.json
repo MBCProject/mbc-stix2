@@ -8,9 +8,9 @@
             "id": "attack-pattern--06c3d5c7-d4bf-4b28-8385-e169ba81e744",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.80226Z",
-            "modified": "2020-08-21T20:49:59.80226Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Exploit Private APIs",
-            "description": "Malware can exploit private APIs to infect jailbroken and non-jailbroken iOS devices. Research shows that over 100 apps in the App Store have abused private APIs and bypassed Apple’s strict code review.",
+            "description": "Malware can exploit private APIs to infect jailbroken and non-jailbroken iOS devices. Research shows that over 100 apps in the App Store have abused private APIs and bypassed Apple\u2019s strict code review.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

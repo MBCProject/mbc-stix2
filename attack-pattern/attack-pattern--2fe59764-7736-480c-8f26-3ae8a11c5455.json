@@ -8,7 +8,7 @@
             "id": "attack-pattern--2fe59764-7736-480c-8f26-3ae8a11c5455",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.54426Z",
-            "modified": "2020-08-21T20:49:59.54426Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Token Check",
             "description": "Presence check to allow the program to run (ex: dongle, CD/DVD, key, file, network, etc.). If the token is specific to a hardware element (ex: disk, OS, CPU, NIC MAC, etc.), it is considered fingerprinting.",
             "kill_chain_phases": [
@@ -30,7 +30,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

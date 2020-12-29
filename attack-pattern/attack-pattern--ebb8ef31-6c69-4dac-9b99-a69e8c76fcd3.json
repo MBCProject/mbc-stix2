@@ -8,13 +8,13 @@
             "id": "attack-pattern--ebb8ef31-6c69-4dac-9b99-a69e8c76fcd3",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.814267Z",
-            "modified": "2020-08-21T20:49:59.814267Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "IWebBrowser::HTTP Communication",
             "description": "The IWebBrowser interface exposes methods and properties implemented by the WebBrowser control or implemented by an instance of the InternetExplorer application. Specific methods and properties can be captured: e.g., COMMUNICATION::HTTP Communication::IWebBrowser.get_Document.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
-                    "phase_name": "communication"
+                    "phase_name": "communication-micro-objectives"
                 }
             ],
             "external_references": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

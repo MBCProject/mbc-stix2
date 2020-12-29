@@ -8,7 +8,7 @@
             "id": "attack-pattern--69d4e839-b6ce-4299-b242-83192d6b62c2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.485265Z",
-            "modified": "2020-08-21T20:49:59.485265Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Screen Resolution Testing",
             "description": "Sandboxes aren't used in the same manner as a typical user environment, so most of the time the screen resolution stays at the minimum 800x600 or lower. No one is actually working on a such small screen. Malware could potentially detect the screen resolution to determine if it's a user machine or a sandbox.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

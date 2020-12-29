@@ -8,7 +8,7 @@
             "id": "attack-pattern--b1089154-3ee0-4713-893f-af97047f8ab5",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.459263Z",
-            "modified": "2020-08-21T20:49:59.459263Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "CheckRemoteDebuggerPresent",
             "description": "The kernel32!CheckRemoteDebuggerPresent function calls NtQueryInformationProcess with ProcessInformationClass parameter set to 7 (ProcessDebugPort constant).",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

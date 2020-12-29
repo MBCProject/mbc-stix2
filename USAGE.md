@@ -78,6 +78,7 @@ An MBC behavior is captured in a STIX Attack Pattern object (`attack-pattern`) v
 |Related ATT&CK Technique(s) - ID|**external_references.external_id** where *external_references.source_name* == "mitre-attack"|
 |Related ATT&CK Technique(s) - url|**external_references.url** where *external_references.source_name* == "mitre-attack"|
 |Reference(s) - url|**external_references.url** where *external_references.source_name* == "external_source"|
+|Is Subtechnique|**x_mitre_is_subtechnique** == True when Behavior, Micro-Behavior, Enhanced Technique, or ATT&CK (Sub-)Techniques are present|
 
 **Example:**
 
@@ -122,7 +123,8 @@ An MBC behavior is captured in a STIX Attack Pattern object (`attack-pattern`) v
   ],
   "object_marking_refs": [
     "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-  ]
+  ],
+  "x_mitre_is_subtechnique": false
 }
 ``` 
 
@@ -184,6 +186,8 @@ Malware is captured with a STIX Malware object (`malware`) via the following pro
 ## Malware and Behavior Relationships
 MBC captures relationships between malware and the behaviors the malware exhibits. These relationships are captured as STIX Relationship Objects (SRO) where the source of the SRO is the malware object and the target of the SRO is the attack pattern object (behavior). 
 
+In order to track specialized behaviors, techniques, etc. the knowledge base also provides relationships to track these mappings. Those relationships will have relationship_type `subtechnique-of`.
+
 **Example:**
 
 ```json
@@ -198,6 +202,22 @@ MBC captures relationships between malware and the behaviors the malware exhibit
   "description": "Dumping Kraken's c.dll module from the heap of its own process is tricky because its PE-header is wiped out.",
   "source_ref": "malware--36e75009-8fd6-467a-aa8c-c6a4d3511dfa",
   "target_ref": "attack-pattern--7981f82d-ff58-4d38-a420-69d73a67bbc9",
+  "object_marking_refs": [
+    "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+  ]
+}
+```
+
+```json
+{
+  "type": "relationship",
+  "id": "relationship--97e12116-ad14-47cf-9f12-0d4d935f0d0b",
+  "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+  "created": "2020-12-29T20:55:03.775Z",
+  "modified": "2020-12-29T20:55:03.775Z",
+  "relationship_type": "subtechnique-of",
+  "source_ref": "attack-pattern--b16029de-92c1-4b77-b334-733f0d099ecd",
+  "target_ref": "attack-pattern--87adc62c-05e8-4594-94f6-d6e034597859",
   "object_marking_refs": [
     "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
   ]

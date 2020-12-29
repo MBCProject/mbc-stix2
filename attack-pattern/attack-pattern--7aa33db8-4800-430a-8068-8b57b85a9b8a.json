@@ -8,7 +8,7 @@
             "id": "attack-pattern--7aa33db8-4800-430a-8068-8b57b85a9b8a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.512264Z",
-            "modified": "2020-08-21T20:49:59.512264Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Inlining",
             "description": "Variation of static linking where full API code inserted everywhere it would have been called.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

@@ -8,13 +8,13 @@
             "id": "attack-pattern--37eb387f-ecb3-4098-926b-2e1d2c3da16e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.828261Z",
-            "modified": "2020-08-21T20:49:59.828261Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Server Connect::SMTP Communication",
             "description": "Connects to an smtp server.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
-                    "phase_name": "communication"
+                    "phase_name": "communication-micro-objectives"
                 }
             ],
             "external_references": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

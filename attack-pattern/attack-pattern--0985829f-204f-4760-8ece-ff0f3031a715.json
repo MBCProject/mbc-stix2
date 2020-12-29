@@ -8,7 +8,7 @@
             "id": "attack-pattern--0985829f-204f-4760-8ece-ff0f3031a715",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.484262Z",
-            "modified": "2020-08-21T20:49:59.484262Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Injected DLL Testing",
             "description": "Testing for the name of a particular DLL that is known to be injected by a sandbox for API hooking is a common way of detecting sandbox environments. This can be achieved through the kernel32!GetModuleHandle API call and other means.",
             "kill_chain_phases": [
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }

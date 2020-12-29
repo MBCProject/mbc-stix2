@@ -8,9 +8,9 @@
             "id": "attack-pattern--795aa535-959e-44b7-9f5e-2d5d0ca3cd1c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.515309Z",
-            "modified": "2020-08-21T20:49:59.515309Z",
+            "modified": "2020-12-29T20:55:03.775985Z",
             "name": "Relocate API Code",
-            "description": "Relocate API code in separate buffer (calls don’t lead to imported DLLs).",
+            "description": "Relocate API code in separate buffer (calls don\u2019t lead to imported DLLs).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -26,7 +26,8 @@
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
+            ],
+            "x_mitre_is_subtechnique": true
         }
     ]
 }
