@@ -8,7 +8,7 @@
             "id": "x-mitre-matrix--d5eae189-586e-4f87-bf4f-51fa251f0ba6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-01-01T00:00:00.000Z",
-            "modified": "2020-08-25T21:10:06.824997Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "MBC",
             "description": "The Malware Behavior Catalog (MBC) is a catalog of malware objectives and behaviors, created to support malware analysis-oriented use cases, such as labeling, similarity analysis, and standardized reporting.",
             "tactic_refs": [
@@ -31,7 +31,8 @@
                 "x-mitre-tactic--0735bfd3-bffa-4476-9e3b-e33cc5c553e0",
                 "x-mitre-tactic--db22e244-4c56-4a42-9e3a-6285bde88a5d",
                 "x-mitre-tactic--dd9a101e-8fea-4b2e-afd0-4c0c3f0f864e",
-                "x-mitre-tactic--e4edf677-0ea0-474a-a14d-da3ea660d69f"
+                "x-mitre-tactic--e4edf677-0ea0-474a-a14d-da3ea660d69f",
+                "x-mitre-tactic--7f07ea86-c44a-4f1f-86d0-3d904c7ddb59"
             ],
             "external_references": [
                 {

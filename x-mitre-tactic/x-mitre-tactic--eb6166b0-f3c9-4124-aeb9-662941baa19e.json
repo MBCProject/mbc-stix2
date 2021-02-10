@@ -8,7 +8,7 @@
             "id": "x-mitre-tactic--eb6166b0-f3c9-4124-aeb9-662941baa19e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.061Z",
-            "modified": "2020-02-05T20:28:15.061Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Anti-Behavioral Analysis",
             "description": "Behaviors that prevent, obstruct, or evade behavioral analysis (sandbox, debugger, etc). Because the underlying methods differ, separate \"detection\" and \"evasion\" behaviors are defined for some anti-behavioral analysis areas (e.g., anti-debugger). \n\nTwo primary resources for anti-behavioral analysis behaviors are [[1]](#1) and [[2]](#2).",
             "external_references": [
@@ -24,7 +24,7 @@
                 },
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/README.md",
                     "external_id": "OB0001"
                 }
             ],

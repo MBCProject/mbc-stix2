@@ -8,13 +8,13 @@
             "id": "x-mitre-tactic--5ca03153-2bfb-4540-acad-4eb54f188589",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.064Z",
-            "modified": "2020-08-21T20:50:04.602253Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Command and Control",
             "description": "Behaviors malware may use to communicate with systems under its control within a target network. There are many ways malware can establish command and control with various levels of covertness, depending on system configuration and network topology. Behaviors may relate to C2 servers or a bot that is part of a botnet.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/command-and-control/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/command-and-control/README.md",
                     "external_id": "OB0004"
                 }
             ],

@@ -1873,9 +1873,9 @@
             "id": "attack-pattern--2010a1d6-4a0a-4a07-ae97-2fbad0f81439",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.609265Z",
-            "modified": "2021-02-10T06:49:31.902484Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "C2 Communication",
-            "description": "All command and control malware use client/server communication. The methods listed below can be used to capture explicit communication details. Remote file copy behavior is captured separately, as is done in ATT&CK - see [Remote File Copy](https://github.com/MBCProject/mbc-markdown/blob/v2.0/command-and-control/remote-file-copy.md).",
+            "description": "All command and control malware use client/server communication. The methods listed below can be used to capture explicit communication details. Remote file copy behavior is captured separately, as is done in ATT&CK - see [Remote File Copy](https://github.com/MBCProject/mbc-markdown/blob/v2.1/command-and-control/remote-file-copy.md).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -7123,9 +7123,9 @@
             "id": "attack-pattern--739b9d69-ce7d-4ef5-b39e-9bcdb6796200",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.739261Z",
-            "modified": "2021-02-10T06:49:31.947481Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Remote Commands",
-            "description": "Malware may provide an attacker with explicit commands. This behavior differs from the [Remote Access](https://github.com/MBCProject/mbc-markdown/blob/v2.0/impact/remote-access.md) behavior under the [Impact](https://github.com/MBCProject/mbc-markdown/blob/v2.0/impact) objective in that *Impact: Remote Access* is potentially much broader and may include full remote access.",
+            "description": "Malware may provide an attacker with explicit commands. This behavior differs from the [Remote Access](https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/remote-access.md) behavior under the [Impact](https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact) objective in that *Impact: Remote Access* is potentially much broader and may include full remote access.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -9014,9 +9014,9 @@
             "id": "attack-pattern--8c6ef414-3221-45a6-b1d5-6d5dec8dcf05",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.545261Z",
-            "modified": "2021-02-10T06:49:31.882485Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Execution Guardrails",
-            "description": "Malware may use execution guardrails (environmental conditions) to constrain execution. This behavior is related to the [Evade Dynamic Analysis](https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/evade-dynamic-analysis.md) behavior that obstructs dynamic analysis in a sandbox, emulator, or virtual machine.",
+            "description": "Malware may use execution guardrails (environmental conditions) to constrain execution. This behavior is related to the [Evade Dynamic Analysis](https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-dynamic-analysis.md) behavior that obstructs dynamic analysis in a sandbox, emulator, or virtual machine.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -10592,9 +10592,9 @@
             "id": "attack-pattern--a53ab24d-020a-46dc-8a13-7ef51ab07f35",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.883261Z",
-            "modified": "2021-02-10T06:49:32.027478Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Stack Pivot",
-            "description": "Stack pivoting involves pointing the stack pointer to an attacker-owned buffer, such as the heap, and facilitates exploits such as ROP-based exploits (see [Bypass DEP](https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/bypass-dep.md) behavior).",
+            "description": "Stack pivoting involves pointing the stack pointer to an attacker-owned buffer, such as the heap, and facilitates exploits such as ROP-based exploits (see [Bypass DEP](https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/bypass-dep.md) behavior).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -13686,9 +13686,9 @@
             "id": "attack-pattern--d141c588-8a3c-4cd8-8421-86b2625c9263",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.634261Z",
-            "modified": "2021-02-10T06:49:31.908484Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Hooking",
-            "description": "Malware alters API behavior or redirects execution to a malicious API version for a variety of purposes. Malware may use hooking to load and execute code within the context of another process, hiding execution and gaining elevated privileges and access to the process's memory. Methods related to anti-behavioral analysis are below. For example, hooking can be used to prevent memory dumps - see also [Memory Dump Evasion](https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/evade-memory-dump.md).",
+            "description": "Malware alters API behavior or redirects execution to a malicious API version for a variety of purposes. Malware may use hooking to load and execute code within the context of another process, hiding execution and gaining elevated privileges and access to the process's memory. Methods related to anti-behavioral analysis are below. For example, hooking can be used to prevent memory dumps - see also [Memory Dump Evasion](https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-memory-dump.md).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -16180,9 +16180,9 @@
             "id": "attack-pattern--f919567a-9038-415c-a76b-10c702d929b0",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.038481Z",
-            "modified": "2021-02-10T06:49:32.038481Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Resume Thread",
-            "description": "Malware typically resumes a thread in order to execute previously injected code (e.g., in the course of the [Process Injection::Process Hollowing](https://github.com/MBCProject/mbc-markdown/blob/v2.0/https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/process-inject.md)).",
+            "description": "Malware typically resumes a thread in order to execute previously injected code (e.g., in the course of the [Process Injection::Process Hollowing](https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/process-inject.md)).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -24890,7 +24890,7 @@
             "id": "x-mitre-matrix--d5eae189-586e-4f87-bf4f-51fa251f0ba6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-01-01T00:00:00.000Z",
-            "modified": "2020-08-25T21:10:06.824997Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "MBC",
             "description": "The Malware Behavior Catalog (MBC) is a catalog of malware objectives and behaviors, created to support malware analysis-oriented use cases, such as labeling, similarity analysis, and standardized reporting.",
             "tactic_refs": [
@@ -24913,7 +24913,8 @@
                 "x-mitre-tactic--0735bfd3-bffa-4476-9e3b-e33cc5c553e0",
                 "x-mitre-tactic--db22e244-4c56-4a42-9e3a-6285bde88a5d",
                 "x-mitre-tactic--dd9a101e-8fea-4b2e-afd0-4c0c3f0f864e",
-                "x-mitre-tactic--e4edf677-0ea0-474a-a14d-da3ea660d69f"
+                "x-mitre-tactic--e4edf677-0ea0-474a-a14d-da3ea660d69f",
+                "x-mitre-tactic--7f07ea86-c44a-4f1f-86d0-3d904c7ddb59"
             ],
             "external_references": [
                 {
@@ -24953,13 +24954,13 @@
             "id": "x-mitre-tactic--1f99e060-c0e8-449c-8629-216ef75d7828",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.056Z",
-            "modified": "2020-08-21T20:50:04.602253Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Lateral Movement",
             "description": "Behaviors that enable propagation through a compromised system or infected files. The malware may move actively (e.g., gain access to a machine directly) or passively (e.g., send malicious email).",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/lateral-movement/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/lateral-movement/README.md",
                     "external_id": "OB0011"
                 }
             ],
@@ -24974,7 +24975,7 @@
             "id": "x-mitre-tactic--225d85b5-6806-4760-a9d7-b5e38ca66153",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.060Z",
-            "modified": "2020-08-21T20:50:04.602253Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Anti-Static Analysis",
             "description": "Behaviors and code characteristics that prevent static analysis or make it more difficult. Simple static analysis identifies features such as embedded strings, header information, hash values, and file metadata (e.g., creation date). More involved static analysis involves the disassembly of the binary code.\n\nTwo primary resources for anti-static analysis behaviors are [[1]](#1) and [[2]](#2).",
             "external_references": [
@@ -24990,7 +24991,7 @@
                 },
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-static-analysis/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-static-analysis/README.md",
                     "external_id": "OB0002"
                 }
             ],
@@ -25026,13 +25027,13 @@
             "id": "x-mitre-tactic--389367d2-9dea-4ffe-b794-cfeaba83bcf6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.076Z",
-            "modified": "2020-08-21T20:50:04.602253Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Impact",
             "description": "Behaviors that enable malware to achieve its mission of manipulating, interrupting, or destroying systems and/or data.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/impact/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/README.md",
                     "external_id": "OB0008"
                 }
             ],
@@ -25068,13 +25069,13 @@
             "id": "x-mitre-tactic--4fd027ac-dddc-4744-aa72-d1b4598d9898",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.074Z",
-            "modified": "2020-08-21T20:50:04.602253Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Credential Access",
             "description": "Behaviors to obtain credential access, allowing it or its underlying threat actor to assume control of an account, with the associated system and network permissions.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/credential-access/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/credential-access/README.md",
                     "external_id": "OB0005"
                 }
             ],
@@ -25110,13 +25111,13 @@
             "id": "x-mitre-tactic--5ca03153-2bfb-4540-acad-4eb54f188589",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.064Z",
-            "modified": "2020-08-21T20:50:04.602253Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Command and Control",
             "description": "Behaviors malware may use to communicate with systems under its control within a target network. There are many ways malware can establish command and control with various levels of covertness, depending on system configuration and network topology. Behaviors may relate to C2 servers or a bot that is part of a botnet.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/command-and-control/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/command-and-control/README.md",
                     "external_id": "OB0004"
                 }
             ],
@@ -25131,13 +25132,13 @@
             "id": "x-mitre-tactic--69c52ee6-8372-40be-8efc-200896493343",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.058Z",
-            "modified": "2020-08-21T20:50:04.602253Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Collection",
             "description": "Behaviors that identify and gather information, such as sensitive files, from a target network prior to exfiltration. This objective includes locations on a system or network where the malware may look for information to exfiltrate.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/collection/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/collection/README.md",
                     "external_id": "OB0003"
                 }
             ],
@@ -25149,16 +25150,37 @@
         {
             "type": "x-mitre-tactic",
             "spec_version": "2.1",
+            "id": "x-mitre-tactic--7f07ea86-c44a-4f1f-86d0-3d904c7ddb59",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-11T06:49:31.787443Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
+            "name": "Operating System Micro-objective",
+            "description": "Micro-behaviors related to operating systems.",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/operating-system/README.md",
+                    "external_id": "OC0008"
+                }
+            ],
+            "x_mitre_shortname": "operating-system-micro-objective",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        },
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
             "id": "x-mitre-tactic--911377e6-b712-4754-a865-3e2989512b9a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.068Z",
-            "modified": "2020-08-21T20:50:04.602253Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Exfiltration",
             "description": "Behaviors that steal data from the system on which it executes. This includes stored data (e.g., files) as well as data input into applications (e.g., web browser).",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/exfiltration/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/exfiltration/README.md",
                     "external_id": "OB0010"
                 }
             ],
@@ -25173,13 +25195,13 @@
             "id": "x-mitre-tactic--9b3422b7-bc43-4b28-8d51-ba68782a9da2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.071Z",
-            "modified": "2020-08-21T20:50:04.602253Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Defense Evasion",
             "description": "Behaviors that evade detection or avoid other defenses.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/README.md",
                     "external_id": "OB0006"
                 }
             ],
@@ -25194,13 +25216,13 @@
             "id": "x-mitre-tactic--9f09f947-5fc6-455f-b7eb-504c2ba972aa",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.062Z",
-            "modified": "2020-08-21T20:50:04.602253Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Discovery",
             "description": "Behaviors that aim to gain knowledge about the system and internal network.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/discovery/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/discovery/README.md",
                     "external_id": "OB0007"
                 }
             ],
@@ -25215,13 +25237,13 @@
             "id": "x-mitre-tactic--d2f87328-9fe0-4f81-800e-ea1058f49906",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.067Z",
-            "modified": "2020-08-21T20:50:04.602253Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Persistence",
             "description": "Malware aims to remain on a system regardless of system events.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/persistence/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/persistence/README.md",
                     "external_id": "OB0012"
                 }
             ],
@@ -25236,13 +25258,13 @@
             "id": "x-mitre-tactic--d896bd1c-d0e9-4281-9755-9b76a7c963d3",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.072Z",
-            "modified": "2020-08-21T20:50:04.602253Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Privilege Escalation",
             "description": "Behaviors that aim to obtain a higher level of permission.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/privilege-escalation/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/privilege-escalation/README.md",
                     "external_id": "OB0013"
                 }
             ],
@@ -25320,7 +25342,7 @@
             "id": "x-mitre-tactic--eb6166b0-f3c9-4124-aeb9-662941baa19e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.061Z",
-            "modified": "2020-02-05T20:28:15.061Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Anti-Behavioral Analysis",
             "description": "Behaviors that prevent, obstruct, or evade behavioral analysis (sandbox, debugger, etc). Because the underlying methods differ, separate \"detection\" and \"evasion\" behaviors are defined for some anti-behavioral analysis areas (e.g., anti-debugger). \n\nTwo primary resources for anti-behavioral analysis behaviors are [[1]](#1) and [[2]](#2).",
             "external_references": [
@@ -25336,7 +25358,7 @@
                 },
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/README.md",
                     "external_id": "OB0001"
                 }
             ],
@@ -25351,13 +25373,13 @@
             "id": "x-mitre-tactic--f95436cf-2e09-4541-b88a-f3fb6ec3b63b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.065Z",
-            "modified": "2020-02-05T20:28:15.065Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Execution",
             "description": "Behaviors that execute code on a system to achieve a variety of goals.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/execution/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/execution/README.md",
                     "external_id": "OB0009"
                 }
             ],

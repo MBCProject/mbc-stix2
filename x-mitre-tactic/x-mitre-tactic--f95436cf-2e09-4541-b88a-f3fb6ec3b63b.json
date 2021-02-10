@@ -8,13 +8,13 @@
             "id": "x-mitre-tactic--f95436cf-2e09-4541-b88a-f3fb6ec3b63b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.065Z",
-            "modified": "2020-02-05T20:28:15.065Z",
+            "modified": "2021-02-11T06:49:31.787443Z",
             "name": "Execution",
             "description": "Behaviors that execute code on a system to achieve a variety of goals.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/execution/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/execution/README.md",
                     "external_id": "OB0009"
                 }
             ],
