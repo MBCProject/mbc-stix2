@@ -8,7 +8,7 @@
             "id": "attack-pattern--6c759d2c-b6eb-4131-93be-763b85bd9426",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.632261Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.908484Z",
             "name": "Inline Hooking",
             "description": "Overwrites the first bytes in an API function to redirect code flow.",
             "kill_chain_phases": [
@@ -36,7 +36,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/credential-access/hooking.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/credential-access/hooking.md",
                     "external_id": "F0003.005"
                 }
             ],

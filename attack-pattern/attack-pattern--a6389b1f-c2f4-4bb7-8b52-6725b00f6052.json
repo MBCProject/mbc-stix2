@@ -8,7 +8,7 @@
             "id": "attack-pattern--a6389b1f-c2f4-4bb7-8b52-6725b00f6052",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.688263Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.927446Z",
             "name": "Injection and Persistence via Registry Modification",
             "description": "Malware may insert the location of its malicious library under a registry key (e.g., Appinit_DLL, AppCertDlls, IFEO) to have another process load its library.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/process-inject.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/process-inject.md",
                     "external_id": "E1055.m02"
                 },
                 {

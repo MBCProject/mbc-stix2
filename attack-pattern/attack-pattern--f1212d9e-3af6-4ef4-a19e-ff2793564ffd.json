@@ -8,19 +8,19 @@
             "id": "attack-pattern--f1212d9e-3af6-4ef4-a19e-ff2793564ffd",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.849262Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.995485Z",
             "name": "rand::Generate Pseudo-random Sequence",
-            "description": "Generate random using rand.",
+            "description": "Malware generates a pseudo-random sequence using rand.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
-                    "phase_name": "cryptography-micro-objectives"
+                    "phase_name": "cryptography-micro-objective"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/cryptography/gen-random.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/cryptography/gen-random.md",
                     "external_id": "C0021.002"
                 }
             ],

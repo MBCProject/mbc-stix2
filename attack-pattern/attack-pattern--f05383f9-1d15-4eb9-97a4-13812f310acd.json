@@ -8,7 +8,7 @@
             "id": "attack-pattern--f05383f9-1d15-4eb9-97a4-13812f310acd",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.684261Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.925446Z",
             "name": "Polymorphic Code",
             "description": "Polymorphic code, a file with the same functionality but different execution, is created, often on the fly, making it difficult to detect. This behavior includes metamorphic code where the code is changed (not just executed differently), but with the behavior the same. Polymorphic Code behavior is typically identified through analysis of related samples.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/polymorphic-code.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/polymorphic-code.md",
                     "external_id": "B0029"
                 },
                 {

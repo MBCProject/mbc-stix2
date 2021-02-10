@@ -8,7 +8,7 @@
             "id": "attack-pattern--c6c8f32e-7d92-401e-930f-d193a59e4c95",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.548264Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.883483Z",
             "name": "Call Graph Generation Evasion",
             "description": "Malware code evades accurate call graph generation during disassembly. Call graphs are used by malware similarity tools and algorithms ([[1]](#1), [[4]](#4)), as well as for malware detection [[2]](#2).",
             "kill_chain_phases": [
@@ -20,13 +20,18 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-static-analysis/evade-call-graph.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-static-analysis/evade-call-graph.md",
                     "external_id": "B0010"
                 },
                 {
                     "source_name": "external_source",
                     "description": "K. Blokhin, D. Mentis, J. Saxe, \"Malware Similarity Identification Using Call Graph Based System Call Subsequence Features,\" 2013 IEEE 33rd International Conference on Distributed Computing Systems Workshops, July 2013.",
                     "url": "https://www.researchgate.net/publication/269326967_Malware_Similarity_Identification_Using_Call_Graph_Based_System_Call_Subsequence_Features"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "P. Deshpande, M. Stamp, \"Metamorphic Malware Detection Using Function Call Graph Analysis,\" MIS Review Vol. 21, Nos. 1/2, September(2015)/March(2016).",
+                    "url": "https://pdfs.semanticscholar.org/8db2/69106ea6e1f59e4dac0889665dd3336ee9b1.pdf"
                 },
                 {
                     "source_name": "external_source",

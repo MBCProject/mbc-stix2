@@ -8,7 +8,7 @@
             "id": "attack-pattern--c09b91df-e723-4ad4-b021-04d2773094f9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.566267Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.890444Z",
             "name": "Executable Code Optimization",
             "description": "Code is optimized, making it harder to statically analyze.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-static-analysis/exe-code-optimize.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-static-analysis/exe-code-optimize.md",
                     "external_id": "B0034"
                 },
                 {

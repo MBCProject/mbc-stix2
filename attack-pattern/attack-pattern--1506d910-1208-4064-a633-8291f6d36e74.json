@@ -8,7 +8,7 @@
             "id": "attack-pattern--1506d910-1208-4064-a633-8291f6d36e74",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.554264Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.886482Z",
             "name": "API Hashing",
             "description": "Instead of storing function names in the Import Address Table (IAT) and calling GetProcAddress, a DLL is loaded and the name of each of its exports is hashed until it matches a specific hash. Manual symbol resolution is then used to access and execute the exported function. This method is often used by shellcode because it reduces the size of each import from a human-readable string to a sequence of four bytes. The Method is also known as \"Imports by Hash\" and \"GET_APIS_WITH_CRC.\"",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-static-analysis/exe-code-obfuscate.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-static-analysis/exe-code-obfuscate.md",
                     "external_id": "B0032.001"
                 },
                 {

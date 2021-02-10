@@ -8,7 +8,7 @@
             "id": "attack-pattern--ce6015e7-3065-420f-aea8-c9e0e5d5ed74",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.67026Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.920443Z",
             "name": "Modify Registry",
             "description": "Malware may make changes to the Windows Registry to hide execution or to persist on the system (note that ATT&CK does not extend this behavior to the Persistence objective).",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/modify-reg.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/modify-reg.md",
                     "external_id": "E1112"
                 },
                 {

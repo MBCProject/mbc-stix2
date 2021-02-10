@@ -8,7 +8,7 @@
             "id": "attack-pattern--55040e64-313d-4656-8e1c-1146ff2f47d7",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.547264Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.883483Z",
             "name": "Invoke NTDLL System Calls via Encoded Table",
             "description": "Invokes ntdll.dll functions without using an export table; an encoded translation table on the stack is used instead.",
             "kill_chain_phases": [
@@ -20,13 +20,12 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-static-analysis/evade-call-graph.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-static-analysis/evade-call-graph.md",
                     "external_id": "B0010.002"
                 },
                 {
                     "source_name": "external_source",
-                    "description": "S. Shang, N. Zheng, J. Xu, M. Xu, H. Zhang, \"Detecting Malware Variants via Function-call Graph Similarity,\" IEEE 2010 5th International Conference on Malicious and Unwanted Software, 2010.",
-                    "url": "http://seclab.hdu.edu.cn/static/uploads/paper/10-05.pdf"
+                    "url": "http://fumalwareanalysis.blogspot.com/2012/01/malware-analysis-tutorial-10-tricks-for.html"
                 }
             ],
             "object_marking_refs": [

@@ -8,7 +8,7 @@
             "id": "attack-pattern--a58162b1-4ec3-4b66-a682-3901ffc3cb32",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.630262Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.907489Z",
             "name": "Hook memory mapping APIs",
             "description": "Prevents memory dumps by preventing mapping of memory into the kernel's virtual address space.",
             "kill_chain_phases": [
@@ -36,7 +36,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/credential-access/hooking.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/credential-access/hooking.md",
                     "external_id": "F0003.002"
                 },
                 {

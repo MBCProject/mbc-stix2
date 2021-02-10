@@ -8,7 +8,7 @@
             "id": "attack-pattern--5e4e232e-e441-4223-8b73-f160e9957a52",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.648262Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.912483Z",
             "name": "Install Insecure or Malicious Configuration",
             "description": "Malware may install malicious configuration settings or may modify existing configuration settings. This MBC behavior extends the related ATT&CK technique to all platforms and to the Persistence objective.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/config-mod.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/config-mod.md",
                     "external_id": "E1478"
                 },
                 {

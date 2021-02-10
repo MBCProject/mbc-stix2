@@ -8,7 +8,7 @@
             "id": "attack-pattern--13631209-26c3-481c-bd8c-fa6c57c3dbe5",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.583262Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.895484Z",
             "name": "VMProtect",
             "description": "Uses VMProtect.",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-static-analysis/software-packing.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-static-analysis/software-packing.md",
                     "external_id": "F0001.010"
                 }
             ],

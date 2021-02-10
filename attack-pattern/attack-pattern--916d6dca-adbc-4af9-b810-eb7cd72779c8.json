@@ -8,19 +8,19 @@
             "id": "attack-pattern--916d6dca-adbc-4af9-b810-eb7cd72779c8",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.868262Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:32.020479Z",
             "name": "Load Driver",
             "description": "Malware loads a device driver.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
-                    "phase_name": "processes"
+                    "phase_name": "hardware-micro-objective"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/hardware/load-driver.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/hardware/load-driver.md",
                     "external_id": "C0023"
                 }
             ],

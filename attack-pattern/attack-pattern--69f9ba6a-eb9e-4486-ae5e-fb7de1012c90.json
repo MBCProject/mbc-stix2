@@ -8,7 +8,7 @@
             "id": "attack-pattern--69f9ba6a-eb9e-4486-ae5e-fb7de1012c90",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.72626Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.942491Z",
             "name": "File Transfer Protocol (FTP) Servers",
             "description": "Malware leverages an FTP server.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/execution/exploit-software.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/execution/exploit-software.md",
                     "external_id": "E1203.m03"
                 }
             ],

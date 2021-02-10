@@ -8,7 +8,7 @@
             "id": "attack-pattern--a67c8a5d-cce9-4892-9338-9fec55e45419",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.491263Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.860448Z",
             "name": "Check Software",
             "description": "Malware may check software version; for example, to determine whether the software is relatively current.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-vm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/detect-vm.md",
                     "external_id": "B0009.007"
                 }
             ],

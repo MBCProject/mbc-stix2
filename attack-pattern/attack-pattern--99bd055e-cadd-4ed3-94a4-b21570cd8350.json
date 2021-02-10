@@ -8,7 +8,7 @@
             "id": "attack-pattern--99bd055e-cadd-4ed3-94a4-b21570cd8350",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.598261Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.899485Z",
             "name": "Polling",
             "description": "Keystrokes are captured via polling (e.g., user32.GetAsyncKeyState, user32.GetKeyState).",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/collection/keylogging.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/collection/keylogging.md",
                     "external_id": "F0002.002"
                 }
             ],

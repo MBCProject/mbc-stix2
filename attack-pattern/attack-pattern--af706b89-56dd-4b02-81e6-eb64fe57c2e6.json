@@ -8,7 +8,7 @@
             "id": "attack-pattern--af706b89-56dd-4b02-81e6-eb64fe57c2e6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.516301Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.873564Z",
             "name": "Static Linking",
             "description": "Copy locally the whole content of API code.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/evade-debugger.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-debugger.md",
                     "external_id": "B0002.026"
                 }
             ],

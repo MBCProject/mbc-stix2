@@ -8,7 +8,7 @@
             "id": "attack-pattern--b1c9e70b-d514-4924-848d-c6403560e6c5",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.90926Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:32.046476Z",
             "name": "Device Driver",
             "description": "Allows kernel to access hardware connected to the system.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/persistence/kernel-modules-ext.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/persistence/kernel-modules-ext.md",
                     "external_id": "F0010.001"
                 }
             ],

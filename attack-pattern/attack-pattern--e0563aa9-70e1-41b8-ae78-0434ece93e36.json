@@ -8,19 +8,19 @@
             "id": "attack-pattern--e0563aa9-70e1-41b8-ae78-0434ece93e36",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.805261Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.969483Z",
             "name": "Resolve::DNS Communication",
             "description": "Resolves a domain.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
-                    "phase_name": "communication-micro-objectives"
+                    "phase_name": "communication-micro-objective"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/communication/dns-comm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/communication/dns-comm.md",
                     "external_id": "C0011.001"
                 }
             ],

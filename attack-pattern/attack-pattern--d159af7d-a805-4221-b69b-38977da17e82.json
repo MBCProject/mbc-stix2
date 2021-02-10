@@ -8,7 +8,7 @@
             "id": "attack-pattern--d159af7d-a805-4221-b69b-38977da17e82",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.543264Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.881482Z",
             "name": "Environmental Keys",
             "description": "Malware reads certain attributes of the system (BIOS version string, hostname, MAC address, etc.) and encrypts/decrypts portions of its code or data using those attributes as input, thus preventing itself from being run on an unintended system (e.g., sandbox, emulator, etc.). Also see Deposited Keys Method.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/execution-guardrails.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/execution-guardrails.md",
                     "external_id": "E1480.m02"
                 }
             ],

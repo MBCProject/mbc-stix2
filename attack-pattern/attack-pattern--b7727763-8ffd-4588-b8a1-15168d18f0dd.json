@@ -8,7 +8,7 @@
             "id": "attack-pattern--b7727763-8ffd-4588-b8a1-15168d18f0dd",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.493266Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.861442Z",
             "name": "Check Windows - Unique windows",
             "description": "Malware may check windows for VM-related characteristics. May check for the presence of known windows from analysis tools running in a VM.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-vm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/detect-vm.md",
                     "external_id": "B0009.021"
                 }
             ],

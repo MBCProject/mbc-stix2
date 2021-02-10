@@ -8,7 +8,7 @@
             "id": "attack-pattern--5389958e-188f-453f-ba90-e886291f200e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.705262Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.933442Z",
             "name": "Process detection",
             "description": "Malware can scan for the process name associated with common analysis tools.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/discovery/analysis-tool-discover.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/discovery/analysis-tool-discover.md",
                     "external_id": "B0013.001"
                 }
             ],

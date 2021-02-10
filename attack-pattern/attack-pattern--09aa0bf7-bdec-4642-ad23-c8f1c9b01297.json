@@ -8,7 +8,7 @@
             "id": "attack-pattern--09aa0bf7-bdec-4642-ad23-c8f1c9b01297",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.775261Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.957481Z",
             "name": "Destroy Hardware",
             "description": "Destroys a physical piece of hardware. For example, malware may cause hardware to overheat.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/impact/destroy-hardware.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/destroy-hardware.md",
                     "external_id": "B0017"
                 },
                 {

@@ -8,7 +8,7 @@
             "id": "attack-pattern--d7c408e8-d813-46aa-8267-a76f8d53ec35",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.510265Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.869442Z",
             "name": "Byte Stealing",
             "description": "Move or copy the first bytes / instructions of the original code elsewhere. AKA stolen bytes or code splicing. For example, a packer may incorporate the first few instructions of the original EntryPoint (EP) into its unpacking stub before the tail transition in order to confuse automated unpackers and novice analysts. This can make it harder for rebuilding and may bypass breakpoints if set prematurely.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/evade-debugger.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-debugger.md",
                     "external_id": "B0002.003"
                 }
             ],

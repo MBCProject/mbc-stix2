@@ -8,24 +8,20 @@
             "id": "attack-pattern--9a5f43f7-dd94-4035-b335-9d0d388c93ae",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.678261Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.952481Z",
             "name": "Encryption - Standard Encryption",
-            "description": "The malware sample, file, or other information is encrypted. A standard algorithm, such as Rijndael/AES, DES, RC4, is used to encrypt an executable file. Encryption hinders static analysis of malware code. Also known as *Code Encryption in File*.",
+            "description": "Data is encrypted. A standard algorithm, such as Rijndael/AES, DES, RC4, is used to encrypt the exfiltrated data.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
-                    "phase_name": "anti-static-analysis"
-                },
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "defense-evasion"
+                    "phase_name": "exfiltration"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/obfuscate-files.md",
-                    "external_id": "E1027.m05"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/exfiltration/data-encrypted.md",
+                    "external_id": "E1560.m05"
                 }
             ],
             "object_marking_refs": [

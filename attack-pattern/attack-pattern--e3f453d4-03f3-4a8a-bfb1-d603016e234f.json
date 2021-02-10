@@ -8,7 +8,7 @@
             "id": "attack-pattern--e3f453d4-03f3-4a8a-bfb1-d603016e234f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.602268Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.900486Z",
             "name": "Screen Capture",
             "description": "Malware takes screen captures of the desktop.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/collection/screen-capture.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/collection/screen-capture.md",
                     "external_id": "E1113"
                 },
                 {

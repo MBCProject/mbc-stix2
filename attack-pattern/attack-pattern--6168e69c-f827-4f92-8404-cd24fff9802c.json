@@ -8,7 +8,7 @@
             "id": "attack-pattern--6168e69c-f827-4f92-8404-cd24fff9802c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.760262Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.953485Z",
             "name": "Archive Collected Data",
             "description": "Malware may obfuscate data via encryption or encoding before exfiltration.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/exfiltration/data-encrypted.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/exfiltration/data-encrypted.md",
                     "external_id": "E1560"
                 },
                 {

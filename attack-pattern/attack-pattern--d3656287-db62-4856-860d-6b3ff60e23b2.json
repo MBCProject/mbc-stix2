@@ -8,7 +8,7 @@
             "id": "attack-pattern--d3656287-db62-4856-860d-6b3ff60e23b2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.489264Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.859516Z",
             "name": "Check File and Directory Artifacts",
             "description": "Virtual machines create files on the file system (e.g., VMware creates files in the installation directory C:\\Program Files\\VMware\\VMware Tools). Malware can check the different folders to find virtual machine artifacts (e.g., Virtualbox has the artifact VBoxMouse.sys).",
             "kill_chain_phases": [
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-vm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/detect-vm.md",
                     "external_id": "B0009.001"
                 },
                 {
                     "source_name": "external_source",
-                    "url": "http://unprotect.tdgt.org/index.php/Sandbox_Evasion"
+                    "url": "https://search.unprotect.it/map/sandbox-evasion/"
                 }
             ],
             "object_marking_refs": [

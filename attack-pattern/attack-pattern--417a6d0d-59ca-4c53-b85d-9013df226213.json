@@ -8,7 +8,7 @@
             "id": "attack-pattern--417a6d0d-59ca-4c53-b85d-9013df226213",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.696261Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.930443Z",
             "name": "Prevent Memory Access",
             "description": "Prevents access to system memory where the malware instance may be storing code or data.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/rootkit-behavior.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/rootkit-behavior.md",
                     "external_id": "E1014.m11"
                 }
             ],

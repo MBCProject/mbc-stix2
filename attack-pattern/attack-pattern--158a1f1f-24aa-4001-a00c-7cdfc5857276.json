@@ -8,7 +8,7 @@
             "id": "attack-pattern--158a1f1f-24aa-4001-a00c-7cdfc5857276",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.694261Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.929484Z",
             "name": "Hide Threads",
             "description": "Hides one or more threads that belong to the malware instance.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/rootkit-behavior.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/rootkit-behavior.md",
                     "external_id": "E1014.m04"
                 }
             ],

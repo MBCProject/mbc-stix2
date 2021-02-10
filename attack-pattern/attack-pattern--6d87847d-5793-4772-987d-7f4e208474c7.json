@@ -8,7 +8,7 @@
             "id": "attack-pattern--6d87847d-5793-4772-987d-7f4e208474c7",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.69826Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.930443Z",
             "name": "Prevent Registry Access",
             "description": "Prevents access to the Windows registry, including to the entire registry and/or to particular registry keys/values.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/rootkit-behavior.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/rootkit-behavior.md",
                     "external_id": "E1014.m07"
                 }
             ],

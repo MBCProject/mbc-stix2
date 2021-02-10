@@ -8,7 +8,7 @@
             "id": "attack-pattern--3e89f692-198c-4396-9e98-be9fcc8b1e08",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.768261Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.958483Z",
             "name": "Delete Shadow Drive",
             "description": "Deletes shadow drive data, which is related to ransomware.",
             "kill_chain_phases": [
@@ -20,8 +20,8 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/impact/data-destruction.md",
-                    "external_id": "E1485.m01"
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/disk-content-wipe.md",
+                    "external_id": "F0014.001"
                 }
             ],
             "object_marking_refs": [

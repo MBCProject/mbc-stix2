@@ -8,7 +8,7 @@
             "id": "attack-pattern--9406d0e3-7e61-42c9-8532-a35459deb4e7",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.492261Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.861442Z",
             "name": "Check Windows - Title bars",
             "description": "Malware may check windows for VM-related characteristics. May inject malicious code to svchost.exe to check all open window title bar text to a list of strings indicating virtualized environment.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-vm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/detect-vm.md",
                     "external_id": "B0009.022"
                 }
             ],

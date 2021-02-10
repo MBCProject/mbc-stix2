@@ -8,7 +8,7 @@
             "id": "attack-pattern--7fb51daf-9a09-4cab-b202-fec90ad30e03",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.798261Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.967484Z",
             "name": "Spamming",
             "description": "Malware may use a victim machine to create and send spam.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/impact/spamming.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/spamming.md",
                     "external_id": "B0039"
                 },
                 {

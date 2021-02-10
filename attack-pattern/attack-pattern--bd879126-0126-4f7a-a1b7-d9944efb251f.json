@@ -8,7 +8,7 @@
             "id": "attack-pattern--bd879126-0126-4f7a-a1b7-d9944efb251f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.716259Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.939481Z",
             "name": "System Information Discovery",
             "description": "Malware may attempt to get detailed information about the system.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/discovery/system-info-discover.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/discovery/system-info-discover.md",
                     "external_id": "E1082"
                 },
                 {

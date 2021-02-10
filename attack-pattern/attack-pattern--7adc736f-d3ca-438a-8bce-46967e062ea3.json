@@ -8,19 +8,19 @@
             "id": "attack-pattern--7adc736f-d3ca-438a-8bce-46967e062ea3",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.886262Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:32.035443Z",
             "name": "Create Process via Shellcode::Create Process",
             "description": "Malware uses shellcode to create a process.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
-                    "phase_name": "processes"
+                    "phase_name": "process-micro-objective"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/processes/create-process.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/process/create-process.md",
                     "external_id": "C0017.001"
                 }
             ],

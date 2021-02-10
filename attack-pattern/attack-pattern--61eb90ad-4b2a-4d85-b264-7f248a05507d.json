@@ -8,7 +8,7 @@
             "id": "attack-pattern--61eb90ad-4b2a-4d85-b264-7f248a05507d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.504264Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.866442Z",
             "name": "Virtual Machine Detection",
             "description": "Detects whether the malware instance is being executed in a virtual machine (VM), such as VMWare. If so, conditional execution selects a benign execution path.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-vm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/detect-vm.md",
                     "external_id": "B0009"
                 },
                 {
@@ -29,7 +29,7 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "http://unprotect.tdgt.org/index.php/Sandbox_Evasion"
+                    "url": "https://search.unprotect.it/map/sandbox-evasion/"
                 },
                 {
                     "source_name": "external_source",

@@ -8,19 +8,19 @@
             "id": "attack-pattern--d26aaa4d-5143-4888-b81c-346d3b51641b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.86526Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:32.013448Z",
             "name": "Create Ransomware File::Create File",
             "description": "Create a file used by ransomware.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
-                    "phase_name": "file-manipulation-micro-objectives"
+                    "phase_name": "file-system-micro-objective"
                 }
             ],
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/file-manipulation/create-file.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/file-system/create-file.md",
                     "external_id": "C0016.002"
                 }
             ],

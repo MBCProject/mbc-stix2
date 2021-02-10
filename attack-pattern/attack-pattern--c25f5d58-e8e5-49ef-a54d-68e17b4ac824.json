@@ -8,7 +8,7 @@
             "id": "attack-pattern--c25f5d58-e8e5-49ef-a54d-68e17b4ac824",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.796261Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.966483Z",
             "name": "Remote Access",
             "description": "Malware may provide an attacker with potentially full access to a system via a remote network connection, which may also provide persistence.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/impact/remote-access.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/remote-access.md",
                     "external_id": "B0022"
                 },
                 {

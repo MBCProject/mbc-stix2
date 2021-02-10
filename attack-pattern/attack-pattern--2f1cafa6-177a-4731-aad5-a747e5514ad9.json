@@ -8,7 +8,7 @@
             "id": "attack-pattern--2f1cafa6-177a-4731-aad5-a747e5514ad9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.52526Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.876481Z",
             "name": "Dynamic Analysis Evasion",
             "description": "Malware may obstruct dynamic analysis in a sandbox, emulator, or virtual machine.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/evade-dynamic-analysis.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-dynamic-analysis.md",
                     "external_id": "B0003"
                 },
                 {

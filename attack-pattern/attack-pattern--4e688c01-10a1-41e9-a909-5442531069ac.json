@@ -8,7 +8,7 @@
             "id": "attack-pattern--4e688c01-10a1-41e9-a909-5442531069ac",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.57926Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.893484Z",
             "name": "Custom Compression of Data",
             "description": "Uses a custom algorithm to compress strings and variables (executable file data).",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-static-analysis/software-packing.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-static-analysis/software-packing.md",
                     "external_id": "F0001.007"
                 }
             ],

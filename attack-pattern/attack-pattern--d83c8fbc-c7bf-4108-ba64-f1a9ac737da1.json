@@ -8,7 +8,7 @@
             "id": "attack-pattern--d83c8fbc-c7bf-4108-ba64-f1a9ac737da1",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.496265Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.862442Z",
             "name": "Instruction Testing - IN",
             "description": "The execution of certain x86 instructions will result in different values when executed inside of a VM instead of on bare metal. Accordingly, these can be used to detect the execution of the malware in a VM.",
             "kill_chain_phases": [
@@ -20,12 +20,12 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-vm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/detect-vm.md",
                     "external_id": "B0009.035"
                 },
                 {
                     "source_name": "external_source",
-                    "url": "http://unprotect.tdgt.org/index.php/Sandbox_Evasion"
+                    "url": "https://search.unprotect.it/map/sandbox-evasion/"
                 }
             ],
             "object_marking_refs": [

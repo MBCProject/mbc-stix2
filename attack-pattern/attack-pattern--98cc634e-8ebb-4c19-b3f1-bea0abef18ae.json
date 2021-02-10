@@ -8,7 +8,7 @@
             "id": "attack-pattern--98cc634e-8ebb-4c19-b3f1-bea0abef18ae",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.503263Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:31.866442Z",
             "name": "Unique Hardware/Firmware Check - CPU Name",
             "description": "Malware may check for hardware characteristics unique to being virtualized, allowing the malware to detect the virtual environment. Checks the CPU name to determine virtualization.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/anti-behavioral-analysis/detect-vm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/detect-vm.md",
                     "external_id": "B0009.026"
                 }
             ],

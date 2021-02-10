@@ -8,7 +8,7 @@
             "id": "attack-pattern--4294b63a-0b68-473a-8e57-bd5da8d90bf6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.92426Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T06:49:32.051444Z",
             "name": "Registry Run Keys / Startup Folder",
             "description": "Malware may add an entry to the Windows Registry run keys or startup folder to enable persistence.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/persistence/registry-run-startup.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/persistence/registry-run-startup.md",
                     "external_id": "F0012"
                 },
                 {
