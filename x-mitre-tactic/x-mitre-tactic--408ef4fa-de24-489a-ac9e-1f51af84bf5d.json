@@ -8,20 +8,20 @@
             "id": "x-mitre-tactic--408ef4fa-de24-489a-ac9e-1f51af84bf5d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.279262Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
-            "name": "Data Manipulation Micro-objectives",
+            "modified": "2021-02-10T06:49:31.787443Z",
+            "name": "Data Micro-objective",
             "description": "Micro-behaviors related to malware manipulating data.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.0/micro-behaviors/data-manipulation/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/data/README.md",
                     "external_id": "OC0004"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
-            "x_mitre_shortname": "data-manipulation-micro-objectives"
+            "x_mitre_shortname": "data-micro-objective"
         }
     ]
 }
