@@ -8,7 +8,7 @@
             "id": "attack-pattern--ea7f29e7-715c-4423-b5c3-63fe2e5723b6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.662262Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T09:03:37.754371Z",
             "name": "Change File Location",
             "description": "Malware may change the location of itself or another file to prevent detection.",
             "kill_chain_phases": [
@@ -21,6 +21,7 @@
                     "phase_name": "persistence"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

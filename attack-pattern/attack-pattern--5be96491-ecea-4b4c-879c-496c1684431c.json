@@ -8,7 +8,7 @@
             "id": "attack-pattern--5be96491-ecea-4b4c-879c-496c1684431c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.657259Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T09:03:37.776372Z",
             "name": "Disable Security Tools",
             "description": "Malware may disable security tools to avoid detection. Security tools include OS security features and updating tools, anti-virus (AV) tools, firewalls, tool components providing security related logging and/or reporting, and Antimalware Scan Interface (AMSI) related capabilities.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

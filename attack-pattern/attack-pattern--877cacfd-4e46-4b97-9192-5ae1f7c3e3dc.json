@@ -8,7 +8,7 @@
             "id": "attack-pattern--877cacfd-4e46-4b97-9192-5ae1f7c3e3dc",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.539263Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T09:03:37.739351Z",
             "name": "Tampering",
             "description": "Erase or corrupt specific file parts to prevent rebuilding (header, packer stub, etc.).",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "anti-behavioral-analysis"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

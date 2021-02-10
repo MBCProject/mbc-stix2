@@ -7,10 +7,11 @@
             "id": "relationship--010d6005-b2a6-44d0-9193-79a5dfba50fc",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-12-29T20:55:03.775Z",
-            "modified": "2020-12-29T20:55:03.775Z",
+            "modified": "2021-02-10T09:03:38.331Z",
             "relationship_type": "subtechnique-of",
             "source_ref": "attack-pattern--e0660f71-3f55-4fd5-97f0-c19afea404ea",
             "target_ref": "attack-pattern--05c2f0b0-756c-4b6f-8bbe-f0a7c6380f61",
+            "revoked": true,
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

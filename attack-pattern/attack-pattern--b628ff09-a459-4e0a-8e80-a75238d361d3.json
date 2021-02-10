@@ -8,7 +8,7 @@
             "id": "attack-pattern--b628ff09-a459-4e0a-8e80-a75238d361d3",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.675261Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T09:03:37.79734Z",
             "name": "Encoding - Standard Encoding",
             "description": "The malware sample, file, or other information is encoded. A standard algorithm, such as base64 encoding, is used to encode the malware sample, a file, or other information.",
             "kill_chain_phases": [
@@ -21,6 +21,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

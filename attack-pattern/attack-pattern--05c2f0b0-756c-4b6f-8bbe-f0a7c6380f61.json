@@ -8,7 +8,7 @@
             "id": "attack-pattern--05c2f0b0-756c-4b6f-8bbe-f0a7c6380f61",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.83526Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T09:03:37.701147Z",
             "name": "TCP Communication",
             "description": "This micro-behavior focuses on TCP communication.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "communication-micro-objectives"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

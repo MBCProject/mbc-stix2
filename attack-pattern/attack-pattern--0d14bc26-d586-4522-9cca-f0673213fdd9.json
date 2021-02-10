@@ -8,7 +8,7 @@
             "id": "attack-pattern--0d14bc26-d586-4522-9cca-f0673213fdd9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.471262Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T09:03:37.805188Z",
             "name": "RtlAdjustPrivilege",
             "description": "Malware may call RtlAdjustPrivilege to detect if a debugger is attached (or to prevent a debugger from attaching).",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "anti-behavioral-analysis"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

@@ -8,7 +8,7 @@
             "id": "attack-pattern--3ef1194d-35db-4b60-8e47-6484529044e3",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.759262Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T09:03:37.766371Z",
             "name": "Encryption - Custom Encryption",
             "description": "Data is encrypted. A custom algorithm is used to encrypt the exfiltrated data.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "exfiltration"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

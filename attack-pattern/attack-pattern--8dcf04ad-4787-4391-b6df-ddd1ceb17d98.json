@@ -8,7 +8,7 @@
             "id": "attack-pattern--8dcf04ad-4787-4391-b6df-ddd1ceb17d98",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.814267Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T09:03:37.705246Z",
             "name": "POST Request::HTTP Communication",
             "description": "HTTP Post request.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "communication-micro-objectives"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

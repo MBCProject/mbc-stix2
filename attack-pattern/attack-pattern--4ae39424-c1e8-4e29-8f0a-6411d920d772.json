@@ -8,7 +8,7 @@
             "id": "attack-pattern--4ae39424-c1e8-4e29-8f0a-6411d920d772",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.83326Z",
-            "modified": "2020-12-29T20:55:03.775985Z",
+            "modified": "2021-02-10T09:03:37.808154Z",
             "name": "Create Socket::TCP Communication",
             "description": "A server or client creates a TCP socket.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "communication-micro-objectives"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
