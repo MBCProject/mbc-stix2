@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--f1f563d9-cbb2-485b-b756-d01ba7238a43",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b0cd3324-b762-4e02-8e9d-7dd3708d5e0a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:32.03448Z",
+            "modified": "2021-02-10T06:49:32.03448Z",
+            "name": "Check Mutex",
+            "description": "Malware checks a mutex.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "process-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/process/check-mutex.md",
+                    "external_id": "C0043"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

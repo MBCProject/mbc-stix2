@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--37f02cde-5c00-47f9-92ea-a82709cc00a2",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--20bb8954-7d15-4f3f-b015-6de301407391",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:32.003478Z",
+            "modified": "2021-02-10T06:49:32.003478Z",
+            "name": "XOR::Decode Data",
+            "description": "Malware may use xor to decode data.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "data-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/data/decode.md",
+                    "external_id": "C0053.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

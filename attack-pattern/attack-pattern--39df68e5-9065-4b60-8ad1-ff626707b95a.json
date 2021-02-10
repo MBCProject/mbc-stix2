@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--bf07ead4-d255-480e-8473-97a51e6ff951",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--39df68e5-9065-4b60-8ad1-ff626707b95a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:31.983492Z",
+            "modified": "2021-02-10T06:49:31.983492Z",
+            "name": "TCP Client::Socket Communication",
+            "description": "TCP client behavior.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/communication/socket-comm.md",
+                    "external_id": "C0001.008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

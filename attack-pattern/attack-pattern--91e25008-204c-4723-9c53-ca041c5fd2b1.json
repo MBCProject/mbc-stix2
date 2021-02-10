@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--33eb9929-0fed-49c6-b559-502d28ff2d0b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--91e25008-204c-4723-9c53-ca041c5fd2b1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:31.917484Z",
+            "modified": "2021-02-10T06:49:31.917484Z",
+            "name": "Extension",
+            "description": "Malware may change or use a particular file extension to hide a file.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/hidden-files.md",
+                    "external_id": "F0005.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

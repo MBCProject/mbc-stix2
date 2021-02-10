@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--843f0571-d994-4e1f-905d-3a71c1916eef",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--69401771-6ed2-45b5-bc81-68444a3dc4c9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:32.005479Z",
+            "modified": "2021-02-10T06:49:32.005479Z",
+            "name": "XOR::Encode Data",
+            "description": "Malware may use xor to encode data.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "data-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/data/encode.md",
+                    "external_id": "C0026.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

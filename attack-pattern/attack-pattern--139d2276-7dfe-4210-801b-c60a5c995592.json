@@ -1,0 +1,42 @@
+{
+    "type": "bundle",
+    "id": "bundle--5bcc5858-25a9-4816-98f2-87b45bab1b92",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--139d2276-7dfe-4210-801b-c60a5c995592",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:31.882485Z",
+            "modified": "2021-02-10T06:49:31.882485Z",
+            "name": "Runs as Service",
+            "description": "The malware must be run as a service, which can make behavioral analysis and debugging more difficult. The service may be set up by the malware. Alternatively, the malware may not contain any code to create a new service or modify an existing service, in which case, the service may be set up by another program or manually.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/execution-guardrails.md",
+                    "external_id": "E1480.m07"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1480",
+                    "external_id": "T1480"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "type": "bundle",
+    "id": "bundle--a8e031d0-bf53-4c2b-b560-690b8545e147",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e2558f71-7409-4203-bd5b-8a331f29327a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:31.937479Z",
+            "modified": "2021-02-10T06:49:31.937479Z",
+            "name": "File and Directory Discovery",
+            "description": "Malware may enumerate files and directories or may search for specific files or in specific locations.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "discovery"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/discovery/file-discover.md",
+                    "external_id": "E1083"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1083/",
+                    "external_id": "T1083"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

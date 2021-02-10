@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--fc9654cc-b772-49c6-ae6c-840472e37e44",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4f786f90-7679-427a-932b-2d212faffa37",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:31.997443Z",
+            "modified": "2021-02-10T06:49:31.997443Z",
+            "name": "Import Public Key::Encryption Key",
+            "description": "Malware imports a public key.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/cryptography/key.md",
+                    "external_id": "C0028.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

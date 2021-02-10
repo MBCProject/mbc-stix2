@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--d54c2ad8-2ebc-4715-b0ed-a0d81e6a31b2",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--77932220-efa9-44d5-b3a9-c5d9ed4f3573",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:32.021478Z",
+            "modified": "2021-02-10T06:49:32.021478Z",
+            "name": "Ctrl-Alt-Del::Simulate Hardware",
+            "description": "Malware simulates Ctrl-Alt-Del.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "hardware-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/hardware/simulate-hardware.md",
+                    "external_id": "C0057.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

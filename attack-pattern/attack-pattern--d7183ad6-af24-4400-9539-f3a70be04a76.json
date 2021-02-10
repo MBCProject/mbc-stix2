@@ -1,0 +1,38 @@
+{
+    "type": "bundle",
+    "id": "bundle--3b5b382d-02f4-469f-956e-bc9863464656",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d7183ad6-af24-4400-9539-f3a70be04a76",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:31.953485Z",
+            "modified": "2021-02-10T06:49:31.953485Z",
+            "name": "Clipboard Modification",
+            "description": "ATT&CK defines Clipboard Modification as a Mobile technique (Android platform). MBC extends it to the Windows platform.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/clipboard-mod.md",
+                    "external_id": "E1510"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1510/",
+                    "external_id": "T1510"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

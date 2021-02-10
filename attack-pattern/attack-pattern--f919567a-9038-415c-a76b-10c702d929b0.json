@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--25f84f4d-1722-4388-9c7c-cfb181a93b17",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f919567a-9038-415c-a76b-10c702d929b0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:32.038481Z",
+            "modified": "2021-02-10T06:49:32.038481Z",
+            "name": "Resume Thread",
+            "description": "Malware typically resumes a thread in order to execute previously injected code (e.g., in the course of the [Process Injection::Process Hollowing](https://github.com/MBCProject/mbc-markdown/blob/v2.0/https://github.com/MBCProject/mbc-markdown/blob/v2.0/defense-evasion/process-inject.md)).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "process-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/process/resume-thread.md",
+                    "external_id": "C0054"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

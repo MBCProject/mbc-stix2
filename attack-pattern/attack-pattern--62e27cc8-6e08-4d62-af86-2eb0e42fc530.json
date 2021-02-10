@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--f8a6fed9-70a4-44a5-8bc6-377616729b2e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--62e27cc8-6e08-4d62-af86-2eb0e42fc530",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:32.02248Z",
+            "modified": "2021-02-10T06:49:32.02248Z",
+            "name": "Simulate Hardware",
+            "description": "Malware simulates hardware.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "hardware-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/hardware/simulate-hardware.md",
+                    "external_id": "C0057"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

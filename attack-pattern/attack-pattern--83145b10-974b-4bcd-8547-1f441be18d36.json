@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--48737879-645c-4c4c-ad95-37a9340159b7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--83145b10-974b-4bcd-8547-1f441be18d36",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:31.965484Z",
+            "modified": "2021-02-10T06:49:31.965484Z",
+            "name": "Modify Hardware",
+            "description": "Malware modifies hardware.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/modify-hardware.md",
+                    "external_id": "B0042"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

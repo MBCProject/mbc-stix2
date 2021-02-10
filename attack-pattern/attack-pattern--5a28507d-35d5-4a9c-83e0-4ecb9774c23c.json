@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--0b5ebf65-9cd6-405a-b08f-709cd8dd8965",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5a28507d-35d5-4a9c-83e0-4ecb9774c23c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:31.992483Z",
+            "modified": "2021-02-10T06:49:31.992483Z",
+            "name": "Camellia::Encrypt Data",
+            "description": "Malware encrypts with the Camellia algorithm.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/cryptography/encrypt.md",
+                    "external_id": "C0027.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

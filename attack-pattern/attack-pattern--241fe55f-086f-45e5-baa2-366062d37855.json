@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--dce725d4-116c-4a7b-ad02-4a9d0be476d1",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--241fe55f-086f-45e5-baa2-366062d37855",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:31.958483Z",
+            "modified": "2021-02-10T06:49:31.958483Z",
+            "name": "Disk Content Wipe",
+            "description": "Malware may erase the content of storage devices.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/disk-content-wipe.md",
+                    "external_id": "F0014"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

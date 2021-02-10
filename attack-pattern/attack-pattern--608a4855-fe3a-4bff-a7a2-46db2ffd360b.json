@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--7f21f026-009d-4757-9cd0-9c09a078475d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--608a4855-fe3a-4bff-a7a2-46db2ffd360b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:31.997443Z",
+            "modified": "2021-02-10T06:49:31.997443Z",
+            "name": "RC4 KSA::Encryption Key",
+            "description": "Malware uses the RC4 Key Scheduling Algorithm (KSA).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/cryptography/key.md",
+                    "external_id": "C0028.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

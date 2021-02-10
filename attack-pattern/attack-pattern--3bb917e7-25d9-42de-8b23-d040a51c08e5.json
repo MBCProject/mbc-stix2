@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--bfa24d07-57ab-4755-b30b-2e35ac196328",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3bb917e7-25d9-42de-8b23-d040a51c08e5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:32.000444Z",
+            "modified": "2021-02-10T06:49:32.000444Z",
+            "name": "Verhoeff::Checksum",
+            "description": "Malware uses the Verhoeff algorithm, often for purposes of error detection.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "data-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/data/checksum.md",
+                    "external_id": "C0032.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

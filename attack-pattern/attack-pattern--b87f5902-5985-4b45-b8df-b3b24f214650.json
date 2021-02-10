@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--86995e36-df50-4cfd-814b-183ec9e88dba",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b87f5902-5985-4b45-b8df-b3b24f214650",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:32.028478Z",
+            "modified": "2021-02-10T06:49:32.028478Z",
+            "name": "Console",
+            "description": "Malware modifies the console.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "operating-system-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/operating-system/console.md",
+                    "external_id": "C0033"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}
