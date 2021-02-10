@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4752bc12-fd88-4c00-b8de-38cb46ab5a00",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6da04862-dd32-45b6-b7d4-c18f6594bba9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2021-02-10T06:49:34.070442Z",
+            "modified": "2021-02-10T06:49:34.070442Z",
+            "relationship_type": "uses",
+            "description": "Prevents the infected system from installing anti-virus software updates.",
+            "source_ref": "malware--0c0d59b7-4ff0-4a09-9c64-558334485ece",
+            "target_ref": "attack-pattern--f25b4262-78aa-48e6-b9c9-6069058a918a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}
