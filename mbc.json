@@ -693,7 +693,7 @@
             "id": "attack-pattern--0c3159ab-1195-45cc-8188-ae1af63b3325",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.631265Z",
-            "modified": "2021-02-10T06:49:31.907489Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Hook procedures",
             "description": "Intercepts and executes designated code in response to events such as messages, keystrokes, and mouse inputs.",
             "kill_chain_phases": [
@@ -716,6 +716,10 @@
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [
@@ -2459,13 +2463,17 @@
             "id": "attack-pattern--2a23ab2e-fd3b-4c5f-991c-021d9a132754",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.689263Z",
-            "modified": "2021-02-10T06:49:31.928483Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Process Injection",
             "description": "Malware may execute code in the address space of a separate process.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [
@@ -5552,13 +5560,17 @@
             "id": "attack-pattern--5d116564-0ef7-4791-9a34-e86d81840b49",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.920259Z",
-            "modified": "2021-02-10T06:49:32.049444Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Modify Existing Service",
             "description": "Malware may modify an existing service to gain persistence. Modification may include disabling a service.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [
@@ -6795,7 +6807,7 @@
             "id": "attack-pattern--6c759d2c-b6eb-4131-93be-763b85bd9426",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.632261Z",
-            "modified": "2021-02-10T06:49:31.908484Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Inline Hooking",
             "description": "Overwrites the first bytes in an API function to redirect code flow.",
             "kill_chain_phases": [
@@ -6818,6 +6830,10 @@
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [
@@ -8406,7 +8422,7 @@
             "id": "attack-pattern--8562ca1c-8fc2-4604-97bc-b67d328fbd7f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.633261Z",
-            "modified": "2021-02-10T06:49:31.908484Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Patch MmGetPhysicalMemoryRanges",
             "description": "Patching this function to always return NULL prevents drivers from getting information about the physical address space layout, preventing memory dumps.",
             "kill_chain_phases": [
@@ -8429,6 +8445,10 @@
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [
@@ -10677,7 +10697,7 @@
             "id": "attack-pattern--a58162b1-4ec3-4b66-a682-3901ffc3cb32",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.630262Z",
-            "modified": "2021-02-10T06:49:31.907489Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Hook memory mapping APIs",
             "description": "Prevents memory dumps by preventing mapping of memory into the kernel's virtual address space.",
             "kill_chain_phases": [
@@ -10700,6 +10720,10 @@
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [
@@ -10752,13 +10776,17 @@
             "id": "attack-pattern--a6389b1f-c2f4-4bb7-8b52-6725b00f6052",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.688263Z",
-            "modified": "2021-02-10T06:49:31.927446Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Injection and Persistence via Registry Modification",
             "description": "Malware may insert the location of its malicious library under a registry key (e.g., Appinit_DLL, AppCertDlls, IFEO) to have another process load its library.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [
@@ -11265,13 +11293,17 @@
             "id": "attack-pattern--adac5b9d-77f6-4c07-898d-1515fbf37162",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.689263Z",
-            "modified": "2021-02-10T06:49:31.927446Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Injection using Shims",
             "description": "Malware may use shims to target an executable (shims are a way of hooking into APIs and targeting specific executables and are provided by Microsoft for backward compatibility, allowing developers to apply program fixes without rewriting code).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [
@@ -11616,13 +11648,17 @@
             "id": "attack-pattern--b1c9e70b-d514-4924-848d-c6403560e6c5",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.90926Z",
-            "modified": "2021-02-10T06:49:32.046476Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Device Driver",
             "description": "Allows kernel to access hardware connected to the system.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [
@@ -13659,13 +13695,17 @@
             "id": "attack-pattern--d10a18cc-23b6-4421-82e1-1ba28319012b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.90926Z",
-            "modified": "2021-02-10T06:49:32.046476Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Kernel Modules and Extensions",
             "description": "Malware may use loadable kernel modules to persist on a system. For example, one type of module is the device driver, which allows the kernel to access hardware connected to the system. Malware may try to hide drivers or modules by creating them without a name.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [
@@ -13686,7 +13726,7 @@
             "id": "attack-pattern--d141c588-8a3c-4cd8-8421-86b2625c9263",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.634261Z",
-            "modified": "2021-02-11T06:49:31.787443Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Hooking",
             "description": "Malware alters API behavior or redirects execution to a malicious API version for a variety of purposes. Malware may use hooking to load and execute code within the context of another process, hiding execution and gaining elevated privileges and access to the process's memory. Methods related to anti-behavioral analysis are below. For example, hooking can be used to prevent memory dumps - see also [Memory Dump Evasion](https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-memory-dump.md).",
             "kill_chain_phases": [
@@ -13709,6 +13749,10 @@
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [
@@ -14020,7 +14064,7 @@
             "id": "attack-pattern--d5a010e8-a4dc-487e-a3e8-6e5bc9364496",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.631265Z",
-            "modified": "2021-02-10T06:49:31.908484Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Import Address Hooking (IAT) Hooking",
             "description": "Uses modifications to a process's IAT where pointers to imported API functions are stored.",
             "kill_chain_phases": [
@@ -14043,6 +14087,10 @@
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [
@@ -14862,13 +14910,17 @@
             "id": "attack-pattern--e23ee3ae-6960-4b56-b962-33184f999657",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.688263Z",
-            "modified": "2021-02-10T06:49:31.927446Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Hook Injection via SetWindowsHooksEx",
             "description": "Malware can leverage hooking functionality to have its malicious DLL loaded upon an event getting triggered in a specific thread, which is usually done by calling SetWindowsHookEx to install a hook routine into the hook chain.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [

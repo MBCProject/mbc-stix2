@@ -8,7 +8,7 @@
             "id": "attack-pattern--6c759d2c-b6eb-4131-93be-763b85bd9426",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.632261Z",
-            "modified": "2021-02-10T06:49:31.908484Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Inline Hooking",
             "description": "Overwrites the first bytes in an API function to redirect code flow.",
             "kill_chain_phases": [
@@ -31,6 +31,10 @@
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [

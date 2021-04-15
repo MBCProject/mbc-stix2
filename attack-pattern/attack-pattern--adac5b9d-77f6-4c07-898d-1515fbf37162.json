@@ -8,13 +8,17 @@
             "id": "attack-pattern--adac5b9d-77f6-4c07-898d-1515fbf37162",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.689263Z",
-            "modified": "2021-02-10T06:49:31.927446Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Injection using Shims",
             "description": "Malware may use shims to target an executable (shims are a way of hooking into APIs and targeting specific executables and are provided by Microsoft for backward compatibility, allowing developers to apply program fixes without rewriting code).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [

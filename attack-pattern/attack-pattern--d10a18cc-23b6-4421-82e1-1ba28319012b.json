@@ -8,13 +8,17 @@
             "id": "attack-pattern--d10a18cc-23b6-4421-82e1-1ba28319012b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.90926Z",
-            "modified": "2021-02-10T06:49:32.046476Z",
+            "modified": "2021-04-15T21:15:31.631265Z",
             "name": "Kernel Modules and Extensions",
             "description": "Malware may use loadable kernel modules to persist on a system. For example, one type of module is the device driver, which allows the kernel to access hardware connected to the system. Malware may try to hide drivers or modules by creating them without a name.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
                 }
             ],
             "external_references": [
