@@ -1,5 +1,5 @@
 # MBC and STIX 2.1: Usage Notes
-Machine-readable Malware Behavior Catalog (MBC) data is available via a JSON-based [STIX 2.1](https://oasis-open.github.io/cti-documentation/stix/intro) format. *MBC has been expressed in STIX 2.1 JSON using the STIX 2.1 Committee Specification 01 (CS01).*
+Machine-readable Malware Behavior Catalog (MBC) data is available via a JSON-based [STIX 2.1](https://oasis-open.github.io/cti-documentation/stix/intro) format. *MBC has been expressed in STIX 2.1 JSON using the STIX 2.1 Committee Specification 03 (CS03).*
 
 The sections below describes how MBC objects and properties map to STIX 2.1 objects and properties. It is assumed that the reader is familiar with STIX.
 
@@ -226,15 +226,28 @@ In order to track specialized behaviors, techniques, etc. the knowledge base als
 
 # Accessing MBC Data Using Python
 
-MBC data stored in a STIX 2.1 repository can be queried and manipulated similarly to how ATT&CK data is queried and manipulated. Please see the Section entitled, "Using Python and STIX 2.0" in the [STIX usage document](https://github.com/mitre/cti/blob/master/USAGE.md) for details.
+MBC data stored in a STIX 2.1 repository can be queried and manipulated similarly to how ATT&CK data is queried and manipulated. Please read the MITRE/CTI repo [Usage](https://github.com/mitre/cti/blob/master/USAGE.md) for details.
 
 # Using MBC Content in the ATT&CK® Navigator
 
 The [ATT&CK® Navigator](https://github.com/mitre-attack/attack-navigator) has documentation on their repo detailing how to run and load data from other data sources. The example below makes the assumption you are running Docker:
 
-1) Download a copy of this repo to your local system and locate the `mbc.json` file.
+1) Run the [/src/attack_nav_mod.py](/src/attack_nav_mod.py) script. This will generate a new JSON file `mbc-attack-nav-modified.json`.
 2) Download a copy of the ATT&CK Navigator repo to your local system.
-3) Locate `attack-navigator/nav-app/src/assets/config.json` and open it.
-4) Change the "enterprise_attack_url" key to a path in your local system or to a path relative to the image (e.g., `assets/mbc.json`)
-5) Move the `mbc.json` file to `attack-navigator/nav-app/src/assets/`.
+3) Locate `attack-navigator/nav-app/src/assets/` directory and open it.
+4) Move the `mbc-attack-nav-modified.json` created by the [/src/attack_nav_mod.py](/src/attack_nav_mod.py) script to `attack-navigator/nav-app/src/assets/`.
+5) Open `config.json` and create a new entry to the configuration with the `"data"` key pointing to a path in your local system or to a path relative to the image (e.g., `assets/mbc-attack-nav-modified.json`)
+
+```json
+        {
+            "name": "MBC v2.1",
+            "domains": [
+                {
+                    "name": "2.1 Release",
+                    "data": ["assets/mbc-attack-nav-modified.json"]
+                }
+            ]
+        }
+```
+
 6) Continue with the ATT&CK® Navigator instructions to build and run your instance.
