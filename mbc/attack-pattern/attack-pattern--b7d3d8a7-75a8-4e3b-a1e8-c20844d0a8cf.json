@@ -8,7 +8,7 @@
             "id": "attack-pattern--b7d3d8a7-75a8-4e3b-a1e8-c20844d0a8cf",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:36.124706Z",
-            "modified": "2022-02-04T23:52:36.124706Z",
+            "modified": "2022-02-05T00:37:22.819853Z",
             "name": "Open Thread",
             "description": "Malware opens a thread.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/process/open-thread.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/process/open-thread.md",
                     "external_id": "C0066"
                 }
             ],

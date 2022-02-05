@@ -8,7 +8,7 @@
             "id": "attack-pattern--ff830778-b9bc-4636-9dc7-884d5dad8c2c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.584261Z",
-            "modified": "2021-02-10T06:49:31.895484Z",
+            "modified": "2022-02-05T00:37:22.585511Z",
             "name": "Software Packing",
             "description": "This code characteristic - Software Packing - can make static and behavioral analysis difficult and includes packing with software protectors, such as Themida and Armadillo [[1]](#1). Methods related to anti-analysis are below. This behavior covers both characteristics of the malware (i.e., how it is packed) as well as behaviors of the malware (e.g., the malware packs another executable file).",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-static-analysis/software-packing.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-static-analysis/software-packing.md",
                     "external_id": "F0001"
                 },
                 {

@@ -8,7 +8,7 @@
             "id": "attack-pattern--b5f07958-9aea-4414-ab2c-d5a46399dc23",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.989483Z",
-            "modified": "2021-02-10T06:49:31.989483Z",
+            "modified": "2022-02-05T00:37:22.757347Z",
             "name": "Camellia::Decrypt Data",
             "description": "Malware decrypts data encrypted with the Camellia algorithm.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/cryptography/decrypt.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/cryptography/decrypt.md",
                     "external_id": "C0031.004"
                 }
             ],

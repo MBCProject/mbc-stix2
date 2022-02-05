@@ -8,7 +8,7 @@
             "id": "attack-pattern--1b5c05fd-3785-4710-8ee2-efadad6ef437",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.491263Z",
-            "modified": "2021-02-10T06:49:31.860448Z",
+            "modified": "2022-02-05T00:37:22.507385Z",
             "name": "Check Running Services",
             "description": "VMwareService.exe runs the VMware Tools Service as a child of services.exe. It can be identified by listing services.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/detect-vm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/detect-vm.md",
                     "external_id": "B0009.006"
                 },
                 {

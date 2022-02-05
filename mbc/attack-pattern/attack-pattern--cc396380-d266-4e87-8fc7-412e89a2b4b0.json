@@ -8,7 +8,7 @@
             "id": "attack-pattern--cc396380-d266-4e87-8fc7-412e89a2b4b0",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.908377Z",
-            "modified": "2022-02-04T23:52:35.908377Z",
+            "modified": "2022-02-05T00:37:22.694887Z",
             "name": "System Services",
             "description": "Malware may abuse system services or daemons to execute.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/execution/system-services.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/execution/system-services.md",
                     "external_id": "E1569"
                 },
                 {

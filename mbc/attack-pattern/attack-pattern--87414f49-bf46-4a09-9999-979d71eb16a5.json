@@ -8,7 +8,7 @@
             "id": "attack-pattern--87414f49-bf46-4a09-9999-979d71eb16a5",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.907374Z",
-            "modified": "2022-02-04T23:52:35.907374Z",
+            "modified": "2022-02-05T00:37:22.694887Z",
             "name": "MSDTC",
             "description": "The Distributed Transaction Coordinator (MSDTC) coordinates transaction across multiple resource managers (databases, message queues and file systems). This legitimate Microsoft service is part of Windows 2000 and later and can be used to import and load DLLs. Malware may abuse MSDTC to import and load DLLs.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/execution/system-services.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/execution/system-services.md",
                     "external_id": "E1569.m01"
                 },
                 {

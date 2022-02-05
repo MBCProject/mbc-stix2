@@ -8,7 +8,7 @@
             "id": "attack-pattern--2080b6b4-a74c-43da-97db-1a2ca33ca589",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.464262Z",
-            "modified": "2021-02-10T06:49:31.849441Z",
+            "modified": "2022-02-05T00:37:22.491757Z",
             "name": "NtQueryInformationProcess",
             "description": "Calling NtQueryInformationProcess with its ProcessInformationClass parameter set to 0x07 (ProcessDebugPort constant) will cause the system to set ProcessInformation to -1 if the process is being debugged. Calling with ProcessInformationClass set to 0x0E (ProcessDebugFlags) or 0x11 (ProcessDebugObject) are used similarly. Testing \"ProcessDebugPort\" is equivalent to using the kernel32!CheckRemoteDebuggerPresent API call (see next method).",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/detect-debugger.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/detect-debugger.md",
                     "external_id": "B0001.012"
                 }
             ],

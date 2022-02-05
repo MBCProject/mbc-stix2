@@ -8,13 +8,13 @@
             "id": "x-mitre-tactic--578d34bc-28b7-4467-afe1-a969e00797d3",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.287265Z",
-            "modified": "2021-02-10T06:49:31.787443Z",
+            "modified": "2022-02-05T00:37:22.397978Z",
             "name": "Hardware Micro-objective",
             "description": "Micro-behaviors related to hardware.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/hardware/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/hardware/README.md",
                     "external_id": "OC0007"
                 }
             ],

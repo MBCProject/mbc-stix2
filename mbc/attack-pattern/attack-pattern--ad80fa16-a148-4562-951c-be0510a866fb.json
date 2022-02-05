@@ -8,7 +8,7 @@
             "id": "attack-pattern--ad80fa16-a148-4562-951c-be0510a866fb",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.041477Z",
-            "modified": "2021-02-10T06:49:32.041477Z",
+            "modified": "2022-02-05T00:37:22.835477Z",
             "name": "Terminate Thread",
             "description": "Malware terminates a thread.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/process/terminate-thread.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/process/terminate-thread.md",
                     "external_id": "C0039"
                 }
             ],

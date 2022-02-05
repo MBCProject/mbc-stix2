@@ -8,7 +8,7 @@
             "id": "attack-pattern--97dff623-9e06-4810-b316-8eedabe893f0",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.87726Z",
-            "modified": "2021-02-10T06:49:32.025479Z",
+            "modified": "2022-02-05T00:37:22.804261Z",
             "name": "Executable Stack::Change Memory Protection",
             "description": "The stack is made executable.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/memory/memory-protect.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/memory/memory-protect.md",
                     "external_id": "C0008.001"
                 }
             ],

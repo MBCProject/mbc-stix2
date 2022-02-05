@@ -8,7 +8,7 @@
             "id": "attack-pattern--4c1e6e56-1c8d-4bce-b696-68ac83cb33f6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.593264Z",
-            "modified": "2021-02-10T06:49:31.898488Z",
+            "modified": "2022-02-05T00:37:22.585511Z",
             "name": "Mouse Events",
             "description": "Mouse events are captured.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/collection/input-capture.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/collection/input-capture.md",
                     "external_id": "E1056.m01"
                 }
             ],

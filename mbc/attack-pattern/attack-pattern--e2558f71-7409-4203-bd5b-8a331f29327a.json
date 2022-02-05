@@ -8,7 +8,7 @@
             "id": "attack-pattern--e2558f71-7409-4203-bd5b-8a331f29327a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.937479Z",
-            "modified": "2021-02-10T06:49:31.937479Z",
+            "modified": "2022-02-05T00:37:22.663601Z",
             "name": "File and Directory Discovery",
             "description": "Malware may enumerate files and directories or may search for specific files or in specific locations.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/discovery/file-discover.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/discovery/file-discover.md",
                     "external_id": "E1083"
                 },
                 {

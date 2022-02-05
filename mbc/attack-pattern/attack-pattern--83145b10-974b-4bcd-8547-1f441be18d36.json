@@ -8,7 +8,7 @@
             "id": "attack-pattern--83145b10-974b-4bcd-8547-1f441be18d36",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.965484Z",
-            "modified": "2021-02-10T06:49:31.965484Z",
+            "modified": "2022-02-05T00:37:22.726134Z",
             "name": "Modify Hardware",
             "description": "Malware modifies hardware.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/modify-hardware.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/impact/modify-hardware.md",
                     "external_id": "B0042"
                 }
             ],

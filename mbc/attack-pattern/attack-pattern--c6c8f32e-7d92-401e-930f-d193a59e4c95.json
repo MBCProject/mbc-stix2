@@ -8,7 +8,7 @@
             "id": "attack-pattern--c6c8f32e-7d92-401e-930f-d193a59e4c95",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.548264Z",
-            "modified": "2021-02-10T06:49:31.883483Z",
+            "modified": "2022-02-05T00:37:22.569857Z",
             "name": "Call Graph Generation Evasion",
             "description": "Malware code evades accurate call graph generation during disassembly. Call graphs are used by malware similarity tools and algorithms ([[1]](#1), [[4]](#4)), as well as for malware detection [[2]](#2).",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-static-analysis/evade-call-graph.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-static-analysis/evade-call-graph.md",
                     "external_id": "B0010"
                 },
                 {

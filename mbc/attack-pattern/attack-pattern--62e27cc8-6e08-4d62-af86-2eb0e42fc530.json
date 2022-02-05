@@ -8,7 +8,7 @@
             "id": "attack-pattern--62e27cc8-6e08-4d62-af86-2eb0e42fc530",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.02248Z",
-            "modified": "2021-02-10T06:49:32.02248Z",
+            "modified": "2022-02-05T00:37:22.804261Z",
             "name": "Simulate Hardware",
             "description": "Malware simulates hardware.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/hardware/simulate-hardware.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/hardware/simulate-hardware.md",
                     "external_id": "C0057"
                 }
             ],

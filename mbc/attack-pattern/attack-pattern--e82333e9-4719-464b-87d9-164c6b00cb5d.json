@@ -8,7 +8,7 @@
             "id": "attack-pattern--e82333e9-4719-464b-87d9-164c6b00cb5d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.705262Z",
-            "modified": "2021-02-10T06:49:31.933442Z",
+            "modified": "2022-02-05T00:37:22.663601Z",
             "name": "Known File Location",
             "description": "Malware may detect an analysis tool by the presence of a file in a known location.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/discovery/analysis-tool-discover.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/discovery/analysis-tool-discover.md",
                     "external_id": "B0013.008"
                 }
             ],

@@ -8,7 +8,7 @@
             "id": "attack-pattern--767a1acf-9e83-4181-82cd-2bcb9d8871d9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.729261Z",
-            "modified": "2021-02-10T06:49:31.944444Z",
+            "modified": "2022-02-05T00:37:22.679223Z",
             "name": "Exploitation for Client Execution",
             "description": "Software is exploited - either because of a vulnerability or through its designed features - to gain access for malware. In general, exploitation may be done by a human attacker, but MBC focuses on software exploits implemented in code. Malware-specific details are below.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/execution/exploit-software.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/execution/exploit-software.md",
                     "external_id": "E1203"
                 },
                 {

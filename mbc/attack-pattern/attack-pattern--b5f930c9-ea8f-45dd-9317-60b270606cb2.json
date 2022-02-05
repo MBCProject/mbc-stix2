@@ -8,9 +8,9 @@
             "id": "attack-pattern--b5f930c9-ea8f-45dd-9317-60b270606cb2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.877737Z",
-            "modified": "2022-02-04T23:52:35.877737Z",
+            "modified": "2022-02-05T00:37:22.679223Z",
             "name": "Execution Dependency",
-            "description": "Software may require certain run-time or library dependencies consistent with normal software development and deployment. For example, software may require the presence of a .NET or Java runtime or to be run by a webserver that supports PHP. Unlike in [Conditional Execution](https://github.com/MBCProject/mbc-markdown/blob/v2.1/execution/conditional-execute.md) this dependency is not because of an explicit check coded into the malware by the author.",
+            "description": "Software may require certain run-time or library dependencies consistent with normal software development and deployment. For example, software may require the presence of a .NET or Java runtime or to be run by a webserver that supports PHP. Unlike in [Conditional Execution](https://github.com/MBCProject/mbc-markdown/blob/v2.2/execution/conditional-execute.md) this dependency is not because of an explicit check coded into the malware by the author.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/execution/execution-dependency.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/execution/execution-dependency.md",
                     "external_id": "B0044"
                 }
             ],

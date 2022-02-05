@@ -8,7 +8,7 @@
             "id": "attack-pattern--8c5ccf4d-b443-4803-8e69-eb83b1564c48",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.798698Z",
-            "modified": "2022-02-04T23:52:35.798698Z",
+            "modified": "2022-02-05T00:37:22.601096Z",
             "name": "Procedure Hooking",
             "description": "Intercepts and executes designated code in response to events such as messages, keystrokes, and mouse inputs.",
             "kill_chain_phases": [
@@ -40,7 +40,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/credential-access/hooking.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/credential-access/hooking.md",
                     "external_id": "F0003.003"
                 },
                 {

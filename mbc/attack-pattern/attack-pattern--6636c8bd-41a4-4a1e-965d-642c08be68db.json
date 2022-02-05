@@ -8,7 +8,7 @@
             "id": "attack-pattern--6636c8bd-41a4-4a1e-965d-642c08be68db",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.651264Z",
-            "modified": "2021-02-10T06:49:31.913483Z",
+            "modified": "2022-02-05T00:37:22.616726Z",
             "name": "Steganography",
             "description": "Malware may store information in an image.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/covert-location.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/covert-location.md",
                     "external_id": "B0040.002"
                 }
             ],

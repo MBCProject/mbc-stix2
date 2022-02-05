@@ -8,7 +8,7 @@
             "id": "attack-pattern--4d618788-4089-4149-8948-3d3524c766c5",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.73826Z",
-            "modified": "2021-02-10T06:49:31.947481Z",
+            "modified": "2022-02-05T00:37:22.694887Z",
             "name": "Sleep",
             "kill_chain_phases": [
                 {
@@ -19,7 +19,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/execution/remote-commands.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/execution/remote-commands.md",
                     "external_id": "B0011.005"
                 }
             ],

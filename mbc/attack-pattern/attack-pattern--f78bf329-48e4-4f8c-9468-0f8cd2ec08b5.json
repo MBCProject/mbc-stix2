@@ -8,7 +8,7 @@
             "id": "attack-pattern--f78bf329-48e4-4f8c-9468-0f8cd2ec08b5",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.751794Z",
-            "modified": "2022-02-04T23:52:35.751794Z",
+            "modified": "2022-02-05T00:37:22.569857Z",
             "name": "Data Flow Analysis Evasion",
             "description": "Malware code evades data flow analysis (also known as information flow analysis and taint-tracking).",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-static-analysis/evade-data-flow-analysis.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-static-analysis/evade-data-flow-analysis.md",
                     "external_id": "B0045"
                 },
                 {

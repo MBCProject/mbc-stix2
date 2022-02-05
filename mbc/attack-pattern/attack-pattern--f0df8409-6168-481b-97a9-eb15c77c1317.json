@@ -8,7 +8,7 @@
             "id": "attack-pattern--f0df8409-6168-481b-97a9-eb15c77c1317",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.507263Z",
-            "modified": "2021-02-10T06:49:31.868442Z",
+            "modified": "2022-02-05T00:37:22.538637Z",
             "name": "Multiple Stages of Loaders",
             "description": "Multiple stages of loaders are used with an encoded payload.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-capture.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/evade-capture.md",
                     "external_id": "B0036.003"
                 }
             ],

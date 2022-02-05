@@ -8,7 +8,7 @@
             "id": "attack-pattern--3018beac-a047-4b14-9c72-3340866b4c67",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.845581Z",
-            "modified": "2022-02-04T23:52:35.845581Z",
+            "modified": "2022-02-05T00:37:22.648018Z",
             "name": "Patch Process Command Line",
             "description": "Malware patches the PEB of a process to spoof the arguments.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/process-inject.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/process-inject.md",
                     "external_id": "E1055.m04"
                 }
             ],

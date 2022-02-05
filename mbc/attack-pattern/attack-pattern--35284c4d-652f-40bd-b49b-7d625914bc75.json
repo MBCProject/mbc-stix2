@@ -8,7 +8,7 @@
             "id": "attack-pattern--35284c4d-652f-40bd-b49b-7d625914bc75",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.483264Z",
-            "modified": "2021-02-10T06:49:31.856442Z",
+            "modified": "2022-02-05T00:37:22.507385Z",
             "name": "Check Clipboard Data",
             "description": "Checks clipboard data which can be used to detect whether execution is inside a sandbox.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/detect-sandbox.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/detect-sandbox.md",
                     "external_id": "B0007.001"
                 }
             ],

@@ -8,7 +8,7 @@
             "id": "attack-pattern--23cc9528-7b14-4f75-9daf-0afb8d9c24fa",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.798698Z",
-            "modified": "2022-02-04T23:52:35.798698Z",
+            "modified": "2022-02-05T00:37:22.616726Z",
             "name": "Import Address Table (IAT) Hooking",
             "description": "Modifies a process's import address table (IAT), which stores pointers to imported API functions.",
             "kill_chain_phases": [
@@ -40,7 +40,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/credential-access/hooking.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/credential-access/hooking.md",
                     "external_id": "F0003.001"
                 }
             ],

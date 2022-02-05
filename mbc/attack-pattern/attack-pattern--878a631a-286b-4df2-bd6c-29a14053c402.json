@@ -8,7 +8,7 @@
             "id": "attack-pattern--878a631a-286b-4df2-bd6c-29a14053c402",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.57026Z",
-            "modified": "2021-02-10T06:49:31.891489Z",
+            "modified": "2022-02-05T00:37:22.585511Z",
             "name": "Multiple VMs",
             "description": "Multiple virtual machines with different architectures (CISC, RISC, etc.) can be used inside of a single executable in order to make reverse engineering even more difficult.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-static-analysis/exe-code-virtualize.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-static-analysis/exe-code-virtualize.md",
                     "external_id": "B0008.001"
                 }
             ],

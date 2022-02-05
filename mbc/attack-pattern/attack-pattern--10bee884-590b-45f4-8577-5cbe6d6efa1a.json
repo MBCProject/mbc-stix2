@@ -8,7 +8,7 @@
             "id": "attack-pattern--10bee884-590b-45f4-8577-5cbe6d6efa1a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.916486Z",
-            "modified": "2021-02-10T06:49:31.916486Z",
+            "modified": "2022-02-05T00:37:22.616726Z",
             "name": "Bypass Windows File Protection",
             "description": "Malware bypasses Windows file protection.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/disable-security-tools.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/disable-security-tools.md",
                     "external_id": "F0004.007"
                 }
             ],

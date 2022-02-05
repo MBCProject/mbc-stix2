@@ -8,7 +8,7 @@
             "id": "attack-pattern--f1f9a410-ce13-4c3d-8728-69e517d71fb9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.829949Z",
-            "modified": "2022-02-04T23:52:35.829949Z",
+            "modified": "2022-02-05T00:37:22.632387Z",
             "name": "Hidden Userspace Libraries",
             "description": "Hides userspace libraries used by the malware instance. Technique refers to hiding libraries loaded in memory (not disk). For example, a userspace library may be injected into a system process such that memory scanning tools may be prevented from finding them. This technique is different than DLL injection, in which the DLL will continue to show up in process metadata that tracks what is stored in memory. This technique involves clearing that metadata or making it inaccessible to security and inspection tools.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/hide-artifacts.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/hide-artifacts.md",
                     "external_id": "E1564.m01"
                 }
             ],

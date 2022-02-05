@@ -8,13 +8,13 @@
             "id": "x-mitre-tactic--0735bfd3-bffa-4476-9e3b-e33cc5c553e0",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.283263Z",
-            "modified": "2021-02-10T06:49:31.787443Z",
+            "modified": "2022-02-05T00:37:22.397978Z",
             "name": "File System Micro-objective",
             "description": "Micro-behaviors related to file manipulation.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/file-system/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/file-system/README.md",
                     "external_id": "OC0001"
                 }
             ],

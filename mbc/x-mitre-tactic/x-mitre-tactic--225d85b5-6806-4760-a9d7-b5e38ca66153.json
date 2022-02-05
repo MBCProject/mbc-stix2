@@ -8,13 +8,13 @@
             "id": "x-mitre-tactic--225d85b5-6806-4760-a9d7-b5e38ca66153",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.060Z",
-            "modified": "2022-02-04T23:52:35.579921Z",
+            "modified": "2022-02-05T00:37:22.382348Z",
             "name": "Anti-Static Analysis",
             "description": "Behaviors and code characteristics that prevent static analysis or make it more difficult. Simple static analysis identifies features such as embedded strings, header information, hash values, and file metadata (e.g., creation date). More involved static analysis involves the disassembly of the binary code.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-static-analysis/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-static-analysis/README.md",
                     "external_id": "OB0002"
                 },
                 {

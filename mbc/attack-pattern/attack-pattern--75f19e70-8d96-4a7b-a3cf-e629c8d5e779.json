@@ -8,7 +8,7 @@
             "id": "attack-pattern--75f19e70-8d96-4a7b-a3cf-e629c8d5e779",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.598261Z",
-            "modified": "2021-02-10T06:49:31.899485Z",
+            "modified": "2022-02-05T00:37:22.601096Z",
             "name": "Keylogging",
             "description": "Malware captures user keyboard input.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/collection/keylogging.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/collection/keylogging.md",
                     "external_id": "F0002"
                 }
             ],

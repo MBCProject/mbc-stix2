@@ -8,13 +8,13 @@
             "id": "x-mitre-tactic--1f99e060-c0e8-449c-8629-216ef75d7828",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.056Z",
-            "modified": "2021-02-11T06:49:31.787443Z",
+            "modified": "2022-02-05T00:37:22.382348Z",
             "name": "Lateral Movement",
             "description": "Behaviors that enable propagation through a compromised system or infected files. The malware may move actively (e.g., gain access to a machine directly) or passively (e.g., send malicious email).",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/lateral-movement/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/lateral-movement/README.md",
                     "external_id": "OB0011"
                 }
             ],

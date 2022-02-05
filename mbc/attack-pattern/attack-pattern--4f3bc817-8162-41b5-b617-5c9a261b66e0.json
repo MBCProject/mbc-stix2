@@ -8,7 +8,7 @@
             "id": "attack-pattern--4f3bc817-8162-41b5-b617-5c9a261b66e0",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.460262Z",
-            "modified": "2021-02-10T06:49:31.847442Z",
+            "modified": "2022-02-05T00:37:22.491757Z",
             "name": "Debugger Artifacts",
             "description": "Malware may detect a debugger by its artifact (window title, device driver, exports, etc.).",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/detect-debugger.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/detect-debugger.md",
                     "external_id": "B0001.004"
                 }
             ],

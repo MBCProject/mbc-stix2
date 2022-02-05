@@ -8,7 +8,7 @@
             "id": "attack-pattern--3d34b429-1686-44be-8b63-bded4942cee7",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.514301Z",
-            "modified": "2021-02-10T06:49:31.871442Z",
+            "modified": "2022-02-05T00:37:22.538637Z",
             "name": "Pipeline Misdirection",
             "description": "Take advantage of pipelining in modern processors to misdirect debugging, emulation, or static analysis tools. An unpacker can assume a certain number of opcodes will be cached and then proceed to overwrite them in memory, causing a debugger/emulator/analyzer to follow different code than is normally executed.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-debugger.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/evade-debugger.md",
                     "external_id": "B0002.018"
                 }
             ],

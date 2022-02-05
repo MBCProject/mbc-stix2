@@ -8,7 +8,7 @@
             "id": "attack-pattern--74d536e7-5fb3-4633-8f42-ca413aa2beea",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.912738Z",
-            "modified": "2022-02-04T23:52:35.912738Z",
+            "modified": "2022-02-05T00:37:22.71051Z",
             "name": "Delete Shadow Copies",
             "description": "Deletes shadow drive data, which is related to ransomware.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/data-destruction.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/impact/data-destruction.md",
                     "external_id": "E1485.m04"
                 }
             ],

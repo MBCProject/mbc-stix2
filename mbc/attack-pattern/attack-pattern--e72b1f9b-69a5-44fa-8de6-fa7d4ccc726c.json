@@ -8,7 +8,7 @@
             "id": "attack-pattern--e72b1f9b-69a5-44fa-8de6-fa7d4ccc726c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.030527Z",
-            "modified": "2021-02-10T06:49:32.030527Z",
+            "modified": "2022-02-05T00:37:22.819853Z",
             "name": "Create Registry Key::Registry",
             "description": "Malware creates a registry key.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/operating-system/registry.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/operating-system/registry.md",
                     "external_id": "C0036.004"
                 }
             ],

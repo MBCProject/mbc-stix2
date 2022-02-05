@@ -8,7 +8,7 @@
             "id": "attack-pattern--dcd29dd1-20d2-4387-90dd-95480c4e0f1c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.021478Z",
-            "modified": "2021-02-10T06:49:32.021478Z",
+            "modified": "2022-02-05T00:37:22.804261Z",
             "name": "Mouse Click::Simulate Hardware",
             "description": "Malware simulates mouse click.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/hardware/simulate-hardware.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/hardware/simulate-hardware.md",
                     "external_id": "C0057.002"
                 }
             ],

@@ -8,7 +8,7 @@
             "id": "attack-pattern--27a1c173-3d93-430b-9544-8dd2db602b87",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.662262Z",
-            "modified": "2021-02-10T06:49:31.918444Z",
+            "modified": "2022-02-05T00:37:22.632387Z",
             "name": "Hidden Files and Directories",
             "description": "Malware may hide files and folders to avoid detection and/or to persist on the system. See potential methods below.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/hidden-files.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/hidden-files.md",
                     "external_id": "F0005"
                 }
             ],

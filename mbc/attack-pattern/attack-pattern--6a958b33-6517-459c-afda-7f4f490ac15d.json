@@ -8,7 +8,7 @@
             "id": "attack-pattern--6a958b33-6517-459c-afda-7f4f490ac15d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.829949Z",
-            "modified": "2022-02-04T23:52:35.829949Z",
+            "modified": "2022-02-05T00:37:22.632387Z",
             "name": "Hidden Services",
             "description": "Hides any system services that the malware instance creates or injects itself into. Services can be hidden by hiding associated registry keys.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/hide-artifacts.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/hide-artifacts.md",
                     "external_id": "E1564.m04"
                 }
             ],

@@ -8,7 +8,7 @@
             "id": "attack-pattern--cb1c9047-e589-4aed-b5d5-c6062a1ab340",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.801263Z",
-            "modified": "2021-02-10T06:49:31.968484Z",
+            "modified": "2022-02-05T00:37:22.726134Z",
             "name": "Abuse Enterprise Certificates",
             "description": "Abusing enterprise certificates enables malware to exploit private APIs and infect a wide range of users (see *Exploit Private APIs* below).",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/lateral-movement/supply-chain-compromise.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/lateral-movement/supply-chain-compromise.md",
                     "external_id": "E1195.m01"
                 }
             ],

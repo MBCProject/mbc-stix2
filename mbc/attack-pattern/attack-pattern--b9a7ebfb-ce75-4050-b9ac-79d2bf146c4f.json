@@ -8,7 +8,7 @@
             "id": "attack-pattern--b9a7ebfb-ce75-4050-b9ac-79d2bf146c4f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.020479Z",
-            "modified": "2022-02-04T23:52:36.093464Z",
+            "modified": "2022-02-05T00:37:22.804261Z",
             "name": "Install Driver",
             "description": "Malware installs a driver or minifilter.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/hardware/install-driver.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/hardware/install-driver.md",
                     "external_id": "C0037"
                 }
             ],

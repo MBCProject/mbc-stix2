@@ -8,7 +8,7 @@
             "id": "attack-pattern--a90fbac2-8ec1-486c-85bf-6cb6269a5ea6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.788262Z",
-            "modified": "2021-02-10T06:49:31.962489Z",
+            "modified": "2022-02-05T00:37:22.71051Z",
             "name": "Password Cracking",
             "description": "Consume system resources for the purpose of password cracking.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/hijack-sys-resources.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/impact/hijack-sys-resources.md",
                     "external_id": "B0018.001"
                 }
             ],

@@ -8,7 +8,7 @@
             "id": "attack-pattern--eab3d576-e947-486b-857c-ffa680b30050",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.66526Z",
-            "modified": "2021-02-10T06:49:31.919484Z",
+            "modified": "2022-02-05T00:37:22.632387Z",
             "name": "Remove SMS Warning Messages",
             "description": "Malware captures the message body of incoming SMS messages and aborts displaying messages that meets a certain criteria.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/indicator-blocking.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/indicator-blocking.md",
                     "external_id": "F0006.001"
                 }
             ],

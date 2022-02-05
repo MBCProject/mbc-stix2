@@ -8,7 +8,7 @@
             "id": "attack-pattern--5280b393-729d-43d5-b9e7-81da3d31b450",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.682261Z",
-            "modified": "2021-02-10T06:49:31.924457Z",
+            "modified": "2022-02-05T00:37:22.648018Z",
             "name": "Call Indirections",
             "kill_chain_phases": [
                 {
@@ -19,7 +19,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/polymorphic-code.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/polymorphic-code.md",
                     "external_id": "B0029.002"
                 },
                 {

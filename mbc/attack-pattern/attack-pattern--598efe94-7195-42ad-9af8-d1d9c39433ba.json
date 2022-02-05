@@ -8,7 +8,7 @@
             "id": "attack-pattern--598efe94-7195-42ad-9af8-d1d9c39433ba",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.58826Z",
-            "modified": "2021-02-10T06:49:31.896483Z",
+            "modified": "2022-02-05T00:37:22.585511Z",
             "name": "Ethereum",
             "description": "Access Ethereum data.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/collection/cryptocurrency.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/collection/cryptocurrency.md",
                     "external_id": "B0028.002"
                 }
             ],

@@ -8,7 +8,7 @@
             "id": "attack-pattern--be6d8982-3619-4f2f-b5c7-64d9e934ac43",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.784263Z",
-            "modified": "2021-02-10T06:49:31.961483Z",
+            "modified": "2022-02-05T00:37:22.71051Z",
             "name": "Click Hijacking",
             "description": "Malware alters DNS server settings to route to a rogue DNS server: when the user clicks on a search result link displayed through a search engine query, malware re-routes the user to different website. Instead of going to the requested site, the user is taken to an alternate website such that the click triggers payment to the threat actor.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/generate-fraud-rev.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/impact/generate-fraud-rev.md",
                     "external_id": "E1472.m01"
                 },
                 {

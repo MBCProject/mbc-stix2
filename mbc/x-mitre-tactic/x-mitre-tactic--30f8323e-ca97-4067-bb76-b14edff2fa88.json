@@ -8,13 +8,13 @@
             "id": "x-mitre-tactic--30f8323e-ca97-4067-bb76-b14edff2fa88",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.270263Z",
-            "modified": "2021-02-10T06:49:31.787443Z",
+            "modified": "2022-02-05T00:37:22.382348Z",
             "name": "Communication Micro-objective",
             "description": "Micro-behaviors that enable malware to communicate.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/communication/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/communication/README.md",
                     "external_id": "OC0006"
                 }
             ],

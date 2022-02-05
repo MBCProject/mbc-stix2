@@ -8,7 +8,7 @@
             "id": "attack-pattern--cbc563fa-1d9f-4e91-9803-4d5c2b9a7eae",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.73126Z",
-            "modified": "2021-02-10T06:49:31.945477Z",
+            "modified": "2022-02-05T00:37:22.679223Z",
             "name": "Install Additional Program",
             "description": "Installs another, different program on the system. The additional program can be any secondary module; examples include backdoors, malicious drivers, kernel modules, and OS X Apps.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/execution/install-prog.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/execution/install-prog.md",
                     "external_id": "B0023"
                 },
                 {

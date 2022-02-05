@@ -8,7 +8,7 @@
             "id": "attack-pattern--77b42d45-8bcf-4d7d-b6d1-4756b6edf272",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.990485Z",
-            "modified": "2021-02-10T06:49:31.990485Z",
+            "modified": "2022-02-05T00:37:22.757347Z",
             "name": "Stream Cipher::Decrypt Data",
             "description": "Malware decrypts data encrypted with a stream cipher.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/cryptography/decrypt.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/cryptography/decrypt.md",
                     "external_id": "C0031.013"
                 }
             ],

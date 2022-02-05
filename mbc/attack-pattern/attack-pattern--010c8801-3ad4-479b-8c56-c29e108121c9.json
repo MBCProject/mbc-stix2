@@ -8,7 +8,7 @@
             "id": "attack-pattern--010c8801-3ad4-479b-8c56-c29e108121c9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.842259Z",
-            "modified": "2021-02-10T06:49:31.984488Z",
+            "modified": "2022-02-05T00:37:22.757347Z",
             "name": "InternetOpen::WinINet",
             "description": "Initializes an application's use of the WinINet functions.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/communication/wininet.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/communication/wininet.md",
                     "external_id": "C0005.002"
                 }
             ],

@@ -8,7 +8,7 @@
             "id": "attack-pattern--41746d12-dfb1-4e7d-bd7e-81678b93b977",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.529264Z",
-            "modified": "2021-02-10T06:49:31.877481Z",
+            "modified": "2022-02-05T00:37:22.55426Z",
             "name": "Different Opcode Sets",
             "description": "Use different opcodes sets (ex: FPU, MMX, SSE) to block emulators.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-emulator.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/evade-emulator.md",
                     "external_id": "B0005.001"
                 }
             ],

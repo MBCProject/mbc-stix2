@@ -8,7 +8,7 @@
             "id": "attack-pattern--1d1b8b46-c3d7-49e5-8856-367b48272f5e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.594264Z",
-            "modified": "2021-02-10T06:49:31.898488Z",
+            "modified": "2022-02-05T00:37:22.585511Z",
             "name": "Input Capture",
             "description": "Malware captures user input.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/collection/input-capture.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/collection/input-capture.md",
                     "external_id": "E1056"
                 },
                 {

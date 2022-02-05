@@ -8,7 +8,7 @@
             "id": "attack-pattern--b87f5902-5985-4b45-b8df-b3b24f214650",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.028478Z",
-            "modified": "2021-02-10T06:49:32.028478Z",
+            "modified": "2022-02-05T00:37:22.819853Z",
             "name": "Console",
             "description": "Malware modifies the console.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/operating-system/console.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/operating-system/console.md",
                     "external_id": "C0033"
                 }
             ],

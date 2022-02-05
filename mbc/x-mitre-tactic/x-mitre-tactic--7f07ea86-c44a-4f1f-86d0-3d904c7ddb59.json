@@ -8,13 +8,13 @@
             "id": "x-mitre-tactic--7f07ea86-c44a-4f1f-86d0-3d904c7ddb59",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-11T06:49:31.787443Z",
-            "modified": "2021-02-11T06:49:31.787443Z",
+            "modified": "2022-02-05T00:37:22.397978Z",
             "name": "Operating System Micro-objective",
             "description": "Micro-behaviors related to operating systems.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/operating-system/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/operating-system/README.md",
                     "external_id": "OC0008"
                 }
             ],

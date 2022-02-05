@@ -8,7 +8,7 @@
             "id": "attack-pattern--6c07f7cb-fd9d-4acf-9b99-b15ecafc8dca",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.784263Z",
-            "modified": "2021-02-10T06:49:31.961483Z",
+            "modified": "2022-02-05T00:37:22.71051Z",
             "name": "Advertisement Replacement Fraud",
             "description": "Malware injects ad windows onto websites the user views.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/generate-fraud-rev.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/impact/generate-fraud-rev.md",
                     "external_id": "E1472.m02"
                 },
                 {

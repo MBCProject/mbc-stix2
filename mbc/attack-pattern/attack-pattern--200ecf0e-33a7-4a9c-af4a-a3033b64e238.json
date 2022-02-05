@@ -8,7 +8,7 @@
             "id": "attack-pattern--200ecf0e-33a7-4a9c-af4a-a3033b64e238",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.490263Z",
-            "modified": "2021-02-10T06:49:31.860448Z",
+            "modified": "2022-02-05T00:37:22.507385Z",
             "name": "Check Processes",
             "description": "The VMware Tools use processes like VMwareServices.exe or VMwareTray.exe, to perform actions on the virtual environment. Malware can list the process and searches for the VMware string. Process related to Virtualbox can be detected by malware by query the process list.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/detect-vm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/detect-vm.md",
                     "external_id": "B0009.004"
                 },
                 {

@@ -8,7 +8,7 @@
             "id": "attack-pattern--013fce9b-0645-41a4-b6ec-03a70b319715",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.864259Z",
-            "modified": "2021-02-10T06:49:32.013448Z",
+            "modified": "2022-02-05T00:37:22.788643Z",
             "name": "Create Office Document::Create File",
             "description": "An Office document is created.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/file-system/create-file.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/file-system/create-file.md",
                     "external_id": "C0016.001"
                 }
             ],

@@ -8,7 +8,7 @@
             "id": "attack-pattern--5cd1a1ce-0012-4e78-9449-24a8e3b0f4e2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.806261Z",
-            "modified": "2021-02-10T06:49:31.970483Z",
+            "modified": "2022-02-05T00:37:22.726134Z",
             "name": "Server Connect::DNS Communication",
             "description": "Connects to DNS server.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/communication/dns-comm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/communication/dns-comm.md",
                     "external_id": "C0011.002"
                 }
             ],

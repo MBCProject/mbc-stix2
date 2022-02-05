@@ -8,7 +8,7 @@
             "id": "attack-pattern--68791849-d1ec-436a-983a-b6ca41bea52c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.514301Z",
-            "modified": "2021-02-10T06:49:31.871442Z",
+            "modified": "2022-02-05T00:37:22.538637Z",
             "name": "Obfuscate Library Use",
             "description": "LoadLibrary API calls or direct access of kernel32 via PEB (fs[0]) pointers, used to rebuild IAT or just obfuscate library use.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-debugger.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/evade-debugger.md",
                     "external_id": "B0002.016"
                 }
             ],

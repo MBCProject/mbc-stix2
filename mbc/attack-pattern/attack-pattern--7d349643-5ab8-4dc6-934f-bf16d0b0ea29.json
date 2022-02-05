@@ -8,7 +8,7 @@
             "id": "attack-pattern--7d349643-5ab8-4dc6-934f-bf16d0b0ea29",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.638268Z",
-            "modified": "2021-02-10T06:49:31.909483Z",
+            "modified": "2022-02-05T00:37:22.616726Z",
             "name": "Alternative Installation Location",
             "description": "Malware may install itself not as a file on the hard drive.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/alter-install-location.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/alter-install-location.md",
                     "external_id": "B0027"
                 },
                 {

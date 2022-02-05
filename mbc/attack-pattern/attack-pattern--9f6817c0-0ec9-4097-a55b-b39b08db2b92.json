@@ -8,7 +8,7 @@
             "id": "attack-pattern--9f6817c0-0ec9-4097-a55b-b39b08db2b92",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.57926Z",
-            "modified": "2021-02-10T06:49:31.893484Z",
+            "modified": "2022-02-05T00:37:22.585511Z",
             "name": "Custom Compression of Code",
             "description": "Uses a custom algorithm to compress opcode mnemonics.",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-static-analysis/software-packing.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-static-analysis/software-packing.md",
                     "external_id": "F0001.006"
                 }
             ],

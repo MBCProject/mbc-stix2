@@ -8,7 +8,7 @@
             "id": "attack-pattern--c8d17860-f4e4-4403-a28b-02c784a3ca70",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.557264Z",
-            "modified": "2021-02-10T06:49:31.887483Z",
+            "modified": "2022-02-05T00:37:22.569857Z",
             "name": "Import Address Table Obfuscation",
             "description": "Obfuscate the import address table.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-static-analysis/exe-code-obfuscate.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-static-analysis/exe-code-obfuscate.md",
                     "external_id": "B0032.011"
                 }
             ],

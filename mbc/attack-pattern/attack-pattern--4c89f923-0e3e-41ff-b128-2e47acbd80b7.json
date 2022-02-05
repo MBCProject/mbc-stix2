@@ -8,7 +8,7 @@
             "id": "attack-pattern--4c89f923-0e3e-41ff-b128-2e47acbd80b7",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.57126Z",
-            "modified": "2021-02-10T06:49:31.891489Z",
+            "modified": "2022-02-05T00:37:22.585511Z",
             "name": "Executable Code Virtualization",
             "description": "Original executable code is virtualized by translating the code into a special format that only a special virtual machine (VM) can run; the VM uses a customized virtual instruction set. A \"stub\" function calls the VM when the code is run. Virtualized code makes static analysis and reverse engineering more difficult; dumped code won\u2019t run without the VM.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-static-analysis/exe-code-virtualize.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-static-analysis/exe-code-virtualize.md",
                     "external_id": "B0008"
                 },
                 {

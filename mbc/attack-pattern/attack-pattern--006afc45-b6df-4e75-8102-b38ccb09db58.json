@@ -8,7 +8,7 @@
             "id": "attack-pattern--006afc45-b6df-4e75-8102-b38ccb09db58",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.90226Z",
-            "modified": "2021-02-10T06:49:32.044479Z",
+            "modified": "2022-02-05T00:37:22.835477Z",
             "name": "Router Firmware",
             "description": "Cisco routers can have their firmware images modified in order to maliciously infect and persist on end-user machines in a network. This is accomplished by using default or acquired credentials to gain access to a router and to install a backdoor. The implant resides within a modified Cisco IOS image and, when loaded, maintains its persistence in the environment, even after a system reboot. However, any further modules loaded by the attacker will only exist in the router's volatile memory and will not be available for use after reboot. Known affected hardware includes Cisco routers 1841, 2811, and 3825.",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/persistence/component-firmware.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/persistence/component-firmware.md",
                     "external_id": "F0009.001"
                 }
             ],

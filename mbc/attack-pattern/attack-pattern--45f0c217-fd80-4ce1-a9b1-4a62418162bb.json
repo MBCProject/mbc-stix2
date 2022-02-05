@@ -8,7 +8,7 @@
             "id": "attack-pattern--45f0c217-fd80-4ce1-a9b1-4a62418162bb",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.521266Z",
-            "modified": "2021-02-10T06:49:31.875442Z",
+            "modified": "2022-02-05T00:37:22.55426Z",
             "name": "Delayed Execution",
             "description": "Stalling code is typically executed before any malicious behavior. The malware's aim is to delay the execution of the malicious activity long enough so that an automated dynamic analysis system fails to extract the interesting malicious behavior. This method is very similar to ATT&CK's [Virtualization/Sandbox Evasion: Time Based Evasion](https://attack.mitre.org/techniques/T1497/003/) sub-technique.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-dynamic-analysis.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/evade-dynamic-analysis.md",
                     "external_id": "B0003.003"
                 }
             ],

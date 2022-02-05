@@ -8,7 +8,7 @@
             "id": "attack-pattern--54c7f1ed-7132-4022-8f3e-3fd4e5b88169",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:36.109082Z",
-            "modified": "2022-02-04T23:52:36.109082Z",
+            "modified": "2022-02-05T00:37:22.819853Z",
             "name": "Enumerate Threads",
             "description": "Malware enumerates threads.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/process/enumerate-threads.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/process/enumerate-threads.md",
                     "external_id": "C0064"
                 }
             ],

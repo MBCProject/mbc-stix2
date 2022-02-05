@@ -8,7 +8,7 @@
             "id": "attack-pattern--d71d433d-6815-4cca-940c-b21b05ab9a47",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.829949Z",
-            "modified": "2022-02-04T23:52:35.829949Z",
+            "modified": "2022-02-05T00:37:22.632387Z",
             "name": "Abuse Windows Function Calls",
             "description": "Malware abuses native Windows function calls to transfer execution to shellcode that it loads into memory. A pointer to the callback function is used to supply the memory address of the shellcode. Functions that can be abused include EnumResourceTypesA and EnumUILanguagesW.",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/hijack-execution-flow.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/hijack-execution-flow.md",
                     "external_id": "F0015.006"
                 },
                 {

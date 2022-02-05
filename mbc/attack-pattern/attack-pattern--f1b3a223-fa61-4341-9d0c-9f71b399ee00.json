@@ -8,7 +8,7 @@
             "id": "attack-pattern--f1b3a223-fa61-4341-9d0c-9f71b399ee00",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.759262Z",
-            "modified": "2021-02-10T06:49:31.952481Z",
+            "modified": "2022-02-05T00:37:22.694887Z",
             "name": "Encryption",
             "description": "Data is encrypted.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/exfiltration/data-encrypted.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/exfiltration/data-encrypted.md",
                     "external_id": "E1560.m02"
                 }
             ],

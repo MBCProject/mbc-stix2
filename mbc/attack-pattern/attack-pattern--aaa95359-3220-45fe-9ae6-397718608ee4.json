@@ -8,7 +8,7 @@
             "id": "attack-pattern--aaa95359-3220-45fe-9ae6-397718608ee4",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.637267Z",
-            "modified": "2021-02-10T06:49:31.909483Z",
+            "modified": "2022-02-05T00:37:22.616726Z",
             "name": "Fileless Malware",
             "description": "Stores itself in memory.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/alter-install-location.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/alter-install-location.md",
                     "external_id": "B0027.001"
                 }
             ],

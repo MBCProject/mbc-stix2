@@ -8,7 +8,7 @@
             "id": "attack-pattern--ab2e210b-f2a3-4f50-b42a-7304b875429c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.915483Z",
-            "modified": "2021-02-10T06:49:31.915483Z",
+            "modified": "2022-02-05T00:37:22.616726Z",
             "name": "Force Lazy Writing",
             "description": "Some operating systems will sometimes use a form of \"lazy writing\" for disk I/O, which may obscure the true provenance of the write operation. This method occurs when code intentionally forces the operating system to perform a lazy writing operation. For example, in Windows, a file may be opened, memory mapped, and closed, but the memory map will still exist and can be written to, which will cause a lazy write that looks like it is coming from the System process.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/disable-security-tools.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/disable-security-tools.md",
                     "external_id": "F0004.006"
                 },
                 {

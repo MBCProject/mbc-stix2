@@ -8,7 +8,7 @@
             "id": "attack-pattern--66995783-bfea-4c72-8fcb-4bdb015dc98f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.829949Z",
-            "modified": "2022-02-04T23:52:35.829949Z",
+            "modified": "2022-02-05T00:37:22.632387Z",
             "name": "System Service Dispatch Table Hooking",
             "description": "Malware (e.g. rootkit, malicious drivers) may hook the system service dispatch table (SSDT), also called the system service descriptor table. The SSDT contains information about the service tables used by the operating system for dispatching system calls. Hooking the SSDT enables malware to hide files, registry keys, and network connections.",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/hijack-execution-flow.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/hijack-execution-flow.md",
                     "external_id": "F0015.005"
                 },
                 {

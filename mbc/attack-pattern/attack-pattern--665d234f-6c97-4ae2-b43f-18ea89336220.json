@@ -8,7 +8,7 @@
             "id": "attack-pattern--665d234f-6c97-4ae2-b43f-18ea89336220",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.973483Z",
-            "modified": "2021-02-10T06:49:31.973483Z",
+            "modified": "2022-02-05T00:37:22.726134Z",
             "name": "Send Request::HTTP Communication",
             "description": "HTTP client sends request (GET).",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/communication/http-comm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/communication/http-comm.md",
                     "external_id": "C0002.003"
                 }
             ],

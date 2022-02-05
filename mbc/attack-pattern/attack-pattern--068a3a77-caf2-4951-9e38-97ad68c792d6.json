@@ -8,7 +8,7 @@
             "id": "attack-pattern--068a3a77-caf2-4951-9e38-97ad68c792d6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.510265Z",
-            "modified": "2021-02-10T06:49:31.869442Z",
+            "modified": "2022-02-05T00:37:22.538637Z",
             "name": "Code Integrity Check",
             "description": "Check that the unpacking code is unmodified. Variation exists where unpacking code is part of the \"key\" used to unpack, therefore any Software Breakpoints during debugging causes unpacking to completely fail or result in malformed unpacked code.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-debugger.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/evade-debugger.md",
                     "external_id": "B0002.005"
                 }
             ],

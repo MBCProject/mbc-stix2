@@ -8,7 +8,7 @@
             "id": "attack-pattern--02b99b72-6baa-4329-9a48-1ce8aae4383a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.486264Z",
-            "modified": "2021-02-10T06:49:31.858442Z",
+            "modified": "2022-02-05T00:37:22.507385Z",
             "name": "Timing/Uptime Check",
             "description": "Comparing single GetTickCount with some value to see if system has been started at least *X* amount ago. This behavior can be mitigated in non-automated analysis environments.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/detect-sandbox.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/detect-sandbox.md",
                     "external_id": "B0007.009"
                 }
             ],

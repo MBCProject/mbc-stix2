@@ -8,7 +8,7 @@
             "id": "attack-pattern--d7183ad6-af24-4400-9539-f3a70be04a76",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.953485Z",
-            "modified": "2021-02-10T06:49:31.953485Z",
+            "modified": "2022-02-05T00:37:22.694887Z",
             "name": "Clipboard Modification",
             "description": "ATT&CK defines Clipboard Modification as a Mobile technique (Android platform). MBC extends it to the Windows platform.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/clipboard-mod.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/impact/clipboard-mod.md",
                     "external_id": "E1510"
                 },
                 {

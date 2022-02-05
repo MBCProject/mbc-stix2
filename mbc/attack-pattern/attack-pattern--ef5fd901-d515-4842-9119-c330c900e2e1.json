@@ -8,7 +8,7 @@
             "id": "attack-pattern--ef5fd901-d515-4842-9119-c330c900e2e1",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.005479Z",
-            "modified": "2021-02-10T06:49:32.005479Z",
+            "modified": "2022-02-05T00:37:22.788643Z",
             "name": "Decompress Data",
             "description": "Malware may decompress data.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/data/decompress.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/data/decompress.md",
                     "external_id": "C0025"
                 }
             ],

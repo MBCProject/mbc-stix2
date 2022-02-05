@@ -8,7 +8,7 @@
             "id": "attack-pattern--88906eb3-c6df-452f-a16d-d276a39a39d4",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.87726Z",
-            "modified": "2021-02-10T06:49:32.025479Z",
+            "modified": "2022-02-05T00:37:22.804261Z",
             "name": "Executable Heap::Change Memory Protection",
             "description": "The heap is made executable.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/memory/memory-protect.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/memory/memory-protect.md",
                     "external_id": "C0008.002"
                 }
             ],

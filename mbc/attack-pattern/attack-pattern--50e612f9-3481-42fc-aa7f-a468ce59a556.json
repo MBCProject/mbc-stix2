@@ -8,7 +8,7 @@
             "id": "attack-pattern--50e612f9-3481-42fc-aa7f-a468ce59a556",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.791261Z",
-            "modified": "2021-02-10T06:49:31.964486Z",
+            "modified": "2022-02-05T00:37:22.71051Z",
             "name": "Manipulate Network Traffic",
             "description": "Malware intercepts and manipulates network traffic, typically accessing or modifying data, going to or originating from the system on which the malware instance is executing. Also known as a Man-in-the-Middle attack.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/manipulate-network-traffic.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/impact/manipulate-network-traffic.md",
                     "external_id": "B0019"
                 },
                 {

@@ -8,9 +8,9 @@
             "id": "attack-pattern--739b9d69-ce7d-4ef5-b39e-9bcdb6796200",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.739261Z",
-            "modified": "2021-02-11T06:49:31.787443Z",
+            "modified": "2022-02-05T00:37:22.694887Z",
             "name": "Remote Commands",
-            "description": "Malware may provide an attacker with explicit commands. This behavior differs from the [Remote Access](https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact/remote-access.md) behavior under the [Impact](https://github.com/MBCProject/mbc-markdown/blob/v2.1/impact) objective in that *Impact: Remote Access* is potentially much broader and may include full remote access.",
+            "description": "Malware may provide an attacker with explicit commands. This behavior differs from the [Remote Access](https://github.com/MBCProject/mbc-markdown/blob/v2.2/impact/remote-access.md) behavior under the [Impact](https://github.com/MBCProject/mbc-markdown/blob/v2.2/impact) objective in that *Impact: Remote Access* is potentially much broader and may include full remote access.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/execution/remote-commands.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/execution/remote-commands.md",
                     "external_id": "B0011"
                 }
             ],

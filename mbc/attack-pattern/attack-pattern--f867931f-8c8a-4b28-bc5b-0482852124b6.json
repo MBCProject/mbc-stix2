@@ -8,7 +8,7 @@
             "id": "attack-pattern--f867931f-8c8a-4b28-bc5b-0482852124b6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.891261Z",
-            "modified": "2021-02-10T06:49:32.039479Z",
+            "modified": "2022-02-05T00:37:22.835477Z",
             "name": "Synchronization",
             "description": "Malware enables two or more processes/threads to share a resource.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/process/synchronization.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/process/synchronization.md",
                     "external_id": "C0022"
                 }
             ],

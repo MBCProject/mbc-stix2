@@ -8,7 +8,7 @@
             "id": "attack-pattern--3110ab37-847b-4f50-be91-9748cee0f4a0",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.683261Z",
-            "modified": "2021-02-10T06:49:31.925446Z",
+            "modified": "2022-02-05T00:37:22.648018Z",
             "name": "Packer Stub",
             "description": "A packer stub can generate polymorphic code.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/polymorphic-code.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/polymorphic-code.md",
                     "external_id": "B0029.001"
                 }
             ],

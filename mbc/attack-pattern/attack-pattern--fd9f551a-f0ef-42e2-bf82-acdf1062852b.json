@@ -8,7 +8,7 @@
             "id": "attack-pattern--fd9f551a-f0ef-42e2-bf82-acdf1062852b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.877737Z",
-            "modified": "2022-02-04T23:52:35.877737Z",
+            "modified": "2022-02-05T00:37:22.679223Z",
             "name": "Secure Triggers",
             "description": "Code and/or data is encrypted until the underlying system satisfies a preselected condition unknown to the analyst (this is a form of Deposited Keys).",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/execution/conditional-execute.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/execution/conditional-execute.md",
                     "external_id": "B0025.005"
                 }
             ],

@@ -8,7 +8,7 @@
             "id": "attack-pattern--8736d370-3b61-4b4d-a371-0a01e988cbde",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.52426Z",
-            "modified": "2021-02-10T06:49:31.876481Z",
+            "modified": "2022-02-05T00:37:22.55426Z",
             "name": "Illusion",
             "description": "Creates an illusion; makes the analyst think something happened when it didn't.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-dynamic-analysis.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/evade-dynamic-analysis.md",
                     "external_id": "B0003.009"
                 }
             ],

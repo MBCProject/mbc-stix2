@@ -8,7 +8,7 @@
             "id": "attack-pattern--1a89f398-f3ef-484a-8735-024823241a11",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.871658Z",
-            "modified": "2022-02-04T23:52:35.871658Z",
+            "modified": "2022-02-05T00:37:22.663601Z",
             "name": "Code Discovery",
             "description": "Malware may inspect code or enumerate aspects.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/discovery/code-discover.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/discovery/code-discover.md",
                     "external_id": "B0046"
                 }
             ],
