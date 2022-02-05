@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--0ed5a666-191a-4481-96b9-86e23af322fa",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--17e05846-68f4-4f0c-bc23-88e01515bfcf",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-02-04T23:52:35.720618Z",
+            "modified": "2022-02-04T23:52:35.720618Z",
+            "name": "Hook Interrupt",
+            "description": "Modification of interrupt vector or descriptor tables.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-debugger.md",
+                    "external_id": "B0002.009"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

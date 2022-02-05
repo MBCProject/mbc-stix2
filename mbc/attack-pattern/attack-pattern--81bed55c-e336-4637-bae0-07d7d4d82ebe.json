@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--b1b1b0a5-9fcb-49b1-88c8-c48794be1591",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--81bed55c-e336-4637-bae0-07d7d4d82ebe",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-02-04T23:52:35.829949Z",
+            "modified": "2022-02-04T23:52:35.829949Z",
+            "name": "Encryption",
+            "description": "A malware sample, file, or other information is encrypted.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/obfuscate-files.md",
+                    "external_id": "E1027.m04"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

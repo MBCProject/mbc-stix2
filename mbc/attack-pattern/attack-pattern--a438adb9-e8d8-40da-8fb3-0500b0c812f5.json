@@ -1,0 +1,38 @@
+{
+    "type": "bundle",
+    "id": "bundle--98d16e4b-4492-49dc-84fb-dc1f64f76476",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a438adb9-e8d8-40da-8fb3-0500b0c812f5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-02-04T23:52:35.736174Z",
+            "modified": "2022-02-04T23:52:35.736174Z",
+            "name": "Hook memory mapping APIs",
+            "description": "Hooking prevents memory dumps by preventing mapping of memory into the kernel's virtual address space.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-memory-dump.md",
+                    "external_id": "B0006.010"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "J. Stuttgen, M. Cohen, Anti-forensic resilient memory acquisition,",
+                    "url": "https://www.dfrws.org/sites/default/files/session-files/paper-anti-forensic_resilient_memory_acquisition.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

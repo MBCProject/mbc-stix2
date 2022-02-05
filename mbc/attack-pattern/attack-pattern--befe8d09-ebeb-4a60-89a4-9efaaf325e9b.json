@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--4d39a4f5-74f4-4d26-9106-26ac0300d1df",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--befe8d09-ebeb-4a60-89a4-9efaaf325e9b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-02-04T23:52:36.109082Z",
+            "modified": "2022-02-04T23:52:36.109082Z",
+            "name": "Get Variable::Environment Variable",
+            "description": "Malware gets an environment variable.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "operating-system-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/operating-system/enviro-var.md",
+                    "external_id": "C0034.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--1c62a2c4-4e59-4f1b-9f84-51f8acc0600d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ec7f9541-06af-4db7-a9c2-183b513f144a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-02-04T23:52:35.829949Z",
+            "modified": "2022-02-04T23:52:35.829949Z",
+            "name": "Direct Kernel Object Manipulation",
+            "description": "Direct Kernel Object Manipulation (DKOM) can be used instead of loading a new driver. It leverages an undocumented function exported by ntdll.dll (NtSystemDebugControl()) that provides debugging functionalities at the kernel level.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/hide-artifacts.md",
+                    "external_id": "E1564.m02"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

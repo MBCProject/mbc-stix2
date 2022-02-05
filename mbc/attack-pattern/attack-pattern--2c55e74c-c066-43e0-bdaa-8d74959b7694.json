@@ -1,0 +1,41 @@
+{
+    "type": "bundle",
+    "id": "bundle--9fb97c18-b4a2-42aa-85a6-13b06b95a3b5",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2c55e74c-c066-43e0-bdaa-8d74959b7694",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-02-04T23:52:35.829949Z",
+            "modified": "2022-02-04T23:52:35.829949Z",
+            "name": "Export Address Table (EAT) Hooking",
+            "description": "Malware (e.g. rootkit) hooks the export address table (EAT).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/hijack-execution-flow.md",
+                    "external_id": "F0015.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

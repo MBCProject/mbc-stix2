@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--2bda08df-7d02-4371-9cec-44eb9abe653a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e393c36e-9939-44df-8f4a-8e7cb57c9b4e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-02-04T23:52:36.109082Z",
+            "modified": "2022-02-04T23:52:36.109082Z",
+            "name": "Open Process",
+            "description": "Malware opens a process.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "process-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/process/open-process.md",
+                    "external_id": "C0065"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--8e36d128-d059-46c7-8982-aab8a3e74fcd",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--42a50e42-61c1-4eb0-a7a2-f7f278feb391",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-02-04T23:52:36.062232Z",
+            "modified": "2022-02-04T23:52:36.062232Z",
+            "name": "aPLib::Decompress Data",
+            "description": "Malware decompresses data using aPLib.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "data-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/micro-behaviors/data/decompress.md",
+                    "external_id": "C0025.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

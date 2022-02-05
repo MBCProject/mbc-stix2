@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--ee27a8b9-3bd8-464f-9b76-9bf6981fb7aa",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c44b1c58-8da1-4ebe-a427-a9f2821e7a85",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-02-04T23:52:35.845581Z",
+            "modified": "2022-02-04T23:52:35.845581Z",
+            "name": "Bootloader",
+            "description": "A bootloader rootkit modifies the bootloader, enabling activation before the operating system is started. Also known as a Bootkit. See ATT&CK: [Bootkit](https://attack.mitre.org/techniques/T1542/003/).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.1/defense-evasion/rootkit-behavior.md",
+                    "external_id": "E1014.m13"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}
