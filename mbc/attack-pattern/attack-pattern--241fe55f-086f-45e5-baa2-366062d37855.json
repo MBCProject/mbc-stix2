@@ -8,7 +8,7 @@
             "id": "attack-pattern--241fe55f-086f-45e5-baa2-366062d37855",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.958483Z",
-            "modified": "2021-02-10T06:49:31.958483Z",
+            "modified": "2022-02-05T00:18:20.556006Z",
             "name": "Disk Content Wipe",
             "description": "Malware may erase the content of storage devices.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "impact"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

@@ -8,7 +8,7 @@
             "id": "attack-pattern--6d87847d-5793-4772-987d-7f4e208474c7",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.69826Z",
-            "modified": "2021-02-10T06:49:31.930443Z",
+            "modified": "2022-02-05T00:18:20.587252Z",
             "name": "Prevent Registry Access",
             "description": "Prevents access to the Windows registry, including to the entire registry and/or to particular registry keys/values.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

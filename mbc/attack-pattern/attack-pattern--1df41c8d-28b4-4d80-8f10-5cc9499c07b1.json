@@ -8,7 +8,7 @@
             "id": "attack-pattern--1df41c8d-28b4-4d80-8f10-5cc9499c07b1",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.695261Z",
-            "modified": "2021-02-10T06:49:31.929484Z",
+            "modified": "2022-02-05T00:18:20.540379Z",
             "name": "Prevent API Unhooking",
             "description": "Prevents the API hooks installed by the malware instance from being removed.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

@@ -8,7 +8,7 @@
             "id": "attack-pattern--5e8f49d8-8877-455f-bf91-099c94b2a74d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.695261Z",
-            "modified": "2021-02-10T06:49:31.929484Z",
+            "modified": "2022-02-05T00:18:20.571626Z",
             "name": "Prevent File Access",
             "description": "Prevents access to the file system, including to specific files and/or directories associated with the malware instance.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

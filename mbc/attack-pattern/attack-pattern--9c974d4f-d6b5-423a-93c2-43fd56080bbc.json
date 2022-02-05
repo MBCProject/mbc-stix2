@@ -8,7 +8,7 @@
             "id": "attack-pattern--9c974d4f-d6b5-423a-93c2-43fd56080bbc",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.605266Z",
-            "modified": "2021-02-10T06:49:31.901484Z",
+            "modified": "2022-02-05T00:18:20.602878Z",
             "name": "Client to Server File Transfer",
             "description": "File is transferred from client to server.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "command-and-control"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

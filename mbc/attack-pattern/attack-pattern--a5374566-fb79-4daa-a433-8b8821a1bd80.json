@@ -8,7 +8,7 @@
             "id": "attack-pattern--a5374566-fb79-4daa-a433-8b8821a1bd80",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.693263Z",
-            "modified": "2021-02-10T06:49:31.929484Z",
+            "modified": "2022-02-05T00:18:20.602878Z",
             "name": "Hide Services",
             "description": "Hides any system services that the malware instance creates or injects itself into.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

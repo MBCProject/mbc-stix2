@@ -8,7 +8,7 @@
             "id": "attack-pattern--38caa217-9f4e-4699-b69b-78994c7f3118",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.54426Z",
-            "modified": "2021-02-10T06:49:31.882485Z",
+            "modified": "2022-02-05T00:18:20.556006Z",
             "name": "Secure Triggers",
             "description": "Code and/or data is encrypted until the underlying system satisfies a preselected condition unknown to the analyst (this is a form of Deposited Keys).",
             "kill_chain_phases": [
@@ -21,6 +21,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

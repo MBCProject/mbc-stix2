@@ -8,7 +8,7 @@
             "id": "attack-pattern--00aa5451-1f72-484b-80af-570e31662ac8",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.694261Z",
-            "modified": "2021-02-10T06:49:31.929484Z",
+            "modified": "2022-02-05T00:18:20.524752Z",
             "name": "Hide Userspace Libraries",
             "description": "Hides the usage of userspace libraries by the malware instance.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

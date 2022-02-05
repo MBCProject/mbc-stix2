@@ -8,7 +8,7 @@
             "id": "attack-pattern--158a1f1f-24aa-4001-a00c-7cdfc5857276",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.694261Z",
-            "modified": "2021-02-10T06:49:31.929484Z",
+            "modified": "2022-02-05T00:18:20.540379Z",
             "name": "Hide Threads",
             "description": "Hides one or more threads that belong to the malware instance.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

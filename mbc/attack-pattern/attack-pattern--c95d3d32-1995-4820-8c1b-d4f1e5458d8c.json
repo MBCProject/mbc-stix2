@@ -8,7 +8,7 @@
             "id": "attack-pattern--c95d3d32-1995-4820-8c1b-d4f1e5458d8c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.693263Z",
-            "modified": "2021-02-10T06:49:31.928951Z",
+            "modified": "2022-02-05T00:18:20.618504Z",
             "name": "Hide Kernel Modules",
             "description": "Hides the usage of any kernel modules by the malware instance.",
             "kill_chain_phases": [
@@ -17,6 +17,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

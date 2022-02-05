@@ -8,7 +8,7 @@
             "id": "attack-pattern--8562ca1c-8fc2-4604-97bc-b67d328fbd7f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.633261Z",
-            "modified": "2021-04-15T21:15:31.631265Z",
+            "modified": "2022-02-05T00:18:20.587252Z",
             "name": "Patch MmGetPhysicalMemoryRanges",
             "description": "Patching this function to always return NULL prevents drivers from getting information about the physical address space layout, preventing memory dumps.",
             "kill_chain_phases": [
@@ -37,6 +37,7 @@
                     "phase_name": "privilege-escalation"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

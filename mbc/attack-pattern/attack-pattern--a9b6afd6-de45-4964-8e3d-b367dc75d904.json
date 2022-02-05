@@ -8,7 +8,7 @@
             "id": "attack-pattern--a9b6afd6-de45-4964-8e3d-b367dc75d904",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.54426Z",
-            "modified": "2021-02-10T06:49:31.882485Z",
+            "modified": "2022-02-05T00:18:20.618504Z",
             "name": "Host Fingerprint Check",
             "description": "Compare a previously computed host fingerprint(e.g., based on installed applications) to the current system's to determine if the malware instance is still executing on the same system. If not, execution stops, making debugging or sandbox analysis more difficult.",
             "kill_chain_phases": [
@@ -21,6 +21,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

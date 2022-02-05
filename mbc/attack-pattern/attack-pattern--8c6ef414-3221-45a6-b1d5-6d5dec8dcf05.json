@@ -8,7 +8,7 @@
             "id": "attack-pattern--8c6ef414-3221-45a6-b1d5-6d5dec8dcf05",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.545261Z",
-            "modified": "2021-02-11T06:49:31.787443Z",
+            "modified": "2022-02-05T00:18:20.602878Z",
             "name": "Execution Guardrails",
             "description": "Malware may use execution guardrails (environmental conditions) to constrain execution. This behavior is related to the [Evade Dynamic Analysis](https://github.com/MBCProject/mbc-markdown/blob/v2.1/anti-behavioral-analysis/evade-dynamic-analysis.md) behavior that obstructs dynamic analysis in a sandbox, emulator, or virtual machine.",
             "kill_chain_phases": [
@@ -21,6 +21,7 @@
                     "phase_name": "defense-evasion"
                 }
             ],
+            "revoked": true,
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
