@@ -8,13 +8,21 @@
             "id": "attack-pattern--fbaedc87-7d0b-447c-a9e5-0f6c2658770a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.721261Z",
-            "modified": "2021-02-10T06:49:31.941476Z",
+            "modified": "2022-02-04T23:52:35.877737Z",
             "name": "Suicide Exit",
             "description": "Malware terminates its execution based on a trigger condition or value (or because it has completed).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "execution"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
                 }
             ],
             "external_references": [

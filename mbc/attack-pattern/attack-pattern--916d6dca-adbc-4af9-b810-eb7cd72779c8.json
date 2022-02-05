@@ -8,9 +8,9 @@
             "id": "attack-pattern--916d6dca-adbc-4af9-b810-eb7cd72779c8",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.868262Z",
-            "modified": "2021-02-10T06:49:32.020479Z",
+            "modified": "2022-02-04T23:52:36.093464Z",
             "name": "Load Driver",
-            "description": "Malware loads a device driver.",
+            "description": "Malware loads a device driver or minifilter.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

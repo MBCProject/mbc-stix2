@@ -8,9 +8,9 @@
             "id": "attack-pattern--acddeb41-5339-4148-8a12-04b9ca687086",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.608264Z",
-            "modified": "2021-02-10T06:49:31.902484Z",
+            "modified": "2022-02-04T23:52:35.783046Z",
             "name": "Server to Client File Transfer",
-            "description": "File is transferred from server to client.",
+            "description": "File is transferred from controller to implant.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

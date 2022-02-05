@@ -8,13 +8,21 @@
             "id": "attack-pattern--b1656b25-ea6a-485b-88e2-4c509b69caae",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.722263Z",
-            "modified": "2021-02-10T06:49:31.941476Z",
+            "modified": "2022-02-04T23:52:35.877737Z",
             "name": "Conditional Execution",
-            "description": "Malware checks system environment conditions or characteristics to determine execution path. For example, malware may not run or be dormant unless system conditions are right, or file that is dropped may vary according to execution environment. Conditional execution happens autonomously, not because of an attacker's command.",
+            "description": "Malware checks system environment conditions or characteristics to determine execution path. For example, malware may not run or be dormant unless system conditions are right, or file that is dropped may vary according to execution environment. Conditional execution in malware happens autonomously, not because of an attacker's command.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "execution"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
                 }
             ],
             "external_references": [
@@ -26,6 +34,11 @@
                 {
                     "source_name": "external_source",
                     "url": "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/webcobra-malware-uses-victims-computers-to-mine-cryptocurrency/"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1480",
+                    "external_id": "T1480"
                 }
             ],
             "object_marking_refs": [

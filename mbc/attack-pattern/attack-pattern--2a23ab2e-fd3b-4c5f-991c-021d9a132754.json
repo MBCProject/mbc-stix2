@@ -8,7 +8,7 @@
             "id": "attack-pattern--2a23ab2e-fd3b-4c5f-991c-021d9a132754",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.689263Z",
-            "modified": "2021-04-15T21:15:31.631265Z",
+            "modified": "2022-02-04T23:52:35.845581Z",
             "name": "Process Injection",
             "description": "Malware may execute code in the address space of a separate process.",
             "kill_chain_phases": [
@@ -38,6 +38,10 @@
                 {
                     "source_name": "external_source",
                     "url": "https://citizenlab.ca/2016/04/between-hong-kong-and-burma/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.ired.team/offensive-security/code-injection-process-injection/executing-shellcode-with-createfiber"
                 },
                 {
                     "source_name": "mitre-attack",

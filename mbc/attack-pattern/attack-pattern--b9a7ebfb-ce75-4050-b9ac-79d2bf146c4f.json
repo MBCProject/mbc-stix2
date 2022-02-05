@@ -8,9 +8,9 @@
             "id": "attack-pattern--b9a7ebfb-ce75-4050-b9ac-79d2bf146c4f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.020479Z",
-            "modified": "2021-02-10T06:49:32.020479Z",
+            "modified": "2022-02-04T23:52:36.093464Z",
             "name": "Install Driver",
-            "description": "Malware installs a driver.",
+            "description": "Malware installs a driver or minifilter.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

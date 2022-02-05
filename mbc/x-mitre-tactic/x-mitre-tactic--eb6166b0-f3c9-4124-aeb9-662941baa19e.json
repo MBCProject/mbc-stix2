@@ -8,9 +8,9 @@
             "id": "x-mitre-tactic--eb6166b0-f3c9-4124-aeb9-662941baa19e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.061Z",
-            "modified": "2022-02-03T15:17:24.155Z",
+            "modified": "2022-02-04T23:52:35.579921Z",
             "name": "Anti-Behavioral Analysis",
-            "description": "Behaviors that prevent, obstruct, or evade behavioral analysis (sandbox, debugger, etc). Because the underlying methods differ, separate \"detection\" and \"evasion\" behaviors are defined for some anti-behavioral analysis areas (e.g., anti-debugger). \n\nTwo primary resources for anti-behavioral analysis behaviors are [[1]](#1) and [[2]](#2).",
+            "description": "Behaviors that prevent, obstruct, or evade behavioral analysis (sandbox, debugger, etc). Because the underlying methods differ, separate \"detection\" and \"evasion\" behaviors are defined for some anti-behavioral analysis areas (e.g., anti-debugger).",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
@@ -20,7 +20,7 @@
                 {
                     "source_name": "external_source",
                     "description": "Unprotect Project, a database about malware self-defense and protection.",
-                    "url": "http://unprotect.tdgt.org/index.php/Unprotect_Project"
+                    "url": "https://search.unprotect.it/map"
                 },
                 {
                     "source_name": "external_source",

@@ -8,9 +8,9 @@
             "id": "attack-pattern--001ca78e-188e-4725-9f43-706d0f487837",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.607265Z",
-            "modified": "2021-02-10T06:49:31.902484Z",
+            "modified": "2022-02-04T23:52:35.783046Z",
             "name": "Send Data",
-            "description": "Send data to a C2 server.",
+            "description": "Send data to a controller.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

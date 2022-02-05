@@ -8,9 +8,9 @@
             "id": "attack-pattern--69af89da-bf40-4b9e-93c5-baa8fb937099",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.605266Z",
-            "modified": "2021-02-10T06:49:31.901484Z",
+            "modified": "2022-02-04T23:52:35.783046Z",
             "name": "Receive Data",
-            "description": "Receive data or command from a C2 server.",
+            "description": "Receive data or command from a controller.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
