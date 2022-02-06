@@ -240,10 +240,10 @@ The [ATT&CK® Navigator](https://github.com/mitre-attack/attack-navigator) has d
 
 ```json
         {
-            "name": "MBC v2.1",
+            "name": "MBC v2.2",
             "domains": [
                 {
-                    "name": "2.1 Release",
+                    "name": "2.2 Release",
                     "data": ["assets/mbc-attack-nav-modified.json"]
                 }
             ]
