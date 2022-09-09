@@ -8,7 +8,7 @@
             "id": "attack-pattern--ab699bec-3a3f-498f-a658-1eabe6fe90c9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.981483Z",
-            "modified": "2022-02-05T00:37:22.741756Z",
+            "modified": "2022-09-08T18:26:13.372406Z",
             "name": "Create UDP Socket::Socket Communication",
             "description": "A UDP socket is created.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/communication/socket-comm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/communication/socket-communication.md",
                     "external_id": "C0001.010"
                 }
             ],

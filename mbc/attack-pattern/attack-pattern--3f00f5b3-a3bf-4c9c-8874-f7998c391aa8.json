@@ -8,9 +8,9 @@
             "id": "attack-pattern--3f00f5b3-a3bf-4c9c-8874-f7998c391aa8",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.80226Z",
-            "modified": "2022-02-05T00:37:22.726134Z",
+            "modified": "2022-09-08T18:26:13.226424Z",
             "name": "Supply Chain Compromise",
-            "description": "The supply chain may be compromised to enable initial malware infection. Malware-related methods are listed below to supplement the information available defined in ATT&CK: [**Supply Chain Compromise**](https://attack.mitre.org/techniques/T1195/).",
+            "description": "The supply chain may be compromised to enable initial malware infection. MBC objectives don't encompass initial infection, but the malware-related methods are listed below supplement the information available defined in ATT&CK and allow for lateral movement: **Supply Chain Compromise ([T1195](https://attack.mitre.org/techniques/T1195/), [T1474](https://attack.mitre.org/techniques/T1474/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -20,17 +20,12 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/lateral-movement/supply-chain-compromise.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/lateral-movement/supply-chain-compromise.md",
                     "external_id": "E1195"
                 },
                 {
                     "source_name": "external_source",
                     "url": "http://researchcenter.paloaltonetworks.com/2015/10/yispecter-first-ios-malware-attacks-non-jailbroken-ios-devices-by-abusing-private-apis/"
-                },
-                {
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/techniques/T1195/",
-                    "external_id": "T1195"
                 }
             ],
             "object_marking_refs": [

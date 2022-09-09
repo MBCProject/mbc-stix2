@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/collection/input-capture.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/collection/input-capture.md",
                     "external_id": "E1056.m01"
                 }
             ],

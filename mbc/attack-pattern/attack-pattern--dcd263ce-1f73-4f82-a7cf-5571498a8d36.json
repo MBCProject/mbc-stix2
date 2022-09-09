@@ -8,7 +8,7 @@
             "id": "attack-pattern--dcd263ce-1f73-4f82-a7cf-5571498a8d36",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.517264Z",
-            "modified": "2022-02-05T00:37:22.538637Z",
+            "modified": "2022-09-08T18:26:13.309653Z",
             "name": "Stolen API Code",
             "description": "A variation of \"byte stealing\" where the first few instructions or bytes of an API are executed in user code, allowing the IAT to point into the middle of an API function. This confuses IAT rebuilders such as ImpRec and Scylla and may bypass breakpoints.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/evade-debugger.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/debugger-evasion.md",
                     "external_id": "B0002.027"
                 }
             ],

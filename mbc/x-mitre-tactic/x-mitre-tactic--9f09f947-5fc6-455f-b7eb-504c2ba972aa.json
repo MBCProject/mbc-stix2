@@ -8,13 +8,13 @@
             "id": "x-mitre-tactic--9f09f947-5fc6-455f-b7eb-504c2ba972aa",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.062Z",
-            "modified": "2022-02-05T00:37:22.382348Z",
+            "modified": "2022-09-08T18:26:13.158338Z",
             "name": "Discovery",
-            "description": "Behaviors that aim to gain knowledge about the system and internal network.",
+            "description": "Behaviors that enable malware to gain knowledge about the system and network.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/discovery/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/discovery/README.md",
                     "external_id": "OB0007"
                 }
             ],

@@ -8,7 +8,7 @@
             "id": "attack-pattern--24d2552e-d0ee-4ab5-8e75-743b233379e1",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.530265Z",
-            "modified": "2022-02-05T00:37:22.55426Z",
+            "modified": "2022-09-08T18:26:13.301599Z",
             "name": "Extra Loops/Time Locks",
             "description": "Add extra loops to make time-constraint emulators give up.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/evade-emulator.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/emulator-evasion.md",
                     "external_id": "B0005.004"
                 }
             ],

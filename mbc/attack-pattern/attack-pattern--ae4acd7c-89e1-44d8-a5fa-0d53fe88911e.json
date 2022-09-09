@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--1f7fe7fb-4070-4d17-8290-157f530ce84c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ae4acd7c-89e1-44d8-a5fa-0d53fe88911e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-09-08T18:26:13.325559Z",
+            "modified": "2022-09-08T18:26:13.325559Z",
+            "name": "API Hammering",
+            "description": "Uses of a huge number of calls to Windows APIs as a form of extended sleep to evade analysis in sandbox environments.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/dynamic-analysis-evasion.md",
+                    "external_id": "B0003.012"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

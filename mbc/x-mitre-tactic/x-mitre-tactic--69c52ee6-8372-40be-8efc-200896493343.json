@@ -8,13 +8,13 @@
             "id": "x-mitre-tactic--69c52ee6-8372-40be-8efc-200896493343",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.058Z",
-            "modified": "2022-02-05T00:37:22.382348Z",
+            "modified": "2022-09-08T18:26:13.159242Z",
             "name": "Collection",
-            "description": "Behaviors that identify and gather information, such as sensitive files, from a target network prior to exfiltration. This objective includes locations on a system or network where the malware may look for information to exfiltrate.",
+            "description": "Behaviors that enable malware to identify and gather information, such as sensitive files, from a machine or network. Sources often targeted include drives, browsers, audio/video, and email. Often the malware's next objective is to exfiltrate the information gathered.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/collection/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/collection/README.md",
                     "external_id": "OB0003"
                 }
             ],

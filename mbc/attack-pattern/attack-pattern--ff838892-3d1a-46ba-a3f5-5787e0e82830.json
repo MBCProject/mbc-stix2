@@ -8,7 +8,7 @@
             "id": "attack-pattern--ff838892-3d1a-46ba-a3f5-5787e0e82830",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.470264Z",
-            "modified": "2022-02-05T00:37:22.491757Z",
+            "modified": "2022-09-08T18:26:13.318438Z",
             "name": "Process Jobs",
             "kill_chain_phases": [
                 {
@@ -19,7 +19,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/detect-debugger.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/debugger-detection.md",
                     "external_id": "B0001.020"
                 },
                 {

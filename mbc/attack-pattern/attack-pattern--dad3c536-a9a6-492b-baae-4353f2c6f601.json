@@ -8,7 +8,7 @@
             "id": "attack-pattern--dad3c536-a9a6-492b-baae-4353f2c6f601",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.923443Z",
-            "modified": "2022-02-05T00:37:22.648018Z",
+            "modified": "2022-09-08T18:26:13.407875Z",
             "name": "Encryption of Code",
             "description": "A file's executable code is encrypted, but not necessarily the file's data.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/obfuscate-files.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/obfuscated-files-or-information.md",
                     "external_id": "E1027.m06"
                 }
             ],

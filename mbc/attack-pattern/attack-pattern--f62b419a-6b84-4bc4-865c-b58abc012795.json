@@ -8,7 +8,7 @@
             "id": "attack-pattern--f62b419a-6b84-4bc4-865c-b58abc012795",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.990485Z",
-            "modified": "2022-02-05T00:37:22.757347Z",
+            "modified": "2022-09-08T18:26:13.386033Z",
             "name": "RC6::Decrypt Data",
             "description": "Malware decrypts data encrypted with the RC6 algorithm.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/cryptography/decrypt.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/decrypt-data.md",
                     "external_id": "C0031.009"
                 }
             ],

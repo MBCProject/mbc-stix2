@@ -8,7 +8,7 @@
             "id": "attack-pattern--ce322a95-0385-40cb-af25-96e377a7de8f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.565262Z",
-            "modified": "2022-02-05T00:37:22.585511Z",
+            "modified": "2022-09-08T18:26:13.20246Z",
             "name": "Jump/Call Absolute Address",
             "description": "Relative operands of jumps and calls into are made absolute (better compression). May confuse some basic block detection algorithms.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-static-analysis/exe-code-optimize.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-optimization.md",
                     "external_id": "B0034.001"
                 }
             ],

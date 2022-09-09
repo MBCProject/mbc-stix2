@@ -8,7 +8,7 @@
             "id": "attack-pattern--b40aba49-57d9-4a99-a29e-2629e35991c9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.510265Z",
-            "modified": "2022-02-05T00:37:22.538637Z",
+            "modified": "2022-09-08T18:26:13.303866Z",
             "name": "Change SizeOfImage",
             "description": "Changing this value during run time can prevent some debuggers from attaching. Also confuses some unpackers and dumpers.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/evade-debugger.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/debugger-evasion.md",
                     "external_id": "B0002.004"
                 }
             ],

@@ -8,7 +8,7 @@
             "id": "attack-pattern--d61dcb50-dcf8-408d-96e2-f3cd75f93be0",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.520265Z",
-            "modified": "2022-02-05T00:37:22.55426Z",
+            "modified": "2022-09-08T18:26:13.325285Z",
             "name": "Alternative ntdll.dll",
             "description": "A copy of ntdll.dll is dropped to the filesystem and then loaded. This alternative DLL is used to execute function calls to evade sandboxes which use hooking in the operating system's ntdll.dll.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/evade-dynamic-analysis.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/dynamic-analysis-evasion.md",
                     "external_id": "B0003.001"
                 }
             ],

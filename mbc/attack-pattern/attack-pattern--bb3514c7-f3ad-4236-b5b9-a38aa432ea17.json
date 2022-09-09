@@ -8,7 +8,7 @@
             "id": "attack-pattern--bb3514c7-f3ad-4236-b5b9-a38aa432ea17",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.764262Z",
-            "modified": "2022-02-05T00:37:22.694887Z",
+            "modified": "2022-09-08T18:26:13.263733Z",
             "name": "Compromise Data Integrity",
             "description": "Data stored on the file system of a compromised system is manipulated to compromise its integrity.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/impact/compromise-data.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/compromise-data-integrity.md",
                     "external_id": "B0016"
                 }
             ],

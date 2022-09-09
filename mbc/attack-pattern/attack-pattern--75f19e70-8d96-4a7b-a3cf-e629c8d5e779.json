@@ -8,7 +8,7 @@
             "id": "attack-pattern--75f19e70-8d96-4a7b-a3cf-e629c8d5e779",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.598261Z",
-            "modified": "2022-02-05T00:37:22.601096Z",
+            "modified": "2022-09-08T18:26:13.224843Z",
             "name": "Keylogging",
             "description": "Malware captures user keyboard input.",
             "kill_chain_phases": [
@@ -24,8 +24,28 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/collection/keylogging.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/collection/keylogging.md",
                     "external_id": "F0002"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.f-secure.com/v-descs/backdoor_w32_hupigon.shtml"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://citizenlab.ca/2016/04/between-hong-kong-and-burma/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2012/06/you-dirty-rat-part-1-darkcomet/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-center/threat-profiles/trojan-variants/poison-ivy"
                 }
             ],
             "object_marking_refs": [

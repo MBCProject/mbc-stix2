@@ -8,7 +8,7 @@
             "id": "attack-pattern--76206161-2e14-48a0-9191-998ef774b345",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.607265Z",
-            "modified": "2022-02-05T00:37:22.601096Z",
+            "modified": "2022-09-08T18:26:13.230394Z",
             "name": "Send Heartbeat",
             "description": "Heartbeat sent.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/command-and-control/command-control-comm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/command-and-control/c2-communication.md",
                     "external_id": "B0030.007"
                 }
             ],

@@ -8,7 +8,7 @@
             "id": "attack-pattern--195e17be-fac3-4ffe-a961-631e2af205bb",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.720618Z",
-            "modified": "2022-02-05T00:37:22.538637Z",
+            "modified": "2022-09-08T18:26:13.30486Z",
             "name": "Guard Pages",
             "description": "Encrypt blocks of code individually and decrypt temporarily only upon execution.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/evade-debugger.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/debugger-evasion.md",
                     "external_id": "B0002.008"
                 }
             ],

@@ -8,7 +8,7 @@
             "id": "attack-pattern--9a5f43f7-dd94-4035-b335-9d0d388c93ae",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.678261Z",
-            "modified": "2022-02-05T00:37:22.694887Z",
+            "modified": "2022-09-08T18:26:13.272615Z",
             "name": "Encryption - Standard Encryption",
             "description": "Data is encrypted. A standard algorithm, such as Rijndael/AES, DES, RC4, is used to encrypt the exfiltrated data.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/exfiltration/data-encrypted.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/exfiltration/archive-collected-data.md",
                     "external_id": "E1560.m05"
                 }
             ],

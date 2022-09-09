@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/collection/screen-capture.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/collection/screen-capture.md",
                     "external_id": "E1113.m01"
                 }
             ],

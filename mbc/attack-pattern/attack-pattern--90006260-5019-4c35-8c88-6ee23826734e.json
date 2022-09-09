@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/impact/remote-access.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/remote-access.md",
                     "external_id": "B0022.001"
                 }
             ],

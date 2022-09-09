@@ -8,10 +8,22 @@
             "id": "attack-pattern--1c9f410c-8e61-4d75-80be-e80461c54971",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.829949Z",
-            "modified": "2022-02-05T00:37:22.632387Z",
+            "modified": "2022-09-08T18:26:13.418864Z",
             "name": "Import Address Table (IAT) Hooking",
             "description": "Malware (e.g. rootkit) modifies a process's import address table (IAT), which stores pointers to imported API functions.",
             "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "collection"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                },
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "defense-evasion"
@@ -28,7 +40,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/hijack-execution-flow.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/hijack-execution-flow.md",
                     "external_id": "F0015.003"
                 },
                 {

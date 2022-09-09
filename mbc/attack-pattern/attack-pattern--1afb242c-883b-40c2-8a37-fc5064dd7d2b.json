@@ -8,7 +8,7 @@
             "id": "attack-pattern--1afb242c-883b-40c2-8a37-fc5064dd7d2b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.819261Z",
-            "modified": "2022-02-05T00:37:22.741756Z",
+            "modified": "2022-09-08T18:26:13.3778Z",
             "name": "Generate Traffic::ICMP Communication",
             "description": "Generate ICMP traffic.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/communication/icmp-comm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/communication/icmp-communication.md",
                     "external_id": "C0014.001"
                 }
             ],

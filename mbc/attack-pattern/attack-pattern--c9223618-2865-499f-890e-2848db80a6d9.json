@@ -8,7 +8,7 @@
             "id": "attack-pattern--c9223618-2865-499f-890e-2848db80a6d9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.877737Z",
-            "modified": "2022-02-05T00:37:22.679223Z",
+            "modified": "2022-09-08T18:26:13.243824Z",
             "name": "GetVolumeInformation",
             "description": "This Windows API call is used to get the GUID on a system drive. Malware compares it to a previous (targeted) GUID value and only executes maliciously if they match. This behavior can be mitigated in non-automated analysis environments.",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/execution/conditional-execute.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/conditional-execution.md",
                     "external_id": "B0025.003"
                 }
             ],

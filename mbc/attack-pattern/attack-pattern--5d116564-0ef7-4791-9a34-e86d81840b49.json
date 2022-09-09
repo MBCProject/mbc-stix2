@@ -8,7 +8,7 @@
             "id": "attack-pattern--5d116564-0ef7-4791-9a34-e86d81840b49",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.920259Z",
-            "modified": "2022-02-05T00:37:22.835477Z",
+            "modified": "2022-09-08T18:26:13.252689Z",
             "name": "Modify Existing Service",
             "description": "Malware may modify an existing service to gain persistence. Modification may include disabling a service.",
             "kill_chain_phases": [
@@ -24,12 +24,28 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/persistence/modify-service.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/persistence/modify-existing-service.md",
                     "external_id": "F0011"
                 },
                 {
                     "source_name": "external_source",
                     "url": "https://www.cyber.nj.gov/threat-profiles/trojan-variants/poison-ivy"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://researchcenter.paloaltonetworks.com/2015/10/yispecter-first-ios-malware-attacks-non-jailbroken-ios-devices-by-abusing-private-apis/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog-assets.f-secure.com/wp-content/uploads/2019/10/15163408/BlackEnergy_Quedagh.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://en.wikipedia.org/wiki/Conficker"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/shamoon-returns-to-wipe-systems-in-middle-east-europe/"
                 }
             ],
             "object_marking_refs": [

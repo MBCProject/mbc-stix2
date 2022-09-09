@@ -8,7 +8,7 @@
             "id": "attack-pattern--1011a561-6f17-4f8d-874a-8ad491a2b470",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.729261Z",
-            "modified": "2022-02-05T00:37:22.679223Z",
+            "modified": "2022-09-08T18:26:13.241881Z",
             "name": "Windows Utilities",
             "description": "One or more Windows utilities are used.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/execution/exploit-software.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/exploitation-for-client-execution.md",
                     "external_id": "E1203.m06"
                 }
             ],

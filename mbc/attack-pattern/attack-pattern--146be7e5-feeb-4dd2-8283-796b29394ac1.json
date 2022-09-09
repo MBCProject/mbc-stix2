@@ -8,7 +8,7 @@
             "id": "attack-pattern--146be7e5-feeb-4dd2-8283-796b29394ac1",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.918444Z",
-            "modified": "2022-02-05T00:37:22.632387Z",
+            "modified": "2022-09-08T18:26:13.41559Z",
             "name": "Location",
             "description": "Malware may change or choose the location of itself, another file, or a directory to prevent detection.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/hidden-files.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/hidden-files-and-directories.md",
                     "external_id": "F0005.002"
                 }
             ],

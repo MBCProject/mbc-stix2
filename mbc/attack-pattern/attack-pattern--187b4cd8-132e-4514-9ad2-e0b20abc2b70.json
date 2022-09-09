@@ -8,7 +8,7 @@
             "id": "attack-pattern--187b4cd8-132e-4514-9ad2-e0b20abc2b70",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.479261Z",
-            "modified": "2022-02-05T00:37:22.507385Z",
+            "modified": "2022-09-08T18:26:13.324366Z",
             "name": "Emulator Detection",
             "description": "Detects whether the malware instance is being executed inside an emulator. If so, conditional execution selects a benign execution path.",
             "kill_chain_phases": [
@@ -20,12 +20,16 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/detect-emulator.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/emulator-detection.md",
                     "external_id": "B0004"
                 },
                 {
                     "source_name": "external_source",
                     "url": "https://search.unprotect.it/map/sandbox-evasion/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://docs.broadcom.com/doc/security-response-w32-stuxnet-dossier-11-en"
                 }
             ],
             "object_marking_refs": [

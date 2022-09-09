@@ -8,9 +8,9 @@
             "id": "attack-pattern--739b9d69-ce7d-4ef5-b39e-9bcdb6796200",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.739261Z",
-            "modified": "2022-02-05T00:37:22.694887Z",
+            "modified": "2022-09-08T18:26:13.239557Z",
             "name": "Remote Commands",
-            "description": "Malware may provide an attacker with explicit commands. This behavior differs from the [Remote Access](https://github.com/MBCProject/mbc-markdown/blob/v2.2/impact/remote-access.md) behavior under the [Impact](https://github.com/MBCProject/mbc-markdown/blob/v2.2/impact) objective in that *Impact: Remote Access* is potentially much broader and may include full remote access.",
+            "description": "Malware may provide an attacker with explicit commands. This behavior differs from the **Remote Access ([B0022](https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/remote-access.md))** behavior under the [Impact](https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact) objective in that *Impact: Remote Access* is potentially much broader and may include full remote access.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -20,8 +20,20 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/execution/remote-commands.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/remote-commands.md",
                     "external_id": "B0011"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/BKDR_URSNIF.SM?_ga=2.129468940.1462021705.1559742358-1202584019.1549394279"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog-assets.f-secure.com/wp-content/uploads/2019/10/15163408/BlackEnergy_Quedagh.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cybereason.com/blog/research/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware"
                 }
             ],
             "object_marking_refs": [

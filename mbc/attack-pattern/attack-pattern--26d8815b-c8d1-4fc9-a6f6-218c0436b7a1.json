@@ -8,7 +8,7 @@
             "id": "attack-pattern--26d8815b-c8d1-4fc9-a6f6-218c0436b7a1",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.562264Z",
-            "modified": "2022-02-05T00:37:22.569857Z",
+            "modified": "2022-09-08T18:26:13.195174Z",
             "name": "Thunk Code Insertion",
             "description": "Variation on Jump Insertion. Used by some compilers for user-generated functions.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-static-analysis/exe-code-obfuscate.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-obfuscation.md",
                     "external_id": "B0032.006"
                 }
             ],

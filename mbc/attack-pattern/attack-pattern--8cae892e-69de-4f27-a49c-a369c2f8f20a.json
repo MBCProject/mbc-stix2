@@ -8,7 +8,7 @@
             "id": "attack-pattern--8cae892e-69de-4f27-a49c-a369c2f8f20a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.003478Z",
-            "modified": "2022-02-05T00:37:22.788643Z",
+            "modified": "2022-09-08T18:26:13.335406Z",
             "name": "Decode Data",
             "description": "Malware may decode data.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/data/decode.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/data/decode-data.md",
                     "external_id": "C0053"
                 }
             ],

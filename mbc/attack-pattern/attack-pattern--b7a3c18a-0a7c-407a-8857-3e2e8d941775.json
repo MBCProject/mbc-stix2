@@ -8,7 +8,7 @@
             "id": "attack-pattern--b7a3c18a-0a7c-407a-8857-3e2e8d941775",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.993484Z",
-            "modified": "2022-02-05T00:37:22.773011Z",
+            "modified": "2022-09-08T18:26:13.389718Z",
             "name": "HC-256::Encrypt Data",
             "description": "Malware encrypts with the HC-256 algorithm.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/cryptography/encrypt.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/encrypt-data.md",
                     "external_id": "C0027.007"
                 }
             ],
