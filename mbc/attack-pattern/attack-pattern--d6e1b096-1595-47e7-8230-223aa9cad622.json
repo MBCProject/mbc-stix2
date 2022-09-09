@@ -8,7 +8,7 @@
             "id": "attack-pattern--d6e1b096-1595-47e7-8230-223aa9cad622",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.823261Z",
-            "modified": "2022-02-05T00:37:22.741756Z",
+            "modified": "2022-09-08T18:26:13.368489Z",
             "name": "Read Pipe::Interprocess Communication",
             "kill_chain_phases": [
                 {
@@ -19,7 +19,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/communication/inter-process.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/communication/interprocess-communication.md",
                     "external_id": "C0003.003"
                 }
             ],

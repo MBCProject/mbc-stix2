@@ -8,13 +8,13 @@
             "id": "x-mitre-tactic--911377e6-b712-4754-a865-3e2989512b9a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.068Z",
-            "modified": "2022-02-05T00:37:22.382348Z",
+            "modified": "2022-09-08T18:26:13.162044Z",
             "name": "Exfiltration",
-            "description": "Behaviors that steal data from the system on which it executes. This includes stored data (e.g., files) as well as data input into applications (e.g., web browser).",
+            "description": "Behaviors that enable malware to steal data from a system. This includes stored data, such as files, as well as data input into applications, such as web browsers.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/exfiltration/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/exfiltration/README.md",
                     "external_id": "OB0010"
                 }
             ],

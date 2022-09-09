@@ -8,7 +8,7 @@
             "id": "attack-pattern--4c4a5671-e788-40b8-8fd9-56d94ba32901",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.012443Z",
-            "modified": "2022-02-05T00:37:22.788643Z",
+            "modified": "2022-09-08T18:26:13.348491Z",
             "name": "Create Directory",
             "description": "Malware creates a directory.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/file-system/create-dir.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/file-system/create-directory.md",
                     "external_id": "C0046"
                 }
             ],

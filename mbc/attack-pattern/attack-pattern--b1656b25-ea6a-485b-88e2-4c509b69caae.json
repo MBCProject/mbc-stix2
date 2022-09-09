@@ -8,7 +8,7 @@
             "id": "attack-pattern--b1656b25-ea6a-485b-88e2-4c509b69caae",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.722263Z",
-            "modified": "2022-02-05T00:37:22.679223Z",
+            "modified": "2022-09-08T18:26:13.24581Z",
             "name": "Conditional Execution",
             "description": "Malware checks system environment conditions or characteristics to determine execution path. For example, malware may not run or be dormant unless system conditions are right, or file that is dropped may vary according to execution environment. Conditional execution in malware happens autonomously, not because of an attacker's command.",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/execution/conditional-execute.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/conditional-execution.md",
                     "external_id": "B0025"
                 },
                 {
@@ -36,9 +36,12 @@
                     "url": "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/webcobra-malware-uses-victims-computers-to-mine-cryptocurrency/"
                 },
                 {
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/techniques/T1480",
-                    "external_id": "T1480"
+                    "source_name": "external_source",
+                    "url": "https://www.proofpoint.com/us/threat-insight/post/ursnif-banking-trojan-campaign-sandbox-evasion-techniques"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.webroot.com/blog/2011/09/13/mebromi-the-first-bios-rootkit-in-the-wild/"
                 }
             ],
             "object_marking_refs": [

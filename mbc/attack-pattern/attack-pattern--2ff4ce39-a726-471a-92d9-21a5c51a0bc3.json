@@ -8,7 +8,7 @@
             "id": "attack-pattern--2ff4ce39-a726-471a-92d9-21a5c51a0bc3",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.769263Z",
-            "modified": "2022-02-05T00:37:22.71051Z",
+            "modified": "2022-09-08T18:26:13.259774Z",
             "name": "Data Destruction",
             "description": "Data, system files, or other files are destroyed. Individual files are selected, as opposed to wiping an entire sector.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/impact/data-destruction.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/data-destruction.md",
                     "external_id": "E1485"
                 },
                 {
@@ -28,14 +28,20 @@
                     "url": "http://www.darkreading.com/attacks-breaches/disk-wiping-shamoon-malware-resurfaces-with-file-erasing-malware-in-tow/d/d-id/1333509"
                 },
                 {
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/techniques/T1485/",
-                    "external_id": "T1485"
+                    "source_name": "external_source",
+                    "url": "https://blogs.cisco.com/security/talos/rombertik"
                 },
                 {
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/techniques/T1447/",
-                    "external_id": "T1447"
+                    "source_name": "external_source",
+                    "url": "https://securelist.com/be2-extraordinary-plugins-siemens-targeting-dev-fails/68838/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://en.wikipedia.org/wiki/Conficker"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://heimdalsecurity.com/blog/security-alert-mazar-bot-active-attacks-android-malware/"
                 }
             ],
             "object_marking_refs": [

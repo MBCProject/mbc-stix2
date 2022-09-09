@@ -8,7 +8,7 @@
             "id": "attack-pattern--87adc62c-05e8-4594-94f6-d6e034597859",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.562264Z",
-            "modified": "2022-02-05T00:37:22.569857Z",
+            "modified": "2022-09-08T18:26:13.195437Z",
             "name": "Executable Code Obfuscation",
             "description": "Executable code can be obfuscated to hinder disassembly and static code analysis. This behavior is specific to a malware sample's executable code (data and text sections).",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-static-analysis/exe-code-obfuscate.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-obfuscation.md",
                     "external_id": "B0032"
                 },
                 {
@@ -35,6 +35,26 @@
                     "source_name": "external_source",
                     "description": "Rob Simmons, \"Comparing Malicious Files,\" BSides, 2019.",
                     "url": "http://www.irongeek.com/i.php?page=videos/bsidescharm2019/2-04-comparing-malicious-files-robert-simmons"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blogs.cisco.com/security/talos/rombertik"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.proofpoint.com/us/threat-insight/post/ursnif-variant-dreambot-adds-tor-functionality"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-poison-ivy.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.talosintelligence.com/2018/01/samsam-evolution-continues-netting-over.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://docs.broadcom.com/doc/security-response-w32-stuxnet-dossier-11-en"
                 }
             ],
             "object_marking_refs": [

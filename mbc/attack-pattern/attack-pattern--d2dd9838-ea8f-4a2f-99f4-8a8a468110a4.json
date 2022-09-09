@@ -8,7 +8,7 @@
             "id": "attack-pattern--d2dd9838-ea8f-4a2f-99f4-8a8a468110a4",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.986482Z",
-            "modified": "2022-02-05T00:37:22.757347Z",
+            "modified": "2022-09-08T18:26:13.382007Z",
             "name": "Tiger::Cryptographic Hash",
             "description": "Malware uses a Tiger hash.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/cryptography/crypto-hash.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/cryptographic-hash.md",
                     "external_id": "C0029.005"
                 }
             ],

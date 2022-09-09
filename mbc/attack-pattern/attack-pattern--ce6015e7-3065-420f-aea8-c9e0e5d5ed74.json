@@ -8,7 +8,7 @@
             "id": "attack-pattern--ce6015e7-3065-420f-aea8-c9e0e5d5ed74",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.67026Z",
-            "modified": "2022-02-05T00:37:22.632387Z",
+            "modified": "2022-09-08T18:26:13.412487Z",
             "name": "Modify Registry",
             "description": "Malware may make changes to the Windows Registry to hide execution or to persist on the system (note that ATT&CK does not extend this behavior to the Persistence objective).",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/modify-reg.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/modify-registry.md",
                     "external_id": "E1112"
                 },
                 {
@@ -32,9 +32,24 @@
                     "url": "https://www.cyber.nj.gov/threat-profiles/trojan-variants/poison-ivy"
                 },
                 {
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/techniques/T1112",
-                    "external_id": "T1112"
+                    "source_name": "external_source",
+                    "url": "https://www.welivesecurity.com/2019/07/08/south-korean-users-backdoor-torrents/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/HUPIGON"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/gamut-spambot-analysis/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2016/07/untangling-kovter/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/shamoon-returns-to-wipe-systems-in-middle-east-europe/"
                 }
             ],
             "object_marking_refs": [

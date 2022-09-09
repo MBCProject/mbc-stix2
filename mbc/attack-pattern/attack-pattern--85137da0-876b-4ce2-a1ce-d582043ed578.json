@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/file-system/read-virtual-disk.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/file-system/read-virtual-disk.md",
                     "external_id": "C0056"
                 }
             ],

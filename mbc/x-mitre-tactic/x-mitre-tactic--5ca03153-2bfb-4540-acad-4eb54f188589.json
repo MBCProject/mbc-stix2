@@ -8,14 +8,18 @@
             "id": "x-mitre-tactic--5ca03153-2bfb-4540-acad-4eb54f188589",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.064Z",
-            "modified": "2022-02-05T00:37:22.382348Z",
+            "modified": "2022-09-08T18:26:13.16016Z",
             "name": "Command and Control",
-            "description": "Behaviors malware may use to communicate with systems under its control within a target network. There are many ways malware can establish command and control with various levels of covertness, depending on system configuration and network topology. Behaviors may relate to C2 servers or a bot that is part of a botnet. As \"server\" and \"client\" are confusing terminology in this context, we use the terms **controller** and **implant**. The controller is the software running on adversary-controlled infrastructure and used to send commands to the implant. The implant is the software running on victim-controlled infrastructure that receives commands from the adversary, executes those commands on the victim, and optionally sends the results back to the adversary.",
+            "description": "Behaviors that enable malware to communicate with systems such as C2 servers or bots. Malware can establish command and control with various levels of covertness, depending on system configuration and network topology.",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/command-and-control/README.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/command-and-control/README.md",
                     "external_id": "OB0004"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.bitdefender.com/blog/labs/trickbot-is-dead-long-live-trickbot/"
                 }
             ],
             "object_marking_refs": [

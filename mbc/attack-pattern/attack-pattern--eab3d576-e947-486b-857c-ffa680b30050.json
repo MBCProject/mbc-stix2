@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/indicator-blocking.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/indicator-blocking.md",
                     "external_id": "F0006.001"
                 }
             ],

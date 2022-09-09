@@ -8,7 +8,7 @@
             "id": "attack-pattern--e3f453d4-03f3-4a8a-bfb1-d603016e234f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.602268Z",
-            "modified": "2022-02-05T00:37:22.601096Z",
+            "modified": "2022-09-08T18:26:13.221582Z",
             "name": "Screen Capture",
             "description": "Malware takes screen captures of the desktop.",
             "kill_chain_phases": [
@@ -24,13 +24,20 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/collection/screen-capture.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/collection/screen-capture.md",
                     "external_id": "E1113"
                 },
                 {
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/techniques/T1113/",
-                    "external_id": "T1113"
+                    "source_name": "external_source",
+                    "url": "https://www.welivesecurity.com/2019/07/08/south-korean-users-backdoor-torrents/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2012/06/you-dirty-rat-part-1-darkcomet/"
                 }
             ],
             "object_marking_refs": [

@@ -8,7 +8,7 @@
             "id": "attack-pattern--243d3475-704e-4bc1-b8a6-42ca4bda02fc",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.507263Z",
-            "modified": "2022-02-05T00:37:22.538637Z",
+            "modified": "2022-09-08T18:26:13.279541Z",
             "name": "Capture Evasion",
             "description": "Malware has characteristics enabling it to evade capture from the infected system.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/evade-capture.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/capture-evasion.md",
                     "external_id": "B0036"
                 }
             ],

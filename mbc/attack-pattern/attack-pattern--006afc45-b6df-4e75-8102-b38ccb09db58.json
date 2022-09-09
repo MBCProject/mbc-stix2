@@ -28,7 +28,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/persistence/component-firmware.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/persistence/component-firmware.md",
                     "external_id": "F0009.001"
                 }
             ],

@@ -8,7 +8,7 @@
             "id": "attack-pattern--b1089154-3ee0-4713-893f-af97047f8ab5",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.459263Z",
-            "modified": "2022-02-05T00:37:22.491757Z",
+            "modified": "2022-09-08T18:26:13.312531Z",
             "name": "CheckRemoteDebuggerPresent",
             "description": "The kernel32!CheckRemoteDebuggerPresent function calls NtQueryInformationProcess with ProcessInformationClass parameter set to 7 (ProcessDebugPort constant).",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/detect-debugger.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/debugger-detection.md",
                     "external_id": "B0001.002"
                 }
             ],

@@ -1,0 +1,41 @@
+{
+    "type": "bundle",
+    "id": "bundle--263116e2-4652-40f9-9e52-30f4ba9fdaa7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--05f154ce-4547-45cf-a664-ca231fdcff54",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-09-08T18:26:13.423869Z",
+            "modified": "2022-09-08T18:26:13.423869Z",
+            "name": "Install Insecure or Malicious Configuration",
+            "description": "Malware may install malicious configuration settings or may modify existing configuration settings. For example, malware may change configuration settings associated with security mechanisms to make it difficult to detect or change configuration settings to maintain a foothold on the network.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/install-insecure-or-malicious-configuration.md",
+                    "external_id": "B0047"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog-assets.f-secure.com/wp-content/uploads/2019/10/15163408/BlackEnergy_Quedagh.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

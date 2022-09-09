@@ -8,7 +8,7 @@
             "id": "attack-pattern--2a23ab2e-fd3b-4c5f-991c-021d9a132754",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.689263Z",
-            "modified": "2022-02-05T00:37:22.648018Z",
+            "modified": "2022-09-08T18:26:13.411258Z",
             "name": "Process Injection",
             "description": "Malware may execute code in the address space of a separate process.",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/process-inject.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/process-injection.md",
                     "external_id": "E1055"
                 },
                 {
@@ -44,9 +44,20 @@
                     "url": "https://www.ired.team/offensive-security/code-injection-process-injection/executing-shellcode-with-createfiber"
                 },
                 {
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/techniques/T1055",
-                    "external_id": "T1055"
+                    "source_name": "external_source",
+                    "url": "https://news.sophos.com/en-us/2015/12/17/the-current-state-of-ransomware-cryptowall/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.f-secure.com/v-descs/backdoor_w32_hupigon.shtml"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog-assets.f-secure.com/wp-content/uploads/2019/10/15163408/BlackEnergy_Quedagh.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://docs.broadcom.com/doc/security-response-w32-stuxnet-dossier-11-en"
                 }
             ],
             "object_marking_refs": [

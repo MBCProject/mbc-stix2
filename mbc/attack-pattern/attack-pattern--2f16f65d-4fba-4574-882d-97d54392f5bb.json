@@ -8,7 +8,7 @@
             "id": "attack-pattern--2f16f65d-4fba-4574-882d-97d54392f5bb",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.806261Z",
-            "modified": "2022-02-05T00:37:22.726134Z",
+            "modified": "2022-09-08T18:26:13.379974Z",
             "name": "DNS Communication",
             "description": "The DNS Communication micro-behavior focuses on DNS communication.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/communication/dns-comm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/communication/dns-communication.md",
                     "external_id": "C0011"
                 }
             ],

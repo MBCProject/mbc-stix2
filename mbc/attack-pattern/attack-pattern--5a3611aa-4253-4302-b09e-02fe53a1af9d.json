@@ -8,7 +8,7 @@
             "id": "attack-pattern--5a3611aa-4253-4302-b09e-02fe53a1af9d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.611265Z",
-            "modified": "2022-02-05T00:37:22.601096Z",
+            "modified": "2022-09-08T18:26:13.234033Z",
             "name": "Domain Name Generation",
             "description": "Malware generates the domain name of the controller to which it connects. Access to on the fly domains enables C2 to operate as domains and IP addresses are blocked. The algorithm can be complicated in more advanced implants; understanding the details so that names can be predicted can be useful in mitigation and response.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/command-and-control/domain-name-generate.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/command-and-control/domain-name-generation.md",
                     "external_id": "B0031"
                 },
                 {
@@ -34,6 +34,14 @@
                 {
                     "source_name": "external_source",
                     "url": "https://en.wikipedia.org/wiki/Conficker"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.secureworks.com/research/cryptolocker-ransomware"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.proofpoint.com/us/threat-insight/post/ursnif-variant-dreambot-adds-tor-functionality"
                 }
             ],
             "object_marking_refs": [

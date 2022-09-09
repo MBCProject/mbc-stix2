@@ -8,7 +8,7 @@
             "id": "attack-pattern--0e87261d-5234-4ccb-87c1-2f9bb32b5c11",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.512264Z",
-            "modified": "2022-02-05T00:37:22.538637Z",
+            "modified": "2022-09-08T18:26:13.305366Z",
             "name": "Import Obfuscation",
             "description": "Add obfuscation between imports calls and APIs.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/evade-debugger.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/debugger-evasion.md",
                     "external_id": "B0002.010"
                 }
             ],

@@ -8,10 +8,22 @@
             "id": "attack-pattern--81062418-20ac-4df8-86e0-856587b02533",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.829949Z",
-            "modified": "2022-02-05T00:37:22.632387Z",
+            "modified": "2022-09-08T18:26:13.419331Z",
             "name": "Inline Patching",
-            "description": "Inline patching (inline hooking) is done by modifying the beginning of a function in order to redirect the execution flow to custom code (i.e. redirecting code flow) before jumping back to the original function.",
+            "description": "Inline patching (inline hooking) is done by modifying the beginning of a function (e.g., first bytes) in order to redirect the execution flow to custom code (i.e. redirecting code flow) before jumping back to the original function.",
             "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "collection"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                },
                 {
                     "kill_chain_name": "mitre-mbc",
                     "phase_name": "defense-evasion"
@@ -28,7 +40,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/hijack-execution-flow.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/hijack-execution-flow.md",
                     "external_id": "F0015.002"
                 },
                 {

@@ -8,7 +8,7 @@
             "id": "attack-pattern--7fb51daf-9a09-4cab-b202-fec90ad30e03",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.798261Z",
-            "modified": "2022-02-05T00:37:22.726134Z",
+            "modified": "2022-09-08T18:26:13.267442Z",
             "name": "Spamming",
             "description": "Malware may use a victim machine to create and send spam.",
             "kill_chain_phases": [
@@ -20,12 +20,16 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/impact/spamming.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/spamming.md",
                     "external_id": "B0039"
                 },
                 {
                     "source_name": "external_source",
                     "url": "https://techcrunch.com/2019/07/12/trickbot-spam-millions-emails/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/gamut-spambot-analysis/"
                 }
             ],
             "object_marking_refs": [

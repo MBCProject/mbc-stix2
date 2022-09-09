@@ -8,7 +8,7 @@
             "id": "attack-pattern--b3030683-9d60-4b63-8498-f7fac91c244d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.814301Z",
-            "modified": "2022-02-05T00:37:22.632387Z",
+            "modified": "2022-09-08T18:26:13.430594Z",
             "name": "Disable Code Integrity",
             "description": "Malware disables Code Integrity driver.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/disable-security-tools.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/disable-or-evade-security-tools.md",
                     "external_id": "F0004.009"
                 }
             ],

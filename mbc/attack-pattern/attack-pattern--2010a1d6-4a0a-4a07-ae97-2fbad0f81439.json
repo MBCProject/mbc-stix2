@@ -8,9 +8,9 @@
             "id": "attack-pattern--2010a1d6-4a0a-4a07-ae97-2fbad0f81439",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.609265Z",
-            "modified": "2022-02-05T00:37:22.601096Z",
+            "modified": "2022-09-08T18:26:13.231605Z",
             "name": "C2 Communication",
-            "description": "All command and control malware use implant/controller communication. The methods listed below can be used to capture explicit communication details. Remote file copy behavior is captured separately, as is done in ATT&CK - see [Remote File Copy](https://github.com/MBCProject/mbc-markdown/blob/v2.2/command-and-control/remote-file-copy.md).",
+            "description": "All command and control malware use implant/controller communication. The methods listed below can be used to capture explicit communication details. Remote file copy behavior is captured separately, as is done in ATT&CK - see **Ingress Tool Transfer ([E1105](https://github.com/MBCProject/mbc-markdown/blob/v2.3/command-and-control/ingress-tool-transfer.md))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -20,8 +20,36 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/command-and-control/command-control-comm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/command-and-control/c2-communication.md",
                     "external_id": "B0030"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://news.sophos.com/en-us/2015/12/17/the-current-state-of-ransomware-cryptowall/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.welivesecurity.com/2019/07/08/south-korean-users-backdoor-torrents/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.mandiant.com/resources/hot-knives-through-butter-evading-file-based-sandboxes"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://citizenlab.ca/2016/04/between-hong-kong-and-burma/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://researchcenter.paloaltonetworks.com/2015/10/yispecter-first-ios-malware-attacks-non-jailbroken-ios-devices-by-abusing-private-apis/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.proofpoint.com/us/threat-insight/post/ursnif-variant-dreambot-adds-tor-functionality"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://securelist.com/the-banking-trojan-emotet-detailed-analysis/69560/"
                 }
             ],
             "object_marking_refs": [

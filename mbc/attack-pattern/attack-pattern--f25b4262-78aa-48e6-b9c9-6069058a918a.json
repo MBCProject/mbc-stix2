@@ -8,7 +8,7 @@
             "id": "attack-pattern--f25b4262-78aa-48e6-b9c9-6069058a918a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.916486Z",
-            "modified": "2022-02-05T00:37:22.632387Z",
+            "modified": "2022-09-08T18:26:13.430885Z",
             "name": "Disable or Evade Security Tools",
             "description": "Malware may disable or evade security tools to avoid detection. Security tools include OS security features and updating tools, anti-virus (AV) tools, firewalls, tool components providing security related logging and/or reporting, and Antimalware Scan Interface (AMSI) related capabilities.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/disable-security-tools.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/disable-or-evade-security-tools.md",
                     "external_id": "F0004"
                 },
                 {

@@ -240,7 +240,7 @@ The [ATT&CK® Navigator](https://github.com/mitre-attack/attack-navigator) has d
 
 ```json
         {
-            "name": "MBC v2.2",
+            "name": "MBC v2.3",
             "domains": [
                 {
                     "name": "2.2 Release",

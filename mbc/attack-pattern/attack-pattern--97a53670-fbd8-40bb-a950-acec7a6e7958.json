@@ -8,7 +8,7 @@
             "id": "attack-pattern--97a53670-fbd8-40bb-a950-acec7a6e7958",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.980486Z",
-            "modified": "2022-02-05T00:37:22.741756Z",
+            "modified": "2022-09-08T18:26:13.371634Z",
             "name": "Initialize Winsock Library::Socket Communication",
             "description": "Winsock is initialized for TCP communication.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/micro-behaviors/communication/socket-comm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/communication/socket-communication.md",
                     "external_id": "C0001.009"
                 }
             ],

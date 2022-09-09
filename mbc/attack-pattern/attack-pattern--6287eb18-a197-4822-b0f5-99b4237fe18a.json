@@ -8,7 +8,7 @@
             "id": "attack-pattern--6287eb18-a197-4822-b0f5-99b4237fe18a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.708261Z",
-            "modified": "2022-02-05T00:37:22.663601Z",
+            "modified": "2022-09-08T18:26:13.217002Z",
             "name": "Process detection - SysInternals Suite Tools",
             "description": "Malware can scan for the process name associated with common analysis tools. Process Explorer / Process Monitor / Regmon / Filemon, TCPView, Autoruns",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/discovery/analysis-tool-discover.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/discovery/analysis-tool-discovery.md",
                     "external_id": "B0013.003"
                 }
             ],

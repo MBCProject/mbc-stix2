@@ -8,7 +8,7 @@
             "id": "attack-pattern--45c5ccc6-f44e-4b7e-b2af-d5b1a0d01cd2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.489264Z",
-            "modified": "2022-02-05T00:37:22.507385Z",
+            "modified": "2022-09-08T18:26:13.281847Z",
             "name": "Check Memory Artifacts",
             "description": "VMware leaves many artifacts in memory. Some are critical processor structures, which, because they are either moved or changed on a virtual machine, leave recognizable footprints. Malware can search through physical memory for the strings VMware, commonly used to detect memory artifacts.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-behavioral-analysis/detect-vm.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/virtual-machine-detection.md",
                     "external_id": "B0009.002"
                 },
                 {

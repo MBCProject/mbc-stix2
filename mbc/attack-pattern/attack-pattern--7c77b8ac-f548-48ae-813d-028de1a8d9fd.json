@@ -8,7 +8,7 @@
             "id": "attack-pattern--7c77b8ac-f548-48ae-813d-028de1a8d9fd",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.70226Z",
-            "modified": "2022-02-05T00:37:22.663601Z",
+            "modified": "2022-09-08T18:26:13.423241Z",
             "name": "Self Deletion",
             "description": "Malware may uninstall itself to avoid detection.",
             "kill_chain_phases": [
@@ -20,8 +20,12 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/self-deletion.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/self-deletion.md",
                     "external_id": "F0007"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.mandiant.com/resources/hot-knives-through-butter-evading-file-based-sandboxes"
                 }
             ],
             "object_marking_refs": [

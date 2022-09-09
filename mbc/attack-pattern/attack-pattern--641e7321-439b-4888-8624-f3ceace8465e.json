@@ -8,7 +8,7 @@
             "id": "attack-pattern--641e7321-439b-4888-8624-f3ceace8465e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.845581Z",
-            "modified": "2022-02-05T00:37:22.648018Z",
+            "modified": "2022-09-08T18:26:13.404385Z",
             "name": "Kernel Mode Rootkit",
             "description": "Rootkit operates by adding or replacing code in OS, device drivers, loadable kernel modules (LKM). Related to ATT&CK: [Kernel Modules and Extensions](https://attack.mitre.org/techniques/T1547/006/)",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/defense-evasion/rootkit-behavior.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/rootkit.md",
                     "external_id": "E1014.m16"
                 }
             ],

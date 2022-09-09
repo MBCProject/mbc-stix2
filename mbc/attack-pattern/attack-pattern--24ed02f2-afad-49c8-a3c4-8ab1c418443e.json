@@ -8,7 +8,7 @@
             "id": "attack-pattern--24ed02f2-afad-49c8-a3c4-8ab1c418443e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.743261Z",
-            "modified": "2022-02-05T00:37:22.694887Z",
+            "modified": "2022-09-08T18:26:13.236841Z",
             "name": "Send Email",
             "description": "Sends an email message from the system on which the malware is executing to one or more recipients, mostly commonly for the purpose of spamming or for distributing a malicious attachment or URL (malspamming).",
             "kill_chain_phases": [
@@ -24,7 +24,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/execution/send-email.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/send-email.md",
                     "external_id": "B0020"
                 },
                 {
@@ -36,9 +36,8 @@
                     "url": "https://en.wikipedia.org/wiki/Bagle_(computer_worm)"
                 },
                 {
-                    "source_name": "mitre-attack",
-                    "url": "https://attack.mitre.org/techniques/T1566/",
-                    "external_id": "T1566"
+                    "source_name": "external_source",
+                    "url": "https://securelist.com/the-banking-trojan-emotet-detailed-analysis/69560/"
                 }
             ],
             "object_marking_refs": [

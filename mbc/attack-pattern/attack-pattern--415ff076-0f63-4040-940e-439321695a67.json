@@ -8,7 +8,7 @@
             "id": "attack-pattern--415ff076-0f63-4040-940e-439321695a67",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.556264Z",
-            "modified": "2022-02-05T00:37:22.569857Z",
+            "modified": "2022-09-08T18:26:13.19154Z",
             "name": "Dead Code Insertion",
             "description": "Include \"dead\" code with no real functionality.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/anti-static-analysis/exe-code-obfuscate.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-obfuscation.md",
                     "external_id": "B0032.003"
                 }
             ],

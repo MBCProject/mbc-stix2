@@ -8,7 +8,7 @@
             "id": "attack-pattern--5706671b-371d-40dd-95ae-d9574ba49291",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.871658Z",
-            "modified": "2022-02-05T00:37:22.663601Z",
+            "modified": "2022-09-08T18:26:13.210426Z",
             "name": "Parse PE Header",
             "description": "Malware parses the PE header.",
             "kill_chain_phases": [
@@ -20,7 +20,7 @@
             "external_references": [
                 {
                     "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.2/discovery/code-discover.md",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/discovery/code-discovery.md",
                     "external_id": "B0046.003"
                 }
             ],
