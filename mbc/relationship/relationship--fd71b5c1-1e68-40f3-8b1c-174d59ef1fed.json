@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--af218507-24d5-40a8-8482-831c386eb34a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fd71b5c1-1e68-40f3-8b1c-174d59ef1fed",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.945324Z",
+            "modified": "2022-11-28T16:12:21.945324Z",
+            "relationship_type": "uses",
+            "description": "The malware creates an \"autorun\" registry key",
+            "source_ref": "malware--20e084a0-4243-472f-a7c4-bbd76248fb4c",
+            "target_ref": "attack-pattern--98185b83-c780-48a6-af14-ffb2934c32d5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

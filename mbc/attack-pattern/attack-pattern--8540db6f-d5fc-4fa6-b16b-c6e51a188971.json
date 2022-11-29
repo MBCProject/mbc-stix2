@@ -1,0 +1,63 @@
+{
+    "type": "bundle",
+    "id": "bundle--108b527d-315b-43fb-b366-48559261c5c7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8540db6f-d5fc-4fa6-b16b-c6e51a188971",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.481642Z",
+            "modified": "2022-11-28T16:12:20.481642Z",
+            "name": "Data Encrypted for Impact",
+            "description": "Malware may encrypt files stored on the system to prevent user access until a ransom is paid and/or to interrupt system availability. The encryption process usually iterates over all letter drives in the system (except for CD drives) and then recursively encrypts all files with specific suffixes.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/data-encrypted-for-impact.md",
+                    "external_id": "E1486"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/cryptowall-ransomware/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/cryptolocker-ransomware/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2017/01/locky-bart-ransomware-and-backend-server-analysis/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cisa.gov/uscert/ncas/alerts/AA18-337A"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/en_us/research/20/e/netwalker-fileless-ransomware-injected-via-reflective-loading.html"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1486/",
+                    "external_id": "T1486"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1471/",
+                    "external_id": "T1471"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--22e169eb-ae0e-443a-ae15-a20ca0e29daa",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2ce70e3b-3d37-4737-8928-4d5803cb7f8a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.42408Z",
+            "modified": "2022-11-28T16:12:20.42408Z",
+            "name": "Jump Insertion",
+            "description": "Insert jumps to make analysis visually harder.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-obfuscation.md",
+                    "external_id": "B0032.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

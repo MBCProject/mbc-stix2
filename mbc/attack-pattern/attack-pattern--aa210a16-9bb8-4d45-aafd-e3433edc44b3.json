@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--7b98b479-ea37-448c-9812-202474ea7787",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--aa210a16-9bb8-4d45-aafd-e3433edc44b3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.46087Z",
+            "modified": "2022-11-28T16:12:20.46087Z",
+            "name": "Exploitation for Client Execution",
+            "description": "Software is exploited - either because of a vulnerability or through its designed features - to gain access for malware. In general, exploitation may be done by a human attacker, but MBC focuses on software exploits implemented in code. Malware-specific details are below.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/exploitation-for-client-execution.md",
+                    "external_id": "E1203"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/cybercrime/2018/05/samsam-ransomware-need-know/"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1203",
+                    "external_id": "T1203"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--d4074815-702b-4c71-a61e-a829c7db73c6",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--33cb60c3-14ae-4150-bba8-f9d3ede321fd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.447116Z",
+            "modified": "2022-11-28T16:12:20.447116Z",
+            "name": "Polling",
+            "description": "Keystrokes are captured via polling (e.g., user32.GetAsyncKeyState, user32.GetKeyState).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "collection"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/collection/keylogging.md",
+                    "external_id": "F0002.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

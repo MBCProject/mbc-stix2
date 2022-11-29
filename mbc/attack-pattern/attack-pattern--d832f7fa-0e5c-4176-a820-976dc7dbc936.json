@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--5c7a3d43-84bb-4bce-a7d9-e96f0aae4bc6",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d832f7fa-0e5c-4176-a820-976dc7dbc936",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.542318Z",
+            "modified": "2022-11-28T16:12:20.542318Z",
+            "name": "Writes File",
+            "description": "Malware writes to a file.  Writing to a file enables file modification.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "file-system-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/file-system/write-file.md",
+                    "external_id": "C0052"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

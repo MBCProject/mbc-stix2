@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3cb60c15-5d94-4452-b2f8-007a42fe25da",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bf35375c-8e1e-4de9-b965-75e961ef2bc2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.429124Z",
+            "modified": "2022-11-28T16:12:21.429124Z",
+            "relationship_type": "uses",
+            "description": "Screenshot plugin allows for collection of screenshots",
+            "source_ref": "malware--f396743c-b75c-4e68-981e-058761bf25e5",
+            "target_ref": "attack-pattern--b169cb9f-cfcb-44cc-8bc8-85500d39a9ce",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

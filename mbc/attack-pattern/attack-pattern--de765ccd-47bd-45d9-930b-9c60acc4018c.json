@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--40c26dec-f8eb-4400-bdbd-72eca8301dea",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--de765ccd-47bd-45d9-930b-9c60acc4018c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.522853Z",
+            "modified": "2022-11-28T16:12:20.522853Z",
+            "name": "Timing/Delay Check",
+            "description": "Malware may compare time between two points to detect unusual execution, such as the (relative) massive delays introduced by debugging.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/debugger-detection.md",
+                    "external_id": "B0001.028"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

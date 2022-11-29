@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--a23c11ed-89a8-4984-8165-13c5ef62153a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--dfaae245-825c-4288-bd39-cc1145fe3e3f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.539892Z",
+            "modified": "2022-11-28T16:12:20.539892Z",
+            "name": "Allocate Memory",
+            "description": "Malware allocates memory, often to unpack itself.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "memory-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/memory/allocate-memory.md",
+                    "external_id": "C0007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

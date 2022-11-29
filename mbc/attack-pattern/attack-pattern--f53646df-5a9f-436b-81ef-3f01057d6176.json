@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--552ea668-7ccf-4829-86a3-ceaf351e7c79",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f53646df-5a9f-436b-81ef-3f01057d6176",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.579597Z",
+            "modified": "2022-11-28T16:12:20.579597Z",
+            "name": "Encrypt Data",
+            "description": "Malware may encrypt data.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/encrypt-data.md",
+                    "external_id": "C0027"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.securityartwork.es/wp-content/uploads/2017/07/Trickbot-report-S2-Grupo.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://documents.trendmicro.com/assets/white_papers/ExploringEmotetsActivities_Final.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.talosintelligence.com/2018/04/gravityrat-two-year-evolution-of-apt.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-center/threat-profiles/trojan-variants/poison-ivy"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

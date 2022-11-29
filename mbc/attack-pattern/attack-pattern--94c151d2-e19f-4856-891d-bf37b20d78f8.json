@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--a4fb0695-e23c-4133-9983-74f1d0c16f61",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--94c151d2-e19f-4856-891d-bf37b20d78f8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.57938Z",
+            "modified": "2022-11-28T16:12:20.57938Z",
+            "name": "Twofish",
+            "description": "Malware encrypts with the Twofish algorithm.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/encrypt-data.md",
+                    "external_id": "C0027.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

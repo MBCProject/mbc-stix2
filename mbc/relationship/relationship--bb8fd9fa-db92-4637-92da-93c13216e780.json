@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3e0333fa-e521-4907-8d75-8b7816d4bdcd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bb8fd9fa-db92-4637-92da-93c13216e780",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.422792Z",
+            "modified": "2022-11-28T16:12:21.422792Z",
+            "relationship_type": "uses",
+            "description": "Most of the malware file consists of unnecessary code or unnecessary data",
+            "source_ref": "malware--a6c7c3ea-56c7-4e95-a521-cb18e3feedd6",
+            "target_ref": "attack-pattern--ba541025-5282-4487-ae32-6345c08c1f4a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

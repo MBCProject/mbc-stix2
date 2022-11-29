@@ -1,0 +1,49 @@
+{
+    "type": "bundle",
+    "id": "bundle--9be2f598-3b84-4f3c-be3c-e2e684105274",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--cd3a9217-eb8a-419a-b873-3bfd008eae93",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.435334Z",
+            "modified": "2022-11-28T16:12:20.435334Z",
+            "name": "Disassembler Evasion",
+            "description": "Malware code evades disassembly in a recursive or linear disassembler. Some methods apply to both types of disassemblers; others apply to one type and not the other.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/disassembler-evasion.md",
+                    "external_id": "B0012"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://staff.ustc.edu.cn/~bjhua/courses/security/2014/readings/anti-disas.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://www.kernelhacking.com/rodrigo/docs/blackhat2012-paper.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://isc.sans.edu/diary/Malicious+VBA+Office+Document+Without+Source+Code/24870"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://boingboing.net/2019/05/05/p-code-r-us.html"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--eb02a1b2-4cde-4625-8817-2029d29b7ae4",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--dc85cb6b-4929-4699-bacd-35d1afafea2d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.404008Z",
+            "modified": "2022-11-28T16:12:20.404008Z",
+            "name": "Memory Micro-objective",
+            "description": "",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/memory/README.md",
+                    "external_id": "OC0002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "memory-micro-objective"
+        }
+    ]
+}

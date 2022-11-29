@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--863ef99f-754a-4d31-a202-954b22624f72",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2a7a8a2e-1a89-4436-84e2-f9591976999e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.820811Z",
+            "modified": "2022-11-28T16:12:22.820811Z",
+            "relationship_type": "uses",
+            "description": "Conficker is propagated as a DLL which has been backed using the UPX packer",
+            "source_ref": "malware--b07c78c3-8f47-4fcb-a3d8-1ff82062cdc0",
+            "target_ref": "attack-pattern--a7cc3840-00bd-4587-8715-f53410e2bec4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

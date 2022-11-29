@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--28f684a5-d3d1-4251-b01e-040a13af7b8d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--28e036bd-0fcc-4c4c-81fa-42690f29c589",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.177312Z",
+            "modified": "2022-11-28T16:12:23.177312Z",
+            "relationship_type": "uses",
+            "description": "CozyCar has a dll file that serves as a cleanup mechanism for its dropped binary",
+            "source_ref": "malware--935bd653-1896-4196-bc1e-5247155847af",
+            "target_ref": "attack-pattern--35517335-b2f7-4b5c-85d0-21c2812c8bbf",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--88b91fe3-b069-4d18-bf30-04d074662dd6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0cc2958f-c947-4352-a2b3-2ae35edc2017",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.820372Z",
+            "modified": "2022-11-28T16:12:23.820372Z",
+            "relationship_type": "uses",
+            "description": "Most security products hook some APIs to monitor the behavior of malware. To avoid being found by this technique, WebCobra loads ntdll.dll and user32.dll as data files in memory and overwrites the first 8 bytes of those functions, which unhooks the APIs.",
+            "source_ref": "malware--25016dcd-718a-43b4-83e1-9fb794680fef",
+            "target_ref": "attack-pattern--3addac6d-015c-4739-9887-5896446ae1de",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

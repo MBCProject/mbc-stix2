@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--5debfa8c-12c0-44ba-b228-95b1ec02cfe7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6cddf3bb-81f5-4a7a-aa7c-80c8ea2f2f94",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.596124Z",
+            "modified": "2022-11-28T16:12:20.596124Z",
+            "name": "Remove SMS Warning Messages",
+            "description": "Malware captures the message body of incoming SMS messages and aborts displaying messages that meets a certain criteria.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/indicator-blocking.md",
+                    "external_id": "F0006.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

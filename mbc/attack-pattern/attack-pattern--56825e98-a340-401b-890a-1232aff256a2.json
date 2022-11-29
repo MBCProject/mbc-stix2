@@ -1,0 +1,32 @@
+{
+    "type": "bundle",
+    "id": "bundle--ec0b3216-9a57-4d99-b9d1-a3396cb515cf",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--56825e98-a340-401b-890a-1232aff256a2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.457823Z",
+            "modified": "2022-11-28T16:12:20.457823Z",
+            "name": "Shutdown",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/remote-commands.md",
+                    "external_id": "B0011.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

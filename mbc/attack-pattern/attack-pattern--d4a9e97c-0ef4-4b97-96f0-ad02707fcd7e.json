@@ -1,0 +1,38 @@
+{
+    "type": "bundle",
+    "id": "bundle--5c12308c-63b3-4dcf-8f3a-6dfdcf0d5d79",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d4a9e97c-0ef4-4b97-96f0-ad02707fcd7e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.607499Z",
+            "modified": "2022-11-28T16:12:20.607499Z",
+            "name": "Heavens Gate",
+            "description": "Malware evades endpoint security products by invoking 64-bit code in 32-bit processes, effectively bypassing user-mode hooks.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/disable-or-evade-security-tools.md",
+                    "external_id": "F0004.008"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1562/001",
+                    "external_id": "001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

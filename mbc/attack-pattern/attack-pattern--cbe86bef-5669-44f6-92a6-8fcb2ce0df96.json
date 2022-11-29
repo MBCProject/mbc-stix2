@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--1bc7642e-1dd4-4a75-9581-d61eb58eb192",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--cbe86bef-5669-44f6-92a6-8fcb2ce0df96",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.561459Z",
+            "modified": "2022-11-28T16:12:20.561459Z",
+            "name": "InternetWriteFile",
+            "description": "Writes data to an open Internet file.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/communication/wininet.md",
+                    "external_id": "C0005.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

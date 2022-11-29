@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4d1fd5f9-2980-4898-95ed-bf14c0612958",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9e09934c-b2c6-4d30-81cd-c5b2de216aa1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.080089Z",
+            "modified": "2022-11-28T16:12:23.080089Z",
+            "relationship_type": "uses",
+            "description": "The malware receives payloads",
+            "source_ref": "malware--047e5c17-941d-4cf8-941e-0625cb0604bd",
+            "target_ref": "attack-pattern--7e722fe9-290d-484b-acb0-3615e961121e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

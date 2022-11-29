@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--7760a3e2-4092-4895-8280-2a475bd5b90d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d193a9ca-a735-4800-9baa-bc0a095390dc",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.533855Z",
+            "modified": "2022-11-28T16:12:20.533855Z",
+            "name": "Checksum",
+            "description": "Malware may derive a checksum from some block of data. The checksum is often used for data validation.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "data-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/data/checksum.md",
+                    "external_id": "C0032"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

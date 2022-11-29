@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0f47a38f-c924-41a0-abd4-a1f55e6ed5eb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--87b3a28c-4c29-4348-98f2-05ec1995255f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.425294Z",
+            "modified": "2022-11-28T16:12:21.425294Z",
+            "relationship_type": "uses",
+            "description": "Can collect information about the compter, resources, services, installed programs, firmware, and operating system version",
+            "source_ref": "malware--64327426-55ca-40ef-9366-fda06b12d15f",
+            "target_ref": "attack-pattern--5f99efd4-bb8f-40f1-a027-b1404e1d259d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

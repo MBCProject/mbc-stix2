@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--e4b56d5c-2cf9-4152-91bb-675a619795ed",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--700b8b1b-f61a-4451-b6d6-80fb45b97566",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.548122Z",
+            "modified": "2022-11-28T16:12:20.548122Z",
+            "name": "Check Mutex",
+            "description": "Malware checks a mutex.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "process-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/process/check-mutex.md",
+                    "external_id": "C0043"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-poison-ivy.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

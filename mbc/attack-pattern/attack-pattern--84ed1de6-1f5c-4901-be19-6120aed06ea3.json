@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--b5e1012d-48ec-4729-8dda-3523bf2a446d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--84ed1de6-1f5c-4901-be19-6120aed06ea3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.544868Z",
+            "modified": "2022-11-28T16:12:20.544868Z",
+            "name": "Copy File",
+            "description": "Malware copies a file.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "file-system-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/file-system/copy-file.md",
+                    "external_id": "C0045"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

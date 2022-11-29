@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--9b7d76ec-1e3b-473b-9975-d1598a6d3f8c",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--788dc65e-b06c-44f1-8318-0b033fd78c60",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.406617Z",
+            "modified": "2022-11-28T16:12:20.406617Z",
+            "name": "Defense Evasion",
+            "description": "",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/README.md",
+                    "external_id": "OB0006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "defense-evasion"
+        }
+    ]
+}

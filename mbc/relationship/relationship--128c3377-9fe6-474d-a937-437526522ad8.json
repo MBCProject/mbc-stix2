@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e32bd699-00b5-4c5a-bd8f-c4b3d90154cc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--128c3377-9fe6-474d-a937-437526522ad8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.183493Z",
+            "modified": "2022-11-28T16:12:21.183493Z",
+            "relationship_type": "uses",
+            "description": "Can disable security center functions like anti-virus and firewall",
+            "source_ref": "malware--c7116127-1ee3-4e30-aef7-240d6307317d",
+            "target_ref": "attack-pattern--81ac46cc-4dad-4ad2-9ac7-a0c2466cfe76",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--4cc32eec-6e0b-4ed4-99fa-59c3202a29ec",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--b5fe1fec-f78e-42d2-ae85-e77e26e804b0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.403641Z",
+            "modified": "2022-11-28T16:12:20.403641Z",
+            "name": "Data Micro-objective",
+            "description": "",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/data/README.md",
+                    "external_id": "OC0004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "data-micro-objective"
+        }
+    ]
+}

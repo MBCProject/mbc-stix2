@@ -1,0 +1,47 @@
+{
+    "type": "bundle",
+    "id": "bundle--899e9280-4cd4-4eb0-a66c-39d31c9248a5",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--bc5ae9f6-16c6-4368-bbbc-60442e44b830",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.448517Z",
+            "modified": "2022-11-28T16:12:20.448517Z",
+            "name": "Supply Chain Compromise",
+            "description": "The supply chain may be compromised to enable initial malware infection. MBC objectives don't encompass initial infection, but the malware-related methods are listed below supplement the information available defined in ATT&CK and allow for lateral movement: **Supply Chain Compromise ([T1195](https://attack.mitre.org/techniques/T1195/), [T1474](https://attack.mitre.org/techniques/T1474/))**.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "lateral-movement"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/lateral-movement/supply-chain-compromise.md",
+                    "external_id": "E1195"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://researchcenter.paloaltonetworks.com/2015/10/yispecter-first-ios-malware-attacks-non-jailbroken-ios-devices-by-abusing-private-apis/"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1195/",
+                    "external_id": "T1195"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1474/",
+                    "external_id": "T1474"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "type": "bundle",
+    "id": "bundle--7cc3757f-78e3-4117-b5ef-fd5a0bc9ecf3",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--991cb8d8-91e5-4cc2-abf6-4c0728d84eec",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.42591Z",
+            "modified": "2022-11-28T16:12:20.42591Z",
+            "name": "Executable Code Obfuscation",
+            "description": "Executable code can be obfuscated to hinder disassembly and static code analysis. This behavior is specific to a malware sample's executable code (data and text sections).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-obfuscation.md",
+                    "external_id": "B0032"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://insights.sei.cmu.edu/cert/2019/03/api-hashing-tool-imagine-that.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://cofense.com/recent-geodo-malware-campaigns-feature-heavily-obfuscated-macros/"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Rob Simmons, \"Comparing Malicious Files,\" BSides, 2019.",
+                    "url": "http://www.irongeek.com/i.php?page=videos/bsidescharm2019/2-04-comparing-malicious-files-robert-simmons"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blogs.cisco.com/security/talos/rombertik"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.proofpoint.com/us/threat-insight/post/ursnif-variant-dreambot-adds-tor-functionality"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-poison-ivy.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.talosintelligence.com/2018/01/samsam-evolution-continues-netting-over.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://docs.broadcom.com/doc/security-response-w32-stuxnet-dossier-11-en"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

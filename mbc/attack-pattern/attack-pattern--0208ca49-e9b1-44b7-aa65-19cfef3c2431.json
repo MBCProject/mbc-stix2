@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--d5a29aa3-87ed-4860-9275-b90e551eca16",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0208ca49-e9b1-44b7-aa65-19cfef3c2431",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.433159Z",
+            "modified": "2022-11-28T16:12:20.433159Z",
+            "name": "Implicit Flows",
+            "description": "Data is propagated via semantic relationships, for example one variable not changing its state could imply the state of another variable.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/data-flow-analysis-evasion.md",
+                    "external_id": "B0045.002"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://www.seclab.cs.sunysb.edu/seclab/pubs/antitaint.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

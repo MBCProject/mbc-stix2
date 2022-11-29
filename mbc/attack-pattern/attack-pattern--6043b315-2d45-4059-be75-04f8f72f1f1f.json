@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--939fba6d-8814-4c8a-b33d-9c9a58ba1bb4",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6043b315-2d45-4059-be75-04f8f72f1f1f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.550838Z",
+            "modified": "2022-11-28T16:12:20.550838Z",
+            "name": "Terminate Thread",
+            "description": "Malware terminates a thread.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "process-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/process/terminate-thread.md",
+                    "external_id": "C0039"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

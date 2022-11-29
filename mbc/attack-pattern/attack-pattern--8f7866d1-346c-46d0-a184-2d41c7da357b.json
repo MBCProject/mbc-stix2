@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--f58e8d3c-5bf7-4ed4-8b00-f6ecd47439a6",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8f7866d1-346c-46d0-a184-2d41c7da357b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.499142Z",
+            "modified": "2022-11-28T16:12:20.499142Z",
+            "name": "Unique Hardware/Firmware Check - BIOS",
+            "description": "Malware may check for hardware characteristics unique to being virtualized, allowing the malware to detect the virtual environment. Characteristics of the BIOS, such as version, can indicate virtualization.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/virtual-machine-detection.md",
+                    "external_id": "B0009.024"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

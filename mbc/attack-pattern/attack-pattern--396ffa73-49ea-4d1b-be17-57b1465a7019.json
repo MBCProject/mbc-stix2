@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--99442dd6-1468-43c4-b094-f3c342a17258",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--396ffa73-49ea-4d1b-be17-57b1465a7019",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.543463Z",
+            "modified": "2022-11-28T16:12:20.543463Z",
+            "name": "Create Ransomware File",
+            "description": "Create a file used by ransomware.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "file-system-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/file-system/create-file.md",
+                    "external_id": "C0016.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

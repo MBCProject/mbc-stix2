@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f2e4abf0-06a7-4de0-817d-de5338e7cc0f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b94dc211-0e1f-4026-8a97-c7d0526d2c46",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.776586Z",
+            "modified": "2022-11-28T16:12:22.776586Z",
+            "relationship_type": "uses",
+            "description": "GoBotKR uses\u00a0cmd.exe\u00a0to execute commands.",
+            "source_ref": "malware--4c67be39-f9c3-4914-bbd7-a85a157fd0b4",
+            "target_ref": "attack-pattern--e7da9664-aa76-4434-b0ca-d0d1480bf30a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--5b757954-2d09-493c-8ebe-9e1b9316d8ba",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c4a84294-1aa0-40bc-8cc8-6ef2b9ea6032",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.59419Z",
+            "modified": "2022-11-28T16:12:20.59419Z",
+            "name": "Patch Process Command Line",
+            "description": "Malware patches the PEB of a process to spoof the arguments.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/process-injection.md",
+                    "external_id": "E1055.m04"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

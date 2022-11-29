@@ -1,0 +1,57 @@
+{
+    "type": "bundle",
+    "id": "bundle--fe83cb7b-1f60-406e-a9c9-1f0f4cfb7e66",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--09e8b997-333c-4119-88b5-ec9a1f376624",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.600015Z",
+            "modified": "2022-11-28T16:12:20.600015Z",
+            "name": "Inline Patching",
+            "description": "Inline patching (inline hooking) is done by modifying the beginning of a function (e.g., first bytes) in order to redirect the execution flow to custom code (i.e. redirecting code flow) before jumping back to the original function.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "collection"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/hijack-execution-flow.md",
+                    "external_id": "F0015.002"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.oreilly.com/library/view/learning-malware-analysis/9781788392501/a0a506d6-d062-48c1-a0a8-57d6acb77785.xhtml"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

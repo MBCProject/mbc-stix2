@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--52b21466-cfe3-4034-98ca-e9a63ae56126",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e82b8d98-9755-44ba-b752-9d07285bd1c6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.424653Z",
+            "modified": "2022-11-28T16:12:20.424653Z",
+            "name": "Merged Code Sections",
+            "description": "Merge all sections resulting in just one entry in the sections table to make readability more difficult. May affect some detection signatures if written to be section dependent.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-obfuscation.md",
+                    "external_id": "B0032.015"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--24b0cfc9-ec12-4fb1-8af1-5e3ae4900056",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8e0d7f33-f26e-4143-ac6d-42d4651c772c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.33257Z",
+            "modified": "2022-11-28T16:12:23.33257Z",
+            "relationship_type": "uses",
+            "description": "Clipminer monitors the clipboard for cryptocurrency addresses and replaces them with ones controlled by the adversary",
+            "source_ref": "malware--3466de1e-28e0-4d4b-bd79-dff7e315be24",
+            "target_ref": "attack-pattern--55c577b2-9cc1-4d57-bb9d-d3ad0495f649",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

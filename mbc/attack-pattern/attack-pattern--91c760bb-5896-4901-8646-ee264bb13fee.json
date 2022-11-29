@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--ce88b6c9-5671-4368-971a-56cc4996a271",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--91c760bb-5896-4901-8646-ee264bb13fee",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.597699Z",
+            "modified": "2022-11-28T16:12:20.597699Z",
+            "name": "Timestamp",
+            "description": "Malware may change the timestamp on a file to prevent detection.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/hidden-files-and-directories.md",
+                    "external_id": "F0005.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

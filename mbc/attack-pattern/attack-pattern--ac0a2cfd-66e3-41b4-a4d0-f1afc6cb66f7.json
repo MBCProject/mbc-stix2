@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--ab97ab79-fb88-48f0-93e9-03bd5a55f11e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ac0a2cfd-66e3-41b4-a4d0-f1afc6cb66f7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.519637Z",
+            "modified": "2022-11-28T16:12:20.519637Z",
+            "name": "Process Environment Block BeingDebugged",
+            "description": "The BeingDebugged field is tested to determine whether the process is being debugged.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/debugger-detection.md",
+                    "external_id": "B0001.035"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

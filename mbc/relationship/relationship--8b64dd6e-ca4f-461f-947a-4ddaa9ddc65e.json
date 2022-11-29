@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0db52e68-52ec-490c-a6a5-289d9edcd07a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8b64dd6e-ca4f-461f-947a-4ddaa9ddc65e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.034902Z",
+            "modified": "2022-11-28T16:12:23.034902Z",
+            "relationship_type": "uses",
+            "description": "The malware logs keystrokes to a file",
+            "source_ref": "malware--047e5c17-941d-4cf8-941e-0625cb0604bd",
+            "target_ref": "attack-pattern--d8b0a352-dd38-4edc-bd03-ec038e68f3cb",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

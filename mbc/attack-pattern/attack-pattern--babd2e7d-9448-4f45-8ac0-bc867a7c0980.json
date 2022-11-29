@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--87ae860c-5f12-48b8-bcaa-058add78c368",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--babd2e7d-9448-4f45-8ac0-bc867a7c0980",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.606986Z",
+            "modified": "2022-11-28T16:12:20.606986Z",
+            "name": "Disable System File Overwrite Protection",
+            "description": "Disables system file overwrite protection mechanisms such as Windows file protection, thereby enabling system files to be modified or replaced.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/disable-or-evade-security-tools.md",
+                    "external_id": "F0004.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--db1616a1-c570-420c-b8b3-e5a4a7698e70",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--db4cdf52-63f3-47ad-9830-961f22e48f97",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.588452Z",
+            "modified": "2022-11-28T16:12:20.588452Z",
+            "name": "Hardware/Firmware Rootkit",
+            "description": "A firmware rootkit compromises hardware (e.g. network card, hard drive), system BIOS, UEFI firmware. LoJack is the first in-the-wild UEFI rootkit. See ATT&CK: [System Firmware](https://attack.mitre.org/techniques/T1542/001/).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/rootkit.md",
+                    "external_id": "E1014.m14"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

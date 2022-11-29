@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--73c0e96e-856d-4d62-8b9b-b0649dfe209b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--70ce2055-a720-437d-9ea9-75847f4ad970",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.525459Z",
+            "modified": "2022-11-28T16:12:20.525459Z",
+            "name": "Check for WINE Version",
+            "description": "Checks for WINE via the `get_wine_version` function from WINE's `ntdll.dll`.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/emulator-detection.md",
+                    "external_id": "B0004.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

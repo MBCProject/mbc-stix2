@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--757a0705-0426-4fc4-a85f-4bdc1464f855",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6888634d-a272-44e3-925b-f49e49979d0d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.810387Z",
+            "modified": "2022-11-28T16:12:21.810387Z",
+            "relationship_type": "uses",
+            "description": "CHOPSTICK creates a hidden file for temporary storage",
+            "source_ref": "malware--8fe5f5af-2331-4fbd-8d5e-c547d26d1a9f",
+            "target_ref": "attack-pattern--d38e68b7-1893-4159-8b12-de449547d838",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

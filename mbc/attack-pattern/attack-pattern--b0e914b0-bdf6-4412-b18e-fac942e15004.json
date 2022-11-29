@@ -1,0 +1,38 @@
+{
+    "type": "bundle",
+    "id": "bundle--da665718-29a0-4d1b-bc0d-3e982457af45",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b0e914b0-bdf6-4412-b18e-fac942e15004",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.488509Z",
+            "modified": "2022-11-28T16:12:20.488509Z",
+            "name": "Patch MmGetPhysicalMemoryRanges",
+            "description": "Patching this function to always return NULL prevents drivers from getting information about the physical address space layout, preventing memory dumps.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/memory-dump-evasion.md",
+                    "external_id": "B0006.011"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "J. Stuttgen, M. Cohen, Anti-forensic resilient memory acquisition,",
+                    "url": "https://www.dfrws.org/sites/default/files/session-files/paper-anti-forensic_resilient_memory_acquisition.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

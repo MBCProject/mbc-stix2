@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--4af9c1c8-0845-4817-837b-6e32b1543fce",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b82acdd0-3bc0-448e-97d0-1301107ee926",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.434865Z",
+            "modified": "2022-11-28T16:12:20.434865Z",
+            "name": "Value Dependent Jumps",
+            "description": "Explicit use of computed values for control flow, often many times in the same basic block or function.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/disassembler-evasion.md",
+                    "external_id": "B0012.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

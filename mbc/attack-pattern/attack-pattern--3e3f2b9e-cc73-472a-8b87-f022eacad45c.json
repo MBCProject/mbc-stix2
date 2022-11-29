@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--0c3fe2a1-0cb0-49a3-a438-231cd31a69c0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--3e3f2b9e-cc73-472a-8b87-f022eacad45c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.42352Z",
+            "modified": "2022-11-28T16:12:20.42352Z",
+            "name": "Instruction Overlap",
+            "description": "Jump after the first byte of an instruction to confuse disassembler.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-obfuscation.md",
+                    "external_id": "B0032.013"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

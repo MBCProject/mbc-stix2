@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--e3aba48e-4494-4058-a92d-812bdf3e2d7c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2030c718-7119-4ce9-a93b-0e428c563012",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.432429Z",
+            "modified": "2022-11-28T16:12:20.432429Z",
+            "name": "Executable Code Virtualization",
+            "description": "Original executable code is virtualized by translating the code into a special format that only a special virtual machine (VM) can run; the VM uses a customized virtual instruction set. A \"stub\" function calls the VM when the code is run. Virtualized code makes static analysis and reverse engineering more difficult; dumped code won\u2019t run without the VM.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-virtualization.md",
+                    "external_id": "B0008"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://github.com/xiaoweime/WProtect"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2017/01/locky-bart-ransomware-and-backend-server-analysis/"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

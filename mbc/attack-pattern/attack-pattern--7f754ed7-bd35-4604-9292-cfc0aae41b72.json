@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--5abec5f9-ff9f-4196-aba6-ce2158788ee5",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--7f754ed7-bd35-4604-9292-cfc0aae41b72",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.536735Z",
+            "modified": "2022-11-28T16:12:20.536735Z",
+            "name": "FNV",
+            "description": "Malware uses the FNV hash function.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "data-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/data/noncryptographic-hash.md",
+                    "external_id": "C0030.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

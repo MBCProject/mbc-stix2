@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3decc3d7-ebf7-4663-8d68-b17585333a30",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f88e78b3-cfb6-41f5-b64c-a80b950be42b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.081939Z",
+            "modified": "2022-11-28T16:12:23.081939Z",
+            "relationship_type": "uses",
+            "description": "Emotet checks for various processes that are associated with various virtual machines by comparing hash values of the process names with the hash values of the list of running process names",
+            "source_ref": "malware--0bf5abe2-f2cf-4768-b47f-dc9a90975eae",
+            "target_ref": "attack-pattern--695a371c-fb8f-4a38-b8e2-2f58995f29c7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

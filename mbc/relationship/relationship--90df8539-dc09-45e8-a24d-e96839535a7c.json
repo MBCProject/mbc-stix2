@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--04e73318-37ae-4930-b6c2-8fa61b547052",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--90df8539-dc09-45e8-a24d-e96839535a7c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.081397Z",
+            "modified": "2022-11-28T16:12:23.081397Z",
+            "relationship_type": "uses",
+            "description": "Emotet macros are heavily obfuscated with junk functions and string substitutions",
+            "source_ref": "malware--0bf5abe2-f2cf-4768-b47f-dc9a90975eae",
+            "target_ref": "attack-pattern--362fdaa7-019c-47bd-9dff-b21361819efb",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

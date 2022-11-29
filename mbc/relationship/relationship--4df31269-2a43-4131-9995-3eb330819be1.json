@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--eb5e2e83-3cfb-4a66-84ab-e49b1881147d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4df31269-2a43-4131-9995-3eb330819be1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.8212Z",
+            "modified": "2022-11-28T16:12:23.8212Z",
+            "relationship_type": "uses",
+            "description": "Evades emulator-based analysis.",
+            "source_ref": "malware--25016dcd-718a-43b4-83e1-9fb794680fef",
+            "target_ref": "attack-pattern--2d2fe4c3-adad-4973-9858-eca9afce4e7f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

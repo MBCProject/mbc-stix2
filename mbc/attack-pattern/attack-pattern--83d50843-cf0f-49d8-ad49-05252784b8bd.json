@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--ed538195-4f3e-4202-a046-6123ef29c909",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--83d50843-cf0f-49d8-ad49-05252784b8bd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.450434Z",
+            "modified": "2022-11-28T16:12:20.450434Z",
+            "name": "Implant to Controller File Transfer",
+            "description": "File is transferred from implant to controller.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/command-and-control/c2-communication.md",
+                    "external_id": "B0030.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

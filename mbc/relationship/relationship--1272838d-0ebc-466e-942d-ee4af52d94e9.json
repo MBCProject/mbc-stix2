@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2d349f56-f89f-4573-9541-8eb5f7c66969",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1272838d-0ebc-466e-942d-ee4af52d94e9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.234749Z",
+            "modified": "2022-11-28T16:12:23.234749Z",
+            "relationship_type": "uses",
+            "description": "Certain variants of the malware may have keylogging functionality",
+            "source_ref": "malware--2a452254-a02f-40dc-8d6f-9908defad8ca",
+            "target_ref": "attack-pattern--d8b0a352-dd38-4edc-bd03-ec038e68f3cb",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

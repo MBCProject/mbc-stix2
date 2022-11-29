@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7b2f89bb-4cca-46ca-9048-c0bade49fd4a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--80f77414-1f33-4484-b872-2f089ecd613e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.810888Z",
+            "modified": "2022-11-28T16:12:21.810888Z",
+            "relationship_type": "uses",
+            "description": "CHOPSTICK sends data to the C2 server using HTTP POST requests",
+            "source_ref": "malware--8fe5f5af-2331-4fbd-8d5e-c547d26d1a9f",
+            "target_ref": "attack-pattern--27ea04ff-3cdc-4e5f-805b-cea038c9353d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

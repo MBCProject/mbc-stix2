@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--f1ad0038-bc63-40d3-adcd-d351856a9f61",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5b5ac54f-9797-4202-ab91-421450035e28",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.573073Z",
+            "modified": "2022-11-28T16:12:20.573073Z",
+            "name": "Blowfish",
+            "description": "Malware decrypts data encrypted with the Blowfish algorithm.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/decrypt-data.md",
+                    "external_id": "C0031.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

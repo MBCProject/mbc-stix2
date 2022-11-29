@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--e32b1596-63e4-42b3-a399-c11c5944363c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8a2d4d1d-b572-45ee-a9dd-abfd51ee84da",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.527124Z",
+            "modified": "2022-11-28T16:12:20.527124Z",
+            "name": "Data Flood",
+            "description": "Overloads a sandbox by generating a flood of meaningless behavioral data.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/dynamic-analysis-evasion.md",
+                    "external_id": "B0003.002"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://joe4security.blogspot.com/2013/06/overloading-sandboxes-new-generic.html"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--be087950-3ed3-4c3c-976d-304e5f593063",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9207ac61-f209-4327-bbfa-75c340c77eef",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.599973Z",
+            "modified": "2022-11-28T16:12:21.599973Z",
+            "relationship_type": "uses",
+            "description": "Disables remote user account control by enabling the registry key LocalAccountTokenFilterPolicy",
+            "source_ref": "malware--22d2aa40-64c8-4ebb-ae83-29af4f2bd29d",
+            "target_ref": "attack-pattern--b24bc0e5-7d75-4f67-b52b-e0eefb2abc61",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

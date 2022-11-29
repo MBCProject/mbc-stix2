@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--b36bc9ab-7d11-4b2a-a02a-323fe6401a13",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8bf6c098-0a1d-4142-aa9d-63535041c0f6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.4845Z",
+            "modified": "2022-11-28T16:12:20.4845Z",
+            "name": "Archive Collected Data",
+            "description": "Malware may obfuscate data via encryption or encoding before exfiltration.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "exfiltration"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/exfiltration/archive-collected-data.md",
+                    "external_id": "E1560"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.bitdefender.com/blog/labs/trickbot-is-dead-long-live-trickbot/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://docs.broadcom.com/doc/security-response-w32-stuxnet-dossier-11-en"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1560/",
+                    "external_id": "T1560"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

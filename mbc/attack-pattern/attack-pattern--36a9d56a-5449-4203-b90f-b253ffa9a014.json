@@ -1,0 +1,57 @@
+{
+    "type": "bundle",
+    "id": "bundle--0ee91174-3bf1-468d-bf0b-fe7dba4f5ab0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--36a9d56a-5449-4203-b90f-b253ffa9a014",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.455881Z",
+            "modified": "2022-11-28T16:12:20.455881Z",
+            "name": "Install Additional Program",
+            "description": "Installs another, different program on the system. The additional program can be any secondary module; examples include backdoors, malicious drivers, kernel modules, and OS X Apps.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/install-additional-program.md",
+                    "external_id": "B0023"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/webcobra-malware-uses-victims-computers-to-mine-cryptocurrency/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fortinet.com/blog/threat-research/deep-analysis-of-driver-based-mitm-malware-itranslator.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.welivesecurity.com/2019/07/08/south-korean-users-backdoor-torrents/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://citizenlab.ca/2016/04/between-hong-kong-and-burma/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://unit42.paloaltonetworks.com/tracking-minidionis-cozycars-new-ride-is-related-to-seaduke"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/clipminer-bitcoin-mining-hijacking"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

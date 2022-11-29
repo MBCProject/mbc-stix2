@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--67b537c6-8a33-4a1d-95af-992d106176d3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5c89d812-a13d-4125-a695-aed8db6c5d15",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.428332Z",
+            "modified": "2022-11-28T16:12:21.428332Z",
+            "relationship_type": "uses",
+            "description": "Clears windows event logs and removes the watermark associated with enabling the TESTSIGNING boot configuration option by removing the relevent strings in the user32.dll.mui of the system",
+            "source_ref": "malware--f396743c-b75c-4e68-981e-058761bf25e5",
+            "target_ref": "attack-pattern--81ac46cc-4dad-4ad2-9ac7-a0c2466cfe76",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

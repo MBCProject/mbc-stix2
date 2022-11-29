@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--abff77fa-066c-4e69-b882-49aa0b0a017b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--17f43a24-f64e-4a1d-8f77-6dfc395ceabd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.546445Z",
+            "modified": "2022-11-28T16:12:20.546445Z",
+            "name": "Create Process via Shellcode",
+            "description": "Malware uses shellcode to create a process.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "process-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/process/create-process.md",
+                    "external_id": "C0017.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

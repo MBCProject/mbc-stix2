@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--973f0be3-c438-4af3-89a1-d63c64a0d9a2",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--51b6dd12-dadf-4073-ab1c-8b9d2ecd4b3c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.454842Z",
+            "modified": "2022-11-28T16:12:20.454842Z",
+            "name": "Prevent Concurrent Execution",
+            "description": "To avoid running multiple instances of itself, malware may check a system to see if it is already running.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/prevent-concurrent-execution.md",
+                    "external_id": "B0024"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/archive/malware/worm_bagle.u"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

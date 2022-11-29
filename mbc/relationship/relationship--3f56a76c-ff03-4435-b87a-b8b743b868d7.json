@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0ea580e1-3502-4e61-8f32-0dd8cab1cf45",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3f56a76c-ff03-4435-b87a-b8b743b868d7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.175052Z",
+            "modified": "2022-11-28T16:12:23.175052Z",
+            "relationship_type": "uses",
+            "description": "Stuxnet intercepts IRP requests (reads, writes) to devices (NFTS, FAT, CD-ROM). It monitors directory control IRPs, in particular directory query notifications such that when an application requests the list of files, it returns a Stuxnet-specified subset of the true items. These filters hide the files used by Stuxnet to spread through removalbe drives",
+            "source_ref": "malware--d16519fa-ee8c-4254-a5e4-9193c47fba61",
+            "target_ref": "attack-pattern--47b39344-97d1-4e86-a5f8-8a0f88a2ec6c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

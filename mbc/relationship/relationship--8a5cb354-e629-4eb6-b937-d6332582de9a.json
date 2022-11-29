@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fcfe595a-4186-4d3b-a8f1-999c3efcfaab",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8a5cb354-e629-4eb6-b937-d6332582de9a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.227553Z",
+            "modified": "2022-11-28T16:12:23.227553Z",
+            "relationship_type": "uses",
+            "description": "The malware adds a registry key",
+            "source_ref": "malware--432e1b30-9cfe-4127-9ba4-20481c4fbdae",
+            "target_ref": "attack-pattern--b24bc0e5-7d75-4f67-b52b-e0eefb2abc61",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

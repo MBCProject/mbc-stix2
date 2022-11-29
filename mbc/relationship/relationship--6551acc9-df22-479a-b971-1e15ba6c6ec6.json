@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9532a22d-081f-42cf-904e-8bbea4101aef",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6551acc9-df22-479a-b971-1e15ba6c6ec6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.429427Z",
+            "modified": "2022-11-28T16:12:21.429427Z",
+            "relationship_type": "uses",
+            "description": "BlackEnergy 2 variant contains a Destroy plugin that destroys data stored on victim hard drives by overwriting file contents",
+            "source_ref": "malware--f396743c-b75c-4e68-981e-058761bf25e5",
+            "target_ref": "attack-pattern--a149796d-f749-4ea0-bf92-81309cef3e39",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

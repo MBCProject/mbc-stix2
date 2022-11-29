@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--62e700c6-70ce-40d8-8c86-7ff0b7271619",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5605886e-cc7d-4bba-a8cf-5bc1e3209909",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.688968Z",
+            "modified": "2022-11-28T16:12:22.688968Z",
+            "relationship_type": "uses",
+            "description": "GoBotKR can download additional files and update itself.",
+            "source_ref": "malware--4c67be39-f9c3-4914-bbd7-a85a157fd0b4",
+            "target_ref": "attack-pattern--95ce19be-e3a4-4723-9514-8a96d3d205c1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

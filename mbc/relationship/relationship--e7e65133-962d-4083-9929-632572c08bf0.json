@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6a81afed-a99a-4d75-a830-aed933550399",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e7e65133-962d-4083-9929-632572c08bf0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.174879Z",
+            "modified": "2022-11-28T16:12:23.174879Z",
+            "relationship_type": "uses",
+            "description": "Exfiltrated payloads are XORed with a static 31-byte long byte string found inside Stuxnet and hexified in order to be passed on as an ASCII data parameter in an HTTP request to the C2 servers",
+            "source_ref": "malware--d16519fa-ee8c-4254-a5e4-9193c47fba61",
+            "target_ref": "attack-pattern--467f4371-1d78-4d8d-af14-8efa61220564",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

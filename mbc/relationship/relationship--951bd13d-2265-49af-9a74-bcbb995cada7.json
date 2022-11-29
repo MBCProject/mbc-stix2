@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0f7e7bdf-eb74-4d35-b452-75418d9d1013",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--951bd13d-2265-49af-9a74-bcbb995cada7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.085469Z",
+            "modified": "2022-11-28T16:12:22.085469Z",
+            "relationship_type": "uses",
+            "description": "The malware receives a public key from the C2",
+            "source_ref": "malware--bfc50c5a-c847-4e91-866b-059caf943023",
+            "target_ref": "attack-pattern--7e722fe9-290d-484b-acb0-3615e961121e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

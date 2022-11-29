@@ -1,0 +1,38 @@
+{
+    "type": "bundle",
+    "id": "bundle--296cf723-bd59-4ef5-84a0-6033a7764cd2",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1df00d72-ce01-4d94-8d91-f9cf173af9fd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.521271Z",
+            "modified": "2022-11-28T16:12:20.521271Z",
+            "name": "SeDebugPrivilege",
+            "description": "(Csrss.exe); Using the OpenProcess function on the csrss.exe process can detect a debugger.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/debugger-detection.md",
+                    "external_id": "B0001.023"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Anti Debugging Tricks, Al-Khaser.",
+                    "url": "https://github.com/LordNoteworthy/al-khaser/wiki/Anti-Debugging-Tricks"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

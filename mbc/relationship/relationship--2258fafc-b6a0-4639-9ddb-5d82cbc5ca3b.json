@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7dce274c-1cb6-44af-810a-3b89b71a0365",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2258fafc-b6a0-4639-9ddb-5d82cbc5ca3b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.129003Z",
+            "modified": "2022-11-28T16:12:23.129003Z",
+            "relationship_type": "uses",
+            "description": "Malware has capability to connect with C2 to download arbitrary code",
+            "source_ref": "malware--e8e32d8c-1bce-47d7-abb4-0d51329ef5a0",
+            "target_ref": "attack-pattern--7e722fe9-290d-484b-acb0-3615e961121e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

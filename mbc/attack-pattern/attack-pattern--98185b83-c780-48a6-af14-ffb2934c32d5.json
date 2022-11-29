@@ -1,0 +1,94 @@
+{
+    "type": "bundle",
+    "id": "bundle--e38af426-8535-43bc-9ca0-057bb8f8974d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--98185b83-c780-48a6-af14-ffb2934c32d5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.466732Z",
+            "modified": "2022-11-28T16:12:20.466732Z",
+            "name": "Registry Run Keys / Startup Folder",
+            "description": "Malware may add an entry to the Windows Registry run keys or startup folder to enable persistence.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/persistence/registry-run-keys-startup-folder.md",
+                    "external_id": "F0012"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://threatvector.cylance.com/en_us/home/windows-registry-persistence-part-2-the-run-keys-and-search-order.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-profiles/trojan-variants/poison-ivy"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/HUPIGON"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/current-threats/pdfs/pf/file/fireeye-hot-knives-through-butter.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.secureworks.com/research/cryptolocker-ransomware"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.welivesecurity.com/2019/07/08/south-korean-users-backdoor-torrents/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2016/07/untangling-kovter/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blogs.cisco.com/security/talos/rombertik"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/PE_URSNIF.A2?_ga=2.131425807.1462021705.1559742358-1202584019.1549394279"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog-assets.f-secure.com/wp-content/uploads/2019/10/15163408/BlackEnergy_Quedagh.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://en.wikipedia.org/wiki/Conficker"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2012/06/you-dirty-rat-part-1-darkcomet/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://cofense.com/recent-geodo-malware-campaigns-feature-heavily-obfuscated-macros/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/WORM_BAGLE.U/"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1547/001/",
+                    "external_id": "001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

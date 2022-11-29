@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--16d7d63b-eb97-41f4-84d9-0c19e0086dbc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3f8a101a-f7eb-4eff-9e14-9cfe56292a3f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.820969Z",
+            "modified": "2022-11-28T16:12:22.820969Z",
+            "relationship_type": "uses",
+            "description": "Uses a domain name generator seeded by the current date to ensure that every copy of the virus generates the same names on their respective days",
+            "source_ref": "malware--b07c78c3-8f47-4fcb-a3d8-1ff82062cdc0",
+            "target_ref": "attack-pattern--aeec8bb1-cf51-4e8f-a686-b1066f397216",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

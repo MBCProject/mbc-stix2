@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--238eb802-ed1c-4881-b759-868b567bbdac",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8f752142-13f1-47f2-91b1-c7962924305a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.585356Z",
+            "modified": "2022-11-28T16:12:20.585356Z",
+            "name": "Query Registry Key",
+            "description": "Malware queries a registry key.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "operating-system-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/operating-system/registry.md",
+                    "external_id": "C0036.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

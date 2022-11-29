@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--a2714495-c90d-4547-ae96-a59b05e2c9bb",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--234aba45-0ad5-4196-853d-55cbe20905de",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.504784Z",
+            "modified": "2022-11-28T16:12:20.504784Z",
+            "name": "Different Opcode Sets",
+            "description": "Use different opcodes sets (ex: FPU, MMX, SSE) to block emulators.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/emulator-evasion.md",
+                    "external_id": "B0005.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

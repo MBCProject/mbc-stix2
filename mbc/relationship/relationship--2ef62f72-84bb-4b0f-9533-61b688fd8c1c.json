@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--04658e36-f0a8-4a99-82e3-03e52d2b0b55",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2ef62f72-84bb-4b0f-9533-61b688fd8c1c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.228999Z",
+            "modified": "2022-11-28T16:12:23.228999Z",
+            "relationship_type": "uses",
+            "description": "The malware detects debuggers using IsDebuggerPresent",
+            "source_ref": "malware--432e1b30-9cfe-4127-9ba4-20481c4fbdae",
+            "target_ref": "attack-pattern--ed2b49a1-d384-4c9b-89b6-d2982885a0ec",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

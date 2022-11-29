@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--521fcf90-bd01-4328-a919-e07a94666171",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--655865ed-887a-452f-9e17-802dc414eaad",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.080858Z",
+            "modified": "2022-11-28T16:12:23.080858Z",
+            "relationship_type": "uses",
+            "description": "Emotet uses custom packers which first decrypt the loaders and the loaders decrypt and load Emotet's main payloads",
+            "source_ref": "malware--0bf5abe2-f2cf-4768-b47f-dc9a90975eae",
+            "target_ref": "attack-pattern--cb1a1037-5739-4725-8ff8-1b680902ee2b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

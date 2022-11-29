@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7d17c8e4-3cad-45b2-af5c-2b86f021def2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dd1989d8-72c6-42c8-97de-7484d74a1f8d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.599275Z",
+            "modified": "2022-11-28T16:12:21.599275Z",
+            "relationship_type": "uses",
+            "description": "Malware only proceeds if it detects the BIOS ROM is Award BIOS",
+            "source_ref": "malware--d2ce03cb-a62a-46eb-96bf-33855d85aa6f",
+            "target_ref": "attack-pattern--ae776aa6-3281-438b-8a24-e714d18019f7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

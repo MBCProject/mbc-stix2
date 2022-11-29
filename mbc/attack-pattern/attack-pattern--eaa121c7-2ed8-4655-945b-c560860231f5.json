@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--35a32f6c-db9d-423c-976c-d248533604a3",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--eaa121c7-2ed8-4655-945b-c560860231f5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.582166Z",
+            "modified": "2022-11-28T16:12:20.582166Z",
+            "name": "rand",
+            "description": "Malware generates a pseudo-random sequence using rand.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/generate-pseudorandom-sequence.md",
+                    "external_id": "C0021.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

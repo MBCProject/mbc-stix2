@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f5389af9-fc63-46ce-84cc-0a989ef9ec0f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--aa0971cc-bf72-4268-9315-ab06be2933ff",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.777747Z",
+            "modified": "2022-11-28T16:12:22.777747Z",
+            "relationship_type": "uses",
+            "description": "GoBotKR is capable of capturing screenshots.",
+            "source_ref": "malware--4c67be39-f9c3-4914-bbd7-a85a157fd0b4",
+            "target_ref": "attack-pattern--b169cb9f-cfcb-44cc-8bc8-85500d39a9ce",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

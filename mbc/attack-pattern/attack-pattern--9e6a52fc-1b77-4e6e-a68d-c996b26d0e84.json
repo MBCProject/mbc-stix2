@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--c7b8c4f4-a6dd-43fc-b851-93953e1e5e06",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9e6a52fc-1b77-4e6e-a68d-c996b26d0e84",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.448298Z",
+            "modified": "2022-11-28T16:12:20.448298Z",
+            "name": "Exploit Private APIs",
+            "description": "Malware can exploit private APIs to infect jailbroken and non-jailbroken iOS devices. Research shows that over 100 apps in the App Store have abused private APIs and bypassed Apple\u2019s strict code review.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "lateral-movement"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/lateral-movement/supply-chain-compromise.md",
+                    "external_id": "E1195.m02"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

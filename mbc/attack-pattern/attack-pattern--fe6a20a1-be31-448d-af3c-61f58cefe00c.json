@@ -1,0 +1,41 @@
+{
+    "type": "bundle",
+    "id": "bundle--b51b99b9-7de0-42ce-acfa-b2c3f509acf2",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--fe6a20a1-be31-448d-af3c-61f58cefe00c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.552415Z",
+            "modified": "2022-11-28T16:12:20.552415Z",
+            "name": "Create Mutex",
+            "description": "Malware creates a mutex.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "process-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/process/create-mutex.md",
+                    "external_id": "C0042"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-poison-ivy.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://docs.broadcom.com/doc/security-response-w32-stuxnet-dossier-11-en"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "type": "bundle",
+    "id": "bundle--bf8c9556-5538-4960-965a-1f46d6e8fdb7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a756116b-7093-445d-a12e-7449af6b2c03",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.425157Z",
+            "modified": "2022-11-28T16:12:20.425157Z",
+            "name": "Structured Exception Handling (SEH)",
+            "description": "A portion of the code always generates an exception so that malicious code is executed with the exception handling. See  .",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-obfuscation.md",
+                    "external_id": "B0032.016"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Rob Simmons, \"Comparing Malicious Files,\" BSides, 2019.",
+                    "url": "http://www.irongeek.com/i.php?page=videos/bsidescharm2019/2-04-comparing-malicious-files-robert-simmons"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

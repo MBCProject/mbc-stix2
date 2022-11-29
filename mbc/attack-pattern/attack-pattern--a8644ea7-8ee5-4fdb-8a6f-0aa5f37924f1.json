@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--b8102af9-95ac-433a-a8dd-1d3d94f42e23",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a8644ea7-8ee5-4fdb-8a6f-0aa5f37924f1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.448027Z",
+            "modified": "2022-11-28T16:12:20.448027Z",
+            "name": "Abuse Enterprise Certificates",
+            "description": "Abusing enterprise certificates enables malware to exploit private APIs and infect a wide range of users (see *Exploit Private APIs* below).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "lateral-movement"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/lateral-movement/supply-chain-compromise.md",
+                    "external_id": "E1195.m01"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

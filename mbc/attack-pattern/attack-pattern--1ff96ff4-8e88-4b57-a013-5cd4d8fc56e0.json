@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--71ae1ef9-65de-4bac-a027-3b5e72912c3c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1ff96ff4-8e88-4b57-a013-5cd4d8fc56e0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.572198Z",
+            "modified": "2022-11-28T16:12:20.572198Z",
+            "name": "Hashed Message Authentication Code",
+            "description": "Malware uses a hashed message authentication code (HMAC) schema.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/hashed-message-authentication-code.md",
+                    "external_id": "C0061"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

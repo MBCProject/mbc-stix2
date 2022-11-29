@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b0f9c8d8-e058-4a45-8e59-05240113fdbb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--76aaa2ff-1404-496f-83a6-8b69c22265df",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.183302Z",
+            "modified": "2022-11-28T16:12:21.183302Z",
+            "relationship_type": "uses",
+            "description": "adds several registry entries to enable automatic execution at startup",
+            "source_ref": "malware--c7116127-1ee3-4e30-aef7-240d6307317d",
+            "target_ref": "attack-pattern--98185b83-c780-48a6-af14-ffb2934c32d5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

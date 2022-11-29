@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--89b79c4e-6d5c-4573-b0be-f9977c6fc3ce",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dcc012cb-c4aa-42ac-97b5-ee4c734b342c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.17601Z",
+            "modified": "2022-11-28T16:12:23.17601Z",
+            "relationship_type": "uses",
+            "description": "Stuxnet will use WMI operations with the explorere.exe token in order to copy itself and exscute on the remote share",
+            "source_ref": "malware--d16519fa-ee8c-4254-a5e4-9193c47fba61",
+            "target_ref": "attack-pattern--01cdc829-827e-4725-882e-49855b205d1b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

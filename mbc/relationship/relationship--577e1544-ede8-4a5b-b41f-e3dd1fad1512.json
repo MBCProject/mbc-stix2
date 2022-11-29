@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c041c7c5-029e-498c-a7b0-7216049f93fb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--577e1544-ede8-4a5b-b41f-e3dd1fad1512",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.429276Z",
+            "modified": "2022-11-28T16:12:21.429276Z",
+            "relationship_type": "uses",
+            "description": "BlackEnergy 3 variant drops its main DLL component and then creates a .lnk shortcut to that file in the startup folder",
+            "source_ref": "malware--f396743c-b75c-4e68-981e-058761bf25e5",
+            "target_ref": "attack-pattern--98185b83-c780-48a6-af14-ffb2934c32d5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

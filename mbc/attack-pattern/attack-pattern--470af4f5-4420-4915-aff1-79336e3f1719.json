@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--140513b4-be29-4085-88fb-a59adfcfd4be",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--470af4f5-4420-4915-aff1-79336e3f1719",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.577251Z",
+            "modified": "2022-11-28T16:12:20.577251Z",
+            "name": "3DES",
+            "description": "Malware encrypts with the 3DES algorithm.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/encrypt-data.md",
+                    "external_id": "C0027.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

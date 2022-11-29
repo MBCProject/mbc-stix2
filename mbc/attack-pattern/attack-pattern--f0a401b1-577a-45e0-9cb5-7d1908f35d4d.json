@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--22c349f7-029c-4e3a-aa0f-6dddc7636513",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f0a401b1-577a-45e0-9cb5-7d1908f35d4d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.474683Z",
+            "modified": "2022-11-28T16:12:20.474683Z",
+            "name": "Cryptojacking",
+            "description": "Consume system resources to mine for cryptocurrency (e.g., Bitcoin, Litecoin, etc.).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/resource-hijacking.md",
+                    "external_id": "B0018.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

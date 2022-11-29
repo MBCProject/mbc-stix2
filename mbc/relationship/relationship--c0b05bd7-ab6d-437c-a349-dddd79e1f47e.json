@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bdcff847-e492-4dd6-97d7-543fa8412dda",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c0b05bd7-ab6d-437c-a349-dddd79e1f47e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.555951Z",
+            "modified": "2022-11-28T16:12:21.555951Z",
+            "relationship_type": "uses",
+            "description": "Creates a WMI request to identify the BIOS version.",
+            "source_ref": "malware--6cd82a42-2992-42d1-9992-11ab42c38b51",
+            "target_ref": "attack-pattern--8f7866d1-346c-46d0-a184-2d41c7da357b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

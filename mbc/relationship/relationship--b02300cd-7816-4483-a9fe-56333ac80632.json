@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0e48e9a9-090d-4b76-a2dc-cab1d3a9e8ca",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b02300cd-7816-4483-a9fe-56333ac80632",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.175224Z",
+            "modified": "2022-11-28T16:12:23.175224Z",
+            "relationship_type": "uses",
+            "description": "Stuxnet will store and execute SQL code that will extract and execute Stuxnet from the saved CAB file using xp_cmdshell",
+            "source_ref": "malware--d16519fa-ee8c-4254-a5e4-9193c47fba61",
+            "target_ref": "attack-pattern--e7da9664-aa76-4434-b0ca-d0d1480bf30a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

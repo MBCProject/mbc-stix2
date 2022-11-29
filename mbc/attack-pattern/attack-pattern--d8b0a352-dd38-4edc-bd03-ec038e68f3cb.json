@@ -1,0 +1,71 @@
+{
+    "type": "bundle",
+    "id": "bundle--a64354ec-adc4-4e26-9609-55e976199356",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d8b0a352-dd38-4edc-bd03-ec038e68f3cb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.447357Z",
+            "modified": "2022-11-28T16:12:20.447357Z",
+            "name": "Keylogging",
+            "description": "Malware captures user keyboard input.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "collection"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/collection/keylogging.md",
+                    "external_id": "F0002"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.f-secure.com/v-descs/backdoor_w32_hupigon.shtml"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://citizenlab.ca/2016/04/between-hong-kong-and-burma/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://securelist.com/be2-custom-plugins-router-abuse-and-target-profiles/67353/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2012/06/you-dirty-rat-part-1-darkcomet/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-center/threat-profiles/trojan-variants/poison-ivy"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1056/001",
+                    "external_id": "001"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1417/001/",
+                    "external_id": "001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

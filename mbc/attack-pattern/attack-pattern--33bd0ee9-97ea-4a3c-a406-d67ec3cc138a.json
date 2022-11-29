@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--fbdb7df3-356a-4e04-816c-06308629e7bd",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--33bd0ee9-97ea-4a3c-a406-d67ec3cc138a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.551803Z",
+            "modified": "2022-11-28T16:12:20.551803Z",
+            "name": "Create Mutex",
+            "description": "Malware creates a mutex to enable synchronization.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "process-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/process/synchronization.md",
+                    "external_id": "C0022.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

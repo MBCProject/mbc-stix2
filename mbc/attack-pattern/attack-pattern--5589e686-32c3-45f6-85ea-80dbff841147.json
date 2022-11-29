@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--11302bfe-1575-40f1-b8af-f4f6b982ee0a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5589e686-32c3-45f6-85ea-80dbff841147",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.489734Z",
+            "modified": "2022-11-28T16:12:20.489734Z",
+            "name": "Multiple Stages of Loaders",
+            "description": "Multiple stages of loaders are used with an encoded payload.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/capture-evasion.md",
+                    "external_id": "B0036.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--45da6f1f-e99c-4c77-b8f5-96370519527c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--13d11db2-7e7f-4669-9fc3-c79d136dd670",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.80961Z",
+            "modified": "2022-11-28T16:12:21.80961Z",
+            "relationship_type": "uses",
+            "description": "Intercepts encrypted web traffic to inject adds.",
+            "source_ref": "malware--935244c7-b024-4df1-8bcf-ee59c5821a16",
+            "target_ref": "attack-pattern--1d5f25be-4690-45e6-b414-4226e243e2cb",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

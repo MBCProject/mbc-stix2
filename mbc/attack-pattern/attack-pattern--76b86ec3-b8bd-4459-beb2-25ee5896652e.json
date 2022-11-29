@@ -1,0 +1,57 @@
+{
+    "type": "bundle",
+    "id": "bundle--b61c2a5f-0839-49e1-b11a-b1e44dff4358",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--76b86ec3-b8bd-4459-beb2-25ee5896652e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.599586Z",
+            "modified": "2022-11-28T16:12:20.599586Z",
+            "name": "Import Address Table Hooking",
+            "description": "Malware (e.g. rootkit) modifies a process's import address table (IAT), which stores pointers to imported API functions.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "collection"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/hijack-execution-flow.md",
+                    "external_id": "F0015.003"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.sans.org/media/score/checklists/rootkits-investigation-procedures.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

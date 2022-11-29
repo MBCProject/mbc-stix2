@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1ea71e29-37df-45be-8c4f-17d64184829a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a96109a5-b560-43ad-9133-bace7d071561",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.819556Z",
+            "modified": "2022-11-28T16:12:23.819556Z",
+            "relationship_type": "uses",
+            "description": "Learns about the system so it can drop compatible miner software.",
+            "source_ref": "malware--25016dcd-718a-43b4-83e1-9fb794680fef",
+            "target_ref": "attack-pattern--5f99efd4-bb8f-40f1-a027-b1404e1d259d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

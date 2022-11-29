@@ -1,0 +1,70 @@
+{
+    "type": "bundle",
+    "id": "bundle--91d81555-b167-4dae-b9a0-bf622142b517",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--95ce19be-e3a4-4723-9514-8a96d3d205c1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.453553Z",
+            "modified": "2022-11-28T16:12:20.453553Z",
+            "name": "Ingress Tool Transfer",
+            "description": "Malware may copy files from an external system to a system on a compromised network.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "command-and-control"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "lateral-movement"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/command-and-control/ingress-tool-transfer.md",
+                    "external_id": "E1105"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-profiles/trojan-variants/poison-ivy"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.secureworks.com/research/cryptolocker-ransomware"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/gamut-spambot-analysis/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2012/06/you-dirty-rat-part-1-darkcomet/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/shamoon-attackers-employ-new-tool-kit-to-wipe-infected-systems/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://unit42.paloaltonetworks.com/tracking-minidionis-cozycars-new-ride-is-related-to-seaduke"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1105/",
+                    "external_id": "T1105"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

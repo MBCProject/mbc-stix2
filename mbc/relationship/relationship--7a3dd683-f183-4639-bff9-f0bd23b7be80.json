@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d9eecfdb-c19c-4a62-a21d-dde4e2c9f709",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7a3dd683-f183-4639-bff9-f0bd23b7be80",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.812653Z",
+            "modified": "2022-11-28T16:12:21.812653Z",
+            "relationship_type": "uses",
+            "description": "Poison Ivy has a default process mutex, but can be altered at build time",
+            "source_ref": "malware--2a16b085-2d40-4a54-a11c-2f68dae633e1",
+            "target_ref": "attack-pattern--fe6a20a1-be31-448d-af3c-61f58cefe00c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

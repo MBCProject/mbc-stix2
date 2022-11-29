@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--d8c7ab61-4714-4dde-abcd-2f038f24e4ad",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b1c24191-cf33-44c2-8c44-9cfe4878d6ff",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.422561Z",
+            "modified": "2022-11-28T16:12:20.422561Z",
+            "name": "Fake Code Insertion",
+            "description": "Add fake code similar to known packers or known goods to fool identification. Can confuse some automated unpackers.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-obfuscation.md",
+                    "external_id": "B0032.004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

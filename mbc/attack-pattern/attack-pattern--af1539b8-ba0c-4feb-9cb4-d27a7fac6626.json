@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--5f373397-dd2a-418f-9047-39b1b34a648f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--af1539b8-ba0c-4feb-9cb4-d27a7fac6626",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.524914Z",
+            "modified": "2022-11-28T16:12:20.524914Z",
+            "name": "Check Emulator-related Registry Keys",
+            "description": "Emulators register artifacts in the registry, which can be detected by malware. For example, installation of QEMU results in the registry key: *HARDWARE\\DEVICEMAP\\Scsi\\Scsi Port 0\\Scsi Bus 0\\Target Id 0\\Logical Unit Id 0* with value=*Identifier* and data=*QEMU*, or registry key: *HARDWARE\\Description\\System* with value=*SystemBiosVersion* and data=*QEMU*.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/emulator-detection.md",
+                    "external_id": "B0004.003"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://search.unprotect.it/map/sandbox-evasion/"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

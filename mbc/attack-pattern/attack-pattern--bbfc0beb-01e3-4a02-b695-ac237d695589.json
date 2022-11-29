@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--6c6728a2-dc3e-4726-a764-9c16cf5d08e9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--bbfc0beb-01e3-4a02-b695-ac237d695589",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.460092Z",
+            "modified": "2022-11-28T16:12:20.460092Z",
+            "name": "Remote Desktop Protocols",
+            "description": "RDP is used by malware.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/exploitation-for-client-execution.md",
+                    "external_id": "E1203.m01"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

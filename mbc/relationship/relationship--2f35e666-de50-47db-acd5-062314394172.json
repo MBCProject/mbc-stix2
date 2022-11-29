@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ebc4d2b8-9f76-472d-b6a2-2df6b4c6615f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2f35e666-de50-47db-acd5-062314394172",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.820626Z",
+            "modified": "2022-11-28T16:12:22.820626Z",
+            "relationship_type": "uses",
+            "description": "resets system restore points and deletes backup files",
+            "source_ref": "malware--b07c78c3-8f47-4fcb-a3d8-1ff82062cdc0",
+            "target_ref": "attack-pattern--a149796d-f749-4ea0-bf92-81309cef3e39",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

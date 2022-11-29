@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4efec191-9a2d-4345-96c2-bc7f8efa3bf3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cb034f1a-4092-4c04-b52d-180362b0f0fc",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.777399Z",
+            "modified": "2022-11-28T16:12:22.777399Z",
+            "relationship_type": "uses",
+            "description": "GoBotKR uses base64 to obfuscate strings, commands and files.",
+            "source_ref": "malware--4c67be39-f9c3-4914-bbd7-a85a157fd0b4",
+            "target_ref": "attack-pattern--33ecb06b-98b4-47fa-84f4-ef941b70b704",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

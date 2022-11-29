@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--730bd147-bfe6-4528-bd16-4270d1d19b91",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9b23c660-d228-4d68-8044-8643adffc88a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.433434Z",
+            "modified": "2022-11-28T16:12:20.433434Z",
+            "name": "Arbitrary Memory Corruption",
+            "description": "Data is propagated by corrupting memory, for example overwriting a region of stack space where a file pointer is held.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/data-flow-analysis-evasion.md",
+                    "external_id": "B0045.003"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://www.seclab.cs.sunysb.edu/seclab/pubs/antitaint.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

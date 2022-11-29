@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--af2c9480-ee8c-4558-9eb8-6c7ac39954c7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--37727b0f-743d-41db-996b-32607fa3f557",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.563843Z",
+            "modified": "2022-11-28T16:12:20.563843Z",
+            "name": "Get Socket Status",
+            "description": "Get socket status.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/communication/socket-communication.md",
+                    "external_id": "C0001.012"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

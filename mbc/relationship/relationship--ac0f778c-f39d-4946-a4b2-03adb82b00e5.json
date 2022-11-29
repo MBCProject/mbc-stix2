@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7f839395-8c36-4e60-b08e-4f6dd392b23d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ac0f778c-f39d-4946-a4b2-03adb82b00e5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.424544Z",
+            "modified": "2022-11-28T16:12:21.424544Z",
+            "relationship_type": "uses",
+            "description": "Terminates the following anti-malware services: Window Defender, MBamService (Malwarebytes), SAVService (Sophos AV)",
+            "source_ref": "malware--64327426-55ca-40ef-9366-fda06b12d15f",
+            "target_ref": "attack-pattern--81ac46cc-4dad-4ad2-9ac7-a0c2466cfe76",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

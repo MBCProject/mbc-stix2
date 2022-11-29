@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--87e3b983-092f-478a-9761-38ebb4d0dabf",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5df8d51c-9096-494a-95f4-861a8efda6ae",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.339411Z",
+            "modified": "2022-11-28T16:12:21.339411Z",
+            "relationship_type": "uses",
+            "description": "If a specific anti-analysis check fails, the malware will overwrite the Master Boot Record or the User's home folder",
+            "source_ref": "malware--a6c7c3ea-56c7-4e95-a521-cb18e3feedd6",
+            "target_ref": "attack-pattern--393c6f52-4bb0-4c90-a6ee-df5f16c4957f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

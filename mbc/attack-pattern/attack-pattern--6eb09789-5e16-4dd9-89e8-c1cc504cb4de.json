@@ -1,0 +1,42 @@
+{
+    "type": "bundle",
+    "id": "bundle--bf0e6577-0ce8-47a1-84a0-430e47175552",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6eb09789-5e16-4dd9-89e8-c1cc504cb4de",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.480584Z",
+            "modified": "2022-11-28T16:12:20.480584Z",
+            "name": "Exploit Kit",
+            "description": "An Exploit Kit is a toolkit that exploits vulnerabilities in software to deliver malicious payloads (malware).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/exploit-kit.md",
+                    "external_id": "E1190"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-profiles/trojan-variants/ursnif"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1190",
+                    "external_id": "T1190"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

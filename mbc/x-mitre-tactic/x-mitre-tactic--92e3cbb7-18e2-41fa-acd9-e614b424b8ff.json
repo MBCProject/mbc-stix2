@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--024bc68e-f8e2-4921-b4ea-7d8c78fe94d5",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--92e3cbb7-18e2-41fa-acd9-e614b424b8ff",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.401636Z",
+            "modified": "2022-11-28T16:12:20.401636Z",
+            "name": "Persistence",
+            "description": "",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/persistence/README.md",
+                    "external_id": "OB0012"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "persistence"
+        }
+    ]
+}

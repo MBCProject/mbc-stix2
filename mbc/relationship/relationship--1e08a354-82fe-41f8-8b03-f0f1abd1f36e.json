@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ca7c3270-3343-4824-915e-5c73e8a3d4af",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1e08a354-82fe-41f8-8b03-f0f1abd1f36e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.948942Z",
+            "modified": "2022-11-28T16:12:21.948942Z",
+            "relationship_type": "uses",
+            "description": "Connects to the command and control server using HTTP to send device information",
+            "source_ref": "malware--38be51aa-2eeb-430c-a8f2-2e2047c7d81d",
+            "target_ref": "attack-pattern--ffad1977-fca9-4a1a-8966-871d73751f86",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

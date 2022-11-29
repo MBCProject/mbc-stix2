@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--88b41019-8ddf-4758-963b-28375065e4c9",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--59e2904d-7122-4f54-972a-66f922133dd2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.421326Z",
+            "modified": "2022-11-28T16:12:20.421326Z",
+            "name": "API Hashing",
+            "description": "Instead of storing function names in the Import Address Table (IAT) and calling GetProcAddress, a DLL is loaded and the name of each of its exports is hashed until it matches a specific hash. Manual symbol resolution is then used to access and execute the exported function. This method is often used by shellcode because it reduces the size of each import from a human-readable string to a sequence of four bytes. The Method is also known as \"Imports by Hash\" and \"GET_APIS_WITH_CRC.\"",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-obfuscation.md",
+                    "external_id": "B0032.001"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://insights.sei.cmu.edu/cert/2019/03/api-hashing-tool-imagine-that.html"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

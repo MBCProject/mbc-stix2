@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--97c83929-ca31-4d9b-a33a-5b976cd64510",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ae0ef31f-2f94-4a8a-a104-47ef84804ed8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.456478Z",
+            "modified": "2022-11-28T16:12:20.456478Z",
+            "name": "Send Email",
+            "description": "Sends an email message from the system on which the malware is executing to one or more recipients, mostly commonly for the purpose of spamming or for distributing a malicious attachment or URL (malspamming).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "lateral-movement"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/send-email.md",
+                    "external_id": "B0020"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trustwave.com/Resources/SpiderLabs-Blog/Gamut-Spambot-Analysis/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://en.wikipedia.org/wiki/Bagle_(computer_worm)"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://securelist.com/the-banking-trojan-emotet-detailed-analysis/69560/"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1566/",
+                    "external_id": "T1566"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

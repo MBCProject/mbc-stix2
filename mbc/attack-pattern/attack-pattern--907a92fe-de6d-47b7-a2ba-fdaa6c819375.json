@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--701c7fb6-d1a5-45fc-a268-733e71493968",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--907a92fe-de6d-47b7-a2ba-fdaa6c819375",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.569646Z",
+            "modified": "2022-11-28T16:12:20.569646Z",
+            "name": "DNS Communication",
+            "description": "The DNS Communication micro-behavior focuses on DNS communication.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/communication/dns-communication.md",
+                    "external_id": "C0011"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

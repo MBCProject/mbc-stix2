@@ -1,0 +1,67 @@
+{
+    "type": "bundle",
+    "id": "bundle--12ac4a4b-7015-43c1-8841-0df1ec078533",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b6b4930c-7bd7-4312-ab37-62b2c47b4e11",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.529292Z",
+            "modified": "2022-11-28T16:12:20.529292Z",
+            "name": "Dynamic Analysis Evasion",
+            "description": "Malware may obstruct dynamic analysis in a sandbox, emulator, or virtual machine.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/dynamic-analysis-evasion.md",
+                    "external_id": "B0003"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://joe4security.blogspot.com/2013/06/overloading-sandboxes-new-generic.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-profiles/trojan-variants/ursnif"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/current-threats/pdfs/pf/file/fireeye-hot-knives-through-butter.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://research.checkpoint.com/2019-resurgence-of-smokeloader/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blogs.cisco.com/security/talos/rombertik"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.joesecurity.org/blog/498839998833561473"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1497/",
+                    "external_id": "T1497"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1633/",
+                    "external_id": "T1633"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--263c5481-e8b1-4d65-8a13-a493520f5582",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a8d54ed7-2abd-425f-b1a1-17fb54313be3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.528821Z",
+            "modified": "2022-11-28T16:12:20.528821Z",
+            "name": "Illusion",
+            "description": "Creates an illusion; makes the analyst think something happened when it didn't.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/dynamic-analysis-evasion.md",
+                    "external_id": "B0003.009"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

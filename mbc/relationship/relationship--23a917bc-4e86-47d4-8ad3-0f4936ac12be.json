@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7fbe9399-1fb6-4f63-b156-7fb271365867",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--23a917bc-4e86-47d4-8ad3-0f4936ac12be",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.1292Z",
+            "modified": "2022-11-28T16:12:23.1292Z",
+            "relationship_type": "uses",
+            "description": "Stuxnet hooks ntdll.dll to monitor for requests to load specially crafted file names which are mapped to a location specified by Stuxnet.",
+            "source_ref": "malware--d16519fa-ee8c-4254-a5e4-9193c47fba61",
+            "target_ref": "attack-pattern--76b86ec3-b8bd-4459-beb2-25ee5896652e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

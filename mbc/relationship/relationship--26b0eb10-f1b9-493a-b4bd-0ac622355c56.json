@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8a5c3ef7-983e-4331-9fb5-368d083617cc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--26b0eb10-f1b9-493a-b4bd-0ac622355c56",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.555796Z",
+            "modified": "2022-11-28T16:12:21.555796Z",
+            "relationship_type": "uses",
+            "description": "Checks system temperature by recording thermal readings for detecting VMs. Heat levels indicate whether the system is a VM",
+            "source_ref": "malware--6cd82a42-2992-42d1-9992-11ab42c38b51",
+            "target_ref": "attack-pattern--f4a28f91-0be2-4e25-b792-c5304bb1bdd8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

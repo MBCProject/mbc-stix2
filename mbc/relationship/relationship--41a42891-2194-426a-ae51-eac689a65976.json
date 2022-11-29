@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--12bc4091-f981-4976-8154-4a7f7ebf64db",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--41a42891-2194-426a-ae51-eac689a65976",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.554759Z",
+            "modified": "2022-11-28T16:12:21.554759Z",
+            "relationship_type": "uses",
+            "description": "The malware executes malicious javascript and powershell",
+            "source_ref": "malware--6ed2b347-daf4-4d80-a373-a620838f6ef6",
+            "target_ref": "attack-pattern--e7da9664-aa76-4434-b0ca-d0d1480bf30a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6bbf1343-5b97-427f-827c-0598b0151a59",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9128bb9d-10a2-48a3-ae65-0cdcffc6d62d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.425622Z",
+            "modified": "2022-11-28T16:12:21.425622Z",
+            "relationship_type": "uses",
+            "description": "Uses an AES CBC (256 bits) encryption algorithm for its loader and configuration files",
+            "source_ref": "malware--64327426-55ca-40ef-9366-fda06b12d15f",
+            "target_ref": "attack-pattern--dc85352d-1e46-49a5-965b-06c5a3db7273",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

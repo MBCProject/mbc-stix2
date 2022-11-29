@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8eef3854-2fc1-410f-b458-0aae4caec555",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4f4ee401-085c-4afb-a7ff-1a9d390c7fac",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.812876Z",
+            "modified": "2022-11-28T16:12:21.812876Z",
+            "relationship_type": "uses",
+            "description": "Poison Ivy Variant checks for breakpoints and exits immediately if found",
+            "source_ref": "malware--2a16b085-2d40-4a54-a11c-2f68dae633e1",
+            "target_ref": "attack-pattern--6c1fa6c4-3e94-4671-8ad7-fa7cde68f512",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

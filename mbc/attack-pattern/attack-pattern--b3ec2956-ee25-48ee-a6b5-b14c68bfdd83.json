@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--dbc6765d-e5d7-4476-bc8e-5af251cdb734",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b3ec2956-ee25-48ee-a6b5-b14c68bfdd83",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.583387Z",
+            "modified": "2022-11-28T16:12:20.583387Z",
+            "name": "Crypto Algorithm",
+            "description": "A known crypto algorithm is implemented in the code and it is unknown whether it is from a public crypto library.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/crypto-algorithm.md",
+                    "external_id": "C0068"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

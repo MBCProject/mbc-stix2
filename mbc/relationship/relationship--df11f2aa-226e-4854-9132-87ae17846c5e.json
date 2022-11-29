@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6d216371-cc66-4860-be49-ca462a191dbf",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--df11f2aa-226e-4854-9132-87ae17846c5e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.084758Z",
+            "modified": "2022-11-28T16:12:22.084758Z",
+            "relationship_type": "uses",
+            "description": "The malware launches Internet Explorer to show ransom notes",
+            "source_ref": "malware--bfc50c5a-c847-4e91-866b-059caf943023",
+            "target_ref": "attack-pattern--5d68ecde-8b9e-40cd-bf23-1521440f23ae",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

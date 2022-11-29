@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--a65dc19d-100e-49a3-aea9-8aa2340402f8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ebde650c-657b-4055-821c-b4be3fef208e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.547504Z",
+            "modified": "2022-11-28T16:12:20.547504Z",
+            "name": "Allocate Thread Local Storage",
+            "description": "Malware allocates thread local storage.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "process-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/process/allocate-thread-local-storage.md",
+                    "external_id": "C0040"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

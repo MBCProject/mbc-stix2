@@ -1,0 +1,41 @@
+{
+    "type": "bundle",
+    "id": "bundle--49ae29cd-09a7-490d-80ba-897813c71ff8",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--187a993b-0658-4a27-8a84-b6243f07c1ba",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.469261Z",
+            "modified": "2022-11-28T16:12:20.469261Z",
+            "name": "Malicious Network Driver",
+            "description": "Malicious network drivers can be installed on several machines on a network via an exploited server with high uptime. Once the drivers are installed on the host machines, they can re-infect the server if it is restarted (persistence), can infect other machines on the network (lateral movement), and can redirect traffic on the network.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "lateral-movement"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/persistence/malicious-network-driver.md",
+                    "external_id": "B0026"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.zdnet.com/article/luckymouse-targets-govt-entities-through-malicious-ndisproxy-driver/"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

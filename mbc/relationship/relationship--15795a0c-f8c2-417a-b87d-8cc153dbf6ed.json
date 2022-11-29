@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7d02dc92-28ae-49c9-ab42-b497c35423a1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--15795a0c-f8c2-417a-b87d-8cc153dbf6ed",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.425449Z",
+            "modified": "2022-11-28T16:12:21.425449Z",
+            "relationship_type": "uses",
+            "description": "Receives various commands from c2 server.",
+            "source_ref": "malware--64327426-55ca-40ef-9366-fda06b12d15f",
+            "target_ref": "attack-pattern--d0509936-cf73-4391-9fa5-d50cc1628ec9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

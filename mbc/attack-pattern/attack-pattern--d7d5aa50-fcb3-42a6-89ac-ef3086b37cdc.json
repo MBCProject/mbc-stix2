@@ -1,0 +1,38 @@
+{
+    "type": "bundle",
+    "id": "bundle--97807782-48cb-4180-bcbd-87f2282d9300",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d7d5aa50-fcb3-42a6-89ac-ef3086b37cdc",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.420252Z",
+            "modified": "2022-11-28T16:12:20.420252Z",
+            "name": "Two-layer Function Return",
+            "description": "Two layer jumping confuses tools plotting call graphs.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/call-graph-generation-evasion.md",
+                    "external_id": "B0010.001"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "S. Shang, N. Zheng, J. Xu, M. Xu, H. Zhang, \"Detecting Malware Variants via Function-call Graph Similarity,\" IEEE 2010 5th International Conference on Malicious and Unwanted Software, 2010.",
+                    "url": "http://seclab.hdu.edu.cn/static/uploads/paper/10-05.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

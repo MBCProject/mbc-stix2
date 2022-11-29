@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e36e86dc-dafc-4d3c-9c73-9b14f7e5449c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d31f39f0-570e-4d80-b7fb-48248915cbf5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.429596Z",
+            "modified": "2022-11-28T16:12:21.429596Z",
+            "relationship_type": "uses",
+            "description": "Originally built to launch distributed denial of service attacks that can target more than one IP address per hostname",
+            "source_ref": "malware--f396743c-b75c-4e68-981e-058761bf25e5",
+            "target_ref": "attack-pattern--de981258-6866-41aa-b7ac-21739bad1cd5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

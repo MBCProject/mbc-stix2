@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8f334077-4134-475e-8b4f-d8910356bcf5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4052abf1-2fa4-46ee-93f4-28b8d6dd502a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.176926Z",
+            "modified": "2022-11-28T16:12:23.176926Z",
+            "relationship_type": "uses",
+            "description": "EvilBunny utilizes Lua scripts to exhibit polymorphism",
+            "source_ref": "malware--0d5fb0d4-cb04-4a5f-bf8b-101ee11211a4",
+            "target_ref": "attack-pattern--9ecd3b69-969b-44a3-89d1-0af1e94c0fd8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

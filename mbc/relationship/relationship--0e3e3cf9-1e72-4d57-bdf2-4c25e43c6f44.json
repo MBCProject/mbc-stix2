@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3da77c77-0490-4cc5-a476-4bd6807d84cf",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0e3e3cf9-1e72-4d57-bdf2-4c25e43c6f44",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.55632Z",
+            "modified": "2022-11-28T16:12:21.55632Z",
+            "relationship_type": "uses",
+            "description": "Checks if the manufacturer field in the Win32_Computer entry in WMI contains \"Virtual\", \"Vmware\", or \"Virtualbox\"",
+            "source_ref": "malware--6cd82a42-2992-42d1-9992-11ab42c38b51",
+            "target_ref": "attack-pattern--2f2556b0-dd38-41c4-a3da-5a7c7f452f85",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

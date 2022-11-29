@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--9c0dd427-8a2b-4ec0-a2e0-d1d0289368e1",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6801b7f6-5fe3-40b8-9d71-aed0955fc5e0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.500135Z",
+            "modified": "2022-11-28T16:12:20.500135Z",
+            "name": "Unique Hardware/Firmware Check - MAC Address",
+            "description": "Malware may check for hardware characteristics unique to being virtualized, allowing the malware to detect the virtual environment. VMware uses specific virtual MAC address that can be detected. The usual MAC address used started with the following numbers: \"00:0C:29\", \"00:1C:14\", \"00:50:56\", \"00:05:69\". Virtualbox uses specific virtual MAC address that can be detected by Malware. The usual MAC address used started with the following numbers: 08:00:27.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/virtual-machine-detection.md",
+                    "external_id": "B0009.028"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://search.unprotect.it/map/sandbox-evasion/"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

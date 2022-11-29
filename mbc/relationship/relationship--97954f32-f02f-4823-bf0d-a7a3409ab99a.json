@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9504fdf1-9148-429a-a9c5-aa7645156dea",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--97954f32-f02f-4823-bf0d-a7a3409ab99a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.422277Z",
+            "modified": "2022-11-28T16:12:21.422277Z",
+            "relationship_type": "uses",
+            "description": "The malware will proceed to install itself in order to ensure persistence across system reboots before continuing on to execute the payload. To install itself, Rombertik first creates a VBS script named \u201cfgf.vbs\u201d, which is used to kick off",
+            "source_ref": "malware--a6c7c3ea-56c7-4e95-a521-cb18e3feedd6",
+            "target_ref": "attack-pattern--98185b83-c780-48a6-af14-ffb2934c32d5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

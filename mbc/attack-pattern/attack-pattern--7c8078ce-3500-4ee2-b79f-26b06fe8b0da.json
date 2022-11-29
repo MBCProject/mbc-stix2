@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--45a5cc70-e254-464a-8f79-c8f83e7c3f3a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--7c8078ce-3500-4ee2-b79f-26b06fe8b0da",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.560952Z",
+            "modified": "2022-11-28T16:12:20.560952Z",
+            "name": "InternetOpenURL",
+            "description": "Opens a resource specified by a complete FTP or HTTP URL.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/communication/wininet.md",
+                    "external_id": "C0005.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

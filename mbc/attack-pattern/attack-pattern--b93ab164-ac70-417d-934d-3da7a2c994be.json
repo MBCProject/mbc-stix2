@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--2aa1b197-472c-4cbf-83a2-f5473714e00b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b93ab164-ac70-417d-934d-3da7a2c994be",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.591602Z",
+            "modified": "2022-11-28T16:12:20.591602Z",
+            "name": "Encryption of Code",
+            "description": "A file's executable code is encrypted, but not necessarily the file's data.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/obfuscated-files-or-information.md",
+                    "external_id": "E1027.m06"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

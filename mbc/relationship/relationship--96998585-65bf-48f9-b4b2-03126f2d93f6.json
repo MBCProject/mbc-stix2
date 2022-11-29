@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f5b113eb-73ee-46ba-9eab-63fe1ef9ee9b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--96998585-65bf-48f9-b4b2-03126f2d93f6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.424883Z",
+            "modified": "2022-11-28T16:12:21.424883Z",
+            "relationship_type": "uses",
+            "description": "Uses a custom crypter leveraging Microsoft's CryptoAPI to encrypt C2 traffic. C2 update responses seem to have been digitally signed using bcrypt",
+            "source_ref": "malware--64327426-55ca-40ef-9366-fda06b12d15f",
+            "target_ref": "attack-pattern--855dc54e-8b46-4408-8582-28a541db11b3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

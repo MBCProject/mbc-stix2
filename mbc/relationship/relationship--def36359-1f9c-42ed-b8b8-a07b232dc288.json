@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c0c0d75b-b54e-447a-80e1-af7751f37839",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--def36359-1f9c-42ed-b8b8-a07b232dc288",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.949276Z",
+            "modified": "2022-11-28T16:12:21.949276Z",
+            "relationship_type": "uses",
+            "description": "Changes iOS Safari's default configuration",
+            "source_ref": "malware--38be51aa-2eeb-430c-a8f2-2e2047c7d81d",
+            "target_ref": "attack-pattern--774d8e78-8ecb-4ef1-b5a1-fdf67839b4af",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

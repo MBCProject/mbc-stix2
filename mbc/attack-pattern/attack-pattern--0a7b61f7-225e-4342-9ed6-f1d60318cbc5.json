@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--600d30f1-79ef-42e2-afed-a0416706cc90",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0a7b61f7-225e-4342-9ed6-f1d60318cbc5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.449516Z",
+            "modified": "2022-11-28T16:12:20.449516Z",
+            "name": "Directory Listing",
+            "description": "Controller requests a directory listing from the implant, optionally from a given path, optionally recursive.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/command-and-control/c2-communication.md",
+                    "external_id": "B0030.012"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

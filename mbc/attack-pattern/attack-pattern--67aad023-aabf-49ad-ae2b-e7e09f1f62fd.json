@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--65a80280-3445-4755-b655-5b57f5530144",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--67aad023-aabf-49ad-ae2b-e7e09f1f62fd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.57276Z",
+            "modified": "2022-11-28T16:12:20.57276Z",
+            "name": "Block Cipher",
+            "description": "Malware decrypts data encrypted with a block cipher.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/decrypt-data.md",
+                    "external_id": "C0031.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

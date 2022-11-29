@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b7701cb9-48c6-446f-a874-65701f02f77e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--02a6531f-6ee0-4291-91b9-030c6953472b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.177651Z",
+            "modified": "2022-11-28T16:12:23.177651Z",
+            "relationship_type": "uses",
+            "description": "Upon execution, CozyCar drops a decoy file and a secondary dropper",
+            "source_ref": "malware--935bd653-1896-4196-bc1e-5247155847af",
+            "target_ref": "attack-pattern--36a9d56a-5449-4203-b90f-b253ffa9a014",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

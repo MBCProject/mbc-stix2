@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0e5525d5-05d0-4dc1-9570-8d02ecbef323",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1e842c31-6d3b-40b9-9487-422e96e8c2cf",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.821125Z",
+            "modified": "2022-11-28T16:12:22.821125Z",
+            "relationship_type": "uses",
+            "description": "Conficker A has routine that causes the process to suicide exit if the keyboard language layout is set to Ukranian",
+            "source_ref": "malware--b07c78c3-8f47-4fcb-a3d8-1ff82062cdc0",
+            "target_ref": "attack-pattern--ae776aa6-3281-438b-8a24-e714d18019f7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

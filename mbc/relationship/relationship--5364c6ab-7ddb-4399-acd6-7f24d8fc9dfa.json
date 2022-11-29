@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b86d51d0-0a50-4202-a69f-0f1d267cb294",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5364c6ab-7ddb-4399-acd6-7f24d8fc9dfa",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.427864Z",
+            "modified": "2022-11-28T16:12:21.427864Z",
+            "relationship_type": "uses",
+            "description": "Commands sent by a remote user can archive/upload files, capture screenshots, clear cookies, download execute other files, list running processes, reboot the affected system, steal certificates and cookies, update/download a configuration file, upload a log file which contains stolen information",
+            "source_ref": "malware--84f7310e-af66-45e2-812e-cdfbcbb85fab",
+            "target_ref": "attack-pattern--d0509936-cf73-4391-9fa5-d50cc1628ec9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

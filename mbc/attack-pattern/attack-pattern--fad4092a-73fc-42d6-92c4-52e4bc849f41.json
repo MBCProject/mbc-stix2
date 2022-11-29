@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--14172605-e1c6-4e8e-acbe-8534a05f8440",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--fad4092a-73fc-42d6-92c4-52e4bc849f41",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.584076Z",
+            "modified": "2022-11-28T16:12:20.584076Z",
+            "name": "Wallpaper",
+            "description": "Malware modifies the wallpaper.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "operating-system-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/operating-system/wallpaper.md",
+                    "external_id": "C0035"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

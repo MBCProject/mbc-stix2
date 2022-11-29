@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d06cd7c4-811e-436d-bbb1-95efa4f99b6e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e96828b2-2d0e-4aa1-9fb0-b13753b40cdb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.424389Z",
+            "modified": "2022-11-28T16:12:21.424389Z",
+            "relationship_type": "uses",
+            "description": "has an auto-start service that allows it to run whenever the machine boots",
+            "source_ref": "malware--64327426-55ca-40ef-9366-fda06b12d15f",
+            "target_ref": "attack-pattern--98185b83-c780-48a6-af14-ffb2934c32d5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

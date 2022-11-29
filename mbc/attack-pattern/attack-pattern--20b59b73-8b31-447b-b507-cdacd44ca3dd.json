@@ -1,0 +1,53 @@
+{
+    "type": "bundle",
+    "id": "bundle--6bb42256-ffb7-4548-b21a-c3e63579aae0",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--20b59b73-8b31-447b-b507-cdacd44ca3dd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.476313Z",
+            "modified": "2022-11-28T16:12:20.476313Z",
+            "name": "Remote Access",
+            "description": "Malware may provide an attacker with potentially full access to a system via a remote network connection, which may also provide persistence.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/remote-access.md",
+                    "external_id": "B0022"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://en.wikipedia.org/wiki/Remote_access_trojan"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-profiles/trojan-variants/poison-ivy"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://en.wikipedia.org/wiki/DarkComet"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/HUPIGON"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "type": "bundle",
+    "id": "bundle--b089fe17-f6c2-4056-9112-9adc4b9a3a1c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--393c6f52-4bb0-4c90-a6ee-df5f16c4957f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.480986Z",
+            "modified": "2022-11-28T16:12:20.480986Z",
+            "name": "Disk Wipe",
+            "description": "Malware may erase the content of storage devices. This behavior is different than **Data Destruction ([E1485](https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/data-destruction.md))** because sections of the disk are erased rather than individual files.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/disk-wipe.md",
+                    "external_id": "F0014"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=281521ea-2d18-4bf9-9e88-8b1dc41cfdb6&CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&tab=librarydocuments"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1561/",
+                    "external_id": "T1561"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

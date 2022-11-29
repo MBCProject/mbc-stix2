@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fc6320a8-0742-4fa4-a30a-d90eca04a2af",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e742f599-a0e2-4202-9a63-aaa1afc33841",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.809061Z",
+            "modified": "2022-11-28T16:12:21.809061Z",
+            "relationship_type": "uses",
+            "description": "The malware will monitor if a specific file gets deleted, and then will delete itself.",
+            "source_ref": "malware--935244c7-b024-4df1-8bcf-ee59c5821a16",
+            "target_ref": "attack-pattern--35517335-b2f7-4b5c-85d0-21c2812c8bbf",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

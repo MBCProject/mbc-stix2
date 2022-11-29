@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--7a3813ef-bf5e-4a62-b3fb-0ca471b409be",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e0313c2c-3ac9-437e-ad70-d37a50127388",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.586366Z",
+            "modified": "2022-11-28T16:12:20.586366Z",
+            "name": "Set Variable",
+            "description": "Malware sets an environment variable.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "operating-system-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/operating-system/environment-variable.md",
+                    "external_id": "C0034.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

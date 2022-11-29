@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6e24f24e-2f3d-4085-b971-98792f5e52b5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--91fddc72-4cb7-4bff-9a1f-8cf23fa3f939",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.422005Z",
+            "modified": "2022-11-28T16:12:21.422005Z",
+            "relationship_type": "uses",
+            "description": "The malware relies on a victim to execute itself",
+            "source_ref": "malware--a6c7c3ea-56c7-4e95-a521-cb18e3feedd6",
+            "target_ref": "attack-pattern--81005543-eca4-4f31-98bf-7e41f345f447",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

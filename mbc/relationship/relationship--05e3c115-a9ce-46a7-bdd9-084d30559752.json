@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7ba3a2a7-9bc2-4e10-8889-ba9091613469",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--05e3c115-a9ce-46a7-bdd9-084d30559752",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.428025Z",
+            "modified": "2022-11-28T16:12:21.428025Z",
+            "relationship_type": "uses",
+            "description": "Bypasses UAC using a Shim Database instructing SndVol.exe to execute cmd.exe instead, allowing for elevated execution",
+            "source_ref": "malware--f396743c-b75c-4e68-981e-058761bf25e5",
+            "target_ref": "attack-pattern--3283377b-9893-4155-8d07-6eb83723e2b7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

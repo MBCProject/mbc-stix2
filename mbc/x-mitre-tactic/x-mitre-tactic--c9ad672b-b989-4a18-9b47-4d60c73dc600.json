@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--a89285c9-5844-414a-b619-d6138a381ea2",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--c9ad672b-b989-4a18-9b47-4d60c73dc600",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.400963Z",
+            "modified": "2022-11-28T16:12:20.400963Z",
+            "name": "Command and Control",
+            "description": "",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/command-and-control/README.md",
+                    "external_id": "OB0004"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "command-and-control"
+        }
+    ]
+}

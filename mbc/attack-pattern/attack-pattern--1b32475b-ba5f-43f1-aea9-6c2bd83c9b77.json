@@ -1,0 +1,41 @@
+{
+    "type": "bundle",
+    "id": "bundle--3db90ceb-8091-40d0-bcd9-d72d206dbadd",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--1b32475b-ba5f-43f1-aea9-6c2bd83c9b77",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.461656Z",
+            "modified": "2022-11-28T16:12:20.461656Z",
+            "name": "Environmental Keys",
+            "description": "Malware reads certain attributes of the system (BIOS version string, hostname, MAC address, etc.) and encrypts/decrypts portions of its code or data using those attributes as input, thus preventing itself from being run on an unintended system (e.g., sandbox, emulator, etc.). Also see Deposited Keys Method. The subsequently defined ATT&CK sub-technique [Execution Guardrails: Environmental Keying (T1480.001)](https://attack.mitre.org/techniques/T1480/001/) is related to this MBC method.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/conditional-execution.md",
+                    "external_id": "B0025.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

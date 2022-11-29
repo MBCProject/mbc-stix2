@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--eeb55dc2-7aa5-458e-94ee-a37eda07a7ef",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--e993b312-2e07-4e8d-8c3e-33d111d5025a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.402795Z",
+            "modified": "2022-11-28T16:12:20.402795Z",
+            "name": "Exfiltration",
+            "description": "",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/exfiltration/README.md",
+                    "external_id": "OB0010"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "exfiltration"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--63d67d32-f7a7-4a14-97dd-c8f95ad4470c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4e10ee86-b0aa-40e3-b197-6e95da596ea5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.128406Z",
+            "modified": "2022-11-28T16:12:23.128406Z",
+            "relationship_type": "uses",
+            "description": "Netwalker encrypts files for ransom",
+            "source_ref": "malware--c68ab33b-c72c-49ad-a9f1-8905ead50973",
+            "target_ref": "attack-pattern--8540db6f-d5fc-4fa6-b16b-c6e51a188971",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

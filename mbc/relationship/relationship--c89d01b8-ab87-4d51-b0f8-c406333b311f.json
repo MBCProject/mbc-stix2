@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0384dba3-995a-45b1-a05e-d5c7dcadfc35",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c89d01b8-ab87-4d51-b0f8-c406333b311f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.600284Z",
+            "modified": "2022-11-28T16:12:21.600284Z",
+            "relationship_type": "uses",
+            "description": "Escalates privilege by impersonating the token. First uses LogonUser and ImpersonateLoggedOnUser, then ImpersonateNamedPipeClient.",
+            "source_ref": "malware--22d2aa40-64c8-4ebb-ae83-29af4f2bd29d",
+            "target_ref": "attack-pattern--d74e73f3-b8ca-4877-86b3-5884e66297e3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--293db0af-e1b7-48da-b1d1-f947f469a5d5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--298184b2-1ff9-4e2e-9e15-abe70c4a569e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.332379Z",
+            "modified": "2022-11-28T16:12:23.332379Z",
+            "relationship_type": "uses",
+            "description": "Clipminer monitors keyboard and mouse activity to determine if the machine is in use",
+            "source_ref": "malware--3466de1e-28e0-4d4b-bd79-dff7e315be24",
+            "target_ref": "attack-pattern--8c3389f1-c5c4-4cc4-b840-ec53d8e13f92",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

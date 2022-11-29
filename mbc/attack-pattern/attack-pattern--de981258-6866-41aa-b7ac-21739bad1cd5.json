@@ -1,0 +1,46 @@
+{
+    "type": "bundle",
+    "id": "bundle--a3898833-d2b9-424c-b4e7-28047798e56e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--de981258-6866-41aa-b7ac-21739bad1cd5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.477524Z",
+            "modified": "2022-11-28T16:12:20.477524Z",
+            "name": "Denial of Service",
+            "description": "Malware may make a network unavailable, for example, by launching a network-based denial of service (DoS) attack.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/denial-of-service.md",
+                    "external_id": "B0033"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://atlas-public.ec2.arbor.net/docs/BlackEnergy+DDoS+Bot+Analysis.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.welivesecurity.com/2019/07/08/south-korean-users-backdoor-torrents/"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1498/",
+                    "external_id": "T1498"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

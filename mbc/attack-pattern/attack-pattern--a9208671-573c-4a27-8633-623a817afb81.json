@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--0274b28e-140d-4a46-9103-17299d4993f4",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a9208671-573c-4a27-8633-623a817afb81",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.48951Z",
+            "modified": "2022-11-28T16:12:20.48951Z",
+            "name": "Memory-only Payload",
+            "description": "Malware is never written to disk (e.g., RAT plugins received from the controller are never written to disk).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/capture-evasion.md",
+                    "external_id": "B0036.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

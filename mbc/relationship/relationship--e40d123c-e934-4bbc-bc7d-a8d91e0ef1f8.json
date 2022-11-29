@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7673c62d-7bf0-403d-9474-cde7b177a5ec",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e40d123c-e934-4bbc-bc7d-a8d91e0ef1f8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.427529Z",
+            "modified": "2022-11-28T16:12:21.427529Z",
+            "relationship_type": "uses",
+            "description": "Manipulates TLS Callbacks while injecting to child process",
+            "source_ref": "malware--84f7310e-af66-45e2-812e-cdfbcbb85fab",
+            "target_ref": "attack-pattern--f3c31a67-4a82-4e62-b57f-0ca937a0bdaf",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

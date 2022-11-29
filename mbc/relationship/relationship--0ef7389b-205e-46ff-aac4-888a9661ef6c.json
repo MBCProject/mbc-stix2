@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ec9d82fc-bec1-4a97-8ddb-11748b910f39",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0ef7389b-205e-46ff-aac4-888a9661ef6c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.231217Z",
+            "modified": "2022-11-28T16:12:23.231217Z",
+            "relationship_type": "uses",
+            "description": "Hooks IOS functions to call and initialize the malware",
+            "source_ref": "malware--513f8ea0-2580-4c9f-b7a3-a813e4b68d0f",
+            "target_ref": "attack-pattern--70c348df-99e1-4f90-8367-d376236bbb7f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

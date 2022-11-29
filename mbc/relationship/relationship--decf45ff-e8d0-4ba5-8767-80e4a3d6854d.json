@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ec3c8002-901c-44ff-9263-31ccb80c9d00",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--decf45ff-e8d0-4ba5-8767-80e4a3d6854d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.812134Z",
+            "modified": "2022-11-28T16:12:21.812134Z",
+            "relationship_type": "uses",
+            "description": "Poison Ivy variant encrypts all its strings",
+            "source_ref": "malware--2a16b085-2d40-4a54-a11c-2f68dae633e1",
+            "target_ref": "attack-pattern--28108245-9bc6-4657-947e-f895622432c4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

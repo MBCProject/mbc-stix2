@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--58106658-89a1-4467-b463-e6c1080cbe73",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--64ed662e-c8dc-4b6f-9344-30e993485871",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.400605Z",
+            "modified": "2022-11-28T16:12:20.400605Z",
+            "name": "Lateral Movement",
+            "description": "",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/lateral-movement/README.md",
+                    "external_id": "OB0011"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "lateral-movement"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--b5e1485d-b8b4-4971-9419-4e3d421b1984",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--80438d43-fcca-4cdb-983e-927ae8c4a8b6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.401301Z",
+            "modified": "2022-11-28T16:12:20.401301Z",
+            "name": "Execution",
+            "description": "",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/README.md",
+                    "external_id": "OB0009"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "execution"
+        }
+    ]
+}

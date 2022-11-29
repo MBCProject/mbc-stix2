@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--f029558b-63b9-421b-9d44-4d230f64358e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--996173ed-fb91-4014-8cf2-eab4ae4ac1b0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.505574Z",
+            "modified": "2022-11-28T16:12:20.505574Z",
+            "name": "Unusual/Undocumented API Calls",
+            "description": "Call unusual APIs to block non-exhaustive emulators (particularly anti-virus).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/emulator-evasion.md",
+                    "external_id": "B0005.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

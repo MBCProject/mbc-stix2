@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--b621bc9c-7bff-46bd-bb6b-ed14c83c6068",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5b9d2cbd-6b2f-45bd-ab85-e148e0073828",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.482276Z",
+            "modified": "2022-11-28T16:12:20.482276Z",
+            "name": "WinAPI",
+            "description": "Screen is captured using WinAPI functions (e.g., user32.GetDesktopWindow).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "collection"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/zscript/test_file.md",
+                    "external_id": "E1113.m01"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

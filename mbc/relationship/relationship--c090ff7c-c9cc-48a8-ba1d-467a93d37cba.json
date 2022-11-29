@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--468d07c7-3417-4cdd-af31-343795b6cba1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c090ff7c-c9cc-48a8-ba1d-467a93d37cba",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.808576Z",
+            "modified": "2022-11-28T16:12:21.808576Z",
+            "relationship_type": "uses",
+            "description": "The malware installs a script to inject JavaScript script and modify web traffic.",
+            "source_ref": "malware--935244c7-b024-4df1-8bcf-ee59c5821a16",
+            "target_ref": "attack-pattern--e7da9664-aa76-4434-b0ca-d0d1480bf30a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

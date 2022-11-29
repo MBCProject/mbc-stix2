@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d5de16f5-b135-420f-89dc-690ae580d2fe",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8eb510c0-a8c5-4cbd-8db0-8937f28339b3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.085308Z",
+            "modified": "2022-11-28T16:12:22.085308Z",
+            "relationship_type": "uses",
+            "description": "The malware sends a hash value generated from system information",
+            "source_ref": "malware--bfc50c5a-c847-4e91-866b-059caf943023",
+            "target_ref": "attack-pattern--27ea04ff-3cdc-4e5f-805b-cea038c9353d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

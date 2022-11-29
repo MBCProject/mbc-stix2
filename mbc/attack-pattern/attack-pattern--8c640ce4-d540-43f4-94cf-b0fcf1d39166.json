@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--521f61f7-5c1b-41b9-96e9-0538d09c3d05",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--8c640ce4-d540-43f4-94cf-b0fcf1d39166",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.578902Z",
+            "modified": "2022-11-28T16:12:20.578902Z",
+            "name": "Sosemanuk",
+            "description": "Malware encrypts with the Sosemanuk stream cipher.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/encrypt-data.md",
+                    "external_id": "C0027.008"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

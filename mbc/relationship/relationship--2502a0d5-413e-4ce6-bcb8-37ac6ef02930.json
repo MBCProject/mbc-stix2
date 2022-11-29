@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a7ec2166-4bfd-408f-b323-6ad12dbca07d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2502a0d5-413e-4ce6-bcb8-37ac6ef02930",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.423117Z",
+            "modified": "2022-11-28T16:12:21.423117Z",
+            "relationship_type": "uses",
+            "description": "The malware check for sandboxes that suppress errors returned from API routine calls the using ZwGetWriteWatch routine.",
+            "source_ref": "malware--a6c7c3ea-56c7-4e95-a521-cb18e3feedd6",
+            "target_ref": "attack-pattern--37b79ba6-2fcf-41e5-853a-d4ae4ee3f52c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

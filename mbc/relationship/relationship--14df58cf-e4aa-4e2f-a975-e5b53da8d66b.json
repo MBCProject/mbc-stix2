@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ddc01bb5-fd65-41e5-b159-665bae0bf310",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--14df58cf-e4aa-4e2f-a975-e5b53da8d66b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.427064Z",
+            "modified": "2022-11-28T16:12:21.427064Z",
+            "relationship_type": "uses",
+            "description": "Checks if there are virtual machine processes running (Vbox, vmware, etc)",
+            "source_ref": "malware--84f7310e-af66-45e2-812e-cdfbcbb85fab",
+            "target_ref": "attack-pattern--96f18852-f517-411e-a87d-0ddd59197684",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "type": "bundle",
+    "id": "bundle--2cca5dea-84b0-4695-8400-60f64d585388",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--26049208-8098-4f90-b4ef-b9b26affcaf7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.524157Z",
+            "modified": "2022-11-28T16:12:20.524157Z",
+            "name": "Debugger Detection",
+            "description": "Malware detects whether it's being executed inside a debugger. If so, conditional execution selects a benign execution path.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/debugger-detection.md",
+                    "external_id": "B0001"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Alexander Antukh, \"Anti-debugging Techniques Cheat Sheet,\" 19 January 2015.",
+                    "url": "http://antukh.com/blog/2015/01/19/malware-techniques-cheat-sheet."
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Joshua Cannell, Malwarebytes Labs, \"Five Anti-Analysis Tricks that sometimes Fool Analysts,\" 31 March 2016.",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2014/09/five-anti-debugging-tricks-that-sometimes-fool-analysts."
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Peter Ferrie, \"The 'Ultimate' Anti-Debugging Reference,\" 4 May 2011.",
+                    "url": "https://anti-reversing.com/Downloads/Anti-Reversing/The_Ultimate_Anti-Reversing_Reference.pdf."
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Atif Mushtaq, FireEye, \"The Dead Giveaways of VM-Aware Malware,\" 27 January 2011.",
+                    "url": "https://www.fireeye.com/blog/threat-research/2011/01/the-dead-giveaways-of-vm-aware-malware.html."
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Ayoub Faouzi (LordNoteworthy), Al-Khaser v0.79.",
+                    "url": "https://github.com/LordNoteworthy/al-khaser"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Nicolas Falliere, Symantec, \"Windows Anti-Debug Reference,\" 11 September 2007.",
+                    "url": "https://www.symantec.com/connect/articles/windows-anti-debug-reference."
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Anti Debugging Tricks, Al-Khaser.",
+                    "url": "https://github.com/LordNoteworthy/al-khaser/wiki/Anti-Debugging-Tricks"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/gamut-spambot-analysis/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blogs.cisco.com/security/talos/rombertik"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-poison-ivy.pdf"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--02544fb8-ce95-4cd3-ac73-43a43a3e45ca",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--30e8f888-39c1-4ef6-99bf-722c7c792793",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.081569Z",
+            "modified": "2022-11-28T16:12:23.081569Z",
+            "relationship_type": "uses",
+            "description": "Emotet uses RSA to encrypt network traffic to its C2",
+            "source_ref": "malware--0bf5abe2-f2cf-4768-b47f-dc9a90975eae",
+            "target_ref": "attack-pattern--ef14e023-dd3f-482d-8ed5-fc518ae29fe8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

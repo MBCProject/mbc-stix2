@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2e83e1b6-f198-467e-bde0-6f6c378603aa",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0919bace-9e71-41f1-9bc5-572726cbd83f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.819868Z",
+            "modified": "2022-11-28T16:12:23.819868Z",
+            "relationship_type": "uses",
+            "description": "From the command line, drops and unzips a password-protected Cabinet archive file.",
+            "source_ref": "malware--25016dcd-718a-43b4-83e1-9fb794680fef",
+            "target_ref": "attack-pattern--e7da9664-aa76-4434-b0ca-d0d1480bf30a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

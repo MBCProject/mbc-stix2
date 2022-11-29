@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--35f88dd9-f01a-4521-bec6-992304c586f3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e848eb45-75a8-4feb-a077-f9d6d2293706",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.428819Z",
+            "modified": "2022-11-28T16:12:21.428819Z",
+            "relationship_type": "uses",
+            "description": "uses Systeminfo to gather OS version, system configuration, BIOS, the motherboard, and processor",
+            "source_ref": "malware--f396743c-b75c-4e68-981e-058761bf25e5",
+            "target_ref": "attack-pattern--5f99efd4-bb8f-40f1-a027-b1404e1d259d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

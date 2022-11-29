@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--4b35b180-6a6a-468a-8ba7-c55ecda024d3",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--587a9d02-728e-468a-b322-f54dddf12ead",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.556074Z",
+            "modified": "2022-11-28T16:12:20.556074Z",
+            "name": "Send Request",
+            "description": "HTTP client sends request (GET).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/communication/http-communication.md",
+                    "external_id": "C0002.003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

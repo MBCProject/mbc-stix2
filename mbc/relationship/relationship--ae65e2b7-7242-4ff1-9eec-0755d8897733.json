@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--322fa7b4-6aec-4110-8af7-7b6fc4921b0a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ae65e2b7-7242-4ff1-9eec-0755d8897733",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.428765Z",
+            "modified": "2022-11-28T16:12:23.428765Z",
+            "relationship_type": "uses",
+            "description": "Redhip uses general approaches to detecting user level debuggers (e.g., Process Environment Block 'Being Debugged' field), as well as specific checks for kernel level debuggers like SOFICE.",
+            "source_ref": "malware--907b41a6-f24f-4f2d-bcd8-95e7f4a8cd27",
+            "target_ref": "attack-pattern--26049208-8098-4f90-b4ef-b9b26affcaf7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

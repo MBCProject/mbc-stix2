@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--345caff1-6eee-4d54-be12-760d21ce736d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--92941403-8870-4bc7-adcc-45c43e2e42f0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.427219Z",
+            "modified": "2022-11-28T16:12:21.427219Z",
+            "relationship_type": "uses",
+            "description": "Ursnif has used a Domain name generation algorithm in the past",
+            "source_ref": "malware--84f7310e-af66-45e2-812e-cdfbcbb85fab",
+            "target_ref": "attack-pattern--aeec8bb1-cf51-4e8f-a686-b1066f397216",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

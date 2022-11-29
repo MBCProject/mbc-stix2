@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--0e066bda-fa7d-45fe-ab57-865549b6488d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a1ad0fd2-df62-4b55-a9b2-4d97e30afcb2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.508363Z",
+            "modified": "2022-11-28T16:12:20.508363Z",
+            "name": "Import Obfuscation",
+            "description": "Add obfuscation between imports calls and APIs.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/debugger-evasion.md",
+                    "external_id": "B0002.010"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--63d6cbe7-c157-4af4-9ae1-eceaed0fe712",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f135fd9c-9205-4bb3-8905-0d027ac643c1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.174242Z",
+            "modified": "2022-11-28T16:12:23.174242Z",
+            "relationship_type": "uses",
+            "description": "The configuration data block is encoded with a NOT XOR 0xFF operation",
+            "source_ref": "malware--d16519fa-ee8c-4254-a5e4-9193c47fba61",
+            "target_ref": "attack-pattern--3c4b7106-5fc4-4ae2-8dcf-0293b6da437d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

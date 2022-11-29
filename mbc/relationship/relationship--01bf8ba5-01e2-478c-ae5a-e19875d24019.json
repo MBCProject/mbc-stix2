@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4d2d3bb8-c0ca-4f37-a919-34f670950751",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--01bf8ba5-01e2-478c-ae5a-e19875d24019",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.425077Z",
+            "modified": "2022-11-28T16:12:21.425077Z",
+            "relationship_type": "uses",
+            "description": "Can implement malicious code into firmware, allowing read, write, and/or erasure of the UEFI/BIOS firmware",
+            "source_ref": "malware--64327426-55ca-40ef-9366-fda06b12d15f",
+            "target_ref": "attack-pattern--be0636f8-c2fd-4d43-8731-908d940e7f75",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

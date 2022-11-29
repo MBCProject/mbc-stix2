@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--9bec555d-d9d6-49b5-af4b-83784d7b9423",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2d2fe4c3-adad-4973-9858-eca9afce4e7f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.505791Z",
+            "modified": "2022-11-28T16:12:20.505791Z",
+            "name": "Emulator Evasion",
+            "description": "Behaviors that obstruct analysis in an emulator.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/emulator-evasion.md",
+                    "external_id": "B0005"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/webcobra-malware-uses-victims-computers-to-mine-cryptocurrency/"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

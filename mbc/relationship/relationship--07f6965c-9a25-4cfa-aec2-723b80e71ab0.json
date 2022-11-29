@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--35cfe5f4-2d1c-4648-bda7-70c2293252ea",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--07f6965c-9a25-4cfa-aec2-723b80e71ab0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.18226Z",
+            "modified": "2022-11-28T16:12:21.18226Z",
+            "relationship_type": "uses",
+            "description": "SamSam uses RDP to maintain persistence",
+            "source_ref": "malware--c6c88735-6c7a-4357-99a9-7857b12e4ccb",
+            "target_ref": "attack-pattern--bbfc0beb-01e3-4a02-b695-ac237d695589",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--12ff9b3a-f968-415e-859f-253da0826da7",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8de670f4-ad3b-4271-9aaa-f7c37f6daabd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.428179Z",
+            "modified": "2022-11-28T16:12:21.428179Z",
+            "relationship_type": "uses",
+            "description": "Configures the system to the TESTSIGNING boot configuration option to load its unsigned driver component",
+            "source_ref": "malware--f396743c-b75c-4e68-981e-058761bf25e5",
+            "target_ref": "attack-pattern--774d8e78-8ecb-4ef1-b5a1-fdf67839b4af",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

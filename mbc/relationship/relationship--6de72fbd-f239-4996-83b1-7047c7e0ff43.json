@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4767a19a-f08b-4bef-a2c4-89459aeb4330",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6de72fbd-f239-4996-83b1-7047c7e0ff43",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.598768Z",
+            "modified": "2022-11-28T16:12:21.598768Z",
+            "relationship_type": "uses",
+            "description": "Some variants look for an unnamed mutex to ensure only one copy of itself is running on a system",
+            "source_ref": "malware--6c9c485b-4590-4e6f-9b81-23099d71a757",
+            "target_ref": "attack-pattern--51b6dd12-dadf-4073-ab1c-8b9d2ecd4b3c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

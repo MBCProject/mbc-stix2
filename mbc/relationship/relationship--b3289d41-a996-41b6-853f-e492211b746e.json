@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b700e4b8-22ac-4a83-a7a6-019c6605fa62",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b3289d41-a996-41b6-853f-e492211b746e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.231523Z",
+            "modified": "2022-11-28T16:12:23.231523Z",
+            "relationship_type": "uses",
+            "description": "Modifies the translation lookaside buffer (TLB) Read/Write attributes",
+            "source_ref": "malware--513f8ea0-2580-4c9f-b7a3-a813e4b68d0f",
+            "target_ref": "attack-pattern--602d15ff-6c8d-4eb0-b0b1-eac4df3cfe7a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

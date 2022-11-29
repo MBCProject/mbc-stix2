@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3ffabf4b-b419-4492-bcd3-947ae5885d81",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--47c06094-cb6d-4683-90de-ddae5cff69b1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.600767Z",
+            "modified": "2022-11-28T16:12:21.600767Z",
+            "relationship_type": "uses",
+            "description": "Creates a folder on remote computers and then copies its executables (Shamoon and Filerase) into that directory",
+            "source_ref": "malware--22d2aa40-64c8-4ebb-ae83-29af4f2bd29d",
+            "target_ref": "attack-pattern--95ce19be-e3a4-4723-9514-8a96d3d205c1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

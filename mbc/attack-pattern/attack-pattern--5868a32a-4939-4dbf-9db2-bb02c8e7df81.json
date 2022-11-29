@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--08a47c43-1fd0-4b89-9a93-9f0291100c11",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5868a32a-4939-4dbf-9db2-bb02c8e7df81",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.578675Z",
+            "modified": "2022-11-28T16:12:20.578675Z",
+            "name": "Skipjack",
+            "description": "Malware encrypts with the Skipjack block cipher algorithm.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/encrypt-data.md",
+                    "external_id": "C0027.013"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

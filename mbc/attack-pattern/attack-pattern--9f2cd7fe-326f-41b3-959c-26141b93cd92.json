@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--712b23c1-3f20-4413-a002-36a9ac1fa40e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9f2cd7fe-326f-41b3-959c-26141b93cd92",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.544283Z",
+            "modified": "2022-11-28T16:12:20.544283Z",
+            "name": "Get File Attributes",
+            "description": "Malware gets the attributes of a file.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "file-system-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/file-system/get-file-attributes.md",
+                    "external_id": "C0049"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--68f832bb-683d-40f1-8d5a-e15d954a61cf",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ee1dbd5a-630b-478f-9f3e-4bf2a8725cb6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.819459Z",
+            "modified": "2022-11-28T16:12:22.819459Z",
+            "relationship_type": "uses",
+            "description": "Sets \"2019\" as Windows' startup folder by modifying a registry value.",
+            "source_ref": "malware--e1d47fb1-2022-403b-975d-e433e4b62999",
+            "target_ref": "attack-pattern--98185b83-c780-48a6-af14-ffb2934c32d5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2a31d603-c591-4999-b4e6-49e97aaef7e6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--02d1b5e6-3a6c-41da-b101-8b23120dc29b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.819625Z",
+            "modified": "2022-11-28T16:12:22.819625Z",
+            "relationship_type": "uses",
+            "description": "The malware relies on user interaction to execute",
+            "source_ref": "malware--e1d47fb1-2022-403b-975d-e433e4b62999",
+            "target_ref": "attack-pattern--81005543-eca4-4f31-98bf-7e41f345f447",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

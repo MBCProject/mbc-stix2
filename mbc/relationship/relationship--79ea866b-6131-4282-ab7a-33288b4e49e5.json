@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0523180a-6287-47b2-92ca-b476d939ae49",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--79ea866b-6131-4282-ab7a-33288b4e49e5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.545178Z",
+            "modified": "2022-11-28T16:12:22.545178Z",
+            "relationship_type": "uses",
+            "description": "GoBotKR attempts to copy itself into public folders of cloud storage services (Google Drive, Dropbox, OneDrive).",
+            "source_ref": "malware--4c67be39-f9c3-4914-bbd7-a85a157fd0b4",
+            "target_ref": "attack-pattern--95ce19be-e3a4-4723-9514-8a96d3d205c1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

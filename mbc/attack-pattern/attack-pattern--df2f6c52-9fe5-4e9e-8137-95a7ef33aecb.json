@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--24e73b4d-f164-46ef-8a77-6774b9008220",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--df2f6c52-9fe5-4e9e-8137-95a7ef33aecb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.563154Z",
+            "modified": "2022-11-28T16:12:20.563154Z",
+            "name": "Create UDP Socket",
+            "description": "A UDP socket is created.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/communication/socket-communication.md",
+                    "external_id": "C0001.010"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

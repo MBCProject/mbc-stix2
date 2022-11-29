@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5657fcc3-35d2-4178-bbd3-2bcab92ae0ab",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0a056e60-8396-4cf4-b615-e382d92b38b8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.429149Z",
+            "modified": "2022-11-28T16:12:23.429149Z",
+            "relationship_type": "uses",
+            "description": "Can erase phone data",
+            "source_ref": "malware--f526856b-73da-4103-9c41-d6833a20218d",
+            "target_ref": "attack-pattern--a149796d-f749-4ea0-bf92-81309cef3e39",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--41a0bd97-718a-487f-b99a-89287d2198fb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e7b6c201-3fc1-46f2-9d29-5604f39f881f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.556481Z",
+            "modified": "2022-11-28T16:12:21.556481Z",
+            "relationship_type": "uses",
+            "description": "Determines the machine to be a VM if the core count is 1",
+            "source_ref": "malware--6cd82a42-2992-42d1-9992-11ab42c38b51",
+            "target_ref": "attack-pattern--1a992238-30d3-48fb-9e7d-b617506408fb",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

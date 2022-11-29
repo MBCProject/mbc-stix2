@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d06a2147-2188-492c-ae95-06514be1a400",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--038edc96-291e-4799-9d44-039528af2ab4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.820711Z",
+            "modified": "2022-11-28T16:12:23.820711Z",
+            "relationship_type": "uses",
+            "description": "Executes differently depending on whether it's running on an x86 or x64 system.",
+            "source_ref": "malware--25016dcd-718a-43b4-83e1-9fb794680fef",
+            "target_ref": "attack-pattern--ae776aa6-3281-438b-8a24-e714d18019f7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

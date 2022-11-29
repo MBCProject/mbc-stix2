@@ -1,0 +1,107 @@
+{
+    "type": "bundle",
+    "id": "bundle--56a7f987-3ff0-46f6-8ae0-5b5ed91964d1",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--70c348df-99e1-4f90-8367-d376236bbb7f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.60167Z",
+            "modified": "2022-11-28T16:12:20.60167Z",
+            "name": "Hijack Execution Flow",
+            "description": "Malware may execute by hijacking the way operating systems run programs. Malware (e.g. rootkit) alters API behavior or redirects execution (i.e., hooking) to a malicious API version for a variety of purposes. Malware may use hooking to load and execute code within the context of another process, hiding execution and gaining elevated privileges and access to the process's memory. Different types of hooking are defined as methods below.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "collection"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/hijack-execution-flow.md",
+                    "external_id": "F0015"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.sans.org/media/score/checklists/rootkits-investigation-procedures.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.oreilly.com/library/view/learning-malware-analysis/9781788392501/a0a506d6-d062-48c1-a0a8-57d6acb77785.xhtml"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.mdpi.com/1999-5903/4/4/971/html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://ropgadget.com/posts/abusing_win_functions.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://docs.microsoft.com/en-us/windows/win32/winmsg/about-hooks?redirectedfrom=MSDN#hook-procedures"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/cybercrime/2017/08/inside-kronos-malware/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/PE_URSNIF.A2?_ga=2.131425807.1462021705.1559742358-1202584019.1549394279"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.talosintelligence.com/2018/04/gravityrat-two-year-evolution-of-apt.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.mandiant.com/resources/synful-knock-acis"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/shamoon-returns-to-wipe-systems-in-middle-east-europe/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://docs.broadcom.com/doc/security-response-w32-stuxnet-dossier-11-en"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1574",
+                    "external_id": "T1574"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1625",
+                    "external_id": "T1625"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

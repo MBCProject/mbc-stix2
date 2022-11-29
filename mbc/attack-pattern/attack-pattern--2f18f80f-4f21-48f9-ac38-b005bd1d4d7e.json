@@ -1,0 +1,36 @@
+{
+    "type": "bundle",
+    "id": "bundle--36d10906-0fd2-4fdb-8ef4-f1102b0ebf21",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2f18f80f-4f21-48f9-ac38-b005bd1d4d7e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.459815Z",
+            "modified": "2022-11-28T16:12:20.459815Z",
+            "name": "Red Hat JBoss Enterprise Products",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/exploitation-for-client-execution.md",
+                    "external_id": "E1203.m04"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "type": "bundle",
+    "id": "bundle--78255b2b-384e-4dd5-8261-7779176b63f3",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--17b6db57-743e-4c7e-8e48-4e7d17f32c11",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.594437Z",
+            "modified": "2022-11-28T16:12:20.594437Z",
+            "name": "Process Injection",
+            "description": "Malware may execute code in the address space of a separate process.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/process-injection.md",
+                    "external_id": "E1055"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-profiles/trojan-variants/poison-ivy"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://github.com/LordNoteworthy/al-khaser"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://citizenlab.ca/2016/04/between-hong-kong-and-burma/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.ired.team/offensive-security/code-injection-process-injection/executing-shellcode-with-createfiber"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://news.sophos.com/en-us/2015/12/17/the-current-state-of-ransomware-cryptowall/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.f-secure.com/v-descs/backdoor_w32_hupigon.shtml"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog-assets.f-secure.com/wp-content/uploads/2019/10/15163408/BlackEnergy_Quedagh.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://docs.broadcom.com/doc/security-response-w32-stuxnet-dossier-11-en"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/en_us/research/20/e/netwalker-fileless-ransomware-injected-via-reflective-loading.html"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1055",
+                    "external_id": "T1055"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1631/",
+                    "external_id": "T1631"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

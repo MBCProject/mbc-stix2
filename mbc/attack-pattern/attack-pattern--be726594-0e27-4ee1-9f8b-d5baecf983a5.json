@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--d5e776be-048a-48d5-8bdd-f91686451cb1",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--be726594-0e27-4ee1-9f8b-d5baecf983a5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.431281Z",
+            "modified": "2022-11-28T16:12:20.431281Z",
+            "name": "Jump/Call Absolute Address",
+            "description": "Relative operands of jumps and calls into are made absolute (better compression). May confuse some basic block detection algorithms.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-optimization.md",
+                    "external_id": "B0034.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4e3337dd-c55a-42fd-a79a-4b1497086cd6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--957d88e1-19f6-483a-bc46-60e967980f8d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.810023Z",
+            "modified": "2022-11-28T16:12:21.810023Z",
+            "relationship_type": "uses",
+            "description": "CHOPSTICK may encrypt and store configuration data inside a registry key",
+            "source_ref": "malware--8fe5f5af-2331-4fbd-8d5e-c547d26d1a9f",
+            "target_ref": "attack-pattern--b24bc0e5-7d75-4f67-b52b-e0eefb2abc61",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

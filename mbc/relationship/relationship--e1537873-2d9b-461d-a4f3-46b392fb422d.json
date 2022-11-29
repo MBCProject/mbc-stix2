@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1e2c04df-8ed6-4120-b9d6-cc0941ef52c8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e1537873-2d9b-461d-a4f3-46b392fb422d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.60044Z",
+            "modified": "2022-11-28T16:12:21.60044Z",
+            "relationship_type": "uses",
+            "description": "An overwrite component will overwrite the MBR so that the compromised computer can no longer start",
+            "source_ref": "malware--22d2aa40-64c8-4ebb-ae83-29af4f2bd29d",
+            "target_ref": "attack-pattern--393c6f52-4bb0-4c90-a6ee-df5f16c4957f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

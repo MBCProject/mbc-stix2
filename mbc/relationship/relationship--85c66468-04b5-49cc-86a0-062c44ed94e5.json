@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--dc138831-15ef-4f6a-a407-3a610e1e04bf",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--85c66468-04b5-49cc-86a0-062c44ed94e5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.182813Z",
+            "modified": "2022-11-28T16:12:21.182813Z",
+            "relationship_type": "uses",
+            "description": "DarkComet can capture keystrokes",
+            "source_ref": "malware--c7116127-1ee3-4e30-aef7-240d6307317d",
+            "target_ref": "attack-pattern--d8b0a352-dd38-4edc-bd03-ec038e68f3cb",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

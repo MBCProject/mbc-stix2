@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--c6541b94-5056-46ac-8265-0d276ac0f92c",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d44ce5e6-0d87-479c-b867-1a325bfaa9fd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.54203Z",
+            "modified": "2022-11-28T16:12:20.54203Z",
+            "name": "Delete Directory",
+            "description": "Malware deletes a directory.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "file-system-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/file-system/delete-directory.md",
+                    "external_id": "C0048"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

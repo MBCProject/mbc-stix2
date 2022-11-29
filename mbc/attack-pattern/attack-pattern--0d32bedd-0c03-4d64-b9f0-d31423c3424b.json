@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--dec3a2ac-332e-4cbd-943c-7df6af9657f2",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--0d32bedd-0c03-4d64-b9f0-d31423c3424b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.460382Z",
+            "modified": "2022-11-28T16:12:20.460382Z",
+            "name": "Sysinternals",
+            "description": "Sysinternals tools are used for additional command line functionality.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/exploitation-for-client-execution.md",
+                    "external_id": "E1203.m05"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

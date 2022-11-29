@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--175f314e-0e42-4b7c-b008-a92eea3d8abf",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--683b90e4-abf2-4738-845f-5a3338c6c44d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.451375Z",
+            "modified": "2022-11-28T16:12:20.451375Z",
+            "name": "Request Email Template",
+            "description": "Request email template.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/command-and-control/c2-communication.md",
+                    "external_id": "B0030.009"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

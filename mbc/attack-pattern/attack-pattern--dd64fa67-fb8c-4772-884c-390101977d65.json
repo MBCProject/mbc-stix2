@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--632968e9-03b2-4e3d-9c70-f1a7e69ffb80",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--dd64fa67-fb8c-4772-884c-390101977d65",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.573758Z",
+            "modified": "2022-11-28T16:12:20.573758Z",
+            "name": "HC-128",
+            "description": "Malware decrypts data encrypted with the HC-128 algorithm.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/decrypt-data.md",
+                    "external_id": "C0031.006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

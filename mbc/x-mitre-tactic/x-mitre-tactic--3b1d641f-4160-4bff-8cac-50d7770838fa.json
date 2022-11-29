@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--6b79162a-f59b-4eb4-8f04-77010b1fd3aa",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--3b1d641f-4160-4bff-8cac-50d7770838fa",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.404357Z",
+            "modified": "2022-11-28T16:12:20.404357Z",
+            "name": "Hardware Micro-objective",
+            "description": "",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/hardware/README.md",
+                    "external_id": "OC0007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "hardware-micro-objective"
+        }
+    ]
+}

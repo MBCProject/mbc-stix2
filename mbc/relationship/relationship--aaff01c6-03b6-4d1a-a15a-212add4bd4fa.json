@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d88a8cf8-914b-4e8a-8052-0fa0fd47c956",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--aaff01c6-03b6-4d1a-a15a-212add4bd4fa",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.174434Z",
+            "modified": "2022-11-28T16:12:23.174434Z",
+            "relationship_type": "uses",
+            "description": "Stuxnet registers custom resource drives signed with a legitimate Realtek digital certificate",
+            "source_ref": "malware--d16519fa-ee8c-4254-a5e4-9193c47fba61",
+            "target_ref": "attack-pattern--92937526-5691-4825-bd87-6ae5dce5ddee",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

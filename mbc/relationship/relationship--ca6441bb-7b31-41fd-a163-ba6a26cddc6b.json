@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a554e6a0-6b79-448b-95f2-cc6a3e71d049",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ca6441bb-7b31-41fd-a163-ba6a26cddc6b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.821281Z",
+            "modified": "2022-11-28T16:12:22.821281Z",
+            "relationship_type": "uses",
+            "description": "Variants A, B, C, and E exploit a vulnerability in the Server Service on Windows computers in which an already compromised computer sends a specially-crafted RPC request to force a buffer overflow and execute shellcode on the target computer",
+            "source_ref": "malware--b07c78c3-8f47-4fcb-a3d8-1ff82062cdc0",
+            "target_ref": "attack-pattern--659c26dd-0469-4ffb-b332-c143e66b55e3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

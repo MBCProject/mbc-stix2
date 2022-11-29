@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--4602e90b-d444-450a-913c-3825f26dcec1",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--391d1dd6-0f3d-4c26-93a7-93dc1c8c388d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.585817Z",
+            "modified": "2022-11-28T16:12:20.585817Z",
+            "name": "Set Registry Key",
+            "description": "Malware sets a registry key.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "operating-system-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/operating-system/registry.md",
+                    "external_id": "C0036.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

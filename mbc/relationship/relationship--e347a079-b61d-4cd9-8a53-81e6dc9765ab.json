@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--324fad29-e27f-47dd-921c-9d8491838f96",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e347a079-b61d-4cd9-8a53-81e6dc9765ab",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.176754Z",
+            "modified": "2022-11-28T16:12:23.176754Z",
+            "relationship_type": "uses",
+            "description": "EvilBunny hooks time retrieval APIs and calls each API twice to calculate a delta. Execution aborts depending on the delta value",
+            "source_ref": "malware--0d5fb0d4-cb04-4a5f-bf8b-101ee11211a4",
+            "target_ref": "attack-pattern--45e27b9e-08e9-47e4-a2e0-101a6f1b8237",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

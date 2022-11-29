@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--cdf893e1-6d40-42fb-a995-a3dc843309c6",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c33fd0ed-73e7-4ad5-ad5f-529ad8d53e72",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.476819Z",
+            "modified": "2022-11-28T16:12:20.476819Z",
+            "name": "Destroy Hardware",
+            "description": "Destroys a physical piece of hardware. For example, malware may cause hardware to overheat.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/destroy-hardware.md",
+                    "external_id": "B0017"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.bbc.com/timelines/zc6fbk7"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

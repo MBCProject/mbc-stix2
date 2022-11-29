@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--60130763-ba8d-4410-a685-e13cca06baf2",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--dca74fd1-6bc5-4d66-9bde-168b34581cea",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.434322Z",
+            "modified": "2022-11-28T16:12:20.434322Z",
+            "name": "Conditional Misdirection",
+            "description": "Conditional jumps are sometimes used to confuse disassembly engines, resulting in the wrong instruction boundaries and thus wrong mnemonic and operands; identified by instructions *jmp/jcc to a label+#* (e.g., JNE loc_401345fe+2).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/disassembler-evasion.md",
+                    "external_id": "B0012.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

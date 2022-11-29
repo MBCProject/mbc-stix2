@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--4d9fd354-c82c-47ff-be5f-0a9dd60f1d7b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--90d3a57f-75be-4a30-86f9-aeafce965f0a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.533395Z",
+            "modified": "2022-11-28T16:12:20.533395Z",
+            "name": "Luhn",
+            "description": "Malware uses Luhn algorithm, often to validate identification numbers (e.g, credit card number).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "data-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/data/checksum.md",
+                    "external_id": "C0032.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

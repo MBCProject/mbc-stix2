@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--2fed8b0f-059f-4d2c-bb6d-096d4dfc9ddf",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--a890eeb6-aa24-4a72-afc2-313b426a240b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.584865Z",
+            "modified": "2022-11-28T16:12:20.584865Z",
+            "name": "Delete Registry Value",
+            "description": "Malware deletes a registry value.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "operating-system-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/operating-system/registry.md",
+                    "external_id": "C0036.007"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

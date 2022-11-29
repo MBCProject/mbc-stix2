@@ -1,0 +1,41 @@
+{
+    "type": "bundle",
+    "id": "bundle--b4bd75ce-a477-4028-b542-54646d934327",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--abd70783-37a3-435b-a580-a760c274a885",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.587438Z",
+            "modified": "2022-11-28T16:12:20.587438Z",
+            "name": "Bypass Data Execution Prevention",
+            "description": "Malware may bypass Data Execution Prevention (DEP).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/bypass-data-execution-prevention.md",
+                    "external_id": "B0037"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://medium.com/cybersecurityservices/dep-bypass-using-rop-chains-garima-chopra-e8b3361e50ce"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cybereason.com/blog/research/dropping-anchor-from-a-trickbot-infection-to-the-discovery-of-the-anchor-malware"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--04d971cf-5e4f-4417-9076-5de7a631a1f7",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d8f09a16-6faa-4cc5-8eb7-ced2d8709de2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.778224Z",
+            "modified": "2022-11-28T16:12:22.778224Z",
+            "relationship_type": "uses",
+            "description": "GoBotKR performs several checks on the compromised machine to avoid being emulated or executed in a sandbox.",
+            "source_ref": "malware--4c67be39-f9c3-4914-bbd7-a85a157fd0b4",
+            "target_ref": "attack-pattern--45e27b9e-08e9-47e4-a2e0-101a6f1b8237",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

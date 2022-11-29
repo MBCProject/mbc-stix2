@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a40a6ba8-6edd-4dfa-b7c4-358d1918a6be",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7972a523-ae07-4f25-9fc4-e58fa10e3448",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.813616Z",
+            "modified": "2022-11-28T16:12:21.813616Z",
+            "relationship_type": "uses",
+            "description": "Poison Ivy variant uses the IsDebuggerPresent API function call to check if the process is running in a debugger",
+            "source_ref": "malware--2a16b085-2d40-4a54-a11c-2f68dae633e1",
+            "target_ref": "attack-pattern--ed2b49a1-d384-4c9b-89b6-d2982885a0ec",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

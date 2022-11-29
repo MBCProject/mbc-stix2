@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--bbe6d973-43bc-4107-8ade-a21b5722b429",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ac365a92-08ce-4810-b2af-7df7f3a3a154",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.539316Z",
+            "modified": "2022-11-28T16:12:20.539316Z",
+            "name": "Heap Spray",
+            "description": "Malware may use heap spraying to write a sequence of bytes on the heap section of a process.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "memory-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/memory/heap-spray.md",
+                    "external_id": "C0006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

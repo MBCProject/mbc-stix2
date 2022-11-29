@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--9f5478a1-57ed-4f8d-adcf-308686448a2e",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f898010f-0ffb-4131-8db3-e0e3549b1516",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.584629Z",
+            "modified": "2022-11-28T16:12:20.584629Z",
+            "name": "Delete Registry Key",
+            "description": "Malware deletes a registry key.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "operating-system-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/operating-system/registry.md",
+                    "external_id": "C0036.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

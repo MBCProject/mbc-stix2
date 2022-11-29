@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--f83bda4a-6d83-4c34-9f4b-9ce37bfe9168",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--f4d2c24a-e3f5-4e8c-942f-15680ab1f6a0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.510701Z",
+            "modified": "2022-11-28T16:12:20.510701Z",
+            "name": "Relocate API Code",
+            "description": "Relocate API code in separate buffer (calls don\u2019t lead to imported DLLs).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/debugger-evasion.md",
+                    "external_id": "B0002.020"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

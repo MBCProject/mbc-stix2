@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--04d089ac-d21b-4ca9-8cfd-139e2ad7f637",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--ee420114-c16b-4149-a9b7-32fc5a96f1f6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.568709Z",
+            "modified": "2022-11-28T16:12:20.568709Z",
+            "name": "Resolve",
+            "description": "Resolves a domain.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "communication-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/communication/dns-communication.md",
+                    "external_id": "C0011.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

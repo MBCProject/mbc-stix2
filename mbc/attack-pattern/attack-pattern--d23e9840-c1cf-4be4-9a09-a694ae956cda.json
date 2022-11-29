@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--ae7c9ee0-1256-4d13-ba47-6af26cf6ab23",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d23e9840-c1cf-4be4-9a09-a694ae956cda",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.603693Z",
+            "modified": "2022-11-28T16:12:20.603693Z",
+            "name": "Hide Data in Registry",
+            "description": "Malware may use a registry key to store a long sequence of bytes.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/covert-location.md",
+                    "external_id": "B0040.001"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--7c0e63c0-5980-4423-936f-4381fd0cf61b",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--0d20c780-1c69-4666-9716-b3f2ad6a1d6a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.405537Z",
+            "modified": "2022-11-28T16:12:20.405537Z",
+            "name": "Communication Micro-objective",
+            "description": "Micro-behaviors that enable malware to communicate.",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/communication/README.md",
+                    "external_id": "OC0006"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "communication-micro-objective"
+        }
+    ]
+}

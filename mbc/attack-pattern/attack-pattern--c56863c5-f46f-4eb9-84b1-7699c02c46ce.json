@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--bffd268d-5a6a-4b3a-8abb-4239a4f69539",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c56863c5-f46f-4eb9-84b1-7699c02c46ce",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.607772Z",
+            "modified": "2022-11-28T16:12:20.607772Z",
+            "name": "Modify Policy",
+            "description": "Malware may modify policies to make software less effective. This is similar to ATT&CK's Subvert Trust Controls: Code Signing Policy Modification ([T1553.006](https://attack.mitre.org/techniques/T1553/006/), [T1632.001](https://attack.mitre.org/techniques/T1632/001/))",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/disable-or-evade-security-tools.md",
+                    "external_id": "F0004.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

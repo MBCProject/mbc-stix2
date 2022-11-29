@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--47483d70-92a5-448f-8579-91fd9ddc4cfe",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6f0ea69e-8c37-4025-bac2-7968e5a658ac",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.080401Z",
+            "modified": "2022-11-28T16:12:23.080401Z",
+            "relationship_type": "uses",
+            "description": "The malware sends harded HTTP headers disguised as Microsoft Update traffic",
+            "source_ref": "malware--047e5c17-941d-4cf8-941e-0625cb0604bd",
+            "target_ref": "attack-pattern--27ea04ff-3cdc-4e5f-805b-cea038c9353d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

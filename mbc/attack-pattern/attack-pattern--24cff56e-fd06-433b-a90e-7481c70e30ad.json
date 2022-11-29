@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--5b887899-a3e8-49f4-800c-8b9d1c6c1a8a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--24cff56e-fd06-433b-a90e-7481c70e30ad",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.449738Z",
+            "modified": "2022-11-28T16:12:20.449738Z",
+            "name": "Execute File",
+            "description": "Execute/run/open the file using default operating system functionality, optionally with provided command-and-scripting-interpreter arguments. The file may or may not already exist on the victim.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "command-and-control"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/command-and-control/c2-communication.md",
+                    "external_id": "B0030.013"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

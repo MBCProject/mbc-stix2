@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--4a58be4e-c25c-462e-b863-6bf3cfb3e723",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b66573dc-1beb-4a34-b41a-f6fd1c171f0e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.590276Z",
+            "modified": "2022-11-28T16:12:20.590276Z",
+            "name": "Encoding-Custom Algorithm",
+            "description": "A custom algorithm is used to encode a malware sample, file or other information.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/obfuscated-files-or-information.md",
+                    "external_id": "E1027.m03"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--33998638-d653-4dc2-9e1d-39962d3dab07",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--03fcd5ce-a087-4b99-b222-bf5d32a87160",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.423599Z",
+            "modified": "2022-11-28T16:12:21.423599Z",
+            "relationship_type": "uses",
+            "description": "The function computes a 32-bit hash of a resource in memory, and compares it to the PE Compile Timestamp of the unpacked sample. If the resource or compile time has been altered, the malware acts destructively",
+            "source_ref": "malware--a6c7c3ea-56c7-4e95-a521-cb18e3feedd6",
+            "target_ref": "attack-pattern--d9c2ff80-e8b4-4ff7-8636-e6f42d301bfd",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

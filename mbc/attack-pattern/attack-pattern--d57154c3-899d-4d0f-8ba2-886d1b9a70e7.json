@@ -1,0 +1,54 @@
+{
+    "type": "bundle",
+    "id": "bundle--609a2477-ac82-4d5a-9f00-b5340e8e821a",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d57154c3-899d-4d0f-8ba2-886d1b9a70e7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.472561Z",
+            "modified": "2022-11-28T16:12:20.472561Z",
+            "name": "Generate Traffic from Victim",
+            "description": "Malware may generate traffic from the victim system such as clicks of advertising links that generate fraudulent ad revenue. The ATT&CK technique, **Generate Traffic from Victim ([T1643](https://attack.mitre.org/techniques/T1643/))**, is only associated with the mobile platform, but the behavior is applicable to other platforms as well.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/generate-traffic-from-victim.md",
+                    "external_id": "E1643"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.itworld.com/article/2734253/security/behind-the--massive--malware-ad-revenue-fraud-case.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fipp.com/news/insightnews/what-are-the-nine-types-of-digital-ad-fraud"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.huffingtonpost.com/2011/11/09/click-hijack-hackers-online-ad-scam_n_1084497.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.bleepingcomputer.com/virus-removal/remove-kovter-trojan"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1643/",
+                    "external_id": "T1643"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--a4f05af6-cb5b-4681-b5c5-c67138d6ad81",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6c4f8259-e6e5-4b15-b3b5-b53e0dd3d898",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.58716Z",
+            "modified": "2022-11-28T16:12:20.58716Z",
+            "name": "ROP Chains",
+            "description": "Return-Oriented Programming can be used to bypass DEP. It can also be used to bypass code signing.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/bypass-data-execution-prevention.md",
+                    "external_id": "B0037.001"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://medium.com/cybersecurityservices/dep-bypass-using-rop-chains-garima-chopra-e8b3361e50ce"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0db8b614-e152-4e5e-83e3-d9f25a8e152f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c17c3565-ad21-4ef2-acb9-fea05b642d4e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.174676Z",
+            "modified": "2022-11-28T16:12:23.174676Z",
+            "relationship_type": "uses",
+            "description": "The driver Stuxnet uses for persistence Mrxcls.sys is registered as a boot start service creating the registry key HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\MRxCIs\\\"ImagePath\" = \"%System%\\drivers\\mrxcls.sys\"",
+            "source_ref": "malware--d16519fa-ee8c-4254-a5e4-9193c47fba61",
+            "target_ref": "attack-pattern--0bfa8456-65c7-4b95-b247-fff54338a9a7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

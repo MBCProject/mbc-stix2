@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9e37a5df-e429-45b5-b5b1-c8e4c0b750b9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1486947a-a765-4c90-afee-084fe8814406",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.177483Z",
+            "modified": "2022-11-28T16:12:23.177483Z",
+            "relationship_type": "uses",
+            "description": "CozyCar communicates with a C2 server",
+            "source_ref": "malware--935bd653-1896-4196-bc1e-5247155847af",
+            "target_ref": "attack-pattern--83d0151c-0075-46bb-8cbf-763358586d96",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

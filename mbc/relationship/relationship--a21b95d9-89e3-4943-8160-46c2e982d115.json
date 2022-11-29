@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fc44559c-75d1-43dc-a1dc-bfb8bbf56749",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a21b95d9-89e3-4943-8160-46c2e982d115",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.176563Z",
+            "modified": "2022-11-28T16:12:23.176563Z",
+            "relationship_type": "uses",
+            "description": "EvilBunny communicates C2 via HTTP",
+            "source_ref": "malware--0d5fb0d4-cb04-4a5f-bf8b-101ee11211a4",
+            "target_ref": "attack-pattern--83d0151c-0075-46bb-8cbf-763358586d96",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

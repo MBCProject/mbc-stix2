@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--e7031c29-5335-4e8b-bc36-a2da5326f689",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--9dcb82a9-0be2-4cc8-a2df-008919b6b0d6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.489256Z",
+            "modified": "2022-11-28T16:12:20.489256Z",
+            "name": "Encrypted Payloads",
+            "description": "Decryption key is stored external to the executable or never touches the disk.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/capture-evasion.md",
+                    "external_id": "B0036.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

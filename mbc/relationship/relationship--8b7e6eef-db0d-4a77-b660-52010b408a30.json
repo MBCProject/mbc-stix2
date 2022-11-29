@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ebaef8bf-4d82-46e4-a9f2-0c0adc5756d8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8b7e6eef-db0d-4a77-b660-52010b408a30",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.811306Z",
+            "modified": "2022-11-28T16:12:21.811306Z",
+            "relationship_type": "uses",
+            "description": "Code is injected into explorer.exe",
+            "source_ref": "malware--2a16b085-2d40-4a54-a11c-2f68dae633e1",
+            "target_ref": "attack-pattern--17b6db57-743e-4c7e-8e48-4e7d17f32c11",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

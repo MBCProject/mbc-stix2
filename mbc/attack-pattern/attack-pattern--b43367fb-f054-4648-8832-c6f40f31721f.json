@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--ed8da4b2-910b-46dd-888c-1afd719bd2f5",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b43367fb-f054-4648-8832-c6f40f31721f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.537222Z",
+            "modified": "2022-11-28T16:12:20.537222Z",
+            "name": "pHash",
+            "description": "Malware uses the pHash hash function.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "data-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/data/noncryptographic-hash.md",
+                    "external_id": "C0030.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "type": "bundle",
+    "id": "bundle--472af0ba-35ab-48a4-a86b-42895202c8ef",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d1bfa84d-eb6d-4687-b768-67784289410b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.607226Z",
+            "modified": "2022-11-28T16:12:20.607226Z",
+            "name": "Force Lazy Writing",
+            "description": "Some operating systems will sometimes use a form of \"lazy writing\" for disk I/O, which may obscure the true provenance of the write operation. This method occurs when code intentionally forces the operating system to perform a lazy writing operation. For example, in Windows, a file may be opened, memory mapped, and closed, but the memory map will still exist and can be written to, which will cause a lazy write that looks like it is coming from the System process.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/disable-or-evade-security-tools.md",
+                    "external_id": "F0004.006"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Alexander Adamov, Stealthy WastedLocker: eluding behavior blockers, but not only. Online:",
+                    "url": "https://vblocalhost.com/conference/presentations/stealthy-wastedlocker-eluding-behaviour-blockers-but-not-only/"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

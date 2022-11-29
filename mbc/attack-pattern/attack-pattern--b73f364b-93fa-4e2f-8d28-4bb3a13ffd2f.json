@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--ccb8653c-213c-4129-a543-ba392bbca1a3",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--b73f364b-93fa-4e2f-8d28-4bb3a13ffd2f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.605135Z",
+            "modified": "2022-11-28T16:12:20.605135Z",
+            "name": "Hidden Kernel Modules",
+            "description": "Hides the use of kernel modules by the malware instance (e.g. rootkit). Techniques include kernel module list unlinking.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/hide-artifacts.md",
+                    "external_id": "E1564.m05"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

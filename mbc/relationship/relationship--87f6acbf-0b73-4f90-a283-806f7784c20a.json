@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--373dd0e8-32fe-42f5-8989-4e0912cde19d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--87f6acbf-0b73-4f90-a283-806f7784c20a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.423925Z",
+            "modified": "2022-11-28T16:12:21.423925Z",
+            "relationship_type": "uses",
+            "description": "Collects local files with specified file extensions and information from the victim's machine",
+            "source_ref": "malware--64327426-55ca-40ef-9366-fda06b12d15f",
+            "target_ref": "attack-pattern--60d06be4-18b2-4cb3-bd0f-bfd5ecc40ee7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

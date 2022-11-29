@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--85e802a4-d2aa-4716-9adf-dc92f2b14b22",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bb61fd7b-e061-47a3-afb7-effd16814da2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.948635Z",
+            "modified": "2022-11-28T16:12:21.948635Z",
+            "relationship_type": "uses",
+            "description": "Can download and install arbitrary iOS apps",
+            "source_ref": "malware--38be51aa-2eeb-430c-a8f2-2e2047c7d81d",
+            "target_ref": "attack-pattern--36a9d56a-5449-4203-b90f-b253ffa9a014",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

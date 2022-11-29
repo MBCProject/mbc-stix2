@@ -1,0 +1,37 @@
+{
+    "type": "bundle",
+    "id": "bundle--31dd4343-a9ba-4fb3-a42c-4a65c6b82622",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--726ab2ed-0427-4b55-9be2-34b3886bc63a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.399126Z",
+            "modified": "2022-11-28T16:12:20.399126Z",
+            "name": "Anti-Static Analysis",
+            "description": "",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/README.md",
+                    "external_id": "OB0002"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "Unprotect Project, a database about malware self-defense and protection.",
+                    "url": "https://search.unprotect.it/map/sandbox-evasion/"
+                },
+                {
+                    "source_name": "external_source",
+                    "description": "InDepthUnpacking, course content for teaching malware anti-analysis techniques and mitigations, with emphasis on packers.",
+                    "url": "https://github.com/knowmalware/InDepthUnpacking"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "anti-static-analysis"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--3305c37d-57af-4c49-bc70-2d55664feb5d",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--08464938-2648-446b-9692-76dbfee6236f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.582627Z",
+            "modified": "2022-11-28T16:12:20.582627Z",
+            "name": "Mersenne Twister",
+            "description": "Malware generates a pseudo-random sequence using the Mersenne Twister PRNG.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "cryptography-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/generate-pseudorandom-sequence.md",
+                    "external_id": "C0021.005"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

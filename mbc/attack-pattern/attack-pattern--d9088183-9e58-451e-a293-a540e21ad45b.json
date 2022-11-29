@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--6dbb9d41-2757-43bf-ae97-5f23196535a7",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--d9088183-9e58-451e-a293-a540e21ad45b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.522058Z",
+            "modified": "2022-11-28T16:12:20.522058Z",
+            "name": "Stack Canary",
+            "description": "Similar to the anti-exploitation method of the same name, malware may try to detect mucking with values on the stack.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/debugger-detection.md",
+                    "external_id": "B0001.026"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

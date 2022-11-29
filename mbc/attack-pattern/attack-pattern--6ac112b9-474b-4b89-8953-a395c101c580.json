@@ -1,0 +1,45 @@
+{
+    "type": "bundle",
+    "id": "bundle--2cb62c87-ca82-4fca-930e-1734ebac072f",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--6ac112b9-474b-4b89-8953-a395c101c580",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.466223Z",
+            "modified": "2022-11-28T16:12:20.466223Z",
+            "name": "Send Poisoned Text Message",
+            "description": "A malicious attachment is sent via spam SMS or MMS messages. When the user clicks the link, malware is installed.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "lateral-movement"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/send-poisoned-text-message.md",
+                    "external_id": "B0021"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://us.norton.com/internetsecurity-emerging-threats-mazar-bot-malware-invades-and-erases-android-devices.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.player.one/new-android-sms-malware-can-completely-own-your-phone-just-one-text-how-avoid-mazar-512363"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

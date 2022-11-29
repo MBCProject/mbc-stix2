@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--dbc79b4f-53ec-443b-8a4f-4db08c71a1c0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7006ff3e-e0cb-4a2c-97ee-6c45c0db16ed",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.23329Z",
+            "modified": "2022-11-28T16:12:23.23329Z",
+            "relationship_type": "uses",
+            "description": "The malware injects itself into processes such as cmd.exe, notepad.exe",
+            "source_ref": "malware--2a452254-a02f-40dc-8d6f-9908defad8ca",
+            "target_ref": "attack-pattern--17b6db57-743e-4c7e-8e48-4e7d17f32c11",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

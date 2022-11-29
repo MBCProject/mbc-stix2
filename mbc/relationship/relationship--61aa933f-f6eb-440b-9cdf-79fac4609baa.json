@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--87c494df-5fdf-425f-b509-e739c86051dd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--61aa933f-f6eb-440b-9cdf-79fac4609baa",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.948326Z",
+            "modified": "2022-11-28T16:12:21.948326Z",
+            "relationship_type": "uses",
+            "description": "Displays brief advertisements whenever the user opens applications on their phone",
+            "source_ref": "malware--38be51aa-2eeb-430c-a8f2-2e2047c7d81d",
+            "target_ref": "attack-pattern--a1677099-40ce-4b57-894e-cbe269b460cd",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

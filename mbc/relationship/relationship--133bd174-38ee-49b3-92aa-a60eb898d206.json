@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--73f5a604-e52d-4469-bd11-a5ea7d0366cd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--133bd174-38ee-49b3-92aa-a60eb898d206",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:23.235233Z",
+            "modified": "2022-11-28T16:12:23.235233Z",
+            "relationship_type": "uses",
+            "description": "The malware adds many entries to the registry",
+            "source_ref": "malware--2a452254-a02f-40dc-8d6f-9908defad8ca",
+            "target_ref": "attack-pattern--b24bc0e5-7d75-4f67-b52b-e0eefb2abc61",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

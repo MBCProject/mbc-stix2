@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--19a72308-4c62-4900-9b5b-b5747d4ab776",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6b1d77ef-29db-4b9a-8d43-dc7e6396bdb6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:21.426425Z",
+            "modified": "2022-11-28T16:12:21.426425Z",
+            "relationship_type": "uses",
+            "description": "Injects HTML into browser session to collect sensitive online banking information when the victim performs their online banking",
+            "source_ref": "malware--84f7310e-af66-45e2-812e-cdfbcbb85fab",
+            "target_ref": "attack-pattern--8c3389f1-c5c4-4cc4-b840-ec53d8e13f92",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

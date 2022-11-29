@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--fef1643a-b5c8-43a0-ae46-f1776d7d1407",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4a34309e-0d9e-4db3-bf2d-2d4082d288ef",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.543687Z",
+            "modified": "2022-11-28T16:12:20.543687Z",
+            "name": "Create File",
+            "description": "Malware creates a file.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "file-system-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/file-system/create-file.md",
+                    "external_id": "C0016"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

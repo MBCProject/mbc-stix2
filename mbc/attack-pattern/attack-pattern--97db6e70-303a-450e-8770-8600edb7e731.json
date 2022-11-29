@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--5f1a109a-5cfb-4c3c-836b-88f1fd42c186",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--97db6e70-303a-450e-8770-8600edb7e731",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.611217Z",
+            "modified": "2022-11-28T16:12:20.611217Z",
+            "name": "Registry Install",
+            "description": "Stores itself in the Windows registry.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/alternative-installation-location.md",
+                    "external_id": "B0027.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

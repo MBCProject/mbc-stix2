@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--fc3d8706-3bce-42e2-929a-e3c8fd0fed42",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4f0bf9db-6955-4cee-9fe3-3b1cff9cbb81",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.532014Z",
+            "modified": "2022-11-28T16:12:20.532014Z",
+            "name": "Use Constant",
+            "description": "Malware may manipulate or use a constant value, for example as part of a larger string used by some function.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "data-micro-objective"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/data/use-constant.md",
+                    "external_id": "C0020"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": false
+        }
+    ]
+}

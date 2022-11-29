@@ -1,0 +1,27 @@
+{
+    "type": "bundle",
+    "id": "bundle--bdbd2c48-fafb-4067-a09f-745e4e46e409",
+    "objects": [
+        {
+            "type": "x-mitre-tactic",
+            "spec_version": "2.1",
+            "id": "x-mitre-tactic--26c34e66-2835-4c70-8bd6-335125a2b36e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.405181Z",
+            "modified": "2022-11-28T16:12:20.405181Z",
+            "name": "Process Micro-objective",
+            "description": "",
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/process/README.md",
+                    "external_id": "OC0003"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_shortname": "process-micro-objective"
+        }
+    ]
+}

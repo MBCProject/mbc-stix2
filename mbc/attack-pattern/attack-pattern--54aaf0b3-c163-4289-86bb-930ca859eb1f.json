@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--034b4be6-0ded-4b45-99c2-6aab8f39bc35",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--54aaf0b3-c163-4289-86bb-930ca859eb1f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.440778Z",
+            "modified": "2022-11-28T16:12:20.440778Z",
+            "name": "Known Windows Class Name",
+            "description": "Running program windows are checked to see if any windows class name contains a string indicating that an analysis tool is running. For example, 'WinDbgFrameClass' is Windbg main window\u2019s class name. [2]",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "discovery"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/discovery/analysis-tool-discovery.md",
+                    "external_id": "B0013.010"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

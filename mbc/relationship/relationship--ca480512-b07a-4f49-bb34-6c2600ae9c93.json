@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8ec94ace-1b4a-40e3-abb1-5d09ba7275e7",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ca480512-b07a-4f49-bb34-6c2600ae9c93",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:22.820472Z",
+            "modified": "2022-11-28T16:12:22.820472Z",
+            "relationship_type": "uses",
+            "description": "Terminates various services related to system security and Windows and prevents network access to various websites related to antivirus software",
+            "source_ref": "malware--b07c78c3-8f47-4fcb-a3d8-1ff82062cdc0",
+            "target_ref": "attack-pattern--81ac46cc-4dad-4ad2-9ac7-a0c2466cfe76",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

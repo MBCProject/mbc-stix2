@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--ce3a3958-e0ca-4a6d-9e27-2ab3d4536483",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--5c121148-39b2-4dd5-aa72-212cb9f9bdd5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-11-28T16:12:20.516941Z",
+            "modified": "2022-11-28T16:12:20.516941Z",
+            "name": "Monitoring Thread",
+            "description": "Malware may spawn a monitoring thread to detect tampering, breakpoints, etc.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/debugger-detection.md",
+                    "external_id": "B0001.011"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}
