@@ -8,7 +8,7 @@
             "id": "attack-pattern--ae29c6ea-39f3-47f5-b2e9-49a18cbe3d9f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-09-08T18:26:13.249609Z",
-            "modified": "2022-09-08T18:26:13.249609Z",
+            "modified": "2022-12-07T14:16:51.336642Z",
             "name": "User Execution",
             "description": "Malware may include code that relies on specific actions by a user to execute. Note that this MBC behavior differs from [User Execution](https://attack.mitre.org/techniques/T1204) in that it does do not include direct code execution (user action for *initial* execution) - MBC does not encompass ATT&CK's Initial Access Tactic.",
             "kill_chain_phases": [
@@ -34,6 +34,11 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.mandiant.com/resources/hot-knives-through-butter-evading-file-based-sandboxes"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1204",
+                    "external_id": "T1204"
                 }
             ],
             "object_marking_refs": [

@@ -8,8 +8,8 @@
             "id": "attack-pattern--9f4141a2-af76-4a8e-b493-f3c1f5bdc9ac",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.990485Z",
-            "modified": "2022-09-08T18:26:13.387325Z",
-            "name": "Twofish::Decrypt Data",
+            "modified": "2022-12-07T14:16:51.480047Z",
+            "name": "Twofish",
             "description": "Malware decrypts data encrypted with the Twofish algorithm.",
             "kill_chain_phases": [
                 {

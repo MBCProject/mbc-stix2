@@ -8,8 +8,8 @@
             "id": "attack-pattern--b74af853-9674-4bc7-9d30-be251db05e3d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.994484Z",
-            "modified": "2022-09-08T18:26:13.392125Z",
-            "name": "Stream Cipher::Encrypt Data",
+            "modified": "2022-12-07T14:16:51.484092Z",
+            "name": "Stream Cipher",
             "description": "Malware encrypts with a stream cipher.",
             "kill_chain_phases": [
                 {

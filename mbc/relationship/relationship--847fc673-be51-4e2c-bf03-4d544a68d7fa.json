@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a093b79b-14e2-4cc8-a0e5-3f50016d4233",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--847fc673-be51-4e2c-bf03-4d544a68d7fa",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:53.669594Z",
+            "modified": "2022-12-07T14:16:53.669594Z",
+            "relationship_type": "uses",
+            "description": "The malware modifies the registry during execution",
+            "source_ref": "malware--fa095747-0ca8-4965-a222-cf1fe7647e12",
+            "target_ref": "attack-pattern--ce6015e7-3065-420f-aea8-c9e0e5d5ed74",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

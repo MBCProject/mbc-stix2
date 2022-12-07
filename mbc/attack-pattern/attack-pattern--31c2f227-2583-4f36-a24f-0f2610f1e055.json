@@ -8,8 +8,8 @@
             "id": "attack-pattern--31c2f227-2583-4f36-a24f-0f2610f1e055",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.007478Z",
-            "modified": "2022-09-08T18:26:13.337492Z",
-            "name": "Fast-Hash::Non-Cryptographic Hash",
+            "modified": "2022-12-07T14:16:51.431365Z",
+            "name": "Fast-Hash",
             "description": "Malware uses the Fast-Hash hash function.",
             "kill_chain_phases": [
                 {

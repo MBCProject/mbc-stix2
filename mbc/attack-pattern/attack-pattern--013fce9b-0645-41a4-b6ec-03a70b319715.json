@@ -8,8 +8,8 @@
             "id": "attack-pattern--013fce9b-0645-41a4-b6ec-03a70b319715",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.864259Z",
-            "modified": "2022-02-05T00:37:22.788643Z",
-            "name": "Create Office Document::Create File",
+            "modified": "2022-12-07T14:16:51.442313Z",
+            "name": "Create Office Document",
             "description": "An Office document is created.",
             "kill_chain_phases": [
                 {

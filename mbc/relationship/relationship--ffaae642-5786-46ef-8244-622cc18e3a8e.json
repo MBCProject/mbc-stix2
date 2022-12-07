@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--baf77131-6fee-4553-93f6-62228f8d6633",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ffaae642-5786-46ef-8244-622cc18e3a8e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:55.744485Z",
+            "modified": "2022-12-07T14:16:55.744485Z",
+            "relationship_type": "uses",
+            "description": "Stuxnet checks for specific operating systems on 32-bit machines, registry keys, and dates to profile a potential target machine before execution. If the conditions are not met to be considered a viable target, it will exit execution",
+            "source_ref": "malware--2640ed9a-24d9-4975-90c2-c8ab94d544e3",
+            "target_ref": "attack-pattern--17cf477e-a8e5-4c52-b207-7023cfd16c1d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

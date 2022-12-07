@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--446b7cda-2af3-4629-b2e7-5ef182307ec4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4f2f980f-0a10-4be6-bada-5a7d1478115a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:56.007811Z",
+            "modified": "2022-12-07T14:16:56.007811Z",
+            "relationship_type": "uses",
+            "description": "Uses a domain name generator.",
+            "source_ref": "malware--36e75009-8fd6-467a-aa8c-c6a4d3511dfa",
+            "target_ref": "attack-pattern--5a3611aa-4253-4302-b09e-02fe53a1af9d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -8,7 +8,7 @@
             "id": "attack-pattern--24ed02f2-afad-49c8-a3c4-8ab1c418443e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.743261Z",
-            "modified": "2022-09-08T18:26:13.236841Z",
+            "modified": "2022-12-07T14:16:51.321419Z",
             "name": "Send Email",
             "description": "Sends an email message from the system on which the malware is executing to one or more recipients, mostly commonly for the purpose of spamming or for distributing a malicious attachment or URL (malspamming).",
             "kill_chain_phases": [
@@ -38,6 +38,11 @@
                 {
                     "source_name": "external_source",
                     "url": "https://securelist.com/the-banking-trojan-emotet-detailed-analysis/69560/"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1566/",
+                    "external_id": "T1566"
                 }
             ],
             "object_marking_refs": [

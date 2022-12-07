@@ -8,7 +8,7 @@
             "id": "attack-pattern--245f1add-7e00-4b25-9f57-a88febbd9359",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.915483Z",
-            "modified": "2022-09-08T18:26:13.429518Z",
+            "modified": "2022-12-07T14:16:51.522265Z",
             "name": "Heavens Gate",
             "description": "Malware evades endpoint security products by invoking 64-bit code in 32-bit processes, effectively bypassing user-mode hooks.",
             "kill_chain_phases": [
@@ -24,9 +24,9 @@
                     "external_id": "F0004.008"
                 },
                 {
-                    "source_name": "external_source",
-                    "description": "Carl Petty, Red Canary, 3/3/2020. Online:",
-                    "url": "https://redcanary.com/blog/heavens-gate-technique-on-linux/"
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1562/001",
+                    "external_id": "001"
                 }
             ],
             "object_marking_refs": [

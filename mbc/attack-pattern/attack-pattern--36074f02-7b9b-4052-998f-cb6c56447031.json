@@ -8,9 +8,9 @@
             "id": "attack-pattern--36074f02-7b9b-4052-998f-cb6c56447031",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.555263Z",
-            "modified": "2022-09-08T18:26:13.191016Z",
+            "modified": "2022-12-07T14:16:51.276139Z",
             "name": "Code Insertion",
-            "description": "Insert code to impede disassembly.",
+            "description": "Insert code to impede disassembly and make analysis more difficult.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

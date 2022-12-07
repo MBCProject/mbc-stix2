@@ -8,8 +8,8 @@
             "id": "attack-pattern--d4b96b74-7cf9-46c2-8c09-ea8fd124b15a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.849262Z",
-            "modified": "2022-09-08T18:26:13.395976Z",
-            "name": "Use API::Generate Pseudo-random Sequence",
+            "modified": "2022-12-07T14:16:51.489447Z",
+            "name": "Use API",
             "description": "Malware generates a pseudo-random sequence using a Windows API.",
             "kill_chain_phases": [
                 {

@@ -8,7 +8,7 @@
             "id": "attack-pattern--4294b63a-0b68-473a-8e57-bd5da8d90bf6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.92426Z",
-            "modified": "2022-09-08T18:26:13.251314Z",
+            "modified": "2022-12-07T14:16:51.337941Z",
             "name": "Registry Run Keys / Startup Folder",
             "description": "Malware may add an entry to the Windows Registry run keys or startup folder to enable persistence.",
             "kill_chain_phases": [
@@ -78,6 +78,11 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/WORM_BAGLE.U/"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1547/001/",
+                    "external_id": "001"
                 }
             ],
             "object_marking_refs": [

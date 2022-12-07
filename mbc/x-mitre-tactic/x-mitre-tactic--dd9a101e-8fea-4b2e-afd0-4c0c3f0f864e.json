@@ -8,9 +8,9 @@
             "id": "x-mitre-tactic--dd9a101e-8fea-4b2e-afd0-4c0c3f0f864e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.296264Z",
-            "modified": "2022-02-05T00:37:22.397978Z",
+            "modified": "2022-12-07T14:16:51.235998Z",
             "name": "Process Micro-objective",
-            "description": "Micro-behaviors related to processes.",
+            "description": "",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

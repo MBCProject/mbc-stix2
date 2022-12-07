@@ -8,8 +8,8 @@
             "id": "attack-pattern--94813d2d-0eb5-4037-8c03-07896bd7233b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.842259Z",
-            "modified": "2022-02-05T00:37:22.757347Z",
-            "name": "InternetConnect::WinINet",
+            "modified": "2022-12-07T14:16:51.461447Z",
+            "name": "InternetConnect",
             "description": "Opens an FTP or HTTP session for a given site.",
             "kill_chain_phases": [
                 {

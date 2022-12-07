@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--bc79e901-09be-4339-af29-8139a3e8e562",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--7e790db2-0ecc-4c97-a5c4-8cd0932ea3a0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:51.282859Z",
+            "modified": "2022-12-07T14:16:51.282859Z",
+            "name": "Variable Recomposition",
+            "description": "Variables, often strings, are broken into multiple parts and stored out of order, in different memory ranges, or both. They must then be recomposed before use, making analysis difficult.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-obfuscation.md",
+                    "external_id": "B0032.021"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

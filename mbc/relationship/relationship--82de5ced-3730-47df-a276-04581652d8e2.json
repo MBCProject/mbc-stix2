@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d37c29af-acde-4df2-a00a-27eb5c5b71d9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--82de5ced-3730-47df-a276-04581652d8e2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:56.008409Z",
+            "modified": "2022-12-07T14:16:56.008409Z",
+            "relationship_type": "uses",
+            "description": "Dumping Kraken's c.dll module from the heap of its own process is tricky because its PE-header is wiped out.",
+            "source_ref": "malware--36e75009-8fd6-467a-aa8c-c6a4d3511dfa",
+            "target_ref": "attack-pattern--7981f82d-ff58-4d38-a420-69d73a67bbc9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

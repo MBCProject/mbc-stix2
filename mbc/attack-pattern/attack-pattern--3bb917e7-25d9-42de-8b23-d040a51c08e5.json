@@ -8,8 +8,8 @@
             "id": "attack-pattern--3bb917e7-25d9-42de-8b23-d040a51c08e5",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.000444Z",
-            "modified": "2022-02-05T00:37:22.773011Z",
-            "name": "Verhoeff::Checksum",
+            "modified": "2022-12-07T14:16:51.428174Z",
+            "name": "Verhoeff",
             "description": "Malware uses the Verhoeff algorithm, often for purposes of error detection.",
             "kill_chain_phases": [
                 {

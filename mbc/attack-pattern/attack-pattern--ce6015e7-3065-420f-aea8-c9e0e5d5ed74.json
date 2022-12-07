@@ -8,7 +8,7 @@
             "id": "attack-pattern--ce6015e7-3065-420f-aea8-c9e0e5d5ed74",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.67026Z",
-            "modified": "2022-09-08T18:26:13.412487Z",
+            "modified": "2022-12-07T14:16:51.506952Z",
             "name": "Modify Registry",
             "description": "Malware may make changes to the Windows Registry to hide execution or to persist on the system (note that ATT&CK does not extend this behavior to the Persistence objective).",
             "kill_chain_phases": [
@@ -50,6 +50,19 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/shamoon-returns-to-wipe-systems-in-middle-east-europe/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/clipminer-bitcoin-mining-hijacking"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1112",
+                    "external_id": "T1112"
                 }
             ],
             "object_marking_refs": [

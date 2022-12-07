@@ -8,7 +8,7 @@
             "id": "attack-pattern--7533526d-569f-460b-9e00-5ef2d6eff9e2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-09-08T18:26:13.258158Z",
-            "modified": "2022-09-08T18:26:13.258158Z",
+            "modified": "2022-12-07T14:16:51.344132Z",
             "name": "Generate Traffic from Victim",
             "description": "Malware may generate traffic from the victim system such as clicks of advertising links that generate fraudulent ad revenue. The ATT&CK technique, **Generate Traffic from Victim ([T1643](https://attack.mitre.org/techniques/T1643/))**, is only associated with the mobile platform, but the behavior is applicable to other platforms as well.",
             "kill_chain_phases": [
@@ -38,6 +38,11 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.bleepingcomputer.com/virus-removal/remove-kovter-trojan"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1643/",
+                    "external_id": "T1643"
                 }
             ],
             "object_marking_refs": [

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1c4a98b4-e884-4be6-b1a1-d9c94d1fe0af",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5d3a8d20-f911-48de-ad46-715a702217f4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:54.448528Z",
+            "modified": "2022-12-07T14:16:54.448528Z",
+            "relationship_type": "uses",
+            "description": "The malware injects code into a new svchost process",
+            "source_ref": "malware--549d1c35-f214-4760-ab97-2142c66cf111",
+            "target_ref": "attack-pattern--2a23ab2e-fd3b-4c5f-991c-021d9a132754",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

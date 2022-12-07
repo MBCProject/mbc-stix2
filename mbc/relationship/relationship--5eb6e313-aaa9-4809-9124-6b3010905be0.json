@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--94008dc1-4013-449a-8076-928c8fb920a6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5eb6e313-aaa9-4809-9124-6b3010905be0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:54.0517Z",
+            "modified": "2022-12-07T14:16:54.0517Z",
+            "relationship_type": "uses",
+            "description": "Poison Ivy variant checks if the wireshark-is-running{} named mutex object exists",
+            "source_ref": "malware--49b9796a-27fd-414e-a87d-b071aaff295b",
+            "target_ref": "attack-pattern--b0cd3324-b762-4e02-8e9d-7dd3708d5e0a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -8,7 +8,7 @@
             "id": "attack-pattern--dd5c1c28-0fa4-4c34-8008-7a2fba8a4a25",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.666262Z",
-            "modified": "2022-09-08T18:26:13.413949Z",
+            "modified": "2022-12-07T14:16:51.508074Z",
             "name": "Indicator Blocking",
             "description": "Malware blocks indicators or events that would indicate malicious activity. Methods relevant to the malware domain are below.",
             "kill_chain_phases": [
@@ -38,6 +38,11 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.trendmicro.com/en_us/research/18/k/trickbot-shows-off-new-trick-password-grabber-module.html"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1562/006/",
+                    "external_id": "006"
                 }
             ],
             "object_marking_refs": [

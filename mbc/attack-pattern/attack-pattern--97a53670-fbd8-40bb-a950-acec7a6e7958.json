@@ -8,8 +8,8 @@
             "id": "attack-pattern--97a53670-fbd8-40bb-a950-acec7a6e7958",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.980486Z",
-            "modified": "2022-09-08T18:26:13.371634Z",
-            "name": "Initialize Winsock Library::Socket Communication",
+            "modified": "2022-12-07T14:16:51.463597Z",
+            "name": "Initialize Winsock Library",
             "description": "Winsock is initialized for TCP communication.",
             "kill_chain_phases": [
                 {

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--cf2ce871-0632-4098-bb53-122db1458b9d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8d0a7f61-c122-44d1-90be-3c10cee094ce",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:53.477312Z",
+            "modified": "2022-12-07T14:16:53.477312Z",
+            "relationship_type": "uses",
+            "description": "Locates an inactive driver service to Hijack and set it to start automatically",
+            "source_ref": "malware--cdd198e2-3f6f-42c4-adfd-d97dc66c5f19",
+            "target_ref": "attack-pattern--5d116564-0ef7-4791-9a34-e86d81840b49",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

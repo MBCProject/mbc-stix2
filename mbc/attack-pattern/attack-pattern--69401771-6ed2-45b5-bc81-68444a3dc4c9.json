@@ -8,8 +8,8 @@
             "id": "attack-pattern--69401771-6ed2-45b5-bc81-68444a3dc4c9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.005479Z",
-            "modified": "2022-09-08T18:26:13.336083Z",
-            "name": "XOR::Encode Data",
+            "modified": "2022-12-07T14:16:51.430006Z",
+            "name": "XOR",
             "description": "Malware may use xor to encode data.",
             "kill_chain_phases": [
                 {

@@ -8,7 +8,7 @@
             "id": "attack-pattern--33c50b1a-84dd-4b11-ba7b-ba64199ce18f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.994484Z",
-            "modified": "2022-09-08T18:26:13.392651Z",
+            "modified": "2022-12-07T14:16:51.484834Z",
             "name": "Encrypt Data",
             "description": "Malware may encrypt data.",
             "kill_chain_phases": [
@@ -38,6 +38,10 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.cyber.nj.gov/threat-center/threat-profiles/trojan-variants/poison-ivy"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf"
                 }
             ],
             "object_marking_refs": [

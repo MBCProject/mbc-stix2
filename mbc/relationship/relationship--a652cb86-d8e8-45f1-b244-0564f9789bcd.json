@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c6bc98d0-1f2a-4ad3-8c45-55d371e1b242",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a652cb86-d8e8-45f1-b244-0564f9789bcd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:55.743722Z",
+            "modified": "2022-12-07T14:16:55.743722Z",
+            "relationship_type": "uses",
+            "description": "Creates global mutexes signal that rootkit installation has occurred successfully",
+            "source_ref": "malware--2640ed9a-24d9-4975-90c2-c8ab94d544e3",
+            "target_ref": "attack-pattern--f21fda77-e6ff-4351-87d9-0e2f5780a1c3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

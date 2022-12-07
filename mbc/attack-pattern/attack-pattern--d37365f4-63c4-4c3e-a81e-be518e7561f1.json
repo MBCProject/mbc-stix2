@@ -8,8 +8,8 @@
             "id": "attack-pattern--d37365f4-63c4-4c3e-a81e-be518e7561f1",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.990485Z",
-            "modified": "2022-09-08T18:26:13.386298Z",
-            "name": "RSA::Decrypt Data",
+            "modified": "2022-12-07T14:16:51.47902Z",
+            "name": "RSA",
             "description": "Malware decrypts data encrypted with the RSA algorithm.",
             "kill_chain_phases": [
                 {

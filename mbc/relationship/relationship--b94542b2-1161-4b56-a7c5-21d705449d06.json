@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b5a1f49e-0d3e-4603-ae5f-a0415b9b4b4c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b94542b2-1161-4b56-a7c5-21d705449d06",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:53.462879Z",
+            "modified": "2022-12-07T14:16:53.462879Z",
+            "relationship_type": "uses",
+            "description": "Hooks various DLL exported functions when the component is loaded in their respective Browser application process is running to monitor network traffic",
+            "source_ref": "malware--31e78af0-0509-4f7b-b304-77a8e5bf7ead",
+            "target_ref": "attack-pattern--b1f9e736-1435-4f76-9690-06562f843b58",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

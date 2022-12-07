@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--66aac5c2-f964-4d0c-b765-04d0fdafe429",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1e916e40-b4a2-4e81-be4e-f9a2d3e94c5f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:53.761391Z",
+            "modified": "2022-12-07T14:16:53.761391Z",
+            "relationship_type": "uses",
+            "description": "Modifies target files' time to August 2012 as an antiforensic trick",
+            "source_ref": "malware--d36b0186-1e10-4dd8-a1df-076e9a692c57",
+            "target_ref": "attack-pattern--9048df12-c89f-45a6-99ac-caaa7446d6db",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

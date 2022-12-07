@@ -8,9 +8,9 @@
             "id": "x-mitre-tactic--da7738af-46f6-4bc6-bfa2-91a466439391",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-09-08T18:26:13.156705Z",
-            "modified": "2022-09-08T18:26:13.156705Z",
+            "modified": "2022-12-07T14:16:51.227478Z",
             "name": "Credential Access",
-            "description": "Behaviors to obtain credential access, allowing it or its underlying threat actor to assume control of an account with the associated system and network permissions.",
+            "description": "",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

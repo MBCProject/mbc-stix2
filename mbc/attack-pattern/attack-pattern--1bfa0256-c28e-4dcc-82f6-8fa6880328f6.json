@@ -8,8 +8,8 @@
             "id": "attack-pattern--1bfa0256-c28e-4dcc-82f6-8fa6880328f6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.982483Z",
-            "modified": "2022-09-08T18:26:13.374821Z",
-            "name": "Receive UDP Data::Socket Communication",
+            "modified": "2022-12-07T14:16:51.466739Z",
+            "name": "Receive UDP Data",
             "description": "Receive UDP data.",
             "kill_chain_phases": [
                 {

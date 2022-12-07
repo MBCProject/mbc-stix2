@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4bb13fad-cb54-449f-af1e-650b173c3400",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9dd6c04c-a03f-4c2d-99d1-a28969f4a5ab",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:55.80636Z",
+            "modified": "2022-12-07T14:16:55.80636Z",
+            "relationship_type": "uses",
+            "description": "100 memory-resident modules can be installed",
+            "source_ref": "malware--6875c768-4212-474d-85dc-1e89c62e9a65",
+            "target_ref": "attack-pattern--aaa95359-3220-45fe-9ae6-397718608ee4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

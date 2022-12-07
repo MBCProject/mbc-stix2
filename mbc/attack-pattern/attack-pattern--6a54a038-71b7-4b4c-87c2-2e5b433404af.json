@@ -8,9 +8,9 @@
             "id": "attack-pattern--6a54a038-71b7-4b4c-87c2-2e5b433404af",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.551264Z",
-            "modified": "2022-09-08T18:26:13.207132Z",
+            "modified": "2022-12-07T14:16:51.293841Z",
             "name": "Value Dependent Jumps",
-            "description": "Explicit use of computed values for control flow, often many times in the same basic block or function.",
+            "description": "Explicit use of computed values for control flow, often in the same basic block or function.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

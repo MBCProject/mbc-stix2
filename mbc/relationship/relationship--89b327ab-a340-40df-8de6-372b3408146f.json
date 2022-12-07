@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--adde1a14-5ae7-4fd0-a50c-15d7cc2c352b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--89b327ab-a340-40df-8de6-372b3408146f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:54.446894Z",
+            "modified": "2022-12-07T14:16:54.446894Z",
+            "relationship_type": "uses",
+            "description": "The malware encrypts files",
+            "source_ref": "malware--549d1c35-f214-4760-ab97-2142c66cf111",
+            "target_ref": "attack-pattern--33ac3946-4bd9-4904-b02e-45e2d17dbfdd",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

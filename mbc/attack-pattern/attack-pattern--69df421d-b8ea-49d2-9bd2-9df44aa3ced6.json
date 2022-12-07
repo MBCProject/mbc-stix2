@@ -8,8 +8,8 @@
             "id": "attack-pattern--69df421d-b8ea-49d2-9bd2-9df44aa3ced6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.030527Z",
-            "modified": "2022-02-05T00:37:22.819853Z",
-            "name": "Delete Registry Key::Registry",
+            "modified": "2022-12-07T14:16:51.492863Z",
+            "name": "Delete Registry Key",
             "description": "Malware deletes a registry key.",
             "kill_chain_phases": [
                 {

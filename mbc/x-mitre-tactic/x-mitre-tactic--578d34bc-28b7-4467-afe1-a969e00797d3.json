@@ -8,9 +8,9 @@
             "id": "x-mitre-tactic--578d34bc-28b7-4467-afe1-a969e00797d3",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.287265Z",
-            "modified": "2022-02-05T00:37:22.397978Z",
+            "modified": "2022-12-07T14:16:51.23492Z",
             "name": "Hardware Micro-objective",
-            "description": "Micro-behaviors related to hardware.",
+            "description": "",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

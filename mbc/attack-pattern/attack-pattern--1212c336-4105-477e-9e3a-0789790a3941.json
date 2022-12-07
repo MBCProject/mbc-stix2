@@ -8,9 +8,9 @@
             "id": "attack-pattern--1212c336-4105-477e-9e3a-0789790a3941",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.559264Z",
-            "modified": "2022-09-08T18:26:13.193374Z",
+            "modified": "2022-12-07T14:16:51.278864Z",
             "name": "Interleaving Code",
-            "description": "Split code into sections that may be rearranged and are connected by unconditional jumps.",
+            "description": "Split code into sections that may be rearranged and may be connected by unconditional jumps. When instructions are out of order, writing a function signature is more difficult.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

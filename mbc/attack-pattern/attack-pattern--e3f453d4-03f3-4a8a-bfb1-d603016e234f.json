@@ -8,7 +8,7 @@
             "id": "attack-pattern--e3f453d4-03f3-4a8a-bfb1-d603016e234f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.602268Z",
-            "modified": "2022-09-08T18:26:13.221582Z",
+            "modified": "2022-12-07T14:16:51.306776Z",
             "name": "Screen Capture",
             "description": "Malware takes screen captures of the desktop.",
             "kill_chain_phases": [
@@ -38,6 +38,15 @@
                 {
                     "source_name": "external_source",
                     "url": "https://blog.malwarebytes.com/threat-analysis/2012/06/you-dirty-rat-part-1-darkcomet/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1113/",
+                    "external_id": "T1113"
                 }
             ],
             "object_marking_refs": [

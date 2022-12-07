@@ -8,9 +8,9 @@
             "id": "x-mitre-tactic--f95436cf-2e09-4541-b88a-f3fb6ec3b63b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.065Z",
-            "modified": "2022-09-08T18:26:13.160607Z",
+            "modified": "2022-12-07T14:16:51.230716Z",
             "name": "Execution",
-            "description": "Behaviors that enable malware to execute code on a system to achieve a variety of goals.",
+            "description": "",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

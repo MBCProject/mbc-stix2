@@ -8,8 +8,8 @@
             "id": "attack-pattern--9b4638cb-2e9b-480e-a502-4ac8acfa4dd8",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.983492Z",
-            "modified": "2022-09-08T18:26:13.375633Z",
-            "name": "UDP Client::Socket Communication",
+            "modified": "2022-12-07T14:16:51.467496Z",
+            "name": "UDP Client",
             "description": "UDP client behavior.",
             "kill_chain_phases": [
                 {

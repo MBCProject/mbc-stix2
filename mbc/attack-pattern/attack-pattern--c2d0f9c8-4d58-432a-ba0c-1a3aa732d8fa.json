@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--a6574497-0d60-4a4d-b433-cf457c8b77ab",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--c2d0f9c8-4d58-432a-ba0c-1a3aa732d8fa",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:51.280541Z",
+            "modified": "2022-12-07T14:16:51.280541Z",
+            "name": "Opaque Predicate",
+            "description": "An opaque predicate either always jumps (jumping over dead or junk code) or never jumps (executing essential code), but determining the execution path can be difficult.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-static-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-obfuscation.md",
+                    "external_id": "B0032.019"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

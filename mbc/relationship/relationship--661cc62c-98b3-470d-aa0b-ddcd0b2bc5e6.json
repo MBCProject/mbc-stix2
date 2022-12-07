@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--46fa5271-05fa-46ec-8540-1fd9440528cd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--661cc62c-98b3-470d-aa0b-ddcd0b2bc5e6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:55.80803Z",
+            "modified": "2022-12-07T14:16:55.80803Z",
+            "relationship_type": "uses",
+            "description": "Hupigon drops the file \"Systen.dll\" and adds the registry entry: HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon\\Notify\\BITS DllName = \"%System%\\Systen.dll\".",
+            "source_ref": "malware--6a1bde20-a344-4738-9df5-b568fa4b5f33",
+            "target_ref": "attack-pattern--4294b63a-0b68-473a-8e57-bd5da8d90bf6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

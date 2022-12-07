@@ -8,9 +8,9 @@
             "id": "x-mitre-tactic--69c52ee6-8372-40be-8efc-200896493343",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.058Z",
-            "modified": "2022-09-08T18:26:13.159242Z",
+            "modified": "2022-12-07T14:16:51.229404Z",
             "name": "Collection",
-            "description": "Behaviors that enable malware to identify and gather information, such as sensitive files, from a machine or network. Sources often targeted include drives, browsers, audio/video, and email. Often the malware's next objective is to exfiltrate the information gathered.",
+            "description": "",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

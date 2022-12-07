@@ -1,0 +1,33 @@
+{
+    "type": "bundle",
+    "id": "bundle--ddad9136-5ffb-4a04-aae9-d6c31f1d8680",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--418e53ef-a157-4e11-bddc-f3666de16c65",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:51.383457Z",
+            "modified": "2022-12-07T14:16:51.383457Z",
+            "name": "Undocumented/Unimplemented Opcodes",
+            "description": "Use rare, undocumented, or unimplemented opcodes to block non-exhaustive emulators.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/emulator-evasion.md",
+                    "external_id": "B0005.002"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "x_mitre_is_subtechnique": true
+        }
+    ]
+}

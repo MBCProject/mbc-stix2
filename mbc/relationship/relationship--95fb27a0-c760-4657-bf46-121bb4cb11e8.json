@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--54b3aa9b-303d-43cc-abd9-2ccb71ccd100",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--95fb27a0-c760-4657-bf46-121bb4cb11e8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:54.05094Z",
+            "modified": "2022-12-07T14:16:54.05094Z",
+            "relationship_type": "uses",
+            "description": "Poison Ivy variant goes through all the running program windows to check  if any windows class name contains a special string to determine if an analysis tool is running",
+            "source_ref": "malware--49b9796a-27fd-414e-a87d-b071aaff295b",
+            "target_ref": "attack-pattern--c5c986d0-cf3f-44bb-9f0e-023783e6066d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

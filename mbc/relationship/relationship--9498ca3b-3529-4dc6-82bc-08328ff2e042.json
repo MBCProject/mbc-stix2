@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b3f3188e-b451-41ed-b409-bb07a0877223",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9498ca3b-3529-4dc6-82bc-08328ff2e042",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:55.743346Z",
+            "modified": "2022-12-07T14:16:55.743346Z",
+            "relationship_type": "uses",
+            "description": "Stuxnet made the centrifuges at Iran's nuclear plant spin dangerously fast for 15 minutes, before returning to normal speed. About a month later, it slowed the centrifuges down for 50 minutes. This was repeated for several months, and over the strain destroyed the machines",
+            "source_ref": "malware--2640ed9a-24d9-4975-90c2-c8ab94d544e3",
+            "target_ref": "attack-pattern--09aa0bf7-bdec-4642-ad23-c8f1c9b01297",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

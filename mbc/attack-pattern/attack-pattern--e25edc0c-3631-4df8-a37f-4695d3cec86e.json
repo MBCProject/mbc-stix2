@@ -8,7 +8,7 @@
             "id": "attack-pattern--e25edc0c-3631-4df8-a37f-4695d3cec86e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.788262Z",
-            "modified": "2022-09-08T18:26:13.261108Z",
+            "modified": "2022-12-07T14:16:51.348013Z",
             "name": "Resource Hijacking",
             "description": "Uses system resources for other purposes; as a result, the system may not be available for intended uses.",
             "kill_chain_phases": [
@@ -34,6 +34,15 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.welivesecurity.com/2019/07/08/south-korean-users-backdoor-torrents/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/clipminer-bitcoin-mining-hijacking"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1496/",
+                    "external_id": "T1496"
                 }
             ],
             "object_marking_refs": [

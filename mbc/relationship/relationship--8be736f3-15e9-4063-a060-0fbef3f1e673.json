@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--327438e9-df36-45fc-a33f-864dc2c96836",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8be736f3-15e9-4063-a060-0fbef3f1e673",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:54.253171Z",
+            "modified": "2022-12-07T14:16:54.253171Z",
+            "relationship_type": "uses",
+            "description": "Hides icons from iOS's SpringBoard as well as use the same name and logos of system apps to trick iOS power users",
+            "source_ref": "malware--a6ad7a2e-f619-4598-914b-16f68b372789",
+            "target_ref": "attack-pattern--098a700a-4cc0-4d0a-8bc5-42e7181eff1e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -8,8 +8,8 @@
             "id": "attack-pattern--333a4ca2-d8a5-4829-abcb-c42736a41f0d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.002478Z",
-            "modified": "2022-09-08T18:26:13.329942Z",
-            "name": "IEncodingFilterFactory::Compress Data",
+            "modified": "2022-12-07T14:16:51.421897Z",
+            "name": "IEncodingFilterFactory",
             "description": "Malware compresses data using IEncodingFilterFactory.",
             "kill_chain_phases": [
                 {

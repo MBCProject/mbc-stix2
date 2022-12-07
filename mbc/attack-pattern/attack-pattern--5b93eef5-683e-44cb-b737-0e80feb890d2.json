@@ -8,8 +8,8 @@
             "id": "attack-pattern--5b93eef5-683e-44cb-b737-0e80feb890d2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.887261Z",
-            "modified": "2022-02-05T00:37:22.819853Z",
-            "name": "Create Process via WMI::Create Process",
+            "modified": "2022-12-07T14:16:51.446351Z",
+            "name": "Create Process via WMI",
             "description": "Malware uses WMI to create a process.",
             "kill_chain_phases": [
                 {

@@ -8,8 +8,8 @@
             "id": "attack-pattern--1adddaa3-6164-4adf-b910-6b8a78fb3111",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.811259Z",
-            "modified": "2022-09-08T18:26:13.362735Z",
-            "name": "Client::HTTP Communication",
+            "modified": "2022-12-07T14:16:51.453066Z",
+            "name": "Client",
             "description": "General HTTP client behavior.",
             "kill_chain_phases": [
                 {

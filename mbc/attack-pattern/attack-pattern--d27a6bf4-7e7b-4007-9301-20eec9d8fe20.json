@@ -8,8 +8,8 @@
             "id": "attack-pattern--d27a6bf4-7e7b-4007-9301-20eec9d8fe20",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.981483Z",
-            "modified": "2022-09-08T18:26:13.372896Z",
-            "name": "Connect Socket::Socket Communication",
+            "modified": "2022-12-07T14:16:51.464895Z",
+            "name": "Connect Socket",
             "description": "A server or client connects via a TCP socket.",
             "kill_chain_phases": [
                 {

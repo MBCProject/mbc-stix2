@@ -8,7 +8,7 @@
             "id": "attack-pattern--8b3b15fa-f369-47b2-9e6d-b30094a799b8",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-09-08T18:26:13.232941Z",
-            "modified": "2022-09-08T18:26:13.232941Z",
+            "modified": "2022-12-07T14:16:51.318479Z",
             "name": "Ingress Tool Transfer",
             "description": "Malware may copy files from an external system to a system on a compromised network.",
             "kill_chain_phases": [
@@ -50,6 +50,15 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/shamoon-attackers-employ-new-tool-kit-to-wipe-infected-systems/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://unit42.paloaltonetworks.com/tracking-minidionis-cozycars-new-ride-is-related-to-seaduke"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1105/",
+                    "external_id": "T1105"
                 }
             ],
             "object_marking_refs": [

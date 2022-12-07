@@ -8,8 +8,8 @@
             "id": "attack-pattern--d6e1b096-1595-47e7-8230-223aa9cad622",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.823261Z",
-            "modified": "2022-09-08T18:26:13.368489Z",
-            "name": "Read Pipe::Interprocess Communication",
+            "modified": "2022-12-07T14:16:51.460568Z",
+            "name": "Read Pipe",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

@@ -8,8 +8,8 @@
             "id": "attack-pattern--665d234f-6c97-4ae2-b43f-18ea89336220",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.973483Z",
-            "modified": "2022-09-08T18:26:13.364475Z",
-            "name": "Send Request::HTTP Communication",
+            "modified": "2022-12-07T14:16:51.455387Z",
+            "name": "Send Request",
             "description": "HTTP client sends request (GET).",
             "kill_chain_phases": [
                 {

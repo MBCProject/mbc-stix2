@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--25ec4ced-545d-468b-b7f8-a4e6998047c9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--46a57921-7ad1-454f-a39b-d8ed00324267",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:54.039602Z",
+            "modified": "2022-12-07T14:16:54.039602Z",
+            "relationship_type": "uses",
+            "description": "The malware installs a certificate.",
+            "source_ref": "malware--dbe9ee23-f01d-4cdb-bf53-066c77352dac",
+            "target_ref": "attack-pattern--30b37187-7b90-4271-b554-e0a5265fc977",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

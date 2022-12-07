@@ -8,8 +8,8 @@
             "id": "attack-pattern--85809708-79ee-4bff-824e-471b7bbd30a9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.976483Z",
-            "modified": "2022-09-08T18:26:13.377415Z",
-            "name": "Echo Request::ICMP Communication",
+            "modified": "2022-12-07T14:16:51.469488Z",
+            "name": "Echo Request",
             "description": "Send ICMP echo request.",
             "kill_chain_phases": [
                 {

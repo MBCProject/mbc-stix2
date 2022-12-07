@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--abf973a6-2da2-48b9-ba1a-4de239e0db5f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6243f0ff-358c-43c9-bf91-f16bd7bfac13",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:54.253818Z",
+            "modified": "2022-12-07T14:16:54.253818Z",
+            "relationship_type": "uses",
+            "description": "Hijacks other installed applications' launch routines to use \"ADPage\" (an installed malicious app) to display advertisements",
+            "source_ref": "malware--a6ad7a2e-f619-4598-914b-16f68b372789",
+            "target_ref": "attack-pattern--5d116564-0ef7-4791-9a34-e86d81840b49",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

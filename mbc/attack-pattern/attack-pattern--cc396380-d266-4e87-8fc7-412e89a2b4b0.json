@@ -8,7 +8,7 @@
             "id": "attack-pattern--cc396380-d266-4e87-8fc7-412e89a2b4b0",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.908377Z",
-            "modified": "2022-09-08T18:26:13.246998Z",
+            "modified": "2022-12-07T14:16:51.335123Z",
             "name": "System Services",
             "description": "Malware may abuse system services or daemons to execute.",
             "kill_chain_phases": [
@@ -26,6 +26,11 @@
                 {
                     "source_name": "external_source",
                     "url": "https://support.resolver.com/hc/en-ca/articles/207161116-Configure-Microsoft-Distributed-Transaction-Coordinator-MSDTC-"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1569/",
+                    "external_id": "T1569"
                 }
             ],
             "object_marking_refs": [

@@ -8,8 +8,8 @@
             "id": "attack-pattern--bdf66c87-1488-4eed-ae9c-2482bc93e93d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.970483Z",
-            "modified": "2022-09-08T18:26:13.376431Z",
-            "name": "Send File::FTP Communication",
+            "modified": "2022-12-07T14:16:51.468434Z",
+            "name": "Send File",
             "description": "Send FTP file.",
             "kill_chain_phases": [
                 {

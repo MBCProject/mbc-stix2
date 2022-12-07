@@ -8,8 +8,8 @@
             "id": "attack-pattern--cefefa87-2f06-4008-afcf-847a8bd746af",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.982483Z",
-            "modified": "2022-09-08T18:26:13.374529Z",
-            "name": "Receive TCP Data::Socket Communication",
+            "modified": "2022-12-07T14:16:51.466488Z",
+            "name": "Receive TCP Data",
             "description": "Receive TCP data.",
             "kill_chain_phases": [
                 {

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0add2ba0-feb3-40e0-ae46-88dfb295877a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c4bb2e97-5838-4fba-953b-e404ce42251e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:54.048199Z",
+            "modified": "2022-12-07T14:16:54.048199Z",
+            "relationship_type": "uses",
+            "description": "Poison Ivy's custom network protocol over TCP is encrypted using Camellia cipher with a 256-bit key",
+            "source_ref": "malware--49b9796a-27fd-414e-a87d-b071aaff295b",
+            "target_ref": "attack-pattern--5a28507d-35d5-4a9c-83e0-4ecb9774c23c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

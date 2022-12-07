@@ -8,8 +8,8 @@
             "id": "attack-pattern--39df68e5-9065-4b60-8ad1-ff626707b95a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.983492Z",
-            "modified": "2022-09-08T18:26:13.375381Z",
-            "name": "TCP Client::Socket Communication",
+            "modified": "2022-12-07T14:16:51.467228Z",
+            "name": "TCP Client",
             "description": "TCP client behavior.",
             "kill_chain_phases": [
                 {

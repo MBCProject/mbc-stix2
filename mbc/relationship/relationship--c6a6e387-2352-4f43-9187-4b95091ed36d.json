@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--006466b6-ff26-4e58-9312-ce0a2515973b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c6a6e387-2352-4f43-9187-4b95091ed36d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:54.254344Z",
+            "modified": "2022-12-07T14:16:54.254344Z",
+            "relationship_type": "uses",
+            "description": "Use of the private api allowed both Installation of malicious apps and uninstallation of legitimate apps without user notification",
+            "source_ref": "malware--a6ad7a2e-f619-4598-914b-16f68b372789",
+            "target_ref": "attack-pattern--06c3d5c7-d4bf-4b28-8385-e169ba81e744",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

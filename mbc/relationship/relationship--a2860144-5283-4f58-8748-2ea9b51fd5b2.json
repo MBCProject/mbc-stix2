@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4963bca5-e5bb-41b4-b91e-271a998a4e29",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a2860144-5283-4f58-8748-2ea9b51fd5b2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:55.260449Z",
+            "modified": "2022-12-07T14:16:55.260449Z",
+            "relationship_type": "uses",
+            "description": "GoBotKR receives data from the C2",
+            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "target_ref": "attack-pattern--69af89da-bf40-4b9e-93c5-baa8fb937099",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

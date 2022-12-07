@@ -8,8 +8,8 @@
             "id": "attack-pattern--88906eb3-c6df-452f-a16d-d276a39a39d4",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.87726Z",
-            "modified": "2022-09-08T18:26:13.339477Z",
-            "name": "Executable Heap::Change Memory Protection",
+            "modified": "2022-12-07T14:16:51.433315Z",
+            "name": "Executable Heap",
             "description": "The heap is made executable.",
             "kill_chain_phases": [
                 {

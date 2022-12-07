@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--66027801-4aeb-4160-a818-e4504f56b034",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8c009677-c795-495a-a524-6d07b1b8240a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:53.757744Z",
+            "modified": "2022-12-07T14:16:53.757744Z",
+            "relationship_type": "uses",
+            "description": "Malware contains a dropper that installs additional programs like Cbrom.exe",
+            "source_ref": "malware--cb022b7d-775c-4db8-ab25-3add7e215d54",
+            "target_ref": "attack-pattern--cbc563fa-1d9f-4e91-9803-4d5c2b9a7eae",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -8,8 +8,8 @@
             "id": "attack-pattern--461d88f4-10e9-4db1-b91d-e9a8cd0f8654",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.00448Z",
-            "modified": "2022-09-08T18:26:13.3316Z",
-            "name": "QuickLZ::Decompress Data",
+            "modified": "2022-12-07T14:16:51.424984Z",
+            "name": "QuickLZ",
             "description": "Malware decompresses data using QuickLZ.",
             "kill_chain_phases": [
                 {

@@ -8,7 +8,7 @@
             "id": "attack-pattern--7c77b8ac-f548-48ae-813d-028de1a8d9fd",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.70226Z",
-            "modified": "2022-09-08T18:26:13.423241Z",
+            "modified": "2022-12-07T14:16:51.515483Z",
             "name": "Self Deletion",
             "description": "Malware may uninstall itself to avoid detection.",
             "kill_chain_phases": [
@@ -26,6 +26,15 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.mandiant.com/resources/hot-knives-through-butter-evading-file-based-sandboxes"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://unit42.paloaltonetworks.com/tracking-minidionis-cozycars-new-ride-is-related-to-seaduke"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1630/001/",
+                    "external_id": "001"
                 }
             ],
             "object_marking_refs": [

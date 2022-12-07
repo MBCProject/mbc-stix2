@@ -8,8 +8,8 @@
             "id": "attack-pattern--112d8251-af9c-404d-b3f6-44bd15c42a5d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.816261Z",
-            "modified": "2022-09-08T18:26:13.362409Z",
-            "name": "Server::HTTP Communication",
+            "modified": "2022-12-07T14:16:51.452776Z",
+            "name": "Server",
             "description": "General HTTP server behavior.",
             "kill_chain_phases": [
                 {

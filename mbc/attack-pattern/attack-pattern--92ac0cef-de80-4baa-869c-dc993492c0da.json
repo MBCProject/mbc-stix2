@@ -8,8 +8,8 @@
             "id": "attack-pattern--92ac0cef-de80-4baa-869c-dc993492c0da",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.986482Z",
-            "modified": "2022-09-08T18:26:13.381478Z",
-            "name": "SHA256::Cryptographic Hash",
+            "modified": "2022-12-07T14:16:51.474832Z",
+            "name": "SHA256",
             "description": "Malware uses a SHA-256 hash.",
             "kill_chain_phases": [
                 {
