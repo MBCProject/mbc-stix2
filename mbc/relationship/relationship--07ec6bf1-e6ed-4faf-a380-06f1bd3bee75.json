@@ -12,7 +12,7 @@
             "relationship_type": "uses",
             "description": "Stuxnet hooks ntdll.dll to monitor for requests to load specially crafted file names which are mapped to a location specified by Stuxnet.",
             "source_ref": "malware--2640ed9a-24d9-4975-90c2-c8ab94d544e3",
-            "target_ref": "attack-pattern--08b11bd6-56fb-46c8-83c7-010445ca0bd5",
+            "target_ref": "attack-pattern--1c9f410c-8e61-4d75-80be-e80461c54971",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

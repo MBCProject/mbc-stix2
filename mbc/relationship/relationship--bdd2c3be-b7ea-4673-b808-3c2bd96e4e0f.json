@@ -11,7 +11,7 @@
             "modified": "2022-12-07T14:16:55.258159Z",
             "relationship_type": "uses",
             "description": "GoBotKR uses base64 to obfuscate strings, commands and files.",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "target_ref": "attack-pattern--af4729ed-7659-496d-9028-0b9efbedd9a4",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"

@@ -5,7 +5,7 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--20a708fe-4009-447e-b5f4-c73e2729871b",
+            "id": "attack-pattern--2c55e74c-c066-43e0-bdaa-8d74959b7694",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-12-07T14:16:51.511238Z",
             "modified": "2022-12-07T14:16:51.511238Z",

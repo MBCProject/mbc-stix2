@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d8062d57-c48a-4ade-8f27-fa4b4d84d967",
+    "id": "bundle--1b03846f-f988-4762-828e-b4fb6293108b",
     "objects": [
         {
             "type": "identity",
@@ -13,38 +13,6 @@
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]
-        },
-        {
-            "type": "malware",
-            "spec_version": "2.1",
-            "id": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2022-12-07T14:16:52.996431Z",
-            "modified": "2022-12-07T14:16:52.996431Z",
-            "name": "GoBotKR",
-            "description": "Modified version of a publicly available backdoor name GoBot2. Modifications are mainly evasion techniques specific to South Korea. [[1]](#1)",
-            "malware_types": [
-                "unknown"
-            ],
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ],
-            "is_family": true,
-            "external_references": [
-                {
-                    "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/xample-malware/gobotkr.md",
-                    "external_id": "X0027"
-                },
-                {
-                    "source_name": "external_source",
-                    "url": "https://www.welivesecurity.com/2019/07/08/south-korean-users-backdoor-torrents/"
-                }
-            ],
-            "x_mitre_platform": [
-                "Windows"
-            ],
-            "x_mitre_year": "2019"
         },
         {
             "type": "malware",
@@ -620,6 +588,38 @@
                 "Windows"
             ],
             "x_mitre_year": "2020"
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:52.996431Z",
+            "modified": "2022-12-07T14:16:52.996431Z",
+            "name": "GoBotKR",
+            "description": "Modified version of a publicly available backdoor name GoBot2. Modifications are mainly evasion techniques specific to South Korea. [[1]](#1)",
+            "malware_types": [
+                "unknown"
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "is_family": true,
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/xample-malware/gobotkr.md",
+                    "external_id": "X0027"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.welivesecurity.com/2019/07/08/south-korean-users-backdoor-torrents/"
+                }
+            ],
+            "x_mitre_platform": [
+                "Windows"
+            ],
+            "x_mitre_year": "2019"
         },
         {
             "type": "malware",
@@ -1919,7 +1919,7 @@
             "modified": "2022-12-07T14:16:55.260064Z",
             "relationship_type": "uses",
             "description": "GoBotKR performs several checks on the compromised machine to avoid being emulated or executed in a sandbox.",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
@@ -2501,20 +2501,6 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--9f3c1915-a5d6-496d-b2fd-d3aa341cccc6",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2022-12-07T14:16:56.556551Z",
-            "modified": "2022-12-07T14:16:56.556551Z",
-            "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--08b11bd6-56fb-46c8-83c7-010445ca0bd5",
-            "target_ref": "attack-pattern--b1f9e736-1435-4f76-9690-06562f843b58",
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
-        },
-        {
-            "type": "relationship",
-            "spec_version": "2.1",
             "id": "relationship--62483f54-c7e2-45c3-b346-8947c9958fc6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-12-07T14:16:56.009603Z",
@@ -2608,7 +2594,7 @@
             "modified": "2022-12-07T14:16:55.260449Z",
             "relationship_type": "uses",
             "description": "GoBotKR receives data from the C2",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
@@ -3104,6 +3090,20 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
+            "id": "relationship--24dbed05-124f-49f5-998b-fb2bda1c4a15",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:56.443971Z",
+            "modified": "2022-12-07T14:16:56.443971Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--489d6e43-968b-432d-b89b-e9e4f974423b",
+            "target_ref": "attack-pattern--767a1acf-9e83-4181-82cd-2bcb9d8871d9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
             "id": "relationship--5a12747a-b03e-4230-a499-db165272c5ac",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:35.569485Z",
@@ -3260,20 +3260,6 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--325690bf-40f5-432e-ae86-ea8e19a5baad",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2022-12-07T14:16:56.476706Z",
-            "modified": "2022-12-07T14:16:56.476706Z",
-            "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--418e53ef-a157-4e11-bddc-f3666de16c65",
-            "target_ref": "attack-pattern--64ec233c-8762-4e4a-af40-475ebd3aa127",
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
-        },
-        {
-            "type": "relationship",
-            "spec_version": "2.1",
             "id": "relationship--baa7b7d4-500b-47a4-a4e0-23965ea21fcc",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:35.518445Z",
@@ -3340,7 +3326,7 @@
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
-            "target_ref": "attack-pattern--f779af36-fcf9-4f0d-8308-a715536ddda9"
+            "target_ref": "attack-pattern--489d6e43-968b-432d-b89b-e9e4f974423b"
         },
         {
             "type": "relationship",
@@ -3537,7 +3523,7 @@
             "modified": "2022-12-07T14:16:55.25932Z",
             "relationship_type": "uses",
             "description": "GoBotKR makes their malware look like the torrent content that the user intended to download, in order to entice a user to click on it.",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
@@ -3567,7 +3553,7 @@
             "modified": "2022-12-07T14:16:55.150871Z",
             "relationship_type": "uses",
             "description": "GoBotKR can download additional files and update itself.",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
@@ -3969,7 +3955,7 @@
             "modified": "2022-12-07T14:16:55.2597Z",
             "relationship_type": "uses",
             "description": "GoBotKR reinstalls its running instance if it is removed.",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
@@ -4601,7 +4587,7 @@
             "modified": "2022-12-07T14:16:55.258159Z",
             "relationship_type": "uses",
             "description": "GoBotKR uses base64 to obfuscate strings, commands and files.",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "target_ref": "attack-pattern--af4729ed-7659-496d-9028-0b9efbedd9a4",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
@@ -4805,7 +4791,7 @@
             "modified": "2022-12-07T14:16:54.987729Z",
             "relationship_type": "uses",
             "description": "GoBotKR attempts to copy itself into public folders of cloud storage services (Google Drive, Dropbox, OneDrive).",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
@@ -5205,7 +5191,7 @@
             "modified": "2022-12-07T14:16:54.826711Z",
             "relationship_type": "uses",
             "description": "GoBotKR uses wmic, systeminfo and ver commands to collect information about the system and the installed software.",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
@@ -5430,6 +5416,20 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
+            "id": "relationship--00860bcf-c19d-488c-a064-21d58d08ab34",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:56.556551Z",
+            "modified": "2022-12-07T14:16:56.556551Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--1c9f410c-8e61-4d75-80be-e80461c54971",
+            "target_ref": "attack-pattern--b1f9e736-1435-4f76-9690-06562f843b58",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
             "id": "relationship--6243f0ff-358c-43c9-bf91-f16bd7bfac13",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-12-07T14:16:54.253818Z",
@@ -5594,7 +5594,7 @@
             "modified": "2022-12-07T14:16:55.25856Z",
             "relationship_type": "uses",
             "description": "GoBotKR can modify registry keys to disable Task Manager, Registry Editor and Command Prompt.",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
@@ -6128,7 +6128,7 @@
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
-            "target_ref": "attack-pattern--08b11bd6-56fb-46c8-83c7-010445ca0bd5"
+            "target_ref": "attack-pattern--1c9f410c-8e61-4d75-80be-e80461c54971"
         },
         {
             "type": "relationship",
@@ -6153,7 +6153,7 @@
             "modified": "2022-12-07T14:16:55.258933Z",
             "relationship_type": "uses",
             "description": "GoBotKR is capable of capturing screenshots.",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
@@ -6474,6 +6474,20 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
+            "id": "relationship--a30d8395-e7b5-4fdd-adb9-b347222a3aa2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:56.476706Z",
+            "modified": "2022-12-07T14:16:56.476706Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--e1c3c48b-0b4d-418f-b7af-44715b214972",
+            "target_ref": "attack-pattern--64ec233c-8762-4e4a-af40-475ebd3aa127",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
             "id": "relationship--e155da38-a648-43ee-98dc-cc74126497df",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:35.595442Z",
@@ -6668,7 +6682,7 @@
             "modified": "2022-12-07T14:16:55.25779Z",
             "relationship_type": "uses",
             "description": "GoBotKR stores itself in a file with Hidden and System attributes.",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "target_ref": "attack-pattern--27a1c173-3d93-430b-9544-8dd2db602b87",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
@@ -7841,20 +7855,6 @@
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--0d997f89-784c-47c3-b8bb-f640842ca4cd",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2022-12-07T14:16:56.556115Z",
-            "modified": "2022-12-07T14:16:56.556115Z",
-            "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--20a708fe-4009-447e-b5f4-c73e2729871b",
-            "target_ref": "attack-pattern--b1f9e736-1435-4f76-9690-06562f843b58",
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
-        },
-        {
-            "type": "relationship",
-            "spec_version": "2.1",
             "id": "relationship--22ac23f2-a367-41e2-a1c2-29828cdcb864",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:35.468521Z",
@@ -8178,6 +8178,20 @@
             "description": "Keylogger plugin allows for collection of keystrokes",
             "source_ref": "malware--cdd198e2-3f6f-42c4-adfd-d97dc66c5f19",
             "target_ref": "attack-pattern--75f19e70-8d96-4a7b-a3cf-e629c8d5e779",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--73d8c064-876d-4735-aca1-371a05bd0d54",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:56.556115Z",
+            "modified": "2022-12-07T14:16:56.556115Z",
+            "relationship_type": "subtechnique-of",
+            "source_ref": "attack-pattern--2c55e74c-c066-43e0-bdaa-8d74959b7694",
+            "target_ref": "attack-pattern--b1f9e736-1435-4f76-9690-06562f843b58",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]
@@ -8678,7 +8692,7 @@
             "modified": "2022-12-07T14:16:55.261188Z",
             "relationship_type": "uses",
             "description": "GoBotKR can use the compromised computer’s network bandwidth to seed torrents or execute DDoS.",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "target_ref": "attack-pattern--e25edc0c-3631-4df8-a37f-4695d3cec86e",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
@@ -9481,7 +9495,7 @@
             "modified": "2022-12-07T14:16:55.256761Z",
             "relationship_type": "uses",
             "description": "GoBotKR uses cmd.exe to execute commands.",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
@@ -10222,7 +10236,7 @@
             "modified": "2022-12-07T14:16:55.260824Z",
             "relationship_type": "uses",
             "description": "GoBotKR has been used to execute endpoint DDoS attacks – for example, TCP Flood or SYN Flood.",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
@@ -11401,7 +11415,7 @@
             "modified": "2022-12-07T14:16:55.257401Z",
             "relationship_type": "uses",
             "description": "GoBotKR installs itself under registry run keys to establish persistence.",
-            "source_ref": "malware--afe396e4-c6b1-44ef-b71d-a3a332b40448",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
@@ -11723,20 +11737,6 @@
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ],
             "target_ref": "attack-pattern--cada9d62-2163-42e3-88ec-d37e2ade1030"
-        },
-        {
-            "type": "relationship",
-            "spec_version": "2.1",
-            "id": "relationship--b5599f09-417d-4818-b7bd-8294076c9f84",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2022-12-07T14:16:56.443971Z",
-            "modified": "2022-12-07T14:16:56.443971Z",
-            "relationship_type": "subtechnique-of",
-            "source_ref": "attack-pattern--f779af36-fcf9-4f0d-8308-a715536ddda9",
-            "target_ref": "attack-pattern--767a1acf-9e83-4181-82cd-2bcb9d8871d9",
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ]
         },
         {
             "type": "relationship",
@@ -13235,37 +13235,6 @@
                 }
             ],
             "x_mitre_is_subtechnique": false
-        },
-        {
-            "type": "attack-pattern",
-            "spec_version": "2.1",
-            "id": "attack-pattern--f779af36-fcf9-4f0d-8308-a715536ddda9",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2022-12-07T14:16:51.326625Z",
-            "modified": "2022-12-07T14:16:51.326625Z",
-            "name": "Remote Desktop Protocols",
-            "description": "RDP is used by malware.",
-            "kill_chain_phases": [
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "execution"
-                },
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "impact"
-                }
-            ],
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ],
-            "external_references": [
-                {
-                    "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/exploitation-for-client-execution.md",
-                    "external_id": "E1203.m01"
-                }
-            ],
-            "x_mitre_is_subtechnique": true
         },
         {
             "type": "attack-pattern",
@@ -18211,6 +18180,37 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
+            "id": "attack-pattern--489d6e43-968b-432d-b89b-e9e4f974423b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:51.326625Z",
+            "modified": "2022-12-07T14:16:51.326625Z",
+            "name": "Remote Desktop Protocols",
+            "description": "RDP is used by malware.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "execution"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "impact"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/exploitation-for-client-execution.md",
+                    "external_id": "E1203.m01"
+                }
+            ],
+            "x_mitre_is_subtechnique": true
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
             "id": "attack-pattern--80ee5a98-6e25-4cb6-a6d2-3321855e14e2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.829949Z",
@@ -18890,6 +18890,33 @@
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/decrypt-data.md",
                     "external_id": "C0031.005"
+                }
+            ],
+            "x_mitre_is_subtechnique": true
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--e1c3c48b-0b4d-418f-b7af-44715b214972",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:51.383457Z",
+            "modified": "2022-12-07T14:16:51.383457Z",
+            "name": "Undocumented/Unimplemented Opcodes",
+            "description": "Use rare, undocumented, or unimplemented opcodes to block non-exhaustive emulators.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/emulator-evasion.md",
+                    "external_id": "B0005.002"
                 }
             ],
             "x_mitre_is_subtechnique": true
@@ -20827,6 +20854,57 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
+            "id": "attack-pattern--1c9f410c-8e61-4d75-80be-e80461c54971",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:51.511642Z",
+            "modified": "2022-12-07T14:16:51.511642Z",
+            "name": "Import Address Table Hooking",
+            "description": "Malware (e.g. rootkit) modifies a process's import address table (IAT), which stores pointers to imported API functions.",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "collection"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/hijack-execution-flow.md",
+                    "external_id": "F0015.003"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.sans.org/media/score/checklists/rootkits-investigation-procedures.pdf"
+                }
+            ],
+            "x_mitre_is_subtechnique": true
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
             "id": "attack-pattern--f25b4262-78aa-48e6-b9c9-6069058a918a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.916486Z",
@@ -21802,57 +21880,6 @@
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
-            "id": "attack-pattern--08b11bd6-56fb-46c8-83c7-010445ca0bd5",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2022-12-07T14:16:51.511642Z",
-            "modified": "2022-12-07T14:16:51.511642Z",
-            "name": "Import Address Table Hooking",
-            "description": "Malware (e.g. rootkit) modifies a process's import address table (IAT), which stores pointers to imported API functions.",
-            "kill_chain_phases": [
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "anti-behavioral-analysis"
-                },
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "collection"
-                },
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "credential-access"
-                },
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "defense-evasion"
-                },
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "persistence"
-                },
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "privilege-escalation"
-                }
-            ],
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ],
-            "external_references": [
-                {
-                    "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/hijack-execution-flow.md",
-                    "external_id": "F0015.003"
-                },
-                {
-                    "source_name": "external_source",
-                    "url": "https://www.sans.org/media/score/checklists/rootkits-investigation-procedures.pdf"
-                }
-            ],
-            "x_mitre_is_subtechnique": true
-        },
-        {
-            "type": "attack-pattern",
-            "spec_version": "2.1",
             "id": "attack-pattern--09c1ddac-3b9f-487d-acba-78be3b686519",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.530265Z",
@@ -21936,33 +21963,6 @@
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/micro-behaviors/cryptography/crypto-lib.md",
                     "external_id": "C0059.001"
-                }
-            ],
-            "x_mitre_is_subtechnique": true
-        },
-        {
-            "type": "attack-pattern",
-            "spec_version": "2.1",
-            "id": "attack-pattern--418e53ef-a157-4e11-bddc-f3666de16c65",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2022-12-07T14:16:51.383457Z",
-            "modified": "2022-12-07T14:16:51.383457Z",
-            "name": "Undocumented/Unimplemented Opcodes",
-            "description": "Use rare, undocumented, or unimplemented opcodes to block non-exhaustive emulators.",
-            "kill_chain_phases": [
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "anti-behavioral-analysis"
-                }
-            ],
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ],
-            "external_references": [
-                {
-                    "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/emulator-evasion.md",
-                    "external_id": "B0005.002"
                 }
             ],
             "x_mitre_is_subtechnique": true
@@ -23041,6 +23041,53 @@
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/memory-dump-evasion.md",
                     "external_id": "B0006.002"
+                }
+            ],
+            "x_mitre_is_subtechnique": true
+        },
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--2c55e74c-c066-43e0-bdaa-8d74959b7694",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:51.511238Z",
+            "modified": "2022-12-07T14:16:51.511238Z",
+            "name": "Export Address Table Hooking",
+            "description": "Malware (e.g. rootkit) hooks the export address table (EAT).",
+            "kill_chain_phases": [
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "anti-behavioral-analysis"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "collection"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "credential-access"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "defense-evasion"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "persistence"
+                },
+                {
+                    "kill_chain_name": "mitre-mbc",
+                    "phase_name": "privilege-escalation"
+                }
+            ],
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "external_references": [
+                {
+                    "source_name": "mitre-mbc",
+                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/hijack-execution-flow.md",
+                    "external_id": "F0015.001"
                 }
             ],
             "x_mitre_is_subtechnique": true
@@ -28707,53 +28754,6 @@
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/obfuscated-files-or-information.md",
                     "external_id": "E1027.m03"
-                }
-            ],
-            "x_mitre_is_subtechnique": true
-        },
-        {
-            "type": "attack-pattern",
-            "spec_version": "2.1",
-            "id": "attack-pattern--20a708fe-4009-447e-b5f4-c73e2729871b",
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2022-12-07T14:16:51.511238Z",
-            "modified": "2022-12-07T14:16:51.511238Z",
-            "name": "Export Address Table Hooking",
-            "description": "Malware (e.g. rootkit) hooks the export address table (EAT).",
-            "kill_chain_phases": [
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "anti-behavioral-analysis"
-                },
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "collection"
-                },
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "credential-access"
-                },
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "defense-evasion"
-                },
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "persistence"
-                },
-                {
-                    "kill_chain_name": "mitre-mbc",
-                    "phase_name": "privilege-escalation"
-                }
-            ],
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ],
-            "external_references": [
-                {
-                    "source_name": "mitre-mbc",
-                    "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/hijack-execution-flow.md",
-                    "external_id": "F0015.001"
                 }
             ],
             "x_mitre_is_subtechnique": true
