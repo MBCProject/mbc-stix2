@@ -8,8 +8,8 @@
             "id": "attack-pattern--48018d04-fcd1-4e5d-b29f-6ccf841ae65f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.848263Z",
-            "modified": "2022-09-08T18:26:13.395483Z",
-            "name": "GetTickCount::Generate Pseudo-random Sequence",
+            "modified": "2022-12-07T14:16:51.488808Z",
+            "name": "GetTickCount",
             "description": "Malware generates a pseudo-random sequence using GetTickCount.",
             "kill_chain_phases": [
                 {

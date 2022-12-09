@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b788b48d-f974-4644-9651-3d2cb2c1ebaf",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e265aadd-af64-4876-92f5-0cc233a71d95",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:55.907432Z",
+            "modified": "2022-12-07T14:16:55.907432Z",
+            "relationship_type": "uses",
+            "description": "Clipminer communicates to a Tor Onion Service via HTTP",
+            "source_ref": "malware--b753fa9c-9a05-4f37-b056-120a3bbc2af0",
+            "target_ref": "attack-pattern--2010a1d6-4a0a-4a07-ae97-2fbad0f81439",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

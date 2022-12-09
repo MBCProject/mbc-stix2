@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a7dfc876-b73d-4b97-a685-b38d34e5a75f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5245ef81-bf57-442f-823d-c94a9908a66a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:55.314096Z",
+            "modified": "2022-12-07T14:16:55.314096Z",
+            "relationship_type": "uses",
+            "description": "The malware sends data to C2",
+            "source_ref": "malware--bb2ac91f-90ad-4ed5-95ef-a899346ba4ce",
+            "target_ref": "attack-pattern--001ca78e-188e-4725-9f43-706d0f487837",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

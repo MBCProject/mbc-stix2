@@ -8,8 +8,8 @@
             "id": "attack-pattern--b3bc7ff9-4ea7-4b1a-9301-ea0e07e4a85f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:36.093464Z",
-            "modified": "2022-02-05T00:37:22.804261Z",
-            "name": "Minifilter::Load Driver",
+            "modified": "2022-12-07T14:16:51.437797Z",
+            "name": "Minifilter",
             "description": "Malware starts a minifilter.",
             "kill_chain_phases": [
                 {

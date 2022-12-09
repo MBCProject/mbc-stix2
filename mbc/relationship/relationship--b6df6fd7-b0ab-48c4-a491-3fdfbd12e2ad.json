@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--452ad590-789b-4fe5-a12f-5c76fadf8c2f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b6df6fd7-b0ab-48c4-a491-3fdfbd12e2ad",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:55.25779Z",
+            "modified": "2022-12-07T14:16:55.25779Z",
+            "relationship_type": "uses",
+            "description": "GoBotKR stores itself in a file with Hidden and System attributes.",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
+            "target_ref": "attack-pattern--27a1c173-3d93-430b-9544-8dd2db602b87",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

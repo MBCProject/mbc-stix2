@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--df18a6f2-25f4-4f6e-be40-7aba8518367b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8c7fb218-e774-4caf-920a-1fc02728e580",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:53.46579Z",
+            "modified": "2022-12-07T14:16:53.46579Z",
+            "relationship_type": "uses",
+            "description": "Ursnif uses malware macros to evade sandbox detection - checking whether the filename contains only hexadecimal characters before the extension",
+            "source_ref": "malware--31e78af0-0509-4f7b-b304-77a8e5bf7ead",
+            "target_ref": "attack-pattern--dc5231d1-332e-45ab-9995-412a5da4c10d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

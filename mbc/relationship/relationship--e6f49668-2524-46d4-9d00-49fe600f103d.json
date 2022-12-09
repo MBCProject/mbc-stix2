@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f045e563-d83d-4124-8464-2fe443757498",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e6f49668-2524-46d4-9d00-49fe600f103d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:54.045674Z",
+            "modified": "2022-12-07T14:16:54.045674Z",
+            "relationship_type": "uses",
+            "description": "To start itself at system boot, Poison Ivy adds registry entries",
+            "source_ref": "malware--49b9796a-27fd-414e-a87d-b071aaff295b",
+            "target_ref": "attack-pattern--4294b63a-0b68-473a-8e57-bd5da8d90bf6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

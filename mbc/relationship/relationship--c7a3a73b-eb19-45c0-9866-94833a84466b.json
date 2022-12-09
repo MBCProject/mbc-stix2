@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f14d0044-3ca9-4c07-9ea9-2f64fdfc7bb1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c7a3a73b-eb19-45c0-9866-94833a84466b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:53.482313Z",
+            "modified": "2022-12-07T14:16:53.482313Z",
+            "relationship_type": "uses",
+            "description": "infected bots receive commands from botmaster to load plugins associated with botmaster's goals",
+            "source_ref": "malware--cdd198e2-3f6f-42c4-adfd-d97dc66c5f19",
+            "target_ref": "attack-pattern--739b9d69-ce7d-4ef5-b39e-9bcdb6796200",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

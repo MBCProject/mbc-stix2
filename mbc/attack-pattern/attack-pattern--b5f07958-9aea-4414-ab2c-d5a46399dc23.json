@@ -8,8 +8,8 @@
             "id": "attack-pattern--b5f07958-9aea-4414-ab2c-d5a46399dc23",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.989483Z",
-            "modified": "2022-09-08T18:26:13.384722Z",
-            "name": "Camellia::Decrypt Data",
+            "modified": "2022-12-07T14:16:51.47746Z",
+            "name": "Camellia",
             "description": "Malware decrypts data encrypted with the Camellia algorithm.",
             "kill_chain_phases": [
                 {

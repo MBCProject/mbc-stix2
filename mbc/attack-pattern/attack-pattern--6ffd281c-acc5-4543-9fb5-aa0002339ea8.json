@@ -8,8 +8,8 @@
             "id": "attack-pattern--6ffd281c-acc5-4543-9fb5-aa0002339ea8",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.981483Z",
-            "modified": "2022-09-08T18:26:13.373159Z",
-            "name": "Get Socket Status::Socket Communication",
+            "modified": "2022-12-07T14:16:51.465137Z",
+            "name": "Get Socket Status",
             "description": "Get socket status.",
             "kill_chain_phases": [
                 {

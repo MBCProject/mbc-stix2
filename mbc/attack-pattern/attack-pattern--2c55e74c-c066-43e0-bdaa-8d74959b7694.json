@@ -1,15 +1,15 @@
 {
     "type": "bundle",
-    "id": "bundle--9fb97c18-b4a2-42aa-85a6-13b06b95a3b5",
+    "id": "bundle--28d6257f-9ad1-4981-a3c0-249a61643b92",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--2c55e74c-c066-43e0-bdaa-8d74959b7694",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2022-02-04T23:52:35.829949Z",
-            "modified": "2022-09-08T18:26:13.418468Z",
-            "name": "Export Address Table (EAT) Hooking",
+            "created": "2022-12-07T14:16:51.511238Z",
+            "modified": "2022-12-07T14:16:51.511238Z",
+            "name": "Export Address Table Hooking",
             "description": "Malware (e.g. rootkit) hooks the export address table (EAT).",
             "kill_chain_phases": [
                 {

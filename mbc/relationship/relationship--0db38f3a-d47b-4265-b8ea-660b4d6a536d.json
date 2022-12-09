@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3684ca74-011a-45e4-b470-5703342b37d6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0db38f3a-d47b-4265-b8ea-660b4d6a536d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:56.011411Z",
+            "modified": "2022-12-07T14:16:56.011411Z",
+            "relationship_type": "uses",
+            "description": "Installs a backdoor",
+            "source_ref": "malware--508cadaa-4fd5-4105-803e-8944e388ee45",
+            "target_ref": "attack-pattern--cbc563fa-1d9f-4e91-9803-4d5c2b9a7eae",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

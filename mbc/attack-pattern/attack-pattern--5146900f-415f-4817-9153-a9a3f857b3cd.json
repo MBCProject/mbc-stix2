@@ -8,9 +8,9 @@
             "id": "attack-pattern--5146900f-415f-4817-9153-a9a3f857b3cd",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.552264Z",
-            "modified": "2022-09-08T18:26:13.207636Z",
+            "modified": "2022-12-07T14:16:51.29408Z",
             "name": "Disassembler Evasion",
-            "description": "Malware code evades disassembly in a recursive or linear disassembler. Some methods apply to both types of disassemblers; others apply to one type and not the other.",
+            "description": "Malware code evades disassembly in a recursive (flow-oriented) or linear disassembler, resulting in inaccurate or incomplete disassembly. The Disassembler Evasion behavior may also result in the disassembly process halting with an error.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -38,6 +38,10 @@
                 {
                     "source_name": "external_source",
                     "url": "https://boingboing.net/2019/05/05/p-code-r-us.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.ndss-symposium.org/wp-content/uploads/2020/04/bar2020-23004-paper.pdf"
                 }
             ],
             "object_marking_refs": [

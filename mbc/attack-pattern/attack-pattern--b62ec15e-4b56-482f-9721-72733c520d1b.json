@@ -8,8 +8,8 @@
             "id": "attack-pattern--b62ec15e-4b56-482f-9721-72733c520d1b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.843259Z",
-            "modified": "2022-02-05T00:37:22.757347Z",
-            "name": "InternetOpenURL::WinINet",
+            "modified": "2022-12-07T14:16:51.46201Z",
+            "name": "InternetOpenURL",
             "description": "Opens a resource specified by a complete FTP or HTTP URL.",
             "kill_chain_phases": [
                 {

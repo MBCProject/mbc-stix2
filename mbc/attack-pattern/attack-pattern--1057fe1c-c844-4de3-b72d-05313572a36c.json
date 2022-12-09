@@ -8,8 +8,8 @@
             "id": "attack-pattern--1057fe1c-c844-4de3-b72d-05313572a36c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.992483Z",
-            "modified": "2022-09-08T18:26:13.388434Z",
-            "name": "Block Cipher::Encrypt Data",
+            "modified": "2022-12-07T14:16:51.481026Z",
+            "name": "Block Cipher",
             "description": "Malware encrypts with a block cipher.",
             "kill_chain_phases": [
                 {

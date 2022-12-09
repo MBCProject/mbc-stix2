@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--49f40762-1aa6-4cc9-82be-267c080c64cf",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--105b6498-05b1-4138-8dc8-1ba691224578",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:54.448072Z",
+            "modified": "2022-12-07T14:16:54.448072Z",
+            "relationship_type": "uses",
+            "description": "The malware searches for user files before encrypting them",
+            "source_ref": "malware--549d1c35-f214-4760-ab97-2142c66cf111",
+            "target_ref": "attack-pattern--e2558f71-7409-4203-bd5b-8a331f29327a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

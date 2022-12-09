@@ -8,8 +8,8 @@
             "id": "attack-pattern--20bb8954-7d15-4f3f-b015-6de301407391",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.003478Z",
-            "modified": "2022-09-08T18:26:13.33511Z",
-            "name": "XOR::Decode Data",
+            "modified": "2022-12-07T14:16:51.429058Z",
+            "name": "XOR",
             "description": "Malware may use xor to decode data.",
             "kill_chain_phases": [
                 {

@@ -8,7 +8,7 @@
             "id": "attack-pattern--1d1b8b46-c3d7-49e5-8856-367b48272f5e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.594264Z",
-            "modified": "2022-09-08T18:26:13.220424Z",
+            "modified": "2022-12-07T14:16:51.305743Z",
             "name": "Input Capture",
             "description": "Malware captures user input.",
             "kill_chain_phases": [
@@ -42,6 +42,20 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.cyber.nj.gov/threat-center/threat-profiles/trojan-variants/poison-ivy"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/clipminer-bitcoin-mining-hijacking"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1056",
+                    "external_id": "T1056"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1417/",
+                    "external_id": "T1417"
                 }
             ],
             "object_marking_refs": [

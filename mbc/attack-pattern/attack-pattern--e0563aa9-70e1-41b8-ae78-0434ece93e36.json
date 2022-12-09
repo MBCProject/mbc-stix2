@@ -8,8 +8,8 @@
             "id": "attack-pattern--e0563aa9-70e1-41b8-ae78-0434ece93e36",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.805261Z",
-            "modified": "2022-09-08T18:26:13.378861Z",
-            "name": "Resolve::DNS Communication",
+            "modified": "2022-12-07T14:16:51.471502Z",
+            "name": "Resolve",
             "description": "Resolves a domain.",
             "kill_chain_phases": [
                 {

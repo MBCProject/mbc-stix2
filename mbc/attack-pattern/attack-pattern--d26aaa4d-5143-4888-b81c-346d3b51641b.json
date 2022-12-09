@@ -8,8 +8,8 @@
             "id": "attack-pattern--d26aaa4d-5143-4888-b81c-346d3b51641b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.86526Z",
-            "modified": "2022-02-05T00:37:22.788643Z",
-            "name": "Create Ransomware File::Create File",
+            "modified": "2022-12-07T14:16:51.442613Z",
+            "name": "Create Ransomware File",
             "description": "Create a file used by ransomware.",
             "kill_chain_phases": [
                 {

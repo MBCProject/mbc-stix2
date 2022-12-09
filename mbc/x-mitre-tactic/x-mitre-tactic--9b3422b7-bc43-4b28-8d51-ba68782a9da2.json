@@ -8,9 +8,9 @@
             "id": "x-mitre-tactic--9b3422b7-bc43-4b28-8d51-ba68782a9da2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.071Z",
-            "modified": "2022-09-08T18:26:13.1667Z",
+            "modified": "2022-12-07T14:16:51.23803Z",
             "name": "Defense Evasion",
-            "description": "Behaviors that enable malware to evade detection.",
+            "description": "",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

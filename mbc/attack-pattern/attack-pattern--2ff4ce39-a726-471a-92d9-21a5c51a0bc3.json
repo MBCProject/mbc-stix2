@@ -8,7 +8,7 @@
             "id": "attack-pattern--2ff4ce39-a726-471a-92d9-21a5c51a0bc3",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.769263Z",
-            "modified": "2022-09-08T18:26:13.259774Z",
+            "modified": "2022-12-07T14:16:51.346742Z",
             "name": "Data Destruction",
             "description": "Data, system files, or other files are destroyed. Individual files are selected, as opposed to wiping an entire sector.",
             "kill_chain_phases": [
@@ -42,6 +42,11 @@
                 {
                     "source_name": "external_source",
                     "url": "https://heimdalsecurity.com/blog/security-alert-mazar-bot-active-attacks-android-malware/"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1485/",
+                    "external_id": "T1485"
                 }
             ],
             "object_marking_refs": [

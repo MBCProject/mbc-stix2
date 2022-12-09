@@ -8,8 +8,8 @@
             "id": "attack-pattern--ebb8ef31-6c69-4dac-9b99-a69e8c76fcd3",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.814267Z",
-            "modified": "2022-09-08T18:26:13.366556Z",
-            "name": "IWebBrowser::HTTP Communication",
+            "modified": "2022-12-07T14:16:51.45841Z",
+            "name": "IWebBrowser",
             "description": "The IWebBrowser interface exposes methods and properties implemented by the WebBrowser control or implemented by an instance of the InternetExplorer application. Specific methods and properties can be captured: e.g., COMMUNICATION::HTTP Communication::IWebBrowser.get_Document.",
             "kill_chain_phases": [
                 {

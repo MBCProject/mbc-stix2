@@ -8,7 +8,7 @@
             "id": "attack-pattern--66639ad1-1214-46af-9ce6-31b526ef6d9c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.90326Z",
-            "modified": "2022-09-08T18:26:13.254202Z",
+            "modified": "2022-12-07T14:16:51.340551Z",
             "name": "Component Firmware",
             "description": "Malware may overwrite the flash memory of firmware outside of the main system firmware or BIOS. [[1]](#1). Methods related to malware (extending ATT&CK's definitions) are below.",
             "kill_chain_phases": [
@@ -46,6 +46,11 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.mandiant.com/resources/synful-knock-acis"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1542/002/",
+                    "external_id": "002"
                 }
             ],
             "object_marking_refs": [

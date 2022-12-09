@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d11fe977-0eb4-4410-ac7b-04563d6664aa",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--460d89a6-0e82-422e-970a-51dd7cfdbdfe",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:53.751223Z",
+            "modified": "2022-12-07T14:16:53.751223Z",
+            "relationship_type": "uses",
+            "description": "Geneio installs the browser extension\u00a0~/Library/Safari/Extensions/Omnibar.safariextz. It also creates the app files listed in the description above.",
+            "source_ref": "malware--2def59e9-a1ba-4c23-9f7d-437935d1e965",
+            "target_ref": "attack-pattern--cbc563fa-1d9f-4e91-9803-4d5c2b9a7eae",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

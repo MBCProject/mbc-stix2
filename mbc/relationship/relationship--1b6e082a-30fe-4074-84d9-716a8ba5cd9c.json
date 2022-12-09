@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3f908b34-4c84-4720-a38d-92bb6846f1d0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1b6e082a-30fe-4074-84d9-716a8ba5cd9c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:54.255122Z",
+            "modified": "2022-12-07T14:16:54.255122Z",
+            "relationship_type": "uses",
+            "description": "YiSpecter's malicious apps were signed with three iOS enterprise certificates issued by Apple so they can be installed as enterprise apps on non-jailbroken iOS devices via in-house distribution",
+            "source_ref": "malware--a6ad7a2e-f619-4598-914b-16f68b372789",
+            "target_ref": "attack-pattern--cb1c9047-e589-4aed-b5d5-c6062a1ab340",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

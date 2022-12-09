@@ -8,8 +8,8 @@
             "id": "attack-pattern--1504bfdb-bc65-4fc2-9afd-8d2e82737dd6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.008483Z",
-            "modified": "2022-09-08T18:26:13.337736Z",
-            "name": "FNV::Non-Cryptographic Hash",
+            "modified": "2022-12-07T14:16:51.43162Z",
+            "name": "FNV",
             "description": "Malware uses the FNV hash function.",
             "kill_chain_phases": [
                 {

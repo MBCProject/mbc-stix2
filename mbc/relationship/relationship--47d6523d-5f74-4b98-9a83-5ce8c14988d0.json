@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--583c2a3d-9bea-477b-8902-b6e474595668",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--47d6523d-5f74-4b98-9a83-5ce8c14988d0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:53.666961Z",
+            "modified": "2022-12-07T14:16:53.666961Z",
+            "relationship_type": "uses",
+            "description": "Performs click-fraud.",
+            "source_ref": "malware--fa095747-0ca8-4965-a222-cf1fe7647e12",
+            "target_ref": "attack-pattern--7533526d-569f-460b-9e00-5ef2d6eff9e2",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

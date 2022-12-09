@@ -8,7 +8,7 @@
             "id": "attack-pattern--c550625d-7b0c-4db2-9f30-486767c9cf63",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.69826Z",
-            "modified": "2022-09-08T18:26:13.404863Z",
+            "modified": "2022-12-07T14:16:51.498686Z",
             "name": "Rootkit",
             "description": "Behaviors of a rootkit: \"A rootkit is a collection of computer software, typically malicious, designed to enable access to a computer or areas of its software that is not otherwise allowed and often masks its existence or the existence of other software.",
             "kill_chain_phases": [
@@ -38,6 +38,11 @@
                 {
                     "source_name": "external_source",
                     "url": "https://docs.broadcom.com/doc/security-response-w32-stuxnet-dossier-11-en"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1014",
+                    "external_id": "T1014"
                 }
             ],
             "object_marking_refs": [

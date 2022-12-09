@@ -8,8 +8,8 @@
             "id": "attack-pattern--b3369595-ed1a-4660-a239-08f6abd5810c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.982483Z",
-            "modified": "2022-09-08T18:26:13.373922Z",
-            "name": "Send UDP Data::Socket Communication",
+            "modified": "2022-12-07T14:16:51.46591Z",
+            "name": "Send UDP Data",
             "description": "Send UDP data.",
             "kill_chain_phases": [
                 {

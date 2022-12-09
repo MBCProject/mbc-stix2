@@ -8,7 +8,7 @@
             "id": "attack-pattern--767a1acf-9e83-4181-82cd-2bcb9d8871d9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.729261Z",
-            "modified": "2022-09-08T18:26:13.242142Z",
+            "modified": "2022-12-07T14:16:51.327704Z",
             "name": "Exploitation for Client Execution",
             "description": "Software is exploited - either because of a vulnerability or through its designed features - to gain access for malware. In general, exploitation may be done by a human attacker, but MBC focuses on software exploits implemented in code. Malware-specific details are below.",
             "kill_chain_phases": [
@@ -30,6 +30,11 @@
                 {
                     "source_name": "external_source",
                     "url": "https://blog.malwarebytes.com/cybercrime/2018/05/samsam-ransomware-need-know/"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1203",
+                    "external_id": "T1203"
                 }
             ],
             "object_marking_refs": [

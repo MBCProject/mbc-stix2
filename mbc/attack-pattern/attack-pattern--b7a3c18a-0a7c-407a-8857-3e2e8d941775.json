@@ -8,8 +8,8 @@
             "id": "attack-pattern--b7a3c18a-0a7c-407a-8857-3e2e8d941775",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.993484Z",
-            "modified": "2022-09-08T18:26:13.389718Z",
-            "name": "HC-256::Encrypt Data",
+            "modified": "2022-12-07T14:16:51.482391Z",
+            "name": "HC-256",
             "description": "Malware encrypts with the HC-256 algorithm.",
             "kill_chain_phases": [
                 {

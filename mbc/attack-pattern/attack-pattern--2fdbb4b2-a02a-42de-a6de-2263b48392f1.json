@@ -8,8 +8,8 @@
             "id": "attack-pattern--2fdbb4b2-a02a-42de-a6de-2263b48392f1",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.975482Z",
-            "modified": "2022-09-08T18:26:13.366806Z",
-            "name": "WinHTTP::HTTP Communication",
+            "modified": "2022-12-07T14:16:51.458845Z",
+            "name": "WinHTTP",
             "description": "An HTTP request is made via the Windows HTTP Services (WinHTTP) application programming interface (API).",
             "kill_chain_phases": [
                 {

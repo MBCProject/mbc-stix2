@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fedd5c3d-10cf-4338-94e2-323515a00c30",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b4c83ab9-b17a-443c-9f46-c7cf695b03ca",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:55.746433Z",
+            "modified": "2022-12-07T14:16:55.746433Z",
+            "relationship_type": "uses",
+            "description": "CozyCar requests a file using SSL to a C2 domain",
+            "source_ref": "malware--0fbcf18a-f192-4240-860f-aee476a36d68",
+            "target_ref": "attack-pattern--8b3b15fa-f369-47b2-9e6d-b30094a799b8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

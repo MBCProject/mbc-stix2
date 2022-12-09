@@ -8,7 +8,7 @@
             "id": "attack-pattern--098a700a-4cc0-4d0a-8bc5-42e7181eff1e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-09-08T18:26:13.427132Z",
-            "modified": "2022-09-08T18:26:13.427132Z",
+            "modified": "2022-12-07T14:16:51.520041Z",
             "name": "Hide Artifacts",
             "description": "Malware may hide artifacts to evade detection and/or to persist on the system. See potential methods related to malware below.",
             "kill_chain_phases": [
@@ -34,6 +34,16 @@
                 {
                     "source_name": "external_source",
                     "url": "https://docs.broadcom.com/doc/security-response-w32-stuxnet-dossier-11-en"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1564/",
+                    "external_id": "T1564"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1628/",
+                    "external_id": "T1628"
                 }
             ],
             "object_marking_refs": [

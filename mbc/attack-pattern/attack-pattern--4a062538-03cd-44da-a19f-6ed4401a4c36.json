@@ -8,8 +8,8 @@
             "id": "attack-pattern--4a062538-03cd-44da-a19f-6ed4401a4c36",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.972483Z",
-            "modified": "2022-09-08T18:26:13.363582Z",
-            "name": "Download URL::HTTP Communication",
+            "modified": "2022-12-07T14:16:51.454011Z",
+            "name": "Download URL",
             "description": "HTTP client downloads URL to file.",
             "kill_chain_phases": [
                 {

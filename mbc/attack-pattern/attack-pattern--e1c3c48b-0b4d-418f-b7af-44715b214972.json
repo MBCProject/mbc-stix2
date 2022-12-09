@@ -1,16 +1,16 @@
 {
     "type": "bundle",
-    "id": "bundle--07fe65be-3c78-4864-9c88-f2193702229a",
+    "id": "bundle--ddad9136-5ffb-4a04-aae9-d6c31f1d8680",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--e1c3c48b-0b4d-418f-b7af-44715b214972",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2020-08-21T20:49:59.530265Z",
-            "modified": "2022-09-08T18:26:13.30185Z",
-            "name": "Undocumented Opcodes",
-            "description": "Use rare or undocumented opcodes to block non-exhaustive emulators.",
+            "created": "2022-12-07T14:16:51.383457Z",
+            "modified": "2022-12-07T14:16:51.383457Z",
+            "name": "Undocumented/Unimplemented Opcodes",
+            "description": "Use rare, undocumented, or unimplemented opcodes to block non-exhaustive emulators.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

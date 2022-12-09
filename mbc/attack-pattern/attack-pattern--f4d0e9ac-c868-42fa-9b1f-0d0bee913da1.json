@@ -8,8 +8,8 @@
             "id": "attack-pattern--f4d0e9ac-c868-42fa-9b1f-0d0bee913da1",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.980486Z",
-            "modified": "2022-09-08T18:26:13.371325Z",
-            "name": "Set Socket Config::Socket Communication",
+            "modified": "2022-12-07T14:16:51.463248Z",
+            "name": "Set Socket Config",
             "description": "Configure socket.",
             "kill_chain_phases": [
                 {

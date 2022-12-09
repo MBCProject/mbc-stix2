@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ae54ef60-a916-410e-9d12-767fd246dd00",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--de5152e9-745a-46ba-9c68-388c0f7c3d6a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:53.103213Z",
+            "modified": "2022-12-07T14:16:53.103213Z",
+            "relationship_type": "uses",
+            "description": "SamSam obfuscates functions, class names and strings, including the list of targeted file extensions, the help file contents and environment variables using DES encryption with a fixed hard-coded key and the IV",
+            "source_ref": "malware--a456fdcd-68f2-46fb-adb0-97c6817338c9",
+            "target_ref": "attack-pattern--dad3c536-a9a6-492b-baae-4353f2c6f601",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

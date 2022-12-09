@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1f8379c3-387f-4ba2-bf64-ba42490683ed",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4b28d10f-12e0-452d-97e8-460a00b9d287",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:53.450305Z",
+            "modified": "2022-12-07T14:16:53.450305Z",
+            "relationship_type": "uses",
+            "description": "an anti-analysis function within the packer is called to check the username and filename of the executing process for strings like \u201cmalwar\u201d, \u201csampl\u201d, \u201cviru\u201d, and \u201csandb\u201d.",
+            "source_ref": "malware--30666a55-e3de-40ff-a680-8bca9c163cb0",
+            "target_ref": "attack-pattern--97ebea10-8852-4c4f-bf50-8b866ebc90ab",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

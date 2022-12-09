@@ -8,9 +8,9 @@
             "id": "x-mitre-tactic--225d85b5-6806-4760-a9d7-b5e38ca66153",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.060Z",
-            "modified": "2022-09-08T18:26:13.157655Z",
+            "modified": "2022-12-07T14:16:51.228106Z",
             "name": "Anti-Static Analysis",
-            "description": "Behaviors and code characteristics that prevent or hinder static analysis of the malware. Simple static analysis identifies features such as embedded strings, header information, or file metadata. More involved static analysis involves the disassembly of the binary code.",
+            "description": "",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

@@ -8,8 +8,8 @@
             "id": "attack-pattern--1004c879-79b0-44db-996c-910a7f9e3857",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.974485Z",
-            "modified": "2022-09-08T18:26:13.366035Z",
-            "name": "Set Header::HTTP Communication",
+            "modified": "2022-12-07T14:16:51.457832Z",
+            "name": "Set Header",
             "description": "HTTP header is set.",
             "kill_chain_phases": [
                 {

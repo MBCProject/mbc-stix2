@@ -8,8 +8,8 @@
             "id": "attack-pattern--ab699bec-3a3f-498f-a658-1eabe6fe90c9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.981483Z",
-            "modified": "2022-09-08T18:26:13.372406Z",
-            "name": "Create UDP Socket::Socket Communication",
+            "modified": "2022-12-07T14:16:51.464405Z",
+            "name": "Create UDP Socket",
             "description": "A UDP socket is created.",
             "kill_chain_phases": [
                 {

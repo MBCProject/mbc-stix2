@@ -8,8 +8,8 @@
             "id": "attack-pattern--5f35c276-1599-47f2-b4df-468ccfa1e08b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.972483Z",
-            "modified": "2022-09-08T18:26:13.362991Z",
-            "name": "Connect to Server::HTTP Communication",
+            "modified": "2022-12-07T14:16:51.453346Z",
+            "name": "Connect to Server",
             "description": "HTTP client connects to HTTP server.",
             "kill_chain_phases": [
                 {

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5d8f5c89-19c4-4f56-9f04-a6ac4fb0bd31",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b6991cb2-ded8-49a1-9840-26ffb0b87ad7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:55.743Z",
+            "modified": "2022-12-07T14:16:55.743Z",
+            "relationship_type": "uses",
+            "description": "WTR4141.tmp hooks APIs from kernel32.dll and Ntdll.dll and replaces the original code for these functions with code that checks for files with properties pertaining to Stuxnet files. If a request is made to list a file with the specified properties, the response from these APIs is altered to state that the file does not exist, thereby hiding all files with these properties.",
+            "source_ref": "malware--2640ed9a-24d9-4975-90c2-c8ab94d544e3",
+            "target_ref": "attack-pattern--d4b4af24-91a5-4f21-82c6-7f67f316239f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

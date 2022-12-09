@@ -8,7 +8,7 @@
             "id": "attack-pattern--55040e64-313d-4656-8e1c-1146ff2f47d7",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.547264Z",
-            "modified": "2022-09-08T18:26:13.188687Z",
+            "modified": "2022-12-07T14:16:51.273396Z",
             "name": "Invoke NTDLL System Calls via Encoded Table",
             "description": "Invokes ntdll.dll functions without using an export table; an encoded translation table on the stack is used instead.",
             "kill_chain_phases": [
@@ -25,7 +25,8 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "http://fumalwareanalysis.blogspot.com/2012/01/malware-analysis-tutorial-10-tricks-for.html"
+                    "description": "S. Shang, N. Zheng, J. Xu, M. Xu, H. Zhang, \"Detecting Malware Variants via Function-call Graph Similarity,\" IEEE 2010 5th International Conference on Malicious and Unwanted Software, 2010.",
+                    "url": "http://seclab.hdu.edu.cn/static/uploads/paper/10-05.pdf"
                 }
             ],
             "object_marking_refs": [

@@ -8,8 +8,8 @@
             "id": "attack-pattern--1dd62131-bc8e-4de7-b68a-1ea4c6b44c03",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.005479Z",
-            "modified": "2022-09-08T18:26:13.335818Z",
-            "name": "Base64::Encode Data",
+            "modified": "2022-12-07T14:16:51.429743Z",
+            "name": "Base64",
             "description": "Malware may encode data using Base64.",
             "kill_chain_phases": [
                 {

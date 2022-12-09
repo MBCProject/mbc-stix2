@@ -1,15 +1,15 @@
 {
     "type": "bundle",
-    "id": "bundle--2b421629-637e-4845-aab9-24fa9ff6e16c",
+    "id": "bundle--ca3b7059-9410-4a1e-aade-699fabc5795f",
     "objects": [
         {
             "type": "attack-pattern",
             "spec_version": "2.1",
             "id": "attack-pattern--1c9f410c-8e61-4d75-80be-e80461c54971",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2022-02-04T23:52:35.829949Z",
-            "modified": "2022-09-08T18:26:13.418864Z",
-            "name": "Import Address Table (IAT) Hooking",
+            "created": "2022-12-07T14:16:51.511642Z",
+            "modified": "2022-12-07T14:16:51.511642Z",
+            "name": "Import Address Table Hooking",
             "description": "Malware (e.g. rootkit) modifies a process's import address table (IAT), which stores pointers to imported API functions.",
             "kill_chain_phases": [
                 {

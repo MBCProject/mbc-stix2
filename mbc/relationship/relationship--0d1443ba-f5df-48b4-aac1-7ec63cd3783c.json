@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0c17851d-b2bb-4269-b00e-e8e718c6cff8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0d1443ba-f5df-48b4-aac1-7ec63cd3783c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:53.672516Z",
+            "modified": "2022-12-07T14:16:53.672516Z",
+            "relationship_type": "uses",
+            "description": "Abuses Microsoft's Dynamic Data Exchange (DDE) protocol",
+            "source_ref": "malware--e616d9d2-36b4-4510-84ad-66f19442fe3e",
+            "target_ref": "attack-pattern--d71d433d-6815-4cca-940c-b21b05ab9a47",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

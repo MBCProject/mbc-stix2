@@ -8,9 +8,9 @@
             "id": "x-mitre-tactic--911377e6-b712-4754-a865-3e2989512b9a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.068Z",
-            "modified": "2022-09-08T18:26:13.162044Z",
+            "modified": "2022-12-07T14:16:51.231894Z",
             "name": "Exfiltration",
-            "description": "Behaviors that enable malware to steal data from a system. This includes stored data, such as files, as well as data input into applications, such as web browsers.",
+            "description": "",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

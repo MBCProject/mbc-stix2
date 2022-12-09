@@ -8,8 +8,8 @@
             "id": "attack-pattern--becb5385-146e-42a3-a343-5beffc43a15c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.992483Z",
-            "modified": "2022-09-08T18:26:13.389187Z",
-            "name": "3DES::Encrypt Data",
+            "modified": "2022-12-07T14:16:51.481817Z",
+            "name": "3DES",
             "description": "Malware encrypts with the 3DES algorithm.",
             "kill_chain_phases": [
                 {

@@ -8,7 +8,7 @@
             "id": "attack-pattern--048440e7-8adb-4a71-9ee3-922ca4040b1f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.936476Z",
-            "modified": "2022-09-08T18:26:13.211623Z",
+            "modified": "2022-12-07T14:16:51.299224Z",
             "name": "Application Window Discovery",
             "description": "Malware may attempt to get a listing of open application windows.",
             "kill_chain_phases": [
@@ -22,6 +22,11 @@
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/discovery/application-window-discovery.md",
                     "external_id": "E1010"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1010/",
+                    "external_id": "T1010"
                 }
             ],
             "object_marking_refs": [

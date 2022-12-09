@@ -8,8 +8,8 @@
             "id": "attack-pattern--608a4855-fe3a-4bff-a7a2-46db2ffd360b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.997443Z",
-            "modified": "2022-09-08T18:26:13.394742Z",
-            "name": "RC4 KSA::Encryption Key",
+            "modified": "2022-12-07T14:16:51.486921Z",
+            "name": "RC4 KSA",
             "description": "Malware uses the RC4 Key Scheduling Algorithm (KSA).",
             "kill_chain_phases": [
                 {

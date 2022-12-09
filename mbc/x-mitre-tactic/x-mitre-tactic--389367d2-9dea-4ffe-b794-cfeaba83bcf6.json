@@ -8,9 +8,9 @@
             "id": "x-mitre-tactic--389367d2-9dea-4ffe-b794-cfeaba83bcf6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.076Z",
-            "modified": "2022-09-08T18:26:13.161554Z",
+            "modified": "2022-12-07T14:16:51.2315Z",
             "name": "Impact",
-            "description": "Behaviors that enable malware to manipulate, interrupt, or destroy systems and data.",
+            "description": "",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

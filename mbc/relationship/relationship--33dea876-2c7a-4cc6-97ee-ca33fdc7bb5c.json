@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--237274a4-21b9-4ecf-b4c0-a77d54881a81",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--33dea876-2c7a-4cc6-97ee-ca33fdc7bb5c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:55.31511Z",
+            "modified": "2022-12-07T14:16:55.31511Z",
+            "relationship_type": "uses",
+            "description": "Copies itself into the $systemroot%\\system32 directory and registers as a service",
+            "source_ref": "malware--4fe657cf-373f-4a71-a2b8-8de5c109eef9",
+            "target_ref": "attack-pattern--5d116564-0ef7-4791-9a34-e86d81840b49",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

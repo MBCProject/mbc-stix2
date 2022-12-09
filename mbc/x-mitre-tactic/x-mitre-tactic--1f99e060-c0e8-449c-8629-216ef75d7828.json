@@ -8,9 +8,9 @@
             "id": "x-mitre-tactic--1f99e060-c0e8-449c-8629-216ef75d7828",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.056Z",
-            "modified": "2022-09-08T18:26:13.159756Z",
+            "modified": "2022-12-07T14:16:51.229925Z",
             "name": "Lateral Movement",
-            "description": "Behaviors that enable malware to propagate or otherwise move through an environment. Lateral movement may be active, happening via direct machine access, or may be passive (for example, done via malicious email).",
+            "description": "",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

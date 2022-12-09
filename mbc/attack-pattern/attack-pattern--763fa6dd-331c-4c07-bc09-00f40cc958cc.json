@@ -8,8 +8,8 @@
             "id": "attack-pattern--763fa6dd-331c-4c07-bc09-00f40cc958cc",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.981483Z",
-            "modified": "2022-09-08T18:26:13.372652Z",
-            "name": "Create TCP Socket::Socket Communication",
+            "modified": "2022-12-07T14:16:51.464652Z",
+            "name": "Create TCP Socket",
             "description": "A TCP socket is created.",
             "kill_chain_phases": [
                 {

@@ -8,8 +8,8 @@
             "id": "attack-pattern--77932220-efa9-44d5-b3a9-c5d9ed4f3573",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.021478Z",
-            "modified": "2022-02-05T00:37:22.804261Z",
-            "name": "Ctrl-Alt-Del::Simulate Hardware",
+            "modified": "2022-12-07T14:16:51.436904Z",
+            "name": "Ctrl-Alt-Del",
             "description": "Malware simulates Ctrl-Alt-Del.",
             "kill_chain_phases": [
                 {

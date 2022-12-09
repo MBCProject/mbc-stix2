@@ -8,8 +8,8 @@
             "id": "attack-pattern--7781ebfd-13bd-4a00-9c51-ed98a45f8749",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-09-08T18:26:13.393654Z",
-            "modified": "2022-09-08T18:26:13.393654Z",
-            "name": "Static Public Library::Crypto Library",
+            "modified": "2022-12-07T14:16:51.485767Z",
+            "name": "Static Public Library",
             "description": "A public crypto library is embedded in the code.",
             "kill_chain_phases": [
                 {

@@ -8,8 +8,8 @@
             "id": "attack-pattern--fe662062-536d-43ca-912b-534a2936ddad",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.971484Z",
-            "modified": "2022-09-08T18:26:13.376715Z",
-            "name": "WinINet::FTP Communication",
+            "modified": "2022-12-07T14:16:51.468716Z",
+            "name": "WinINet",
             "description": "Send FTP command via WinINet.",
             "kill_chain_phases": [
                 {

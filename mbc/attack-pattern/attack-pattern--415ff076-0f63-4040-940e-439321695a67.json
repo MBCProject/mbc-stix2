@@ -8,9 +8,9 @@
             "id": "attack-pattern--415ff076-0f63-4040-940e-439321695a67",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.556264Z",
-            "modified": "2022-09-08T18:26:13.19154Z",
+            "modified": "2022-12-07T14:16:51.276656Z",
             "name": "Dead Code Insertion",
-            "description": "Include \"dead\" code with no real functionality.",
+            "description": "Include \"dead\" code with no real functionality. When executing, malware may skip over such code via an opaque predicate.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

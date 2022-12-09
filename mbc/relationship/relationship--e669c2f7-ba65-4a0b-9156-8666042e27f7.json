@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bee2b57d-cd7f-455f-bb23-91f673c8a80b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e669c2f7-ba65-4a0b-9156-8666042e27f7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:56.412194Z",
+            "modified": "2022-12-07T14:16:56.412194Z",
+            "relationship_type": "uses",
+            "description": "Drops software that mines for cryptocurrency: Cryptonight or Claymore's Zcash miner, depending on system architecture.",
+            "source_ref": "malware--8297b846-885e-4751-9e2b-d777ae7d21e3",
+            "target_ref": "attack-pattern--e25edc0c-3631-4df8-a37f-4695d3cec86e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

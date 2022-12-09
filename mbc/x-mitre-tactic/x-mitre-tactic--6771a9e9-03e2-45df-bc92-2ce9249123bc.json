@@ -8,9 +8,9 @@
             "id": "x-mitre-tactic--6771a9e9-03e2-45df-bc92-2ce9249123bc",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-09-08T18:26:13.16108Z",
-            "modified": "2022-09-08T18:26:13.16108Z",
+            "modified": "2022-12-07T14:16:51.231092Z",
             "name": "Persistence",
-            "description": "Behaviors that enable malware to remain on a system regardless of system events, such as reboots.",
+            "description": "",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

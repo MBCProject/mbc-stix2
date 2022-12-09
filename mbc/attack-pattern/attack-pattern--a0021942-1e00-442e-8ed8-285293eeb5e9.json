@@ -8,8 +8,8 @@
             "id": "attack-pattern--a0021942-1e00-442e-8ed8-285293eeb5e9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.986482Z",
-            "modified": "2022-09-08T18:26:13.381759Z",
-            "name": "Snefru::Cryptographic Hash",
+            "modified": "2022-12-07T14:16:51.475079Z",
+            "name": "Snefru",
             "description": "Malware uses a Snefru hash.",
             "kill_chain_phases": [
                 {

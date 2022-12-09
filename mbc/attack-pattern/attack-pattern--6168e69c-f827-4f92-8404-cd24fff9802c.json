@@ -8,7 +8,7 @@
             "id": "attack-pattern--6168e69c-f827-4f92-8404-cd24fff9802c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.760262Z",
-            "modified": "2022-09-08T18:26:13.272846Z",
+            "modified": "2022-12-07T14:16:51.356856Z",
             "name": "Archive Collected Data",
             "description": "Malware may obfuscate data via encryption or encoding before exfiltration.",
             "kill_chain_phases": [
@@ -30,6 +30,11 @@
                 {
                     "source_name": "external_source",
                     "url": "https://docs.broadcom.com/doc/security-response-w32-stuxnet-dossier-11-en"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1560/",
+                    "external_id": "T1560"
                 }
             ],
             "object_marking_refs": [

@@ -8,8 +8,8 @@
             "id": "attack-pattern--a453cf88-1389-4ffd-8f3c-e95475f10a9f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.989483Z",
-            "modified": "2022-09-08T18:26:13.384472Z",
-            "name": "Blowfish::Decrypt Data",
+            "modified": "2022-12-07T14:16:51.477185Z",
+            "name": "Blowfish",
             "description": "Malware decrypts data encrypted with the Blowfish algorithm.",
             "kill_chain_phases": [
                 {

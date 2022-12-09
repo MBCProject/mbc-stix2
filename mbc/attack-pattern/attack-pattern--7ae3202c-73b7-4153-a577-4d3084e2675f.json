@@ -8,8 +8,8 @@
             "id": "attack-pattern--7ae3202c-73b7-4153-a577-4d3084e2675f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.031479Z",
-            "modified": "2022-02-05T00:37:22.819853Z",
-            "name": "Set Registry Key::Registry",
+            "modified": "2022-12-07T14:16:51.49435Z",
+            "name": "Set Registry Key",
             "description": "Malware sets a registry key.",
             "kill_chain_phases": [
                 {

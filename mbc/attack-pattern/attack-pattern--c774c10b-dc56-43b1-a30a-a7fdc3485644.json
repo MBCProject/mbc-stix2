@@ -8,7 +8,7 @@
             "id": "attack-pattern--c774c10b-dc56-43b1-a30a-a7fdc3485644",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.518266Z",
-            "modified": "2022-09-08T18:26:13.310636Z",
+            "modified": "2022-12-07T14:16:51.395624Z",
             "name": "Debugger Evasion",
             "description": "Behaviors that make debugging difficult.",
             "kill_chain_phases": [
@@ -46,6 +46,11 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.fireeye.com/blog/threat-research/2011/01/the-dead-giveaways-of-vm-aware-malware.html"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1622/",
+                    "external_id": "T1622"
                 }
             ],
             "object_marking_refs": [

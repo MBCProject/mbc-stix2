@@ -8,8 +8,8 @@
             "id": "attack-pattern--7adc736f-d3ca-438a-8bce-46967e062ea3",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.886262Z",
-            "modified": "2022-02-05T00:37:22.819853Z",
-            "name": "Create Process via Shellcode::Create Process",
+            "modified": "2022-12-07T14:16:51.446076Z",
+            "name": "Create Process via Shellcode",
             "description": "Malware uses shellcode to create a process.",
             "kill_chain_phases": [
                 {

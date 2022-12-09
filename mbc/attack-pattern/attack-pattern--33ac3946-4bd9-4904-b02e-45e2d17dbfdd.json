@@ -8,7 +8,7 @@
             "id": "attack-pattern--33ac3946-4bd9-4904-b02e-45e2d17dbfdd",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.77826Z",
-            "modified": "2022-09-08T18:26:13.270562Z",
+            "modified": "2022-12-07T14:16:51.354615Z",
             "name": "Data Encrypted for Impact",
             "description": "Malware may encrypt files stored on the system to prevent user access until a ransom is paid and/or to interrupt system availability. The encryption process usually iterates over all letter drives in the system (except for CD drives) and then recursively encrypts all files with specific suffixes.",
             "kill_chain_phases": [
@@ -30,6 +30,28 @@
                 {
                     "source_name": "external_source",
                     "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/cryptolocker-ransomware/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2017/01/locky-bart-ransomware-and-backend-server-analysis/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cisa.gov/uscert/ncas/alerts/AA18-337A"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/en_us/research/20/e/netwalker-fileless-ransomware-injected-via-reflective-loading.html"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1486/",
+                    "external_id": "T1486"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1471/",
+                    "external_id": "T1471"
                 }
             ],
             "object_marking_refs": [

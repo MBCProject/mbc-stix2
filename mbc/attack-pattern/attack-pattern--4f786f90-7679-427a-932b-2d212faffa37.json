@@ -8,8 +8,8 @@
             "id": "attack-pattern--4f786f90-7679-427a-932b-2d212faffa37",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.997443Z",
-            "modified": "2022-09-08T18:26:13.394445Z",
-            "name": "Import Public Key::Encryption Key",
+            "modified": "2022-12-07T14:16:51.486398Z",
+            "name": "Import Public Key",
             "description": "Malware imports a public key.",
             "kill_chain_phases": [
                 {

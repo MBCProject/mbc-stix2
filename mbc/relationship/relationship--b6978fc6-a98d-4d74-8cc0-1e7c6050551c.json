@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bdc1fad2-7da1-4a53-9580-5f34ccbe9a9d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b6978fc6-a98d-4d74-8cc0-1e7c6050551c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:54.039974Z",
+            "modified": "2022-12-07T14:16:54.039974Z",
+            "relationship_type": "uses",
+            "description": "The malware receives data from the C2 server.",
+            "source_ref": "malware--dbe9ee23-f01d-4cdb-bf53-066c77352dac",
+            "target_ref": "attack-pattern--69af89da-bf40-4b9e-93c5-baa8fb937099",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

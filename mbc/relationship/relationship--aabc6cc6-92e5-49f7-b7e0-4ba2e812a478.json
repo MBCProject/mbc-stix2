@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7d2ed83e-6415-4a3c-8daa-84af62f4f154",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--aabc6cc6-92e5-49f7-b7e0-4ba2e812a478",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:53.465098Z",
+            "modified": "2022-12-07T14:16:53.465098Z",
+            "relationship_type": "uses",
+            "description": "Creates an encrypted Registry key called TorClient to store its data",
+            "source_ref": "malware--31e78af0-0509-4f7b-b304-77a8e5bf7ead",
+            "target_ref": "attack-pattern--af4729ed-7659-496d-9028-0b9efbedd9a4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

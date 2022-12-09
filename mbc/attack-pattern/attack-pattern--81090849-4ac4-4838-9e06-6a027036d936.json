@@ -8,8 +8,8 @@
             "id": "attack-pattern--81090849-4ac4-4838-9e06-6a027036d936",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.031479Z",
-            "modified": "2022-02-05T00:37:22.819853Z",
-            "name": "Delete Registry Value::Registry",
+            "modified": "2022-12-07T14:16:51.493117Z",
+            "name": "Delete Registry Value",
             "description": "Malware deletes a registry value.",
             "kill_chain_phases": [
                 {

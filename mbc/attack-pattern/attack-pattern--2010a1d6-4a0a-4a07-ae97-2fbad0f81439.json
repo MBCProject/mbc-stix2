@@ -8,7 +8,7 @@
             "id": "attack-pattern--2010a1d6-4a0a-4a07-ae97-2fbad0f81439",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.609265Z",
-            "modified": "2022-09-08T18:26:13.231605Z",
+            "modified": "2022-12-07T14:16:51.317544Z",
             "name": "C2 Communication",
             "description": "All command and control malware use implant/controller communication. The methods listed below can be used to capture explicit communication details. Remote file copy behavior is captured separately, as is done in ATT&CK - see **Ingress Tool Transfer ([E1105](https://github.com/MBCProject/mbc-markdown/blob/v2.3/command-and-control/ingress-tool-transfer.md))**.",
             "kill_chain_phases": [
@@ -50,6 +50,22 @@
                 {
                     "source_name": "external_source",
                     "url": "https://securelist.com/the-banking-trojan-emotet-detailed-analysis/69560/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://unit42.paloaltonetworks.com/tracking-minidionis-cozycars-new-ride-is-related-to-seaduke"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://web.archive.org/web/20150311013500/http://www.cyphort.com/evilbunny-malware-instrumented-lua/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/clipminer-bitcoin-mining-hijacking"
                 }
             ],
             "object_marking_refs": [

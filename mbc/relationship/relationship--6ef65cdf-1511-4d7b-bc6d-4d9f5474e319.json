@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--cb153b5b-1b42-4dc1-8fa9-c17c61d07a95",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6ef65cdf-1511-4d7b-bc6d-4d9f5474e319",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:54.050066Z",
+            "modified": "2022-12-07T14:16:54.050066Z",
+            "relationship_type": "uses",
+            "description": "Poison Ivy Variant runs a threat to check if any analysis tools are running by creating specially named pipes that are created by various analysis tools. If one of the named pipes cannot be created, it means one fo the analysis tools is running.",
+            "source_ref": "malware--49b9796a-27fd-414e-a87d-b071aaff295b",
+            "target_ref": "attack-pattern--965ddf96-4218-468f-be38-7ccd6ec29397",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

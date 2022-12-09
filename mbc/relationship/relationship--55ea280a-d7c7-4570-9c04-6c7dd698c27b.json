@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--46984ecb-17ed-47d3-8124-230750a49724",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--55ea280a-d7c7-4570-9c04-6c7dd698c27b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:55.807387Z",
+            "modified": "2022-12-07T14:16:55.807387Z",
+            "relationship_type": "uses",
+            "description": "Certain variants of the malware may have rootkit functionality",
+            "source_ref": "malware--6a1bde20-a344-4738-9df5-b568fa4b5f33",
+            "target_ref": "attack-pattern--c550625d-7b0c-4db2-9f30-486767c9cf63",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

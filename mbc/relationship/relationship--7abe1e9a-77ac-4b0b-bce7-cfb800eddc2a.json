@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a9a690eb-1437-4b5b-828a-1a83638d5459",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7abe1e9a-77ac-4b0b-bce7-cfb800eddc2a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:53.755097Z",
+            "modified": "2022-12-07T14:16:53.755097Z",
+            "relationship_type": "uses",
+            "description": "Bagle uses its own SMTP engine to mass-mail itself as an attachment from an infected computer",
+            "source_ref": "malware--f31598c3-8d55-440f-ac5f-4b8ea34fc09b",
+            "target_ref": "attack-pattern--24ed02f2-afad-49c8-a3c4-8ab1c418443e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

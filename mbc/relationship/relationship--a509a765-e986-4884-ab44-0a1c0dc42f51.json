@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--210c6802-d2e4-4f5c-8666-f010df81c5a8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a509a765-e986-4884-ab44-0a1c0dc42f51",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:54.041625Z",
+            "modified": "2022-12-07T14:16:54.041625Z",
+            "relationship_type": "uses",
+            "description": "CHOPSTICK collects information from the host including Windows version, CPU architecture, and UAC settings",
+            "source_ref": "malware--9cc444bb-71a1-4691-84a8-470d5dc72ae1",
+            "target_ref": "attack-pattern--bd879126-0126-4f7a-a1b7-d9944efb251f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -8,8 +8,8 @@
             "id": "attack-pattern--bbcbbd85-689f-486f-b3be-e36852dfe5c5",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.008483Z",
-            "modified": "2022-09-08T18:26:13.338251Z",
-            "name": "pHash::Non-Cryptographic Hash",
+            "modified": "2022-12-07T14:16:51.432128Z",
+            "name": "pHash",
             "description": "Malware uses the pHash hash function.",
             "kill_chain_phases": [
                 {

@@ -8,8 +8,8 @@
             "id": "attack-pattern--befe8d09-ebeb-4a60-89a4-9efaaf325e9b",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:36.109082Z",
-            "modified": "2022-09-08T18:26:13.4016Z",
-            "name": "Get Variable::Environment Variable",
+            "modified": "2022-12-07T14:16:51.495295Z",
+            "name": "Get Variable",
             "description": "Malware gets an environment variable.",
             "kill_chain_phases": [
                 {

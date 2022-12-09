@@ -8,8 +8,8 @@
             "id": "attack-pattern--2847e96e-8080-4f95-96df-b2194e42ac25",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.973483Z",
-            "modified": "2022-09-08T18:26:13.365016Z",
-            "name": "Receive Request::HTTP Communication",
+            "modified": "2022-12-07T14:16:51.456352Z",
+            "name": "Receive Request",
             "description": "HTTP server receives request.",
             "kill_chain_phases": [
                 {

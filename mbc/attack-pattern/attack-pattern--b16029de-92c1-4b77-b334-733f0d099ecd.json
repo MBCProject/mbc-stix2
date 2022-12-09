@@ -8,9 +8,9 @@
             "id": "attack-pattern--b16029de-92c1-4b77-b334-733f0d099ecd",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.561265Z",
-            "modified": "2022-09-08T18:26:13.19463Z",
+            "modified": "2022-12-07T14:16:51.281512Z",
             "name": "Structured Exception Handling (SEH)",
-            "description": "A portion of the code always generates an exception so that malicious code is executed with the exception handling. See  .",
+            "description": "A portion of the code always generates an exception so that malicious code is executed with the exception handling. See .",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

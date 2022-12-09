@@ -8,7 +8,7 @@
             "id": "attack-pattern--d7183ad6-af24-4400-9539-f3a70be04a76",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.953485Z",
-            "modified": "2022-09-08T18:26:13.26805Z",
+            "modified": "2022-12-07T14:16:51.352802Z",
             "name": "Clipboard Modification",
             "description": "ATT&CK defines Clipboard Modification as a Mobile technique (Android platform). MBC extends it to the Windows platform.",
             "kill_chain_phases": [
@@ -22,6 +22,15 @@
                     "source_name": "mitre-mbc",
                     "url": "https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/clipboard-modification.md",
                     "external_id": "E1510"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/clipminer-bitcoin-mining-hijacking"
+                },
+                {
+                    "source_name": "mitre-attack",
+                    "url": "https://attack.mitre.org/techniques/T1510/",
+                    "external_id": "T1510"
                 }
             ],
             "object_marking_refs": [

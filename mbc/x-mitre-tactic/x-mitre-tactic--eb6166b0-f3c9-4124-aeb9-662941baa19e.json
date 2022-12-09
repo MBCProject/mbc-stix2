@@ -8,9 +8,9 @@
             "id": "x-mitre-tactic--eb6166b0-f3c9-4124-aeb9-662941baa19e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-02-05T20:28:15.061Z",
-            "modified": "2022-09-08T18:26:13.162561Z",
+            "modified": "2022-12-07T14:16:51.232319Z",
             "name": "Anti-Behavioral Analysis",
-            "description": "Behaviors that prevent, obstruct, or evade behavioral analysis of malware--for example, analysis done using a sandbox or debugger. Because the underlying methods differ, separate \"detection\" and \"evasion\" behaviors are defined for some anti-behavioral analysis areas.",
+            "description": "",
             "external_references": [
                 {
                     "source_name": "mitre-mbc",

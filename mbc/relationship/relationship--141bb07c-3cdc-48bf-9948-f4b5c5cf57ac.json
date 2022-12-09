@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5d7957d6-4787-46b4-b6fa-2a834d6c144c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--141bb07c-3cdc-48bf-9948-f4b5c5cf57ac",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2022-12-07T14:16:53.453403Z",
+            "modified": "2022-12-07T14:16:53.453403Z",
+            "relationship_type": "uses",
+            "description": "Has a custom packer to obfuscate itself",
+            "source_ref": "malware--2d46d2ec-cab4-4c6d-b5a6-d2e89341e12e",
+            "target_ref": "attack-pattern--ff830778-b9bc-4636-9dc7-884d5dad8c2c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

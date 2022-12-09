@@ -8,8 +8,8 @@
             "id": "attack-pattern--90206369-0c71-47cd-abf2-65e4e75fee99",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.980486Z",
-            "modified": "2022-09-08T18:26:13.371885Z",
-            "name": "Start TCP Server::Socket Communication",
+            "modified": "2022-12-07T14:16:51.46388Z",
+            "name": "Start TCP Server",
             "description": "A TCP server listens for client requests.",
             "kill_chain_phases": [
                 {
