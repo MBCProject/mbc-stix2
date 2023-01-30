@@ -8,9 +8,9 @@
             "id": "attack-pattern--c774c10b-dc56-43b1-a30a-a7fdc3485644",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.518266Z",
-            "modified": "2022-12-07T14:16:51.395624Z",
+            "modified": "2023-01-30T20:16:28.331183Z",
             "name": "Debugger Evasion",
-            "description": "Behaviors that make debugging difficult.",
+            "description": "Behaviors that make debugging difficult.\n\nA thorough reference for anti-debugging, both detection and evasion, is given in [[1]](#1).\n\nThe related **Debugger Evasion ([T1622](https://attack.mitre.org/techniques/T1622/))** ATT&CK technique was defined subsequent to this MBC behavior.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -33,7 +33,7 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "http://phishme.com/dridex-code-breaking-modify-the-malware-to-bypass-the-vm-bypass/"
+                    "url": "https://www.fireeye.com/blog/threat-research/2011/01/the-dead-giveaways-of-vm-aware-malware.html"
                 },
                 {
                     "source_name": "external_source",
@@ -45,7 +45,7 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "https://www.fireeye.com/blog/threat-research/2011/01/the-dead-giveaways-of-vm-aware-malware.html"
+                    "url": "https://web.archive.org/web/20161025013916/https://www.fireeye.com/blog/threat-research/2011/01/the-dead-giveaways-of-vm-aware-malware.html"
                 },
                 {
                     "source_name": "mitre-attack",

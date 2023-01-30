@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--356142f8-c545-4df3-8e55-8360e89218dd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--407857f1-9c22-4c00-80b5-f4abffeed5ec",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.686091Z",
+            "modified": "2023-01-30T20:16:30.686091Z",
+            "relationship_type": "uses",
+            "description": "Allocate thread local storage (This capa rule had 3 matches)",
+            "source_ref": "malware--fa095747-0ca8-4965-a222-cf1fe7647e12",
+            "target_ref": "attack-pattern--fdd6cb04-8d0a-4808-b50a-0e7f8061b42b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

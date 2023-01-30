@@ -8,9 +8,9 @@
             "id": "attack-pattern--767a1acf-9e83-4181-82cd-2bcb9d8871d9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.729261Z",
-            "modified": "2022-12-07T14:16:51.327704Z",
+            "modified": "2023-01-30T20:16:28.278649Z",
             "name": "Exploitation for Client Execution",
-            "description": "Software is exploited - either because of a vulnerability or through its designed features - to gain access for malware. In general, exploitation may be done by a human attacker, but MBC focuses on software exploits implemented in code. Malware-specific details are below.",
+            "description": "Software is exploited - either because of a vulnerability or through its designed features - to gain access for malware. In general, exploitation may be done by a human attacker, but MBC focuses on software exploits implemented in code. Malware-specific details are below.\n\nSee ATT&CK: **Exploitation for Client Execution ([T1203](https://attack.mitre.org/techniques/T1203))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

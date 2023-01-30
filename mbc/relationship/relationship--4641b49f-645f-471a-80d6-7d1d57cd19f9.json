@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1c2d48ff-6219-4fdf-829f-44e412a7b3d2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4641b49f-645f-471a-80d6-7d1d57cd19f9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:29.374692Z",
+            "modified": "2023-01-30T20:16:29.374692Z",
+            "relationship_type": "uses",
+            "description": "Delete file (This capa rule had 1 match)",
+            "source_ref": "malware--a456fdcd-68f2-46fb-adb0-97c6817338c9",
+            "target_ref": "attack-pattern--f50e1610-ac57-4256-85b8-4f16db37b184",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

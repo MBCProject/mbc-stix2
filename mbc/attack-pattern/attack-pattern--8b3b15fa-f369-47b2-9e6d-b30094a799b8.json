@@ -8,9 +8,9 @@
             "id": "attack-pattern--8b3b15fa-f369-47b2-9e6d-b30094a799b8",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-09-08T18:26:13.232941Z",
-            "modified": "2022-12-07T14:16:51.318479Z",
+            "modified": "2023-01-30T20:16:28.270506Z",
             "name": "Ingress Tool Transfer",
-            "description": "Malware may copy files from an external system to a system on a compromised network.",
+            "description": "Malware may copy files from an external system to a system on a compromised network. \n\nNote that this behavior is separate from possible execution (installation) of the file, which is covered by the **Install Additional Program ([B0023](https://github.com/MBCProject/mbc-markdown/blob/v2.3/execution/install-additional-program.md))** behavior. \n\nSee ATT&CK: **Ingress Tool Transfer ([T1105](https://attack.mitre.org/techniques/T1105/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -33,18 +33,6 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "https://www.cyber.nj.gov/threat-profiles/trojan-variants/poison-ivy"
-                },
-                {
-                    "source_name": "external_source",
-                    "url": "https://www.secureworks.com/research/cryptolocker-ransomware"
-                },
-                {
-                    "source_name": "external_source",
-                    "url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/gamut-spambot-analysis/"
-                },
-                {
-                    "source_name": "external_source",
                     "url": "https://blog.malwarebytes.com/threat-analysis/2012/06/you-dirty-rat-part-1-darkcomet/"
                 },
                 {
@@ -54,6 +42,22 @@
                 {
                     "source_name": "external_source",
                     "url": "https://unit42.paloaltonetworks.com/tracking-minidionis-cozycars-new-ride-is-related-to-seaduke"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/gamut-spambot-analysis/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.welivesecurity.com/2019/07/08/south-korean-users-backdoor-torrents/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://citizenlab.ca/2016/04/between-hong-kong-and-burma/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://unit42.paloaltonetworks.com/tracking-minidionis-cozycars-new-ride-is-related-to-seaduke/"
                 },
                 {
                     "source_name": "mitre-attack",

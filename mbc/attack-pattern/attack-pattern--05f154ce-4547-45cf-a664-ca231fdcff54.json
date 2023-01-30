@@ -8,7 +8,7 @@
             "id": "attack-pattern--05f154ce-4547-45cf-a664-ca231fdcff54",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-09-08T18:26:13.423869Z",
-            "modified": "2022-09-08T18:26:13.423869Z",
+            "modified": "2023-01-30T20:16:28.423135Z",
             "name": "Install Insecure or Malicious Configuration",
             "description": "Malware may install malicious configuration settings or may modify existing configuration settings. For example, malware may change configuration settings associated with security mechanisms to make it difficult to detect or change configuration settings to maintain a foothold on the network.",
             "kill_chain_phases": [
@@ -30,6 +30,10 @@
                 {
                     "source_name": "external_source",
                     "url": "https://blog-assets.f-secure.com/wp-content/uploads/2019/10/15163408/BlackEnergy_Quedagh.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://researchcenter.paloaltonetworks.com/2015/10/yispecter-first-ios-malware-attacks-non-jailbroken-ios-devices-by-abusing-private-apis/"
                 }
             ],
             "object_marking_refs": [

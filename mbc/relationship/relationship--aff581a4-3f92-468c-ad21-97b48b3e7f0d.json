@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7687a416-8933-42fe-a594-6781582e2c13",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--aff581a4-3f92-468c-ad21-97b48b3e7f0d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:31.179831Z",
+            "modified": "2023-01-30T20:16:31.179831Z",
+            "relationship_type": "uses",
+            "description": "Get common file path (This capa rule had 1 match)",
+            "source_ref": "malware--d36b0186-1e10-4dd8-a1df-076e9a692c57",
+            "target_ref": "attack-pattern--e2558f71-7409-4203-bd5b-8a331f29327a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

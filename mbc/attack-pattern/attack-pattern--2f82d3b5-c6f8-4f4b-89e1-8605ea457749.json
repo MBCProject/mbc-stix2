@@ -8,9 +8,8 @@
             "id": "attack-pattern--2f82d3b5-c6f8-4f4b-89e1-8605ea457749",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.939481Z",
-            "modified": "2022-09-08T18:26:13.218485Z",
+            "modified": "2023-01-30T20:16:28.25933Z",
             "name": "Taskbar Discovery",
-            "description": "Malware may find the taskbar.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

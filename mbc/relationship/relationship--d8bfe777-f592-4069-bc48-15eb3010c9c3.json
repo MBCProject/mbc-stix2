@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8b5089ea-ecaf-4db4-b8cb-e40bb9b75a83",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d8bfe777-f592-4069-bc48-15eb3010c9c3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:33.859432Z",
+            "modified": "2023-01-30T20:16:33.859432Z",
+            "relationship_type": "uses",
+            "description": "Suspend thread (This capa rule had 1 match)",
+            "source_ref": "malware--6a1bde20-a344-4738-9df5-b568fa4b5f33",
+            "target_ref": "attack-pattern--26a24fc4-3488-408f-ae36-9e5e881f4b9e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

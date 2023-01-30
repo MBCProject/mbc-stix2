@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6c5912eb-606b-4c22-96b2-a1b3ec08727d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--89b184eb-f5ed-41ee-a7eb-13c56cf3f0e7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:29.501431Z",
+            "modified": "2023-01-30T20:16:29.501431Z",
+            "relationship_type": "uses",
+            "description": "Enumerate gui resources (This capa rule had 3 matches)",
+            "source_ref": "malware--19d14868-ff81-4c8c-9a6a-c57baf7e7f52",
+            "target_ref": "attack-pattern--048440e7-8adb-4a71-9ee3-922ca4040b1f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

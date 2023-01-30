@@ -8,7 +8,7 @@
             "id": "attack-pattern--b75f25bc-7663-4e09-a5b1-9e6900f7b8f8",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-12-07T14:16:51.293138Z",
-            "modified": "2022-12-07T14:16:51.293138Z",
+            "modified": "2023-01-30T20:16:28.249987Z",
             "name": "Desynchronizing Opaque Predicates",
             "description": "Opaque predicates inject superfluous branches into the disassembly, resulting in disassembly desynchronization, as well as code bloat. The junk bytes introduced damage the disassembly process when the bytes are treated as code.",
             "kill_chain_phases": [
@@ -25,7 +25,7 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "https://www.ndss-symposium.org/wp-content/uploads/2020/04/bar2020-23004-paper.pdf"
+                    "url": "https://www.ndss-symposium.org/wp-content/uploads/2020/04/bar2020-23004-paper.pd"
                 }
             ],
             "object_marking_refs": [

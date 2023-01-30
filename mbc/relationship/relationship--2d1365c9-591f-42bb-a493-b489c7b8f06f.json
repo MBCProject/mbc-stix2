@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f85faf3e-0f16-4fc0-a057-1cd1ac0447c8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2d1365c9-591f-42bb-a493-b489c7b8f06f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.680839Z",
+            "modified": "2023-01-30T20:16:30.680839Z",
+            "relationship_type": "uses",
+            "description": "Create HTTP request (This capa rule had 4 matches)",
+            "source_ref": "malware--fa095747-0ca8-4965-a222-cf1fe7647e12",
+            "target_ref": "attack-pattern--0b6c8517-62d1-49c1-9a2d-9300806d1370",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

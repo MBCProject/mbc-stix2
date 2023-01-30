@@ -8,7 +8,7 @@
             "id": "attack-pattern--b0cd3324-b762-4e02-8e9d-7dd3708d5e0a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.03448Z",
-            "modified": "2022-09-08T18:26:13.354982Z",
+            "modified": "2023-01-30T20:16:28.365724Z",
             "name": "Check Mutex",
             "description": "Malware checks a mutex.",
             "kill_chain_phases": [
@@ -26,6 +26,10 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-poison-ivy.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fortinet.com/blog/threat-research/deep-analysis-of-new-poison-ivy-variant"
                 }
             ],
             "object_marking_refs": [

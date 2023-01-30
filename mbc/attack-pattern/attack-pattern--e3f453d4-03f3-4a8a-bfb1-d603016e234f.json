@@ -8,9 +8,9 @@
             "id": "attack-pattern--e3f453d4-03f3-4a8a-bfb1-d603016e234f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.602268Z",
-            "modified": "2022-12-07T14:16:51.306776Z",
+            "modified": "2023-01-30T20:16:28.261387Z",
             "name": "Screen Capture",
-            "description": "Malware takes screen captures of the desktop.",
+            "description": "Malware takes screen captures of the desktop.\n\nSee ATT&CK: **Screen Capture ([T1113](https://attack.mitre.org/techniques/T1113/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

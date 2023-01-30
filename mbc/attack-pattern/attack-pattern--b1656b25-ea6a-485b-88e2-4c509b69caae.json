@@ -8,9 +8,9 @@
             "id": "attack-pattern--b1656b25-ea6a-485b-88e2-4c509b69caae",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.722263Z",
-            "modified": "2022-12-07T14:16:51.333944Z",
+            "modified": "2023-01-30T20:16:28.281561Z",
             "name": "Conditional Execution",
-            "description": "Malware checks system environment conditions or characteristics to determine execution path. For example, malware may not run or be dormant unless system conditions are right, or file that is dropped may vary according to execution environment. Conditional execution in malware happens autonomously, not because of an attacker's command.",
+            "description": "Malware checks system environment conditions or characteristics to determine execution path. For example, malware may not run or be dormant unless system conditions are right, or file that is dropped may vary according to execution environment. Conditional execution in malware happens autonomously, not because of an attacker's command.\n\nThis behavior is related to the **Dynamic Analysis Evasion ([B0003](https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis/dynamic-analysis-evasion.md))** behavior that obstructs dynamic analysis in a sandbox, emulator, or virtual machine.\n\nSome aspects of this Conditional Execution behavior are related to the [Execution Guardrails (T1480)](https://attack.mitre.org/techniques/T1480) ATT&CK technique; however the ATT&CK technique is not focused on anti-behavioral analysis behaviors.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -37,11 +37,23 @@
                 },
                 {
                     "source_name": "external_source",
+                    "url": "https://reverseengineering.stackexchange.com/questions/2019/debugging-malware-that-will-only-run-as-a-service"
+                },
+                {
+                    "source_name": "external_source",
                     "url": "https://www.proofpoint.com/us/threat-insight/post/ursnif-banking-trojan-campaign-sandbox-evasion-techniques"
                 },
                 {
                     "source_name": "external_source",
                     "url": "https://www.webroot.com/blog/2011/09/13/mebromi-the-first-bios-rootkit-in-the-wild/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://en.wikipedia.org/wiki/Conficker"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://docs.broadcom.com/doc/security-response-w32-stuxnet-dossier-11-en"
                 },
                 {
                     "source_name": "mitre-attack",

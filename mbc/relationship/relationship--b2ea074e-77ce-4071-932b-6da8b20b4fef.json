@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--baf3905d-d9f9-423c-8a9d-b20d689601f2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b2ea074e-77ce-4071-932b-6da8b20b4fef",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:32.708654Z",
+            "modified": "2023-01-30T20:16:32.708654Z",
+            "relationship_type": "uses",
+            "description": "Find graphical window (This capa rule had 1 match)",
+            "source_ref": "malware--5dcefe05-4ead-4f84-9919-ebefe968df27",
+            "target_ref": "attack-pattern--048440e7-8adb-4a71-9ee3-922ca4040b1f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f1c0c738-04d7-4695-8194-da7f4fd5a191",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dc425407-7ec7-4e05-8274-ca953ba7a2b3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.291467Z",
+            "modified": "2023-01-30T20:16:30.291467Z",
+            "relationship_type": "uses",
+            "description": "Create process suspended (This capa rule had 1 match)",
+            "source_ref": "malware--2d46d2ec-cab4-4c6d-b5a6-d2e89341e12e",
+            "target_ref": "attack-pattern--ecf1cd8c-ffef-40bd-a2e3-441e77a84a77",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

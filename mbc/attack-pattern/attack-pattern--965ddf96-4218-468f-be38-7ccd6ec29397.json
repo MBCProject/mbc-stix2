@@ -8,9 +8,9 @@
             "id": "attack-pattern--965ddf96-4218-468f-be38-7ccd6ec29397",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.708261Z",
-            "modified": "2022-09-08T18:26:13.217492Z",
+            "modified": "2023-01-30T20:16:28.258896Z",
             "name": "Analysis Tool Discovery",
-            "description": "Malware can employ various means to detect whether analysis tools are present or running on the system on which it is executing. Note that analysis tools are used to *analyze* malware whereas security software (see **Software Discovery: Security Software Discovery ([T1518](https://attack.mitre.org/techniques/T1518/001/))** aims to *detect/mitigate* malware on a system or network.",
+            "description": "Malware can employ various means to detect whether analysis tools are present or running on the system on which it is executing. Note that analysis tools are used to *analyze* malware whereas security software (see **Software Discovery: Security Software Discovery ([T1518](https://attack.mitre.org/techniques/T1518/001/))** aims to *detect/mitigate* malware on a system or network.\n\nThis behavior corresponds to simple, general discovery of analysis tools. Behaviors to find specific analysis tools (e.g., debuggers or disassemblers) are defined under the [Anti-Behavioral Analysis](https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-behavioral-analysis) objective.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

@@ -8,9 +8,9 @@
             "id": "attack-pattern--a5490a04-b672-4587-ae13-f0a25eb1cea4",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.927259Z",
-            "modified": "2022-02-05T00:37:22.835477Z",
+            "modified": "2023-01-30T20:16:28.289045Z",
             "name": "Shutdown Event",
-            "description": "Malware can register the shutdown event triggered by WinLogon to allow a malicious DLL to execute every time the machine shuts down: when the machine is shutdown the malware will be loaded into memory; then it will download the primary malware and reinfect the machine. The malware will also lie dormant during incident reporting processes. To check whether malware has registered for login events, check the registry key: HKEY_LOCAL_MACHINESoftwareMicrosoftWindows NTCurrentVersionWinlogonNotify. If a subkey with any name exists and it has a \"shutdown\" value then the dll in the \"DLLName\" key will be launched during the shutdown process.",
+            "description": "Malware can register the shutdown event triggered by WinLogon to allow a malicious DLL to execute every time the machine shuts down: when the machine is shutdown the malware will be loaded into memory; then it will download the primary malware and reinfect the machine. The malware will also lie dormant during incident reporting processes. To check whether malware has registered for login events, check the registry key: HKEY_LOCAL_MACHINESoftwareMicrosoftWindows NTCurrentVersionWinlogonNotify. If a subkey with any name exists and it has a \"shutdown\" value then the dll in the \"DLLName\" key will be launched during the shutdown process. [[1]](#1)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

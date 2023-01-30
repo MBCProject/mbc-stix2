@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3bf514df-32ae-4098-8013-b4a854e3d20c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--259a7e82-84a8-4488-8e01-6a6178935022",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:29.691231Z",
+            "modified": "2023-01-30T20:16:29.691231Z",
+            "relationship_type": "uses",
+            "description": "Write clipboard data (This capa rule had 4 matches)",
+            "source_ref": "malware--19d14868-ff81-4c8c-9a6a-c57baf7e7f52",
+            "target_ref": "attack-pattern--d7183ad6-af24-4400-9539-f3a70be04a76",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

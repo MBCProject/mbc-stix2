@@ -8,9 +8,9 @@
             "id": "attack-pattern--5d116564-0ef7-4791-9a34-e86d81840b49",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.920259Z",
-            "modified": "2022-12-07T14:16:51.339295Z",
+            "modified": "2023-01-30T20:16:28.287058Z",
             "name": "Modify Existing Service",
-            "description": "Malware may modify an existing service to gain persistence. Modification may include disabling a service.",
+            "description": "Malware may modify an existing service to gain persistence. Modification may include disabling a service.\n\nSee ATT&CK: **Create or Modify System Process::Windows Service ([T1543.003](https://attack.mitre.org/techniques/T1543/003/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

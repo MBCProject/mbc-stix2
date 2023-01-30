@@ -8,9 +8,9 @@
             "id": "attack-pattern--ad4ab2e7-0491-4ef3-b69b-f4a73a5a7cd4",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.71926Z",
-            "modified": "2022-12-07T14:16:51.335695Z",
+            "modified": "2023-01-30T20:16:28.2831Z",
             "name": "Command and Scripting Interpreter",
-            "description": "Malware may abuse command and script interpreters to execute commands, scripts, or binaries.",
+            "description": "Malware may abuse command and script interpreters to execute commands, scripts, or binaries.\n\nSee ATT&CK: **Command and Scripting Interpreter ([T1059](https://attack.mitre.org/techniques/T1059), [T1623](https://attack.mitre.org/techniques/T1623))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -54,6 +54,22 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.trendmicro.com/en_us/research/20/e/netwalker-fileless-ransomware-injected-via-reflective-loading.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2018/10/mac-malware-intercepts-encrypted-web-traffic-for-ad-injection/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/webcobra-malware-uses-victims-computers-to-mine-cryptocurrency/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2016/07/untangling-kovter/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.cyber.nj.gov/threat-center/threat-profiles/trojan-variants/poison-ivy"
                 },
                 {
                     "source_name": "mitre-attack",

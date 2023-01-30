@@ -8,9 +8,9 @@
             "id": "attack-pattern--8f139c3f-7cc6-4d7f-a05e-7139a156fdeb",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.47626Z",
-            "modified": "2022-09-08T18:26:13.32216Z",
+            "modified": "2023-01-30T20:16:28.3416Z",
             "name": "Debugger Detection",
-            "description": "Malware detects whether it's being executed inside a debugger. If so, conditional execution selects a benign execution path.",
+            "description": "Malware detects whether it's being executed inside a debugger. If so, conditional execution selects a benign execution path. [[1]](#1), [[2]](#2)\n\nDetails on methods of detecting debuggers are given in the references; many are listed below.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -69,6 +69,10 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-poison-ivy.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fireeye.com/blog/threat-research/2017/11/ursnif-variant-malicious-tls-callback-technique.html"
                 }
             ],
             "object_marking_refs": [

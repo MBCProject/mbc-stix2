@@ -8,9 +8,9 @@
             "id": "attack-pattern--27a1c173-3d93-430b-9544-8dd2db602b87",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.662262Z",
-            "modified": "2022-12-07T14:16:51.510056Z",
+            "modified": "2023-01-30T20:16:28.4179Z",
             "name": "Hidden Files and Directories",
-            "description": "Malware may hide files and folders to avoid detection and/or to persist on the system. See potential methods below.",
+            "description": "Malware may hide files and folders to avoid detection and/or to persist on the system. See potential methods below. \n\nSee ATT&CK: **Hide Artifacts: Hidden Files and Directories ([T1564.001](https://attack.mitre.org/techniques/T1564/001/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -34,6 +34,10 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/shamoon-returns-to-wipe-systems-in-middle-east-europe/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf"
                 },
                 {
                     "source_name": "mitre-attack",

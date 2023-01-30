@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8f5bf586-a24d-4de0-816f-a56dcec7eaa8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cd4a1e85-3109-4991-b3a6-8e7b639a2d4d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.291104Z",
+            "modified": "2023-01-30T20:16:30.291104Z",
+            "relationship_type": "uses",
+            "description": "Create process on Windows (This capa rule had 1 match)",
+            "source_ref": "malware--2d46d2ec-cab4-4c6d-b5a6-d2e89341e12e",
+            "target_ref": "attack-pattern--3955de8e-1ab7-4ab0-b7ca-226822885913",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

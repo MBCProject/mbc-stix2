@@ -8,9 +8,9 @@
             "id": "relationship--29041840-895d-48ce-9fc0-080e6369d670",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-12-07T14:16:55.633225Z",
-            "modified": "2022-12-07T14:16:55.633225Z",
+            "modified": "2023-01-30T20:16:32.934438Z",
             "relationship_type": "uses",
-            "description": "spam email with the Emotet loader is sent automatically",
+            "description": "Spam email with the emotet loader is sent automatically",
             "source_ref": "malware--5fe2035d-58a0-4cd6-9561-cf4442871a10",
             "target_ref": "attack-pattern--24ed02f2-afad-49c8-a3c4-8ab1c418443e",
             "object_marking_refs": [

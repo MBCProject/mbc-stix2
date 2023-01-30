@@ -8,9 +8,9 @@
             "id": "attack-pattern--33ac3946-4bd9-4904-b02e-45e2d17dbfdd",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.77826Z",
-            "modified": "2022-12-07T14:16:51.354615Z",
+            "modified": "2023-01-30T20:16:28.29992Z",
             "name": "Data Encrypted for Impact",
-            "description": "Malware may encrypt files stored on the system to prevent user access until a ransom is paid and/or to interrupt system availability. The encryption process usually iterates over all letter drives in the system (except for CD drives) and then recursively encrypts all files with specific suffixes.",
+            "description": "Malware may encrypt files stored on the system to prevent user access until a ransom is paid and/or to interrupt system availability. The encryption process usually iterates over all letter drives in the system (except for CD drives) and then recursively encrypts all files with specific suffixes.\n\nSee ATT&CK: **Data Encrypted for Impact ([T1486](https://attack.mitre.org/techniques/T1486/))** and **Data Encrypted for Impact (Mobile) ([T1471](https://attack.mitre.org/techniques/T1471/))**",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -29,7 +29,7 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "http://www.secureworks.com/cyber-threat-intelligence/threats/cryptolocker-ransomware/"
+                    "url": "https://www.secureworks.com/research/cryptolocker-ransomware"
                 },
                 {
                     "source_name": "external_source",

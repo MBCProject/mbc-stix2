@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2c80a918-24b5-4108-9c88-b3c1813b5cb1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c870176d-2ec9-49a5-8b08-7287470a2621",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.68125Z",
+            "modified": "2023-01-30T20:16:30.68125Z",
+            "relationship_type": "uses",
+            "description": "Hash data via WinCrypt (This capa rule had 22 matches)",
+            "source_ref": "malware--fa095747-0ca8-4965-a222-cf1fe7647e12",
+            "target_ref": "attack-pattern--1cca12fe-f5c4-4c35-979b-5c6962dd9484",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

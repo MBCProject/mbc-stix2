@@ -8,9 +8,9 @@
             "id": "attack-pattern--73482bd3-d3d1-4f57-a5ac-59bf22866f16",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.928367Z",
-            "modified": "2022-12-07T14:16:51.353808Z",
+            "modified": "2023-01-30T20:16:28.299239Z",
             "name": "Disk Wipe",
-            "description": "Malware may erase the content of storage devices. This behavior is different than **Data Destruction ([E1485](https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/data-destruction.md))** because sections of the disk are erased rather than individual files.",
+            "description": "Malware may erase the content of storage devices. This behavior is different than **Data Destruction ([E1485](https://github.com/MBCProject/mbc-markdown/blob/v2.3/impact/data-destruction.md))** because sections of the disk are erased rather than individual files.\n\nThis description refines the ATT&CK **Disk Wipe ([T1203](https://attack.mitre.org/techniques/T1561/)**] sub-technique.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

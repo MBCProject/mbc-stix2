@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4a96ed75-a2b9-4a61-873c-2bf00ccce9e5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b0053adb-4385-4277-9f37-8dbcdf0c0cd5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:32.374964Z",
+            "modified": "2023-01-30T20:16:32.374964Z",
+            "relationship_type": "uses",
+            "description": "Check if file exists (This capa rule had 1 match)",
+            "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
+            "target_ref": "attack-pattern--e2558f71-7409-4203-bd5b-8a331f29327a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

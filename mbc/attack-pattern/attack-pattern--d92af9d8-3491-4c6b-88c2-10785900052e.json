@@ -8,9 +8,9 @@
             "id": "attack-pattern--d92af9d8-3491-4c6b-88c2-10785900052e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.817261Z",
-            "modified": "2022-09-08T18:26:13.367356Z",
+            "modified": "2023-01-30T20:16:28.375747Z",
             "name": "HTTP Communication",
-            "description": "This micro-behavior is related to HTTP communication.",
+            "description": "This micro-behavior is related to HTTP communication. \n\nInstead of being listed alphabetically, methods have been grouped to better faciliate labeling and mapping.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

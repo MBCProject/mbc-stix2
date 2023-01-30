@@ -8,9 +8,9 @@
             "id": "attack-pattern--ff830778-b9bc-4636-9dc7-884d5dad8c2c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.584261Z",
-            "modified": "2022-12-07T14:16:51.288714Z",
+            "modified": "2023-01-30T20:16:28.245206Z",
             "name": "Software Packing",
-            "description": "This code characteristic - Software Packing - can make static and behavioral analysis difficult and includes packing with software protectors, such as Themida and Armadillo [[1]](#1). Methods related to anti-analysis are below. This behavior covers both characteristics of the malware (i.e., how it is packed) as well as behaviors of the malware (e.g., the malware packs another executable file).",
+            "description": "This code characteristic - Software Packing - can make static and behavioral analysis difficult and includes packing with software protectors, such as Themida and Armadillo [[1]](#1). Methods related to anti-analysis are below. This behavior covers both characteristics of the malware (i.e., how it is packed) as well as behaviors of the malware (e.g., the malware packs another executable file).\n\nThis description refines the ATT&CK **Obfuscated Files or Information: Software Packing ([T1027.002](https://attack.mitre.org/techniques/T1027/002/), [T1406.002](https://attack.mitre.org/techniques/T1406/002/))** techniques.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -64,6 +64,14 @@
                 {
                     "source_name": "external_source",
                     "url": "https://documents.trendmicro.com/assets/white_papers/ExploringEmotetsActivities_Final.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2016/07/untangling-kovter/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://web.archive.org/web/20161025013916/https://www.fireeye.com/blog/threat-research/2011/01/the-dead-giveaways-of-vm-aware-malware.html"
                 },
                 {
                     "source_name": "mitre-attack",

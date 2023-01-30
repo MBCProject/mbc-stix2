@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--be5882ec-78a4-4da7-aeed-44d39c133fec",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--76ad7a42-382b-4a51-8230-c28da651f6e4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.683855Z",
+            "modified": "2023-01-30T20:16:30.683855Z",
+            "relationship_type": "uses",
+            "description": "Move file (This capa rule had 24 matches)",
+            "source_ref": "malware--fa095747-0ca8-4965-a222-cf1fe7647e12",
+            "target_ref": "attack-pattern--53354aca-b791-4d12-875c-730f75d9be91",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

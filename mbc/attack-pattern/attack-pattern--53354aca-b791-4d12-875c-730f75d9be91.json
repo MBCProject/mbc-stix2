@@ -8,9 +8,8 @@
             "id": "attack-pattern--53354aca-b791-4d12-875c-730f75d9be91",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:36.077859Z",
-            "modified": "2022-02-05T00:37:22.804261Z",
+            "modified": "2023-01-30T20:16:28.363355Z",
             "name": "Move File",
-            "description": "Malware moves a file.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

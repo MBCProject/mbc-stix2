@@ -8,9 +8,9 @@
             "id": "attack-pattern--b8311cd4-85f0-4e4c-83c5-0af831e6d7f1",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.772261Z",
-            "modified": "2022-12-07T14:16:51.350311Z",
+            "modified": "2023-01-30T20:16:28.295861Z",
             "name": "Denial of Service",
-            "description": "Malware may make a network unavailable, for example, by launching a network-based denial of service (DoS) attack.",
+            "description": "Malware may make a network unavailable, for example, by launching a network-based denial of service (DoS) attack. \n\nEndpoint denial of service behaviors are captured by the **Endpoint Denial of Service ([T1499](https://attack.mitre.org/techniques/T1499/))** technique.\n\nThe related **Network Denial of Service ([T1498](https://attack.mitre.org/techniques/T1498/))** ATT&CK technique was defined subsequent to this MBC behavior.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -30,6 +30,10 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.welivesecurity.com/2019/07/08/south-korean-users-backdoor-torrents/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog-assets.f-secure.com/wp-content/uploads/2019/10/15163408/BlackEnergy_Quedagh.pdf"
                 },
                 {
                     "source_name": "mitre-attack",

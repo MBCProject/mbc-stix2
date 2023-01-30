@@ -8,9 +8,9 @@
             "id": "attack-pattern--7c1bb00d-f8cb-4ca8-aa11-b59f5b108996",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.754261Z",
-            "modified": "2022-12-07T14:16:51.357688Z",
+            "modified": "2023-01-30T20:16:28.302611Z",
             "name": "Automated Exfiltration",
-            "description": "Malware may exfiltrate data via automated processing or scripting.",
+            "description": "Malware may exfiltrate data via automated processing or scripting.\n\nSee ATT&CK Technique: **Automated Exfiltration ([T1020](https://attack.mitre.org/techniques/T1020/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

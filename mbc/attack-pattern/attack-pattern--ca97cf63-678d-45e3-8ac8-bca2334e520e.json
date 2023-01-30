@@ -8,9 +8,9 @@
             "id": "attack-pattern--ca97cf63-678d-45e3-8ac8-bca2334e520e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-09-08T18:26:13.268708Z",
-            "modified": "2022-12-07T14:16:51.353214Z",
+            "modified": "2023-01-30T20:16:28.298853Z",
             "name": "Exploit Kit",
-            "description": "An Exploit Kit is a toolkit that exploits vulnerabilities in software to deliver malicious payloads (malware).",
+            "description": "An Exploit Kit is a toolkit that exploits vulnerabilities in software to deliver malicious payloads (malware).\n\nSee related ATT&CK Technique: **Exploit Public-Facing Application ([T1190](https://attack.mitre.org/techniques/T1190))**, which relates to Initial Access. Under the Impact objective, exploit behaviors are considered more broadly in MBC.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

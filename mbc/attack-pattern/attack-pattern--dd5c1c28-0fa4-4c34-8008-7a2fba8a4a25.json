@@ -8,9 +8,9 @@
             "id": "attack-pattern--dd5c1c28-0fa4-4c34-8008-7a2fba8a4a25",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.666262Z",
-            "modified": "2022-12-07T14:16:51.508074Z",
+            "modified": "2023-01-30T20:16:28.416216Z",
             "name": "Indicator Blocking",
-            "description": "Malware blocks indicators or events that would indicate malicious activity. Methods relevant to the malware domain are below.",
+            "description": "Malware blocks indicators or events that would indicate malicious activity. Methods relevant to the malware domain are below. \n\nSee ATT&CK: **Impair Defenses: Indicator Blocking ([T1562.006](https://attack.mitre.org/techniques/T1562/006/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

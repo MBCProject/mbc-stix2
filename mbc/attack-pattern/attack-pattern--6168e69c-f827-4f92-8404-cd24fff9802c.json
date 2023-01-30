@@ -8,9 +8,9 @@
             "id": "attack-pattern--6168e69c-f827-4f92-8404-cd24fff9802c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.760262Z",
-            "modified": "2022-12-07T14:16:51.356856Z",
+            "modified": "2023-01-30T20:16:28.301953Z",
             "name": "Archive Collected Data",
-            "description": "Malware may obfuscate data via encryption or encoding before exfiltration.",
+            "description": "Malware may obfuscate data via encryption or encoding before exfiltration.\n\nSee ATT&CK Technique: **Archive Collected Data ([T1560](https://attack.mitre.org/techniques/T1560/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

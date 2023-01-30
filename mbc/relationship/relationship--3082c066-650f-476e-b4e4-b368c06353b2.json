@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e6c5b509-b610-40df-8a28-0de70f18ac8e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3082c066-650f-476e-b4e4-b368c06353b2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:34.301919Z",
+            "modified": "2023-01-30T20:16:34.301919Z",
+            "relationship_type": "uses",
+            "description": "Persist via Run registry key (This capa rule had 4 matches)",
+            "source_ref": "malware--b0625dd2-cc91-4936-9e12-289960aa0b41",
+            "target_ref": "attack-pattern--4294b63a-0b68-473a-8e57-bd5da8d90bf6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

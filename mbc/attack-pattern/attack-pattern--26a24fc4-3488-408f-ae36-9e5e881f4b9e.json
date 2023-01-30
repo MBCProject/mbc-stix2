@@ -8,9 +8,8 @@
             "id": "attack-pattern--26a24fc4-3488-408f-ae36-9e5e881f4b9e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.038481Z",
-            "modified": "2022-02-05T00:37:22.819853Z",
+            "modified": "2023-01-30T20:16:28.367298Z",
             "name": "Suspend Thread",
-            "description": "Malware may suspend a thread.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

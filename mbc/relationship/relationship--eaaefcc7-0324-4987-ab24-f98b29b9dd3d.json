@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3feff946-3a96-4b45-8f41-2aee58bc06aa",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--eaaefcc7-0324-4987-ab24-f98b29b9dd3d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:31.181188Z",
+            "modified": "2023-01-30T20:16:31.181188Z",
+            "relationship_type": "uses",
+            "description": "Run as service (This capa rule had 1 match)",
+            "source_ref": "malware--d36b0186-1e10-4dd8-a1df-076e9a692c57",
+            "target_ref": "attack-pattern--fe31be5f-2912-4056-b70b-62988d5c3829",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

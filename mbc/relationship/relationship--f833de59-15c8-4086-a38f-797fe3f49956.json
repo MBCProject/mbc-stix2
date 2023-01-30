@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--649f4ed8-c4a1-42fc-8058-b9aea5b97ffb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f833de59-15c8-4086-a38f-797fe3f49956",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.385707Z",
+            "modified": "2023-01-30T20:16:30.385707Z",
+            "relationship_type": "uses",
+            "description": "Initialize IWebBrowser2 (This capa rule had 1 match)",
+            "source_ref": "malware--cdd198e2-3f6f-42c4-adfd-d97dc66c5f19",
+            "target_ref": "attack-pattern--ebb8ef31-6c69-4dac-9b99-a69e8c76fcd3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

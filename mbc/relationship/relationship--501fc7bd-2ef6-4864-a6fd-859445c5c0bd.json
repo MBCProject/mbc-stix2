@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--04459a18-263b-4560-a26b-199f9fd29fb0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--501fc7bd-2ef6-4864-a6fd-859445c5c0bd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:29.68947Z",
+            "modified": "2023-01-30T20:16:29.68947Z",
+            "relationship_type": "uses",
+            "description": "Log keystrokes via polling (This capa rule had 10 matches)",
+            "source_ref": "malware--19d14868-ff81-4c8c-9a6a-c57baf7e7f52",
+            "target_ref": "attack-pattern--99bd055e-cadd-4ed3-94a4-b21570cd8350",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

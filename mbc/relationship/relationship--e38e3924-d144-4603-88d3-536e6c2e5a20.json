@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3d19c1f3-66ed-4db6-bcea-ba13908b5563",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e38e3924-d144-4603-88d3-536e6c2e5a20",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:33.847966Z",
+            "modified": "2023-01-30T20:16:33.847966Z",
+            "relationship_type": "uses",
+            "description": "Contain obfuscated stackstrings (This capa rule had 1 match)",
+            "source_ref": "malware--6a1bde20-a344-4738-9df5-b568fa4b5f33",
+            "target_ref": "attack-pattern--772c8a08-0dbb-4059-8459-7ac1193840bc",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}
