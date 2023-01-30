@@ -8,9 +8,9 @@
             "id": "attack-pattern--7c77b8ac-f548-48ae-813d-028de1a8d9fd",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.70226Z",
-            "modified": "2022-12-07T14:16:51.515483Z",
+            "modified": "2023-01-30T20:16:28.422668Z",
             "name": "Self Deletion",
-            "description": "Malware may uninstall itself to avoid detection.",
+            "description": "Malware may uninstall itself to avoid detection. \n\nSee ATT&CK: **Indicator Removal on Host: Uninstall Malicious Application ([T1630.001](https://attack.mitre.org/techniques/T1630/001/)), Indicator Removal on Host: File Deletion ([T1070.004](https://attack.mitre.org/techniques/T1070/004/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -29,7 +29,11 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "https://unit42.paloaltonetworks.com/tracking-minidionis-cozycars-new-ride-is-related-to-seaduke"
+                    "url": "https://unit42.paloaltonetworks.com/tracking-minidionis-cozycars-new-ride-is-related-to-seaduke/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2018/10/mac-malware-intercepts-encrypted-web-traffic-for-ad-injection/"
                 },
                 {
                     "source_name": "mitre-attack",

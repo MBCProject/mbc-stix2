@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5471f7b3-359f-4aaa-afd8-49558109d1d3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6c2ed81b-b579-495f-9870-e68eaaaa8787",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.385308Z",
+            "modified": "2023-01-30T20:16:30.385308Z",
+            "relationship_type": "uses",
+            "description": "Extract HTTP body (This capa rule had 1 match)",
+            "source_ref": "malware--cdd198e2-3f6f-42c4-adfd-d97dc66c5f19",
+            "target_ref": "attack-pattern--35365158-0007-49fa-bc45-da311d3c6246",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

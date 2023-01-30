@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--dff1c6a4-89e9-42bd-a5ba-47b3d9ca61bc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0d5cd8ad-1e14-4177-8782-5dfa730c9ca8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:34.514298Z",
+            "modified": "2023-01-30T20:16:34.514298Z",
+            "relationship_type": "uses",
+            "description": "Hash data with CRC32 (This capa rule had 2 matches)",
+            "source_ref": "malware--542141d9-e98d-4d4a-9b15-dfc3f8933e48",
+            "target_ref": "attack-pattern--838d57ce-1e63-4898-9054-14851119e5fc",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

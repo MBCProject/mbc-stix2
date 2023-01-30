@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f9d8d874-1c29-4555-aefa-93d18c48aabc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3a3c452e-1d93-4a09-9312-1000428c519f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.386528Z",
+            "modified": "2023-01-30T20:16:30.386528Z",
+            "relationship_type": "uses",
+            "description": "Hash data with MD5 (This capa rule had 1 match)",
+            "source_ref": "malware--cdd198e2-3f6f-42c4-adfd-d97dc66c5f19",
+            "target_ref": "attack-pattern--8cf4e8d0-21b6-4e35-97c2-97e6c5322509",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

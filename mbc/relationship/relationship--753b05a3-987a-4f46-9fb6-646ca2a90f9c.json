@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a4830ca8-636e-4c15-acd9-90a912cba367",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--753b05a3-987a-4f46-9fb6-646ca2a90f9c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.290343Z",
+            "modified": "2023-01-30T20:16:30.290343Z",
+            "relationship_type": "uses",
+            "description": "Inspect section memory permissions (This capa rule had 2 matches)",
+            "source_ref": "malware--2d46d2ec-cab4-4c6d-b5a6-d2e89341e12e",
+            "target_ref": "attack-pattern--9dd6ef57-b3b3-48e8-a77e-233ffee5d45b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

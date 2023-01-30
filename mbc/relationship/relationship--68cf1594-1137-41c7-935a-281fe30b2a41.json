@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--efe4be59-bdce-42ab-8c1a-808175c85ce2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--68cf1594-1137-41c7-935a-281fe30b2a41",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.246079Z",
+            "modified": "2023-01-30T20:16:30.246079Z",
+            "relationship_type": "uses",
+            "description": "Set thread local storage value (This capa rule had 1 match)",
+            "source_ref": "malware--30666a55-e3de-40ff-a680-8bca9c163cb0",
+            "target_ref": "attack-pattern--b85681f8-57a9-485e-bc46-ab3602990675",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

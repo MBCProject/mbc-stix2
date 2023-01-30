@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--60c43873-8038-4df8-b910-6b58dcf866a4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--66fd498b-c67f-49f4-b544-28644c26a3b4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.677914Z",
+            "modified": "2023-01-30T20:16:30.677914Z",
+            "relationship_type": "uses",
+            "description": "Get graphical window text (This capa rule had 2 matches)",
+            "source_ref": "malware--fa095747-0ca8-4965-a222-cf1fe7647e12",
+            "target_ref": "attack-pattern--bb0c753c-31a4-48b9-9548-47a29cce149a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

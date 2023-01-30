@@ -8,9 +8,9 @@
             "id": "relationship--dee52ab4-c302-4f8b-94f1-1cd8bd582c53",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-12-07T14:16:53.105148Z",
-            "modified": "2022-12-07T14:16:53.105148Z",
+            "modified": "2023-01-30T20:16:29.687271Z",
             "relationship_type": "uses",
-            "description": "adds several registry entries to enable automatic execution at startup",
+            "description": "Adds several registry entries to enable automatic execution at startup",
             "source_ref": "malware--19d14868-ff81-4c8c-9a6a-c57baf7e7f52",
             "target_ref": "attack-pattern--4294b63a-0b68-473a-8e57-bd5da8d90bf6",
             "object_marking_refs": [

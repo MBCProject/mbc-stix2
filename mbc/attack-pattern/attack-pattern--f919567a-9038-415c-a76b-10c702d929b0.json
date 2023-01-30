@@ -8,9 +8,8 @@
             "id": "attack-pattern--f919567a-9038-415c-a76b-10c702d929b0",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.038481Z",
-            "modified": "2022-09-08T18:26:13.357284Z",
+            "modified": "2023-01-30T20:16:28.367728Z",
             "name": "Resume Thread",
-            "description": "Malware typically resumes a thread in order to execute previously injected code (e.g., in the course of the [Process Injection::Process Hollowing](https://github.com/MBCProject/mbc-markdown/blob/v2.3/https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/process-injection.md)).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

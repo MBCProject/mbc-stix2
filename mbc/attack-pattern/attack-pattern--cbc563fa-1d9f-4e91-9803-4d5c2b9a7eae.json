@@ -8,9 +8,9 @@
             "id": "attack-pattern--cbc563fa-1d9f-4e91-9803-4d5c2b9a7eae",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.73126Z",
-            "modified": "2022-12-07T14:16:51.320776Z",
+            "modified": "2023-01-30T20:16:28.273436Z",
             "name": "Install Additional Program",
-            "description": "Installs another, different program on the system. The additional program can be any secondary module; examples include backdoors, malicious drivers, kernel modules, and OS X Apps.",
+            "description": "Installs another, different program on the system. The additional program can be any secondary module; examples include backdoors, malicious drivers, kernel modules, and OS X Apps. \n\nMalware that installs another component is called a \"dropper.\" If the code is contained in the malware, it's a \"single stage\" dropper; \"two stage\" droppers download the code from a remote location (the associated download behavior is covered by the **Ingress Tool Transfer ([E1105](https://github.com/MBCProject/mbc-markdown/blob/v2.3/command-and-control/ingress-tool-transfer.md))** behavior.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -46,6 +46,30 @@
                 {
                     "source_name": "external_source",
                     "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/clipminer-bitcoin-mining-hijacking"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.org/mac/2015/08/genieo-installer-tricks-keychain/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://us.norton.com/internetsecurity-emerging-threats-mazar-bot-malware-invades-and-erases-android-devices.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.webroot.com/blog/2011/09/13/mebromi-the-first-bios-rootkit-in-the-wild/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "http://researchcenter.paloaltonetworks.com/2015/10/yispecter-first-ios-malware-attacks-non-jailbroken-ios-devices-by-abusing-private-apis/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2018/10/mac-malware-intercepts-encrypted-web-traffic-for-ad-injection/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://unit42.paloaltonetworks.com/tracking-minidionis-cozycars-new-ride-is-related-to-seaduke/"
                 }
             ],
             "object_marking_refs": [

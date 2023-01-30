@@ -8,9 +8,9 @@
             "id": "attack-pattern--5a3611aa-4253-4302-b09e-02fe53a1af9d",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.611265Z",
-            "modified": "2022-12-07T14:16:51.319267Z",
+            "modified": "2023-01-30T20:16:28.271522Z",
             "name": "Domain Name Generation",
-            "description": "Malware generates the domain name of the controller to which it connects. Access to on the fly domains enables C2 to operate as domains and IP addresses are blocked. The algorithm can be complicated in more advanced implants; understanding the details so that names can be predicted can be useful in mitigation and response.",
+            "description": "Malware generates the domain name of the controller to which it connects. Access to on the fly domains enables C2 to operate as domains and IP addresses are blocked. The algorithm can be complicated in more advanced implants; understanding the details so that names can be predicted can be useful in mitigation and response. [[1]](#1)\n\nThe related **Dynamic Resolution: Domain Generation Algorithms ([T1568.002](https://attack.mitre.org/techniques/T1568/002/))** ATT&CK sub-technique (oriented toward an adversary perspective with examples that include malware) was defined subsequent to this MBC behavior.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -42,6 +42,10 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.proofpoint.com/us/threat-insight/post/ursnif-variant-dreambot-adds-tor-functionality"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blogs.cisco.com/security/talos/rombertik"
                 },
                 {
                     "source_name": "mitre-attack",

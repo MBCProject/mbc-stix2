@@ -8,9 +8,9 @@
             "id": "relationship--a2860144-5283-4f58-8748-2ea9b51fd5b2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-12-07T14:16:55.260449Z",
-            "modified": "2022-12-07T14:16:55.260449Z",
+            "modified": "2023-01-30T20:16:32.376849Z",
             "relationship_type": "uses",
-            "description": "GoBotKR receives data from the C2",
+            "description": "Receive data (This capa rule had 2 matches)",
             "source_ref": "malware--dd874fc3-691c-4825-95cc-bbe52e5406f5",
             "target_ref": "attack-pattern--69af89da-bf40-4b9e-93c5-baa8fb937099",
             "object_marking_refs": [

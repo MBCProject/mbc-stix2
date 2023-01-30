@@ -8,9 +8,9 @@
             "id": "attack-pattern--295a3b88-2a7e-4bae-9c50-014fce6d5739",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.486264Z",
-            "modified": "2022-12-07T14:16:51.381824Z",
+            "modified": "2023-01-30T20:16:28.321828Z",
             "name": "Sandbox Detection",
-            "description": "Detects whether the malware instance is being executed inside an instrumented sandbox environment (e.g., Cuckoo Sandbox). If so, conditional execution selects a benign execution path.",
+            "description": "Detects whether the malware instance is being executed inside an instrumented sandbox environment (e.g., Cuckoo Sandbox). If so, conditional execution selects a benign execution path.\n\nThe related **Virtualization/Sandbox Evasion ([T1497](https://attack.mitre.org/techniques/T1497/), [T1633](https://attack.mitre.org/techniques/T1633/))** ATT&CK techniques were defined subsequent to this MBC behavior.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -37,7 +37,7 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "https://www.fireeye.com/content/dam/fireeye-www/current-threats/pdfs/pf/file/fireeye-hot-knives-through-butter.pdf"
+                    "url": "https://web.archive.org/web/20150311013500/http://www.cyphort.com/evilbunny-malware-instrumented-lua/"
                 },
                 {
                     "source_name": "external_source",
@@ -45,11 +45,7 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "https://blogs.cisco.com/security/talos/rombertik"
-                },
-                {
-                    "source_name": "external_source",
-                    "url": "https://web.archive.org/web/20150311013500/http://www.cyphort.com/evilbunny-malware-instrumented-lua/"
+                    "url": "https://www.proofpoint.com/us/threat-insight/post/ursnif-banking-trojan-campaign-sandbox-evasion-techniques"
                 },
                 {
                     "source_name": "mitre-attack",

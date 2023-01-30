@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4c188d9f-c039-4d79-afc9-e8d6d57be1ad",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8e5a8f17-0f0b-4b5b-a6a1-99b030aec1f2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.388099Z",
+            "modified": "2023-01-30T20:16:30.388099Z",
+            "relationship_type": "uses",
+            "description": "Create new key via CryptAcquireContext (This capa rule had 1 match)",
+            "source_ref": "malware--cdd198e2-3f6f-42c4-adfd-d97dc66c5f19",
+            "target_ref": "attack-pattern--6dfe201d-34d6-4474-9210-e0364cca9de0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

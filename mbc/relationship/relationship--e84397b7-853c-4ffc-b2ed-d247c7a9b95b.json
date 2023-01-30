@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d334a460-72dd-446b-8c89-2ab2f7da9583",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e84397b7-853c-4ffc-b2ed-d247c7a9b95b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:33.850605Z",
+            "modified": "2023-01-30T20:16:33.850605Z",
+            "relationship_type": "uses",
+            "description": "Encrypt data using DES (This capa rule had 1 match)",
+            "source_ref": "malware--6a1bde20-a344-4738-9df5-b568fa4b5f33",
+            "target_ref": "attack-pattern--becb5385-146e-42a3-a343-5beffc43a15c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

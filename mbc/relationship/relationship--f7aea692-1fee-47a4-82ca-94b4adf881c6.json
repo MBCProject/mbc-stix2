@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f4e6064d-c67b-4641-be17-c032f34862c8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f7aea692-1fee-47a4-82ca-94b4adf881c6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.726561Z",
+            "modified": "2023-01-30T20:16:30.726561Z",
+            "relationship_type": "uses",
+            "description": "Enumerate files on windows (This capa rule had 3 matches)",
+            "source_ref": "malware--e616d9d2-36b4-4510-84ad-66f19442fe3e",
+            "target_ref": "attack-pattern--e2558f71-7409-4203-bd5b-8a331f29327a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

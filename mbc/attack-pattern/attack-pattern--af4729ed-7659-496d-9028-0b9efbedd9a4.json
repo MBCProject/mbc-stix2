@@ -8,9 +8,9 @@
             "id": "attack-pattern--af4729ed-7659-496d-9028-0b9efbedd9a4",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.68026Z",
-            "modified": "2022-12-07T14:16:51.502469Z",
+            "modified": "2023-01-30T20:16:28.411365Z",
             "name": "Obfuscated Files or Information",
-            "description": "Malware may make files or information difficult to discover or analyze by encoding, encrypting, or otherwise obfuscating the content. In addition, a malware sample itself can be encoded or encrypted (i.e., encoding/encryption is a code characteristic).",
+            "description": "Malware may make files or information difficult to discover or analyze by encoding, encrypting, or otherwise obfuscating the content. In addition, a malware sample itself can be encoded or encrypted (i.e., encoding/encryption is a code characteristic).\n\nA related MBC behavior (code characteristic), associated explicitly with executable code and making its analysis more difficult, is **Executable Code Obfuscation ([B0032](https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/executable-code-obfuscation.md))**.\n\nAnother related MBC behavior (code characteristic), is **Software Packing ([F0001](https://github.com/MBCProject/mbc-markdown/blob/v2.3/anti-static-analysis/software-packing.md))** which has methods capturing specific packers and types of compression.\n\nSee ATT&CK: **Obfuscated Files or Information ([T1027](https://attack.mitre.org/techniques/T1027/), [T1406](https://attack.mitre.org/techniques/T1406/))**.\n\nInstead of being listed alphabetically, methods have been grouped to better faciliate labeling and mapping.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -38,6 +38,34 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.trendmicro.com/en_us/research/20/e/netwalker-fileless-ransomware-injected-via-reflective-loading.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/en_us/research/18/k/trickbot-shows-off-new-trick-password-grabber-module.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/webcobra-malware-uses-victims-computers-to-mine-cryptocurrency/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.fortinet.com/blog/threat-research/deep-analysis-of-new-poison-ivy-variant"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.talosintelligence.com/2018/01/samsam-evolution-continues-netting-over.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://docs.broadcom.com/doc/security-response-w32-stuxnet-dossier-11-en"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.proofpoint.com/us/threat-insight/post/ursnif-variant-dreambot-adds-tor-functionality"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2016/07/untangling-kovter/"
                 },
                 {
                     "source_name": "mitre-attack",

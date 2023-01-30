@@ -8,9 +8,9 @@
             "id": "attack-pattern--2ff4ce39-a726-471a-92d9-21a5c51a0bc3",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.769263Z",
-            "modified": "2022-12-07T14:16:51.346742Z",
+            "modified": "2023-01-30T20:16:28.292381Z",
             "name": "Data Destruction",
-            "description": "Data, system files, or other files are destroyed. Individual files are selected, as opposed to wiping an entire sector.",
+            "description": "Data, system files, or other files are destroyed. Individual files are selected, as opposed to wiping an entire sector.\n\nSee ATT&CK: **Data Destruction ([T1485](https://attack.mitre.org/techniques/T1485/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -42,6 +42,10 @@
                 {
                     "source_name": "external_source",
                     "url": "https://heimdalsecurity.com/blog/security-alert-mazar-bot-active-attacks-android-malware/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.darkreading.com/attacks-breaches/disk-wiping-shamoon-malware-resurfaces-with-file-erasing-malware-in-tow"
                 },
                 {
                     "source_name": "mitre-attack",

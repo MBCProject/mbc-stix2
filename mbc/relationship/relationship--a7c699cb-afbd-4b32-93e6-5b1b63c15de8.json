@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f3942350-50ba-4cc6-b458-03e61fc0ac14",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a7c699cb-afbd-4b32-93e6-5b1b63c15de8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:34.513933Z",
+            "modified": "2023-01-30T20:16:34.513933Z",
+            "relationship_type": "uses",
+            "description": "Reference Base64 string (This capa rule had 1 match)",
+            "source_ref": "malware--542141d9-e98d-4d4a-9b15-dfc3f8933e48",
+            "target_ref": "attack-pattern--9398839c-520f-4aab-9c81-92d6518800e7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

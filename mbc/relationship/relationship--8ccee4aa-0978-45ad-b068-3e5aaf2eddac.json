@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--92049cb4-5917-45bf-9914-3f38b65b4b29",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8ccee4aa-0978-45ad-b068-3e5aaf2eddac",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:32.879106Z",
+            "modified": "2023-01-30T20:16:32.879106Z",
+            "relationship_type": "uses",
+            "description": "Create directory (This capa rule had 1 match)",
+            "source_ref": "malware--5dcefe05-4ead-4f84-9919-ebefe968df27",
+            "target_ref": "attack-pattern--4c4a5671-e788-40b8-8fd9-56d94ba32901",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

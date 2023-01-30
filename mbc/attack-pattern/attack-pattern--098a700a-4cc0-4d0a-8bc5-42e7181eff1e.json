@@ -8,9 +8,9 @@
             "id": "attack-pattern--098a700a-4cc0-4d0a-8bc5-42e7181eff1e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-09-08T18:26:13.427132Z",
-            "modified": "2022-12-07T14:16:51.520041Z",
+            "modified": "2023-01-30T20:16:28.42561Z",
             "name": "Hide Artifacts",
-            "description": "Malware may hide artifacts to evade detection and/or to persist on the system. See potential methods related to malware below.",
+            "description": "Malware may hide artifacts to evade detection and/or to persist on the system. See potential methods related to malware below. \n\nSee ATT&CK: **Hide Artifacts ([T1564](https://attack.mitre.org/techniques/T1564/), [T1628](https://attack.mitre.org/techniques/T1628/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

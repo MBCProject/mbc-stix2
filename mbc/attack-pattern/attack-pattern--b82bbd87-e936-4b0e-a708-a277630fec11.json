@@ -8,9 +8,8 @@
             "id": "attack-pattern--b82bbd87-e936-4b0e-a708-a277630fec11",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:32.017471Z",
-            "modified": "2022-02-05T00:37:22.804261Z",
+            "modified": "2023-01-30T20:16:28.362371Z",
             "name": "Read File",
-            "description": "Malware reads a file.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

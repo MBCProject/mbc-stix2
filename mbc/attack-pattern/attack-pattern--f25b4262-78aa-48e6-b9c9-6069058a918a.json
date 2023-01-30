@@ -8,9 +8,9 @@
             "id": "attack-pattern--f25b4262-78aa-48e6-b9c9-6069058a918a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2021-02-10T06:49:31.916486Z",
-            "modified": "2022-12-07T14:16:51.523763Z",
+            "modified": "2023-01-30T20:16:28.428338Z",
             "name": "Disable or Evade Security Tools",
-            "description": "Malware may disable or evade security tools to avoid detection. Security tools include OS security features and updating tools, anti-virus (AV) tools, firewalls, tool components providing security related logging and/or reporting, and Antimalware Scan Interface (AMSI) related capabilities.",
+            "description": "Malware may disable or evade security tools to avoid detection. Security tools include OS security features and updating tools, anti-virus (AV) tools, firewalls, tool components providing security related logging and/or reporting, and Antimalware Scan Interface (AMSI) related capabilities. \n\nMalware-related methods extending ATT&CK's definition are below. \n\nSee ATT&CK: **Impair Defenses: Disable or Modify Tools ([T1562.001](https://attack.mitre.org/techniques/T1562/001), [T1629.003](https://attack.mitre.org/techniques/T1629/003/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

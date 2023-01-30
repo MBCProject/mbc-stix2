@@ -8,9 +8,9 @@
             "id": "relationship--06e3380c-ec9b-4e20-8fd7-b676cb91c792",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-12-07T14:16:55.740435Z",
-            "modified": "2022-12-07T14:16:55.740435Z",
+            "modified": "2023-01-30T20:16:33.122986Z",
             "relationship_type": "uses",
-            "description": "Gathers information (OS version, workgroup status, computer name, domain/workgroup name, file name of infected project file) about each computer in the net to spread itself",
+            "description": "Check OS version (This capa rule had 1 match)",
             "source_ref": "malware--2640ed9a-24d9-4975-90c2-c8ab94d544e3",
             "target_ref": "attack-pattern--bd879126-0126-4f7a-a1b7-d9944efb251f",
             "object_marking_refs": [

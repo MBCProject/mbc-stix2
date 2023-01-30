@@ -8,9 +8,9 @@
             "id": "attack-pattern--1d1b8b46-c3d7-49e5-8856-367b48272f5e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.594264Z",
-            "modified": "2022-12-07T14:16:51.305743Z",
+            "modified": "2023-01-30T20:16:28.260378Z",
             "name": "Input Capture",
-            "description": "Malware captures user input.",
+            "description": "Malware captures user input.\n\nSee ATT&CK: **Input Capture ([T1056](https://attack.mitre.org/techniques/T1056), [T1417](https://attack.mitre.org/techniques/T1417/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -37,7 +37,7 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "https://blog.malwarebytes.com/threat-analysis/2012/06/you-dirty-rat-part-1-darkcomet/"
+                    "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/clipminer-bitcoin-mining-hijacking"
                 },
                 {
                     "source_name": "external_source",
@@ -45,7 +45,7 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/clipminer-bitcoin-mining-hijacking"
+                    "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-poison-ivy.pdf"
                 },
                 {
                     "source_name": "mitre-attack",

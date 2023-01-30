@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--956c0f9d-d873-44e4-8948-bfca2e01efc5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2d6928fe-0fe0-4fca-9c37-2a2a004f1746",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:33.268351Z",
+            "modified": "2023-01-30T20:16:33.268351Z",
+            "relationship_type": "uses",
+            "description": "Delete registry key (This capa rule had 3 matches)",
+            "source_ref": "malware--86cfa430-ca3b-4322-bdfe-989aca5305f0",
+            "target_ref": "attack-pattern--69df421d-b8ea-49d2-9bd2-9df44aa3ced6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

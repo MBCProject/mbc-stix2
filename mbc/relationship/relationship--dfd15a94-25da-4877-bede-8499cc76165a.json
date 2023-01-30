@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d4368fd9-9bb9-4faf-b640-7919c73aabe4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dfd15a94-25da-4877-bede-8499cc76165a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.388882Z",
+            "modified": "2023-01-30T20:16:30.388882Z",
+            "relationship_type": "uses",
+            "description": "Enumerate PE sections (This capa rule had 1 match)",
+            "source_ref": "malware--cdd198e2-3f6f-42c4-adfd-d97dc66c5f19",
+            "target_ref": "attack-pattern--21399f14-f429-48f6-be04-d971783ba531",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

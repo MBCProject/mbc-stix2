@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--afa672d1-b0f6-4545-a972-ace552ab3449",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5a71f650-7941-4bfb-9e27-c4f912edf9b2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:31.532779Z",
+            "modified": "2023-01-30T20:16:31.532779Z",
+            "relationship_type": "uses",
+            "description": "Encode data using XOR (This capa rule had 1 match)",
+            "source_ref": "malware--4188f951-4400-406c-8281-509395fc8e11",
+            "target_ref": "attack-pattern--e7d60710-0081-4d47-9fd3-3e2d410828e7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

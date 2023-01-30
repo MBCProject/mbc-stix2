@@ -8,9 +8,9 @@
             "id": "attack-pattern--bd879126-0126-4f7a-a1b7-d9944efb251f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.716259Z",
-            "modified": "2022-12-07T14:16:51.300354Z",
+            "modified": "2023-01-30T20:16:28.255204Z",
             "name": "System Information Discovery",
-            "description": "Malware may attempt to get detailed information about the system.",
+            "description": "Malware may attempt to get detailed information about the system. \n\nSee ATT&CK: **System Information Discovery ([T1082](https://attack.mitre.org/techniques/T1082/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -46,6 +46,22 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/en_us/research/18/k/trickbot-shows-off-new-trick-password-grabber-module.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/webcobra-malware-uses-victims-computers-to-mine-cryptocurrency/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.welivesecurity.com/2019/07/08/south-korean-users-backdoor-torrents/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.securityartwork.es/wp-content/uploads/2017/07/Trickbot-report-S2-Grupo.pdf"
                 },
                 {
                     "source_name": "mitre-attack",

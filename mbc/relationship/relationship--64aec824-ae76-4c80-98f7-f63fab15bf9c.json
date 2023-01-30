@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--32a5cbee-82e4-4eb8-8aca-333408038676",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--64aec824-ae76-4c80-98f7-f63fab15bf9c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:33.857913Z",
+            "modified": "2023-01-30T20:16:33.857913Z",
+            "relationship_type": "uses",
+            "description": "Create mutex (This capa rule had 1 match)",
+            "source_ref": "malware--6a1bde20-a344-4738-9df5-b568fa4b5f33",
+            "target_ref": "attack-pattern--f21fda77-e6ff-4351-87d9-0e2f5780a1c3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

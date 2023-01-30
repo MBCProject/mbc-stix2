@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bd5ebac9-fc0b-45c7-b5f5-c1bc07cbd665",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8745917e-e1c6-4e16-8074-75cfe16e29a9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:34.513585Z",
+            "modified": "2023-01-30T20:16:34.513585Z",
+            "relationship_type": "uses",
+            "description": "Generate random numbers via WinAPI (This capa rule had 1 match)",
+            "source_ref": "malware--542141d9-e98d-4d4a-9b15-dfc3f8933e48",
+            "target_ref": "attack-pattern--d4b96b74-7cf9-46c2-8c09-ea8fd124b15a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

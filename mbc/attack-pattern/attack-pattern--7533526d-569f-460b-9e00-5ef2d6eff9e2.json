@@ -8,7 +8,7 @@
             "id": "attack-pattern--7533526d-569f-460b-9e00-5ef2d6eff9e2",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-09-08T18:26:13.258158Z",
-            "modified": "2022-12-07T14:16:51.344132Z",
+            "modified": "2023-01-30T20:16:28.290969Z",
             "name": "Generate Traffic from Victim",
             "description": "Malware may generate traffic from the victim system such as clicks of advertising links that generate fraudulent ad revenue. The ATT&CK technique, **Generate Traffic from Victim ([T1643](https://attack.mitre.org/techniques/T1643/))**, is only associated with the mobile platform, but the behavior is applicable to other platforms as well.",
             "kill_chain_phases": [
@@ -33,11 +33,19 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "https://www.huffingtonpost.com/2011/11/09/click-hijack-hackers-online-ad-scam_n_1084497.html"
+                    "url": "https://www.bleepingcomputer.com/virus-removal/remove-kovter-trojan"
                 },
                 {
                     "source_name": "external_source",
-                    "url": "https://www.bleepingcomputer.com/virus-removal/remove-kovter-trojan"
+                    "url": "http://researchcenter.paloaltonetworks.com/2015/10/yispecter-first-ios-malware-attacks-non-jailbroken-ios-devices-by-abusing-private-apis/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://blog.malwarebytes.com/threat-analysis/2016/07/untangling-kovter/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.huffingtonpost.com/2011/11/09/click-hijack-hackers-online-ad-scam_n_1084497.html"
                 },
                 {
                     "source_name": "mitre-attack",

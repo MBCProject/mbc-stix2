@@ -8,9 +8,9 @@
             "id": "attack-pattern--c550625d-7b0c-4db2-9f30-486767c9cf63",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.69826Z",
-            "modified": "2022-12-07T14:16:51.498686Z",
+            "modified": "2023-01-30T20:16:28.408352Z",
             "name": "Rootkit",
-            "description": "Behaviors of a rootkit: \"A rootkit is a collection of computer software, typically malicious, designed to enable access to a computer or areas of its software that is not otherwise allowed and often masks its existence or the existence of other software.",
+            "description": "Behaviors of a rootkit: \"A rootkit is a collection of computer software, typically malicious, designed to enable access to a computer or areas of its software that is not otherwise allowed and often masks its existence or the existence of other software.\" [[1]](#1)\n\n\nSee ATT&CK: **Rootkit ([T1014](https://attack.mitre.org/techniques/T1014/))**.\n\nRootkits may hide artifacts (kernel modules, services, threads, userspace libraries), prevent actions (API unhooking (prevents API hooks installed by the malware instance from being removed), file access (prevents access to the file system, including specific files and/or directories associated with the malware instance), file deletion (prevents files and/or directories associated with the malware instance from being deleted), memory access (prevents access to system memory where the malware instance stores code or data), native API hooking (prevents other software from hooking native system APIs), registry access (prevents access to the Windows registry, either entire registry or particular registry keys/values), registry deletion (prevents deletion of registry keys and/or values associated with the malware instance).",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

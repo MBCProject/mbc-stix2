@@ -8,8 +8,9 @@
             "id": "relationship--1325bb65-caae-4503-a248-6a6d62466de9",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-12-07T14:16:56.410231Z",
-            "modified": "2022-12-07T14:16:56.410231Z",
+            "modified": "2023-01-30T20:16:34.717372Z",
             "relationship_type": "uses",
+            "description": "Obfuscates files.",
             "source_ref": "malware--8297b846-885e-4751-9e2b-d777ae7d21e3",
             "target_ref": "attack-pattern--af4729ed-7659-496d-9028-0b9efbedd9a4",
             "object_marking_refs": [

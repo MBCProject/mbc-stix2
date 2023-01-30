@@ -8,7 +8,7 @@
             "id": "attack-pattern--fe31be5f-2912-4056-b70b-62988d5c3829",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.877737Z",
-            "modified": "2022-09-08T18:26:13.2445Z",
+            "modified": "2023-01-30T20:16:28.280363Z",
             "name": "Runs as Service",
             "description": "The malware must be run as a service, which can make behavioral analysis and debugging more difficult. The service may be set up by the malware. Alternatively, the malware may not contain any code to create a new service or modify an existing service, in which case, the service may be set up by another program or manually.",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "https://www.proofpoint.com/us/threat-insight/post/ursnif-banking-trojan-campaign-sandbox-evasion-techniques"
+                    "url": "https://reverseengineering.stackexchange.com/questions/2019/debugging-malware-that-will-only-run-as-a-service"
                 }
             ],
             "object_marking_refs": [

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--31e212ab-5306-4cf7-9b19-279b1df8cf31",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--90ffc896-0973-4f21-ad57-4ccbcff2c13d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:29.69261Z",
+            "modified": "2023-01-30T20:16:29.69261Z",
+            "relationship_type": "uses",
+            "description": "Check for time delay via GetTickCount (This capa rule had 4 matches)",
+            "source_ref": "malware--19d14868-ff81-4c8c-9a6a-c57baf7e7f52",
+            "target_ref": "attack-pattern--bdeba524-0f2d-4d2f-a107-2b7516a0b496",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -8,9 +8,9 @@
             "id": "attack-pattern--cc396380-d266-4e87-8fc7-412e89a2b4b0",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-02-04T23:52:35.908377Z",
-            "modified": "2022-12-07T14:16:51.335123Z",
+            "modified": "2023-01-30T20:16:28.282613Z",
             "name": "System Services",
-            "description": "Malware may abuse system services or daemons to execute.",
+            "description": "Malware may abuse system services or daemons to execute. \n\nSee ATT&CK: **System Services ([T1569](https://attack.mitre.org/techniques/T1569/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--68cf17c9-65e5-47a7-b97f-3288eab213e8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b05ac380-11d9-4bb0-95c0-2d41ee0f5431",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:29.784811Z",
+            "modified": "2023-01-30T20:16:29.784811Z",
+            "relationship_type": "uses",
+            "description": "Allocate RWX memory (This capa rule had 2 matches)",
+            "source_ref": "malware--0c0d59b7-4ff0-4a09-9c64-558334485ece",
+            "target_ref": "attack-pattern--8845345d-4d1d-4527-9b6a-93f23f247992",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

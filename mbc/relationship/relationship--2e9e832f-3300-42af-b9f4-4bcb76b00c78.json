@@ -8,9 +8,9 @@
             "id": "relationship--2e9e832f-3300-42af-b9f4-4bcb76b00c78",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-12-07T14:16:55.629995Z",
-            "modified": "2022-12-07T14:16:55.629995Z",
+            "modified": "2023-01-30T20:16:32.929151Z",
             "relationship_type": "uses",
-            "description": "Emotet uses custom packers which first decrypt the loaders and the loaders decrypt and load Emotet's main payloads",
+            "description": "Emotet uses custom packers which first decrypt the loaders and the loaders decrypt and load emotet's main payloads",
             "source_ref": "malware--5fe2035d-58a0-4cd6-9561-cf4442871a10",
             "target_ref": "attack-pattern--e22860a9-1026-46ee-a75e-feedc26196d5",
             "object_marking_refs": [

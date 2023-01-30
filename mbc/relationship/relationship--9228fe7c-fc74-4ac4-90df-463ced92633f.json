@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--28284204-52ac-440b-a029-bd13fa44aa82",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9228fe7c-fc74-4ac4-90df-463ced92633f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:34.060314Z",
+            "modified": "2023-01-30T20:16:34.060314Z",
+            "relationship_type": "uses",
+            "description": "Encrypt data using RC4 PRGA (This capa rule had 2 matches)",
+            "source_ref": "malware--36e75009-8fd6-467a-aa8c-c6a4d3511dfa",
+            "target_ref": "attack-pattern--f4ee9b7f-24f9-4c1c-9f4d-54d3e6eb47da",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

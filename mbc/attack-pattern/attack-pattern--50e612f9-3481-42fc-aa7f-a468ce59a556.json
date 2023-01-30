@@ -8,9 +8,9 @@
             "id": "attack-pattern--50e612f9-3481-42fc-aa7f-a468ce59a556",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.791261Z",
-            "modified": "2022-12-07T14:16:51.3508Z",
+            "modified": "2023-01-30T20:16:28.296348Z",
             "name": "Manipulate Network Traffic",
-            "description": "Malware intercepts and manipulates network traffic, typically accessing or modifying data, going to or originating from the system on which the malware instance is executing. Also known as a Man-in-the-Middle attack.",
+            "description": "Malware intercepts and manipulates network traffic, typically accessing or modifying data, going to or originating from the system on which the malware instance is executing. Also known as a Man-in-the-Middle attack.\n\nThe related **Data Manipulation: Transmitted Data Manipulation ([T1565.002](https://attack.mitre.org/techniques/T1565/002/))** ATT&CK sub-technique was defined subsequent to this MBC behavior.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -26,6 +26,10 @@
                 {
                     "source_name": "external_source",
                     "url": "https://blog.malwarebytes.com/threat-analysis/2018/10/mac-malware-intercepts-encrypted-web-traffic-for-ad-injection/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://us.norton.com/internetsecurity-emerging-threats-mazar-bot-malware-invades-and-erases-android-devices.html"
                 },
                 {
                     "source_name": "mitre-attack",

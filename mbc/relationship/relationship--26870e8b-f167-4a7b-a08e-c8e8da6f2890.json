@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2ed4c3a5-608d-4fc1-b2d0-e0de85b51be8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--26870e8b-f167-4a7b-a08e-c8e8da6f2890",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:29.783678Z",
+            "modified": "2023-01-30T20:16:29.783678Z",
+            "relationship_type": "uses",
+            "description": "Read file on Windows (This capa rule had 3 matches)",
+            "source_ref": "malware--0c0d59b7-4ff0-4a09-9c64-558334485ece",
+            "target_ref": "attack-pattern--b82bbd87-e936-4b0e-a708-a277630fec11",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

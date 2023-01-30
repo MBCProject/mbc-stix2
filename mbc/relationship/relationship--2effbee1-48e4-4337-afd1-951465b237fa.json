@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0e0c5480-5adc-4180-93bf-877bc3578367",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2effbee1-48e4-4337-afd1-951465b237fa",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:34.301558Z",
+            "modified": "2023-01-30T20:16:34.301558Z",
+            "relationship_type": "uses",
+            "description": "Get file size (This capa rule had 3 matches)",
+            "source_ref": "malware--b0625dd2-cc91-4936-9e12-289960aa0b41",
+            "target_ref": "attack-pattern--e2558f71-7409-4203-bd5b-8a331f29327a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

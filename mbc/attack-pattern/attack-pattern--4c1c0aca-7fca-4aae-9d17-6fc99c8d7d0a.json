@@ -8,9 +8,9 @@
             "id": "attack-pattern--4c1c0aca-7fca-4aae-9d17-6fc99c8d7d0a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.641261Z",
-            "modified": "2022-12-07T14:16:51.525931Z",
+            "modified": "2023-01-30T20:16:28.43154Z",
             "name": "Bootkit",
-            "description": "The boot sectors of a hard drive are modified (e.g., Master Boot Record (MBR)). ATT&CK associates bootkits with the Persistence. See ATT&CK: **Pre-OS Boot: Bootkit ([T1067](https://attack.mitre.org/techniques/T1067/))**.",
+            "description": "The boot sectors of a hard drive are modified (e.g., Master Boot Record (MBR)). ATT&CK associates bootkits with the Persistence. See ATT&CK: **Pre-OS Boot: Bootkit ([T1067](https://attack.mitre.org/techniques/T1067/))**.\n\nThe MBC also associates the Bootkit behavior with Defense Evasion because the malware may execute before or external to the system's kernel or hypervisor (e.g., through the BIOS), making it more difficult to detect. (As of 2020, ATT&CK also associates the technique with Persistence.)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",

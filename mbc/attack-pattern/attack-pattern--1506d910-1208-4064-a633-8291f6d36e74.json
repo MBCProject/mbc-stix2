@@ -8,7 +8,7 @@
             "id": "attack-pattern--1506d910-1208-4064-a633-8291f6d36e74",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.554264Z",
-            "modified": "2022-09-08T18:26:13.190681Z",
+            "modified": "2023-01-30T20:16:28.235135Z",
             "name": "API Hashing",
             "description": "Instead of storing function names in the Import Address Table (IAT) and calling GetProcAddress, a DLL is loaded and the name of each of its exports is hashed until it matches a specific hash. Manual symbol resolution is then used to access and execute the exported function. This method is often used by shellcode because it reduces the size of each import from a human-readable string to a sequence of four bytes. The Method is also known as \"Imports by Hash\" and \"GET_APIS_WITH_CRC.\"",
             "kill_chain_phases": [
@@ -25,7 +25,7 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "https://insights.sei.cmu.edu/cert/2019/03/api-hashing-tool-imagine-that.html"
+                    "url": "https://blogs.cisco.com/security/talos/rombertik"
                 }
             ],
             "object_marking_refs": [

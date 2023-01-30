@@ -8,9 +8,9 @@
             "id": "attack-pattern--75f19e70-8d96-4a7b-a3cf-e629c8d5e779",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.598261Z",
-            "modified": "2022-12-07T14:16:51.309632Z",
+            "modified": "2023-01-30T20:16:28.263714Z",
             "name": "Keylogging",
-            "description": "Malware captures user keyboard input.",
+            "description": "Malware captures user keyboard input.\n\nSee ATT&CK: **Input Capture: Keylogging ([T1056.001](https://attack.mitre.org/techniques/T1056/001), [T1417.001](https://attack.mitre.org/techniques/T1417/001/))**",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -50,6 +50,10 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-apt28.pdf"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-poison-ivy.pdf"
                 },
                 {
                     "source_name": "mitre-attack",

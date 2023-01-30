@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8e6483e8-dc85-4e5e-b94f-8423dba6e095",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6d4a3167-e520-4aa1-8487-2950d79a64b1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.241304Z",
+            "modified": "2023-01-30T20:16:30.241304Z",
+            "relationship_type": "uses",
+            "description": "Create TCP socket (This capa rule had 1 match)",
+            "source_ref": "malware--30666a55-e3de-40ff-a680-8bca9c163cb0",
+            "target_ref": "attack-pattern--763fa6dd-331c-4c07-bc09-00f40cc958cc",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

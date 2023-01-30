@@ -8,9 +8,9 @@
             "id": "attack-pattern--87adc62c-05e8-4594-94f6-d6e034597859",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.562264Z",
-            "modified": "2022-12-07T14:16:51.283255Z",
+            "modified": "2023-01-30T20:16:28.240142Z",
             "name": "Executable Code Obfuscation",
-            "description": "Executable code is obfuscated to hinder static code analysis. This behavior is specific to a malware sample's executable code (data and text sections). While the Executable Code Obfuscation behavior makes the analysis process more difficult, it does not cause incorrect or incomplete disassembly, which is how this behavior differs from the Disassembler Evasion behavior.",
+            "description": "Executable code is obfuscated to hinder static code analysis. This behavior is specific to a malware sample's executable code (data and text sections). While the Executable Code Obfuscation behavior makes the analysis process more difficult, it does not cause incorrect or incomplete disassembly, which is how this behavior differs from the Disassembler Evasion behavior.\n\nFor encryption and encoding characteristics of malware samples, as well as malware obfuscation behaviors related to non-malware-sample files and information, see **Obfuscated Files or Information ([E1027](https://github.com/MBCProject/mbc-markdown/blob/v2.3/defense-evasion/obfuscated-files-or-information.md))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -25,7 +25,7 @@
                 },
                 {
                     "source_name": "external_source",
-                    "url": "https://insights.sei.cmu.edu/cert/2019/03/api-hashing-tool-imagine-that.html"
+                    "url": "https://blogs.cisco.com/security/talos/rombertik"
                 },
                 {
                     "source_name": "external_source",
@@ -35,26 +35,6 @@
                     "source_name": "external_source",
                     "description": "Rob Simmons, \"Comparing Malicious Files,\" BSides, 2019.",
                     "url": "http://www.irongeek.com/i.php?page=videos/bsidescharm2019/2-04-comparing-malicious-files-robert-simmons"
-                },
-                {
-                    "source_name": "external_source",
-                    "url": "https://blogs.cisco.com/security/talos/rombertik"
-                },
-                {
-                    "source_name": "external_source",
-                    "url": "https://www.proofpoint.com/us/threat-insight/post/ursnif-variant-dreambot-adds-tor-functionality"
-                },
-                {
-                    "source_name": "external_source",
-                    "url": "https://www.mandiant.com/sites/default/files/2021-09/rpt-poison-ivy.pdf"
-                },
-                {
-                    "source_name": "external_source",
-                    "url": "https://blog.talosintelligence.com/2018/01/samsam-evolution-continues-netting-over.html"
-                },
-                {
-                    "source_name": "external_source",
-                    "url": "https://docs.broadcom.com/doc/security-response-w32-stuxnet-dossier-11-en"
                 }
             ],
             "object_marking_refs": [

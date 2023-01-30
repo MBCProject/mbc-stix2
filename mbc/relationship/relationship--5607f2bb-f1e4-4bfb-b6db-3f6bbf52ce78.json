@@ -8,9 +8,9 @@
             "id": "relationship--5607f2bb-f1e4-4bfb-b6db-3f6bbf52ce78",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2022-12-07T14:16:53.477958Z",
-            "modified": "2022-12-07T14:16:53.477958Z",
+            "modified": "2023-01-30T20:16:30.380495Z",
             "relationship_type": "uses",
-            "description": "injects its dll component into svchost.exe",
+            "description": "Injects its dll component into svchost.exe",
             "source_ref": "malware--cdd198e2-3f6f-42c4-adfd-d97dc66c5f19",
             "target_ref": "attack-pattern--2a23ab2e-fd3b-4c5f-991c-021d9a132754",
             "object_marking_refs": [

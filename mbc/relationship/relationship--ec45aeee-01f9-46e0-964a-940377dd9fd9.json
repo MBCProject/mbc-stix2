@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2ae8fb71-61db-46b6-be05-be344ffc9724",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ec45aeee-01f9-46e0-964a-940377dd9fd9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:31.536423Z",
+            "modified": "2023-01-30T20:16:31.536423Z",
+            "relationship_type": "uses",
+            "description": "Resume thread (This capa rule had 1 match)",
+            "source_ref": "malware--4188f951-4400-406c-8281-509395fc8e11",
+            "target_ref": "attack-pattern--f919567a-9038-415c-a76b-10c702d929b0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

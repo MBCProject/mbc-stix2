@@ -8,9 +8,9 @@
             "id": "attack-pattern--4294b63a-0b68-473a-8e57-bd5da8d90bf6",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
             "created": "2020-08-21T20:49:59.92426Z",
-            "modified": "2022-12-07T14:16:51.337941Z",
+            "modified": "2023-01-30T20:16:28.285806Z",
             "name": "Registry Run Keys / Startup Folder",
-            "description": "Malware may add an entry to the Windows Registry run keys or startup folder to enable persistence.",
+            "description": "Malware may add an entry to the Windows Registry run keys or startup folder to enable persistence. [[1]](#1)\n\nSee ATT&CK: **Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder ([T1547.001](https://attack.mitre.org/techniques/T1547/001/))**.",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-mbc",
@@ -78,6 +78,22 @@
                 {
                     "source_name": "external_source",
                     "url": "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/WORM_BAGLE.U/"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/en_us/research/18/k/trickbot-shows-off-new-trick-password-grabber-module.html"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://labs.vipre.com/analysis-of-kovter-a-very-clever-piece-of-malware/#:~:text=Kovter%20copies%20the%20fileless%20persistence,written%20on%20to%20the%20filesystem."
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/malware/poisonivy"
+                },
+                {
+                    "source_name": "external_source",
+                    "url": "https://www.mandiant.com/resources/hot-knives-through-butter-evading-file-based-sandboxes"
                 },
                 {
                     "source_name": "mitre-attack",

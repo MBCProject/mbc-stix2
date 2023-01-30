@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5c11ccc8-eeb5-40cf-bd9f-bd2cc69ddbef",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--11fd5a42-0be4-46b3-8aa2-c099d6ea0dbc",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:34.347409Z",
+            "modified": "2023-01-30T20:16:34.347409Z",
+            "relationship_type": "uses",
+            "description": "Write file on Windows (This capa rule had 1 match)",
+            "source_ref": "malware--b0625dd2-cc91-4936-9e12-289960aa0b41",
+            "target_ref": "attack-pattern--1a424274-077f-4c21-bc63-ef2d8e574ed0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d803ea12-9cfe-40d6-b94f-38844dcab0c5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3aa3da71-8648-4eb4-9491-adbeba22b1c1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.244578Z",
+            "modified": "2023-01-30T20:16:30.244578Z",
+            "relationship_type": "uses",
+            "description": "Query or enumerate registry value (This capa rule had 5 matches)",
+            "source_ref": "malware--30666a55-e3de-40ff-a680-8bca9c163cb0",
+            "target_ref": "attack-pattern--18377be7-e46d-48a0-ac85-b6af8f777b78",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

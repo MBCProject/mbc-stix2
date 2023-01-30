@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--63a3bcc6-4dba-4c41-87e2-f1583a3c514f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1c38095a-44a5-457b-a757-95b78fe16c46",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-01-30T20:16:30.684967Z",
+            "modified": "2023-01-30T20:16:30.684967Z",
+            "relationship_type": "uses",
+            "description": "Set environment variable (This capa rule had 3 matches)",
+            "source_ref": "malware--fa095747-0ca8-4965-a222-cf1fe7647e12",
+            "target_ref": "attack-pattern--58245c62-d50e-40d4-b31e-63902657709f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}
