@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--7d8096a1-bf63-4745-a5ec-5106cb763f86",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ce7dfb9a-46e4-49b3-b1c0-37daf23f7b5d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.944369Z",
+            "modified": "2023-10-03T15:28:15.944369Z",
+            "name": "Heriplor hash",
+            "description": "This is an IoC for Heriplor",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '1b17ce735512f3104557afe3becacd05ac802b2af79dab5bb1a7ac8d10dccffd' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:15.944369Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

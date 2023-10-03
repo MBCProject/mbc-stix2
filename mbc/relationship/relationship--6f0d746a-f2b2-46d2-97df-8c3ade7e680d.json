@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6fda359c-b161-4b6e-be4d-838a469e3838",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6f0d746a-f2b2-46d2-97df-8c3ade7e680d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.882251Z",
+            "modified": "2023-10-03T15:28:09.882251Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- The malware executes malicious javascript and powershell. [1]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-behavior--819ed2ae-7ed5-4caf-a057-485563efc26f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

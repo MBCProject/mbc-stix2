@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7a458601-5022-4212-a74a-3047f3b6df40",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a77865f0-3327-4c24-a852-9560663903c0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.488147Z",
+            "modified": "2023-10-03T15:28:17.488147Z",
+            "relationship_type": "uses",
+            "description": "Impact::System Shutdown/Reboot (T1529) -- Hupigon shutdowns systems. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "attack-pattern--ff73aa03-0090-4464-83ac-f89e233c02bc",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

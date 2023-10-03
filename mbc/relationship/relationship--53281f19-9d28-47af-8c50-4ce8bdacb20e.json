@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b97bab75-94db-4b27-972b-5e4bc2941041",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--53281f19-9d28-47af-8c50-4ce8bdacb20e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:07.162566Z",
+            "modified": "2023-10-03T15:28:07.162566Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete File (C0047) -- SamSam deletes files. [4]",
+            "source_ref": "malware--d36b5830-be79-40bd-aadf-092e77380409",
+            "target_ref": "malware-behavior--bb415897-9886-4d23-8e61-b421808d6931",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d7f6cee0-0f57-47d5-b86e-c39f69cb6051",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c76f0957-964c-4b9e-99c4-ffa355b00365",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.546595Z",
+            "modified": "2023-10-03T15:28:16.546595Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication::Server to Client File Transfer (B0030.003) -- The malware receives files from C2. [1]",
+            "source_ref": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917",
+            "target_ref": "malware-method--0c2bbe11-f83b-4b11-bbcd-7e83efdb4759",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

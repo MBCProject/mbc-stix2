@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--e8a0bfd2-f0a4-4e23-aade-a27685225cb1",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ab9a62c1-c56d-467f-b4bc-42fbf7cef5dd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.899371Z",
+            "modified": "2023-10-03T15:28:08.899371Z",
+            "name": "Rombertik hash",
+            "description": "This is an IoC for Rombertik",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '0d11a13f54d6003a51b77df355c6aa9b1d9867a5af7661745882b61d9b75bccf' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:08.899371Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

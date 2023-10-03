@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--be37b39c-fd22-4c59-b067-357da65d8b8d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--92a66228-9164-4318-89db-7bf5ee7da25f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.610944Z",
+            "modified": "2023-10-03T15:28:17.610944Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Process Injection::Process Hollowing (E1055.012) -- Hupigon uses process replacement. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--1a40603f-4a1a-4c2c-a2c2-62019ffe1557",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

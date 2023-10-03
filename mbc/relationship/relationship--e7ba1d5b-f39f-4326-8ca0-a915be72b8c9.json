@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c3e97656-827a-43a1-964f-fc90d0c83656",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e7ba1d5b-f39f-4326-8ca0-a915be72b8c9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.84144Z",
+            "modified": "2023-10-03T15:28:08.84144Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- Rombertik accepts command line arguments. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-behavior--819ed2ae-7ed5-4caf-a057-485563efc26f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--04d6f91e-6e71-4cf9-b089-4de8e5b01735",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--58b66040-4c6c-4a77-b669-8d8b84f12302",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.181853Z",
+            "modified": "2023-10-03T15:28:09.181853Z",
+            "name": "Ursnif hash",
+            "description": "This is an IoC for Ursnif",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '0b05fb5b97bfc3c82f46b8259a88ae656b1ad294e4c1324d8e8ffd59219005ac' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:09.181853Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

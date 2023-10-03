@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5ea88846-8596-45eb-b9b7-453e28a05352",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--151c2b44-ccca-4722-a36b-4b0c344529df",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.542579Z",
+            "modified": "2023-10-03T15:28:16.542579Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- Gamut accepts command line arguments. [3]",
+            "source_ref": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917",
+            "target_ref": "malware-behavior--819ed2ae-7ed5-4caf-a057-485563efc26f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

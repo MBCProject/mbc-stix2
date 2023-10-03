@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e6efefd6-b223-4536-b298-ac710ea081de",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5000577c-b25c-4a5b-ad92-605fa936bed3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.620238Z",
+            "modified": "2023-10-03T15:28:17.620238Z",
+            "relationship_type": "uses",
+            "description": "File System::Move File (C0063) -- Hupigon moves files. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-behavior--b1be9b18-475f-4a13-9976-4118740b50c5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

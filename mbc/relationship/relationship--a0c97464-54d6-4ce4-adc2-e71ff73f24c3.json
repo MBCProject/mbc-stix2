@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7fe443dd-ae35-49bd-8663-2dd3cfb95ab2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a0c97464-54d6-4ce4-adc2-e71ff73f24c3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.031711Z",
+            "modified": "2023-10-03T15:28:15.031711Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Location Discovery (T1614) -- UP007 gets geographical locations. [2]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "attack-pattern--c877e33f-1df6-40d6-b1e7-ce70f16f4979",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

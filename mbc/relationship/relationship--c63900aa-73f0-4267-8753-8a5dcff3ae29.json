@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--db955d60-9eab-45d4-ae32-ea528aa675bf",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c63900aa-73f0-4267-8753-8a5dcff3ae29",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.25341Z",
+            "modified": "2023-10-03T15:28:09.25341Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Registry Run Keys / Startup Folder (F0012) -- BlackEnergy 3 variant drops its main DLL component and then creates a .lnk shortcut to that file in the startup folder, allowing it to persist via a Run registry key. [1] [4]",
+            "source_ref": "malware--9e87672d-5122-474c-b71a-f0c9d09e51b7",
+            "target_ref": "malware-behavior--68bdb0c9-2213-437d-ac60-94852160b34a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

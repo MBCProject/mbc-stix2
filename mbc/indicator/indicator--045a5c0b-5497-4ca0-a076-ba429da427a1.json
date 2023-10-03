@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--eeaace5f-a6f7-4cf0-8f6f-ac29e6bc258d",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--045a5c0b-5497-4ca0-a076-ba429da427a1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.852745Z",
+            "modified": "2023-10-03T15:28:11.852745Z",
+            "name": "YiSpecter hash",
+            "description": "This is an IoC for YiSpecter",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '5259854994945a165996d994e6484c1afc1c7e628cb5df2dc3750f4f9f92202e' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:11.852745Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

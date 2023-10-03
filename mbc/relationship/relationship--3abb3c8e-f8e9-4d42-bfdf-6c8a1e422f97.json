@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c2f57fa4-948f-443a-b78e-01bd0ca0b1de",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3abb3c8e-f8e9-4d42-bfdf-6c8a1e422f97",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:12.832289Z",
+            "modified": "2023-10-03T15:28:12.832289Z",
+            "relationship_type": "uses",
+            "description": "Discovery::File and Directory Discovery (E1083) -- The malware searches for user files before encrypting them. [1]",
+            "source_ref": "malware--0223c81a-a1ea-49b1-9edd-ae1e5e10697b",
+            "target_ref": "malware-behavior--0d7ae86c-ab0b-44ff-a160-525ed224f6c9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

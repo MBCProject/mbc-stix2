@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--80b47ecc-d8a5-4997-b7c7-33f30406e981",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3a8b3f7c-2f94-4cce-9dc9-cf1be25d9b20",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.56202Z",
+            "modified": "2023-10-03T15:28:09.56202Z",
+            "relationship_type": "uses",
+            "description": "Execution::User Execution::Malicious File (T1204.002) -- The malware relies on a victim to execute itself. [2]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

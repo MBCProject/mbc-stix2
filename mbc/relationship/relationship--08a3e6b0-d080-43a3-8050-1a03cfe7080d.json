@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a62ce966-60aa-4681-8957-4556f78f46c0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--08a3e6b0-d080-43a3-8050-1a03cfe7080d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:18.510258Z",
+            "modified": "2023-10-03T15:28:18.510258Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encrypt Data::RC4 (C0027.009) -- Locky Bart encrypts data using RC4 PRGA. [2]",
+            "source_ref": "malware--a8852a66-f28c-4a9f-a16d-aca871a5e54b",
+            "target_ref": "malware-method--e3e76b72-4e03-434e-b817-345b07479c83",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

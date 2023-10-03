@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fd1a4c1f-9e01-46e6-8fb4-bb3b0990bb0e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6e9ad069-ca93-4a8c-b986-b72451c71a49",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.842162Z",
+            "modified": "2023-10-03T15:28:08.842162Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavior Analysis::Dynamic Analysis Evasion::Data Flood (B0003.002) -- The malware stalls by writing a byte of random data to memory 960 million times which complicates analysis. It also calls specific Windows API functions. [1]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-method--a40744c8-e422-41b1-aee9-5484ea0ad078",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

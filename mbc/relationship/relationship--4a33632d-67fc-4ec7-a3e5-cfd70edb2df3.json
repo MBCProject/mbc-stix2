@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3ac0e588-58d5-4841-9436-3f7afc1e1dee",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4a33632d-67fc-4ec7-a3e5-cfd70edb2df3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.124549Z",
+            "modified": "2023-10-03T15:28:09.124549Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication::Authenticate (B0030.011) -- Ursnif variant Dreambot authenticates and encrypts traffic to the C2 server using TOR. [2]",
+            "source_ref": "malware--3227f4aa-415d-459c-b04c-8460c3a6437e",
+            "target_ref": "malware-method--0c2bbe11-f83b-4b11-bbcd-7e83efdb4759",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

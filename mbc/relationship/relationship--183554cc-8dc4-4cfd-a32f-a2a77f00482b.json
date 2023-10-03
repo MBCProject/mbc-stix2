@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--21477f76-3009-41eb-8a8f-d1cdaf622fa4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--183554cc-8dc4-4cfd-a32f-a2a77f00482b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.37799Z",
+            "modified": "2023-10-03T15:28:11.37799Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Executable Code Obfuscation::Stack Strings (B0032.017) -- A Poison Ivy variant encrypts all its strings. [3]",
+            "source_ref": "malware--f68cd3e5-afa7-48ef-bba0-11c58ab8026f",
+            "target_ref": "malware-method--4459fa62-0896-412a-9ab0-beb1b84126a3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

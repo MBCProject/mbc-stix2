@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9e19e7d9-f847-4099-ae2c-fa7f9a297b56",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--be474e64-140d-4382-b2cf-7b10762bde3d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:13.982979Z",
+            "modified": "2023-10-03T15:28:13.982979Z",
+            "relationship_type": "uses",
+            "description": "Execution::User Execution (E1204) -- The malware relies on user interaction to execute. [2]",
+            "source_ref": "malware--fdec4701-4623-4ec5-94ff-30c3e92620d4",
+            "target_ref": "malware-behavior--72862ee1-28ff-4c5e-ae11-ca52c681d1b3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

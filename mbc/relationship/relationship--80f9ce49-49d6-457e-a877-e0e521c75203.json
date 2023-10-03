@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4b9ecaa3-a0cf-433f-94d1-7fe48ce4fc57",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--80f9ce49-49d6-457e-a877-e0e521c75203",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.608934Z",
+            "modified": "2023-10-03T15:28:17.608934Z",
+            "relationship_type": "uses",
+            "description": "Discovery::File and Directory Discovery::Log File (E1083.m01) -- Hupigon accesses Windows event logs. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--686a2a4b-c337-4b21-9891-d04615658618",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

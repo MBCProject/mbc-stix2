@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--efc50741-0d7e-4651-b2a1-0dc72c52b1da",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dc0d2a7a-dc69-4ae6-a4fa-669f49752849",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.612475Z",
+            "modified": "2023-10-03T15:28:17.612475Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Debugger Detection::Software Breakpoints (B0001.025) -- Hupigon checks for software breakpoints. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--d575197c-ba13-4570-ada1-4d5f3a416484",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

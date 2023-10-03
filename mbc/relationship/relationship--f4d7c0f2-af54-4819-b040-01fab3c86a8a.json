@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--89a4792e-2abf-4fcd-97da-74c9a7e720bd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f4d7c0f2-af54-4819-b040-01fab3c86a8a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.25852Z",
+            "modified": "2023-10-03T15:28:09.25852Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encryption Key (C0028) -- BlackEnergy creates new key via CryptAcquireContext. [4]",
+            "source_ref": "malware--9e87672d-5122-474c-b71a-f0c9d09e51b7",
+            "target_ref": "malware-behavior--5d2fbb94-84eb-44f8-a3a2-0cc04d7f112f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

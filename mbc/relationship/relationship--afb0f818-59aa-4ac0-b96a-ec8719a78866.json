@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9192e26b-58ae-4adb-ac04-2cdc8ddb674f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--afb0f818-59aa-4ac0-b96a-ec8719a78866",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.845082Z",
+            "modified": "2023-10-03T15:28:08.845082Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Disassembler Evasion::Argument Obfuscation (B0012.001) -- Rombertik contains obfuscated stack strings. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-method--7513ab06-30b7-4204-9131-173c133f1dc7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

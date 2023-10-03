@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--134de6b7-b29c-4515-beee-5c61d477c748",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0ea969da-62d5-463a-883a-56a65c0a26ce",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.822295Z",
+            "modified": "2023-10-03T15:28:10.822295Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Create or Modify System Process::Windows Service (T1543.003) -- Shamoon starts services. [5]",
+            "source_ref": "malware--126fd545-8484-4d16-a8ac-7c20fb2c8b43",
+            "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

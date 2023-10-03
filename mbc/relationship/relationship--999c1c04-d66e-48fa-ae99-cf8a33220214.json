@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e3d5f59c-c9e8-4c59-94e8-30cf0043a0b9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--999c1c04-d66e-48fa-ae99-cf8a33220214",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.986926Z",
+            "modified": "2023-10-03T15:28:11.986926Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::System Binary Proxy Execution::Regsvr32 (T1218.010) -- Malware downloads a DLL from a remote server and launches it through regsvr32. In some cases, the loader saves the payload as an .ocx extension. [1] [2]",
+            "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",
+            "target_ref": "attack-pattern--b97f1d35-4249-4486-a6b5-ee60ccf24fab",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

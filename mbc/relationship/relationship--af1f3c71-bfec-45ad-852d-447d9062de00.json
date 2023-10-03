@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--71715087-4b65-4539-82b5-31dd96f9dde4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--af1f3c71-bfec-45ad-852d-447d9062de00",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.121578Z",
+            "modified": "2023-10-03T15:28:09.121578Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information (E1027) -- The malware creates an encrypted Registry key called TorClient to store its data. [2]",
+            "source_ref": "malware--3227f4aa-415d-459c-b04c-8460c3a6437e",
+            "target_ref": "malware-behavior--a82579b7-d077-4842-8093-1aef42560f20",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

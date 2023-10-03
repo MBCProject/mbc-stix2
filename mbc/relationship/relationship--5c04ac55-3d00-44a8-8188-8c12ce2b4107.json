@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b892b504-0473-492b-abe1-92f9808558f6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5c04ac55-3d00-44a8-8188-8c12ce2b4107",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.122678Z",
+            "modified": "2023-10-03T15:28:09.122678Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Sandbox Detection::Self Check (B0007.007) -- Ursnif uses malware macros to evade sandbox detection - checking whether the filename contains only hexadecimal characters before the extension. [1]",
+            "source_ref": "malware--3227f4aa-415d-459c-b04c-8460c3a6437e",
+            "target_ref": "malware-method--34024afc-efbd-44de-8870-ed2db9239fc8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

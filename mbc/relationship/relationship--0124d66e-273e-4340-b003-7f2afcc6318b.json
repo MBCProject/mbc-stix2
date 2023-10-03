@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4fbf45df-4827-4a77-bcd4-f91d75f98fb6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0124d66e-273e-4340-b003-7f2afcc6318b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.00901Z",
+            "modified": "2023-10-03T15:28:10.00901Z",
+            "relationship_type": "uses",
+            "description": "Process::Suspend Thread (C0055) -- GravityRAT suspends threads. [4]",
+            "source_ref": "malware--5b8c2b12-1114-4445-9f40-869fd713df31",
+            "target_ref": "malware-behavior--c28adef6-2df9-41ce-8a65-716af5e96dce",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

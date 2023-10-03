@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a8927933-c14c-4b75-98b3-4e17bf20727e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--060d3170-83ca-41d9-99e3-cf8d0505ca02",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.55577Z",
+            "modified": "2023-10-03T15:28:10.55577Z",
+            "relationship_type": "uses",
+            "description": "File System::Copy File (C0045) -- Mebromi copies files. [2]",
+            "source_ref": "malware--94cb6823-8c6c-4d3d-8e86-258e10c97da2",
+            "target_ref": "malware-behavior--7ea1c41a-ed8b-4836-a4bc-48129c33c60b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

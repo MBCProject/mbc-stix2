@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a56c69a2-06c3-4d25-8528-d4af0472cd2b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cad565c6-c74e-4cfa-899a-c954c2a8ae35",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.002017Z",
+            "modified": "2023-10-03T15:28:10.002017Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Virtual Machine Detection::Modern Specs Check - Processor count (B0009.018) -- GravityRAT determines the machine to be a VM if the core count is 1. [2]",
+            "source_ref": "malware--5b8c2b12-1114-4445-9f40-869fd713df31",
+            "target_ref": "malware-method--610e10e9-530f-4871-9f31-2548e10d2d01",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2ef49d7f-381c-4687-acb0-c7901576bc80",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5b68f808-7692-4726-a46a-d6f6eb6d1b80",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.165685Z",
+            "modified": "2023-10-03T15:28:15.165685Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete File (C0047) -- UP007 deletes files. [2]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-behavior--bb415897-9886-4d23-8e61-b421808d6931",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

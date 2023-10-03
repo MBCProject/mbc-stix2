@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e039916e-97f6-4633-86c3-9fdc1ff77c45",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cc0335b3-7871-4992-b4e9-237a3d044155",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.651684Z",
+            "modified": "2023-10-03T15:28:15.651684Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Owner/User Discovery (T1033) -- Redhip gets a session user name. [2]",
+            "source_ref": "malware--7118a034-ac23-4a16-8277-32b790f890c5",
+            "target_ref": "attack-pattern--03d7999c-1f4c-42cc-8373-e7690d318104",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

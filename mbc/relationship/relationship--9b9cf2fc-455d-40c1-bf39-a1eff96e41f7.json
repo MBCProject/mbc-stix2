@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9f5f5a32-2675-4503-81f3-c6a06ea8b7af",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9b9cf2fc-455d-40c1-bf39-a1eff96e41f7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.890615Z",
+            "modified": "2023-10-03T15:28:09.890615Z",
+            "relationship_type": "uses",
+            "description": "File System::Set File Attributes (C0050) -- Kovter sets file attributes. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-behavior--caf974bd-d499-4496-839f-eb235bb815df",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

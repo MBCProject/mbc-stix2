@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3421b7ff-7b6c-4152-8cf2-edf3df701b2d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6d24e1cb-4bac-462d-806b-e5cc864bff4d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:13.048484Z",
+            "modified": "2023-10-03T15:28:13.048484Z",
+            "relationship_type": "uses",
+            "description": "Privilege Escalation::Abuse Elevation Control Mechanism::Bypass User Account Control (T1548.002) -- GoBotKR attempts to bypass UAC using\u00a0Registry Hijacking. [1]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "attack-pattern--120d5519-3098-4e1c-9191-2aa61232f073",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

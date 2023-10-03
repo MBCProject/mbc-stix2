@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b79cb141-0cd0-46b5-9c6e-2017be037bf4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3e9a17ed-7fa6-44ac-a11d-925ea2fa2344",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.395951Z",
+            "modified": "2023-10-03T15:28:09.395951Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Capture Evasion::Encrypted Payloads (B0036.002) -- Vobfus is downloaded in encrypted form and then decrypted.  [1]",
+            "source_ref": "malware--76b3b57d-d6a2-489c-a9bb-8d4c73f2f290",
+            "target_ref": "malware-method--efcacdf1-da90-403e-ae55-d08a008b1294",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

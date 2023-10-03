@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2f869a9f-4f49-4a3c-9c69-72210d4cd4b4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c91e7501-06a3-4ac2-b9f0-2359ed315419",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.070691Z",
+            "modified": "2023-10-03T15:28:16.070691Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication (B0030) -- EvilBunny communicates C2 via HTTP. [1]",
+            "source_ref": "malware--c1bce3d8-2fc6-4a79-9872-936edfbfcdd3",
+            "target_ref": "malware-behavior--22eb2825-fe0c-4ef1-a156-f967a0ffcfb7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

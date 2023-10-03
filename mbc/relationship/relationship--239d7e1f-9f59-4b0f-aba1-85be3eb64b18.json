@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f2db29ec-6890-4923-adbe-883e75159a56",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--239d7e1f-9f59-4b0f-aba1-85be3eb64b18",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.891268Z",
+            "modified": "2023-10-03T15:28:09.891268Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Create Registry Key (C0036.004) -- Kovter creates or opens registry keys. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

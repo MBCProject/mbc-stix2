@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--25b192f9-d325-4c41-99c7-5a14bafbdf34",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--251b7d7d-0ecf-4cce-b47c-10dfc925d394",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.170217Z",
+            "modified": "2023-10-03T15:28:15.170217Z",
+            "relationship_type": "uses",
+            "description": "Process::Terminate Process (C0018) -- UP007 terminates processes. [2]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-behavior--52a18e74-ab5d-401d-a48c-37d84ece4896",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

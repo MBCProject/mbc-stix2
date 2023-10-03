@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b0b1b366-6c92-4724-92c0-f40bd2ddd7ee",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--25b3b3ed-5b01-4a11-84fa-e36fa0fec0c5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:12.830919Z",
+            "modified": "2023-10-03T15:28:12.830919Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Proxy (T1090) -- The malware tries to connect to I2P proxies. [1]",
+            "source_ref": "malware--0223c81a-a1ea-49b1-9edd-ae1e5e10697b",
+            "target_ref": "attack-pattern--731f4f55-b6d0-41d1-a7a9-072a66389aea",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

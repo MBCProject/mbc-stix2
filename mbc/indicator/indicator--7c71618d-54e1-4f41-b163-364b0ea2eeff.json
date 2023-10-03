@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--660ad3f7-3b59-4cf7-bd7b-2f3b720db9b9",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--7c71618d-54e1-4f41-b163-364b0ea2eeff",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.447508Z",
+            "modified": "2023-10-03T15:28:09.447508Z",
+            "name": "Vobfus Download Location",
+            "description": "This is an IoC for Vobfus",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ directory:path = '%USERPROFILE%vuvuv.exe' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:09.447508Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

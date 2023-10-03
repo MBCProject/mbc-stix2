@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--aaca42c1-6671-404d-9cdb-4e250f7298cc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3d427a65-3ee0-4062-ac5e-60457fc23791",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.157611Z",
+            "modified": "2023-10-03T15:28:15.157611Z",
+            "relationship_type": "uses",
+            "description": "Privilege Escalation::Access Token Manipulation (T1134) -- UP007 modifies access privileges. [2]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "attack-pattern--dcaa092b-7de9-4a21-977f-7fcb77e89c48",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

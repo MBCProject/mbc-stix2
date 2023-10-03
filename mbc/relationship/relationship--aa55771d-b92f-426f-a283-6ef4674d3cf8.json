@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--aaf646d7-c53b-4315-8abf-b618fba54d4e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--aa55771d-b92f-426f-a283-6ef4674d3cf8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.303762Z",
+            "modified": "2023-10-03T15:28:15.303762Z",
+            "relationship_type": "uses",
+            "description": "Impact::Clipboard Modification (E1510) -- Write clipboard data (this capa rule had 1 match) [6]",
+            "source_ref": "malware--b3879069-4f94-467f-a8eb-7bd11bc9527e",
+            "target_ref": "malware-behavior--252ee351-ed69-4360-a405-67f8c318ba85",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

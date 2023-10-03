@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--46905ebe-319f-49a9-a0d3-e520bbdafc87",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--af3fd49a-908b-4ab4-bae6-4fb6b5bc06cf",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.531489Z",
+            "modified": "2023-10-03T15:28:15.531489Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Virtualization/Sandbox Evasion::System Checks (T1497.001) -- Redhip references anti-VM strings targeting VirtualBox. [2]",
+            "source_ref": "malware--7118a034-ac23-4a16-8277-32b790f890c5",
+            "target_ref": "attack-pattern--29be378d-262d-4e99-b00d-852d573628e6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

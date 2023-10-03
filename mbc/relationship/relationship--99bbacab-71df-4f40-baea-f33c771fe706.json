@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--97d5f04d-38d8-4b82-89b6-35e8db949da0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--99bbacab-71df-4f40-baea-f33c771fe706",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:18.94901Z",
+            "modified": "2023-10-03T15:28:18.94901Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information (E1027) -- The dropped file is password-protected. Once unzipped, the file contains a DLL file to decrypt the second file (a bin file with an encrypted malicious payload). [1]",
+            "source_ref": "malware--f2e49fb4-f22a-4ca3-b9a8-fc000b2b3d5e",
+            "target_ref": "malware-behavior--a82579b7-d077-4842-8093-1aef42560f20",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

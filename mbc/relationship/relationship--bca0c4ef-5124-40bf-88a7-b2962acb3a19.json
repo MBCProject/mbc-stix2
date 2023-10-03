@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8df5e1fa-4e4a-485f-8c28-077f1d322790",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bca0c4ef-5124-40bf-88a7-b2962acb3a19",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.892951Z",
+            "modified": "2023-10-03T15:28:09.892951Z",
+            "relationship_type": "uses",
+            "description": "Process::Set Thread Local Storage Value (C0041) -- Kovter sets thread local storage values. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-behavior--f06be5c1-9fc5-44bd-8788-31785f8b4586",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

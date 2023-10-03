@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9d8a0746-2f8f-4488-af6c-f0ac25844e7d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8132f29e-6af3-4bc9-ac28-2e1783df1b86",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.83684Z",
+            "modified": "2023-10-03T15:28:08.83684Z",
+            "relationship_type": "uses",
+            "description": "Impact::Data Destruction (E1485) -- If a specific anti-analysis check fails, the malware will overwrite the Master Boot Record or the user's home folder. [1]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-behavior--fc4a59ef-a4d5-4a15-8c40-f7886513f26c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

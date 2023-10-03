@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--77a84e65-aa3e-4645-a20c-edc5f34726e5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1afa0c5b-e899-4804-934c-fb10b775d1c2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.101278Z",
+            "modified": "2023-10-03T15:28:11.101278Z",
+            "relationship_type": "uses",
+            "description": "Collection::Adversary-in-the-Middle (T1557) -- After installing a certificate, the malware inserts inself into a chain of custody, typically within network packets. [1]",
+            "source_ref": "malware--b2924e46-812f-491d-a441-b8571f7b221e",
+            "target_ref": "attack-pattern--035bb001-ab69-4a0b-9f6c-2de8b09e1b9d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

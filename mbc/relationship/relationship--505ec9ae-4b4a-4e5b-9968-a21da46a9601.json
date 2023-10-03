@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e991e184-15de-41d5-8b33-5e44fb04e131",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--505ec9ae-4b4a-4e5b-9968-a21da46a9601",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.121945Z",
+            "modified": "2023-10-03T15:28:09.121945Z",
+            "relationship_type": "uses",
+            "description": "Impact::Exploit Kit (E1190) -- Ursnif is sometimes delivered via exploit kit. [7]",
+            "source_ref": "malware--3227f4aa-415d-459c-b04c-8460c3a6437e",
+            "target_ref": "malware-behavior--61c06786-0904-4cc3-b0f6-741051f278f8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

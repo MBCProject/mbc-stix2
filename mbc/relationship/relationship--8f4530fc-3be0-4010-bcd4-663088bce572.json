@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6191146c-c2fd-4eee-b3a9-07b786ef68cd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8f4530fc-3be0-4010-bcd4-663088bce572",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:12.499153Z",
+            "modified": "2023-10-03T15:28:12.499153Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Debugger Detection::Timing/Delay Check GetTickCount (B0001.032) -- The malware calls GetTickCount64 to retrieve timestamp. The malware executes Sleep and Beep in a repeated loop for 10 times.  [1]",
+            "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",
+            "target_ref": "malware-method--d575197c-ba13-4570-ada1-4d5f3a416484",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--888bbdc7-2f21-402c-a76e-426269139ff5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--eab7a85d-95d3-4491-9b6d-8a8ee29c51be",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.011758Z",
+            "modified": "2023-10-03T15:28:08.011758Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Process Injection (E1055) -- DNSChanger attaches user process memory. [3]",
+            "source_ref": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85",
+            "target_ref": "malware-behavior--27a92199-2b4a-4f46-b18d-d2abf34bb478",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

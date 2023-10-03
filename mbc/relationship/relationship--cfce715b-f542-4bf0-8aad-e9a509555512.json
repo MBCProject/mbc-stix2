@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5d37eb61-df5b-4fc7-afd1-1fa2fe6ff958",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cfce715b-f542-4bf0-8aad-e9a509555512",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.843252Z",
+            "modified": "2023-10-03T15:28:08.843252Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavior Analysis::Debugger Detection::Check Processes (B0001.038) -- An anti-analysis function within the packer is called to check the username and filename of the executing process for strings like \u201cmalwar\u201d, \u201csampl\u201d, \u201cviru\u201d, and \u201csandb\u201d. [1]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-method--d575197c-ba13-4570-ada1-4d5f3a416484",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

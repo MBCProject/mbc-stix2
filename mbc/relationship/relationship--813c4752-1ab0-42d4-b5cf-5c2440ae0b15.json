@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6837ee89-69f6-4976-90e8-98cdaab1df63",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--813c4752-1ab0-42d4-b5cf-5c2440ae0b15",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.839141Z",
+            "modified": "2023-10-03T15:28:08.839141Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encoding-Standard Algorithm (E1027.m02) -- Rombertik encodes data using XOR. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-method--58c152da-1826-4208-ad98-c33cde3c9090",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

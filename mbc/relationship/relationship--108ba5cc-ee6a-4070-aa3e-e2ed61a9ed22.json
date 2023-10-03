@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--804f2645-4af7-455f-9661-c6cf5164a875",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--108ba5cc-ee6a-4070-aa3e-e2ed61a9ed22",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:07.888163Z",
+            "modified": "2023-10-03T15:28:07.888163Z",
+            "relationship_type": "uses",
+            "description": "Execution::Shared Modules (T1129) -- DNSChanger accesses PE headers. [3]",
+            "source_ref": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

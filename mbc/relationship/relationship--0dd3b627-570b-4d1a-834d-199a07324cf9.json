@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6f670324-1682-4e13-a561-4e9cdd1cb9ab",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0dd3b627-570b-4d1a-834d-199a07324cf9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:18.949418Z",
+            "modified": "2023-10-03T15:28:18.949418Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Process Injection (E1055) -- The malware injects miner code into a running process. [1]",
+            "source_ref": "malware--f2e49fb4-f22a-4ca3-b9a8-fc000b2b3d5e",
+            "target_ref": "malware-behavior--27a92199-2b4a-4f46-b18d-d2abf34bb478",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

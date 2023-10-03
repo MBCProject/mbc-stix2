@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--41c6a97d-5f59-4e58-a60f-eebb05737b30",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c42758f6-8280-4f97-97d0-9422feb58b48",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.883954Z",
+            "modified": "2023-10-03T15:28:09.883954Z",
+            "relationship_type": "uses",
+            "description": "Collection::Screen Capture::WinAPI (E1113.m01) -- Kovter captures screenshots. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-method--0db352f5-165e-46b7-b918-febfb5376439",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

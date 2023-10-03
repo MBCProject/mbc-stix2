@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--323b78f2-c3e9-46a7-a374-75fd9bfbb17c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1eda1b63-0907-4a33-9162-d36d66e00d5c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.605569Z",
+            "modified": "2023-10-03T15:28:17.605569Z",
+            "relationship_type": "uses",
+            "description": "Collection::Screen Capture::WinAPI (E1113.m01) -- Hupigon captures screenshots. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--0db352f5-165e-46b7-b918-febfb5376439",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--64c071b3-ab89-40f7-83da-0462b9cb50d0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6215fab4-bea9-4c94-906b-d9a262a2bb6e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.600928Z",
+            "modified": "2023-10-03T15:28:17.600928Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Rootkit (E1014) -- Certain Hupigon variants may have rootkit functionality. [2]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-behavior--5e6ff582-b883-4900-a835-8eff747b173b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

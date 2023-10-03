@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1e09edaf-d082-451a-84ee-91b6b13fafc5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--37ac16e4-496c-4e05-b3da-f2d2cb83d706",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.006922Z",
+            "modified": "2023-10-03T15:28:16.006922Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- Stuxnet gathers information (OS version, workgroup status, computer name, domain/workgroup name, file name of infected project file) about each computer in the network to spread itself. [1]",
+            "source_ref": "malware--695d06a7-4c91-4d98-8f8c-6360316a59e7",
+            "target_ref": "malware-behavior--584dc938-3789-4e53-995e-f914dff31b71",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

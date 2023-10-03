@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d41cac7b-58b3-4b78-a985-8c9c4de808d6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9d408694-4c27-496e-a0d2-289141134e5d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:18.510606Z",
+            "modified": "2023-10-03T15:28:18.510606Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encryption Key (C0028) -- Locky Bart creates a new key via CryptAcquireContext. [2]",
+            "source_ref": "malware--a8852a66-f28c-4a9f-a16d-aca871a5e54b",
+            "target_ref": "malware-behavior--5d2fbb94-84eb-44f8-a3a2-0cc04d7f112f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

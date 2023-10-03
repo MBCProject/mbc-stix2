@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bcbdf160-5bac-4ae0-9491-a9a2bdb7fdc6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2f61cea7-6a86-4133-9401-5f79b4d7523d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.830366Z",
+            "modified": "2023-10-03T15:28:10.830366Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete File (C0047) -- Shamoon deletes files. [5]",
+            "source_ref": "malware--126fd545-8484-4d16-a8ac-7c20fb2c8b43",
+            "target_ref": "malware-behavior--bb415897-9886-4d23-8e61-b421808d6931",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

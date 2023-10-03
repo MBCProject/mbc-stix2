@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1ef3d98a-f8f2-4afe-9c13-a33dedcd56cc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a4a07bda-a6c2-4ba1-9e9f-239d1e034dd0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:07.720985Z",
+            "modified": "2023-10-03T15:28:07.720985Z",
+            "relationship_type": "uses",
+            "description": "Process::Resume Thread (C0054) -- DarkComet resumes a  thread. [4]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "malware-behavior--2073c44d-8e1f-40c9-bfee-f27c7f747106",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

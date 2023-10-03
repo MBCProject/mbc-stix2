@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--676744ca-76de-420f-99b0-6948ec7fb481",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f70275d1-ffd7-41a1-9c12-0d67db50fef7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.008299Z",
+            "modified": "2023-10-03T15:28:16.008299Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Process Injection::Injection and Persistence via Registry Modification (E1055.m02) -- Stuxnet uses Mrxcls.sys driver for persistence. It is registered as a boot start service by creating the registry key HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\MRxCIs\\\"ImagePath\" = \"%System%\\drivers\\mrxcls.sys\". [1]",
+            "source_ref": "malware--695d06a7-4c91-4d98-8f8c-6360316a59e7",
+            "target_ref": "malware-method--1a40603f-4a1a-4c2c-a2c2-62019ffe1557",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

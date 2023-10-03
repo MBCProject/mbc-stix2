@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--2a954eec-6058-46a8-a8f2-96dea3665926",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--bfa44a6f-b26d-470c-9f1a-343dfe497165",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.168901Z",
+            "modified": "2023-10-03T15:28:10.168901Z",
+            "name": "Geneio hash",
+            "description": "This is an IoC for Geneio",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '56b1d33fde65ab520a6c8afe9b3f304c50b581d3e46a9baa56fb9694d4d7effc' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:10.168901Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

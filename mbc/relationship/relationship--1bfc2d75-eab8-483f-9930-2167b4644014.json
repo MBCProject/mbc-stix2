@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--02685b50-6235-4f21-9200-8b67a47cea59",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1bfc2d75-eab8-483f-9930-2167b4644014",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:14.922174Z",
+            "modified": "2023-10-03T15:28:14.922174Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hide Artifacts::Hidden Window (T1564.003) -- UP007 hides a graphical window. [2]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

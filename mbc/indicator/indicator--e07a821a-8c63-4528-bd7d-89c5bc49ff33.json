@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--ffa1dc64-c464-4f0b-b214-94821f68adab",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e07a821a-8c63-4528-bd7d-89c5bc49ff33",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.330473Z",
+            "modified": "2023-10-03T15:28:09.330473Z",
+            "name": "BlackEnergy hash",
+            "description": "This is an IoC for BlackEnergy",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '9e9a6f1d046e0f5da10aa0e18bba248df4f818d342ed359c35fdb000f1354819' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:09.330473Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

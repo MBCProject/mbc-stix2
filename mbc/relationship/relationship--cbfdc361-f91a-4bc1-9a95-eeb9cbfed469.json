@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c08f8736-bb21-4b1e-99d8-17e0cbf9a75e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cbfdc361-f91a-4bc1-9a95-eeb9cbfed469",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.126446Z",
+            "modified": "2023-10-03T15:28:16.126446Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Self Deletion (F0007) -- CozyCar has a dll file that serves as a cleanup mechanism for its dropped binary. [1]",
+            "source_ref": "malware--5b31f1af-348c-46a7-a395-fcf473792606",
+            "target_ref": "malware-behavior--eb4ee065-753f-4302-b63c-0c75c3eb6a4d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

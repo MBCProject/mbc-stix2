@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--753dcde5-7b75-4d70-a953-81488183c8e2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e5de0fdf-510c-4919-8569-0eaea75c2748",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:18.507824Z",
+            "modified": "2023-10-03T15:28:18.507824Z",
+            "relationship_type": "uses",
+            "description": "Execution::Shared Modules (T1129) -- Locky Bart parses PE headers. [2]",
+            "source_ref": "malware--a8852a66-f28c-4a9f-a16d-aca871a5e54b",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

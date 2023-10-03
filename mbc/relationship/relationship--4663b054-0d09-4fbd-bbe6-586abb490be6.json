@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--41dda968-aee1-48f3-9283-525310965da0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4663b054-0d09-4fbd-bbe6-586abb490be6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.25665Z",
+            "modified": "2023-10-03T15:28:09.25665Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Cryptographic Hash (C0029) -- BlackEnergy hashes data via WinCrypt. [4]",
+            "source_ref": "malware--9e87672d-5122-474c-b71a-f0c9d09e51b7",
+            "target_ref": "malware-behavior--b5e04c2d-3905-4afb-9435-5180ea213cb1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--839311fd-22f5-4416-b9c3-474f391f8e3a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--57672578-2e08-4c1a-a9f4-5aedbaed42e0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.799337Z",
+            "modified": "2023-10-03T15:28:11.799337Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication::Send System Information (B0030.006) -- The malware connects to the C2 server using HTTP to send device information. [1]",
+            "source_ref": "malware--0a538d20-0f51-411f-bb26-1aee555078d0",
+            "target_ref": "malware-method--0c2bbe11-f83b-4b11-bbcd-7e83efdb4759",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

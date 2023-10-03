@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6ee61df7-2453-4702-8e3f-345e8a3aa20a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a23264ab-0683-4c65-8f45-bef49a5fb95a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.102041Z",
+            "modified": "2023-10-03T15:28:11.102041Z",
+            "relationship_type": "uses",
+            "description": "Execution::User Execution (E1204) -- The user opens a disk image file which invisibly installs its components. [1]",
+            "source_ref": "malware--b2924e46-812f-491d-a441-b8571f7b221e",
+            "target_ref": "malware-behavior--72862ee1-28ff-4c5e-ae11-ca52c681d1b3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

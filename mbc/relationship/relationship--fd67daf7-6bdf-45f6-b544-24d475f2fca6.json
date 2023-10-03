@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--63dedde5-b004-4d48-b9c1-53a9e3ae5a0b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fd67daf7-6bdf-45f6-b544-24d475f2fca6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:18.389958Z",
+            "modified": "2023-10-03T15:28:18.389958Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Process Discovery (T1057) -- Locky Bart gathers information from the victim's machine to create an encryption key. [1]",
+            "source_ref": "malware--a8852a66-f28c-4a9f-a16d-aca871a5e54b",
+            "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

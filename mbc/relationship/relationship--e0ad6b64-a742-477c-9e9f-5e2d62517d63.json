@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--db6a731d-4c8a-447e-874d-61e386e4d8f1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e0ad6b64-a742-477c-9e9f-5e2d62517d63",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.838434Z",
+            "modified": "2023-10-03T15:28:08.838434Z",
+            "relationship_type": "uses",
+            "description": "Collection::Screen Capture::WinAPI (E1113.m01) -- Rombertik captures screenshots. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-method--0db352f5-165e-46b7-b918-febfb5376439",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

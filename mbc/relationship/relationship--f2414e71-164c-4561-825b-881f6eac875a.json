@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0d88b4b0-1d66-4ce3-9bcf-b5d54b6c24b9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f2414e71-164c-4561-825b-881f6eac875a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.424242Z",
+            "modified": "2023-10-03T15:28:16.424242Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Application Layer Protocol::Web Protocols (T1071.001) -- The malware uses HTTP for command and control. [1]",
+            "source_ref": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917",
+            "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

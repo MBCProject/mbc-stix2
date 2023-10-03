@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--52c45545-1c9d-41e7-a86a-af9773195ba2",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c75dc5bc-a512-4d57-8cbb-6aab20236855",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:07.243278Z",
+            "modified": "2023-10-03T15:28:07.243278Z",
+            "name": "SamSam URL",
+            "description": "This is an IoC for SamSam",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ url:value = 'jcmi5n4c3mvgtyt5.onion' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:07.243278Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

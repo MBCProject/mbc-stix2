@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--57616ded-66f9-4f1f-abf0-ce4d40f43b8c",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--185a7677-ce7e-4351-94ec-37f5acd6dae1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:14.37012Z",
+            "modified": "2023-10-03T15:28:14.37012Z",
+            "name": "ElectroRAT C2 Server",
+            "description": "This is an IoC for ElectroRAT",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ url:value = 'pastebin.com/raw/zrZA4L3e' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:14.37012Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

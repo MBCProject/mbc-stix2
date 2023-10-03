@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3a168f03-4d35-47fb-bed7-859ed501e1ec",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--58538c85-3107-4492-b6c5-afcc31f4bfd4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.379612Z",
+            "modified": "2023-10-03T15:28:11.379612Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information (E1027) -- The malware obfuscates files. [2]",
+            "source_ref": "malware--f68cd3e5-afa7-48ef-bba0-11c58ab8026f",
+            "target_ref": "malware-behavior--a82579b7-d077-4842-8093-1aef42560f20",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

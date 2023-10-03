@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9ae2d1f2-a55e-4499-8a10-e7f766a6536e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ec26d56e-c4ef-43ed-9e33-00da4b59292f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.626416Z",
+            "modified": "2023-10-03T15:28:17.626416Z",
+            "relationship_type": "uses",
+            "description": "Process::Suspend Thread (C0055) -- Hupigon suspends threads. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-behavior--c28adef6-2df9-41ce-8a65-716af5e96dce",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

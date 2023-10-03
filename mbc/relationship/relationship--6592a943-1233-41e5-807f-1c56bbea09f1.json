@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3fce73d2-17c2-4c4c-aefb-ab5e573bf467",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6592a943-1233-41e5-807f-1c56bbea09f1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:14.689392Z",
+            "modified": "2023-10-03T15:28:14.689392Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hijack Execution Flow::DLL Side-Loading (T1574.002) -- The malware loads multiple DLLs into memory. [1]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "attack-pattern--e64c62cf-9cd7-4a14-94ec-cdaac43ab44b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

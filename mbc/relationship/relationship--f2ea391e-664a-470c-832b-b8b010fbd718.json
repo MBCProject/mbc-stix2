@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1341b345-2af1-467e-a9b6-541258878654",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f2ea391e-664a-470c-832b-b8b010fbd718",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.615173Z",
+            "modified": "2023-10-03T15:28:17.615173Z",
+            "relationship_type": "uses",
+            "description": "Communication::Interprocess Communication::Write Pipe (C0003.004) -- Hupigon writes pipes. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--66de65ba-2b85-4bce-a301-34eb74b6d057",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

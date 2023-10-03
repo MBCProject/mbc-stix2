@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0806d027-dc57-41a3-a43b-e875be372fcb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--19b8f4b8-bf81-4de9-923f-dfa69b28128f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.255243Z",
+            "modified": "2023-10-03T15:28:09.255243Z",
+            "relationship_type": "uses",
+            "description": "Execution::Remote Commands (B0011) -- Malware-infected bots receive commands from botmaster to load plugins associated with botmaster's goals. [1]",
+            "source_ref": "malware--9e87672d-5122-474c-b71a-f0c9d09e51b7",
+            "target_ref": "malware-behavior--bb49ae05-47fd-401f-96c1-3daae570ff40",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

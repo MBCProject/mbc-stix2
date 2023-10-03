@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4181a4f2-d4e9-4369-be95-3dfced65118f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--92b3872e-a08c-4639-8192-a6b9451fa73f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.884629Z",
+            "modified": "2023-10-03T15:28:09.884629Z",
+            "relationship_type": "uses",
+            "description": "Discovery::File and Directory Discovery::Log File (E1083.m01) -- Kovter accesses Windows event logs. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-method--686a2a4b-c337-4b21-9891-d04615658618",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

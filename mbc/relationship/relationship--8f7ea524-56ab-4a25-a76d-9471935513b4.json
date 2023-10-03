@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e51e679e-23b2-40eb-8615-bea0626b0919",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8f7ea524-56ab-4a25-a76d-9471935513b4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:14.382765Z",
+            "modified": "2023-10-03T15:28:14.382765Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Indicator Blocking (F0006) -- The malware terminates various services related to system security and Windows and prevents network access to various websites related to antivirus software. [1]",
+            "source_ref": "malware--dc4519f9-017f-41b9-a5e2-13162ad51397",
+            "target_ref": "malware-behavior--835d741c-f0af-4e50-bfd9-2eb94a1fec60",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

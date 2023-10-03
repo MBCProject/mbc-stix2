@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--baa795d8-cc7b-4121-922d-8854e51950cd",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e3065852-c64c-4caa-997e-d30d6e7403e4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.448447Z",
+            "modified": "2023-10-03T15:28:09.448447Z",
+            "name": "Vobfus Download Location",
+            "description": "This is an IoC for Vobfus",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ directory:path = '%USERPROFILE%3s8.exe' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:09.448447Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

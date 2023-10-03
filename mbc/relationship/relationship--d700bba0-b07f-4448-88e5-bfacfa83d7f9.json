@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b35908e1-ff66-463a-b2fd-b396b365e15c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d700bba0-b07f-4448-88e5-bfacfa83d7f9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.204523Z",
+            "modified": "2023-10-03T15:28:17.204523Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Service Discovery (T1007) -- Hupigon queries service status. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

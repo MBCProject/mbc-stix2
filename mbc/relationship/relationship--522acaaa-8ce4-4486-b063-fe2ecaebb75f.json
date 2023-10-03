@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--89c61d19-bd5b-400d-a1e0-9777da90ac90",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--522acaaa-8ce4-4486-b063-fe2ecaebb75f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:14.383349Z",
+            "modified": "2023-10-03T15:28:14.383349Z",
+            "relationship_type": "uses",
+            "description": "Impact::Data Destruction (E1485) -- The malware resets system restore points and deletes backup files. [1]",
+            "source_ref": "malware--dc4519f9-017f-41b9-a5e2-13162ad51397",
+            "target_ref": "malware-behavior--fc4a59ef-a4d5-4a15-8c40-f7886513f26c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

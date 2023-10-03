@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6a0bc6a6-4bde-474a-86af-4cc8fa8ce536",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--66226fe3-e5a5-46fe-99d8-1e0695f9acdf",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:13.981786Z",
+            "modified": "2023-10-03T15:28:13.981786Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Self Deletion (F0007.001) -- The RAT evades sandboxes by terminating and removing itself (DW20.exe) after installation. [2]",
+            "source_ref": "malware--fdec4701-4623-4ec5-94ff-30c3e92620d4",
+            "target_ref": "malware-method--ccc62ca2-a171-46ad-a052-9085ddc73144",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

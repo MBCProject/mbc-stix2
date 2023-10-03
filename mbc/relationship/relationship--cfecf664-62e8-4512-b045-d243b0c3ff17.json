@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2e859c44-d568-4745-a9a1-be1642360883",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cfecf664-62e8-4512-b045-d243b0c3ff17",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:18.948666Z",
+            "modified": "2023-10-03T15:28:18.948666Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- From the command line, the malware drops and unzips a password-protected Cabinet archive file. [1]",
+            "source_ref": "malware--f2e49fb4-f22a-4ca3-b9a8-fc000b2b3d5e",
+            "target_ref": "malware-behavior--819ed2ae-7ed5-4caf-a057-485563efc26f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

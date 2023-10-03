@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0c81097a-1856-4923-99e7-616fb6450936",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--10508cd7-183f-4554-be35-6b1650cc0a15",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.853173Z",
+            "modified": "2023-10-03T15:28:17.853173Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Scheduled Task/Job (T1053) -- Clipminer creates scheduled tasks for persistence. [1]",
+            "source_ref": "malware--8b920874-48f9-472c-b9d2-84306afb74fc",
+            "target_ref": "attack-pattern--35dd844a-b219-4e2b-a6bb-efa9a75995a9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

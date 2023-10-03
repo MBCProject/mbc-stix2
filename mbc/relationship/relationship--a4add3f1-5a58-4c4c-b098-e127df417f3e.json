@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--376a237a-deb2-4e6e-84d7-5aa3aa4f129d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a4add3f1-5a58-4c4c-b098-e127df417f3e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.856231Z",
+            "modified": "2023-10-03T15:28:17.856231Z",
+            "relationship_type": "uses",
+            "description": "Impact::Resource Hijacking (B0018) -- Clipminer uses sytem resources to mine for cryptocurrency. [1]",
+            "source_ref": "malware--8b920874-48f9-472c-b9d2-84306afb74fc",
+            "target_ref": "malware-behavior--a6d22894-e7fc-48b9-9a3b-472e62be6482",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

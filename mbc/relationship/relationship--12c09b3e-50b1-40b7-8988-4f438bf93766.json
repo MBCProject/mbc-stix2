@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c95352cd-9701-473e-b564-1f7f18389082",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--12c09b3e-50b1-40b7-8988-4f438bf93766",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.970291Z",
+            "modified": "2023-10-03T15:28:08.970291Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encoding-Standard Algorithm (E1027.m02) -- TrickBot encodes data using XOR. [7]",
+            "source_ref": "malware--279171d8-134e-4fef-85f9-d4d2eb1639cb",
+            "target_ref": "malware-method--58c152da-1826-4208-ad98-c33cde3c9090",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

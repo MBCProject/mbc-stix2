@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bbe91f32-eba0-45e4-ab21-c476eeb8dd09",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--998da2cf-daf9-4fa2-9224-4491a4ccb80d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.251423Z",
+            "modified": "2023-10-03T15:28:09.251423Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Modify Existing Service (F0011) -- Malware locates an inactive driver service to Hijack and set it to start automatically. [1]",
+            "source_ref": "malware--9e87672d-5122-474c-b71a-f0c9d09e51b7",
+            "target_ref": "malware-behavior--a4a2c762-df99-4005-b63c-449ce7ed2d28",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

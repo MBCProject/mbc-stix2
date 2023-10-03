@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a7a8f97d-7ad4-4961-8ad8-77c2b3dfcc92",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ae0397ee-90d9-48ee-8c79-642d11ddacad",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.342211Z",
+            "modified": "2023-10-03T15:28:17.342211Z",
+            "relationship_type": "uses",
+            "description": "Execution::System Services::Service Execution (T1569.002) -- Hupigon creates services. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

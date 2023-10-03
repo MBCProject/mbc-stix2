@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--047175aa-9acb-4959-9499-9cfabf641bdd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--864ad4b6-fd57-43bd-9acb-485ecd981204",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:12.500612Z",
+            "modified": "2023-10-03T15:28:12.500612Z",
+            "relationship_type": "uses",
+            "description": "Execution::Remote Commands::Sleep (B0011.005) -- If malware fails to send its collected data, then it sleeps. If the malware fails to execute any command, it sleeps for 4 minutes. [2]",
+            "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",
+            "target_ref": "malware-method--b03bbd3e-fa55-4f0d-822e-791fe55ee28e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

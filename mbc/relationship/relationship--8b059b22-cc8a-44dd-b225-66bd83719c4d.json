@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4cb542a9-86c3-49c9-9ae4-d43a5c3709f4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8b059b22-cc8a-44dd-b225-66bd83719c4d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.848048Z",
+            "modified": "2023-10-03T15:28:08.848048Z",
+            "relationship_type": "uses",
+            "description": "Memory::Allocate Memory (C0007) -- Rombertik allocates RWX memory. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-behavior--18cd9166-26ef-4c2a-893b-daf909f418a6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

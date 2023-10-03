@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0961c437-acba-4b54-abc6-bf5ddc74b8d5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8c64c752-5708-4d6c-a5c2-edd1d228baf3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.011064Z",
+            "modified": "2023-10-03T15:28:08.011064Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Disable or Evade Security Tools (F0004) -- DNSChanger prevents the infected system from installing anti-virus software updates. [1]",
+            "source_ref": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85",
+            "target_ref": "malware-behavior--c2fab675-1804-4163-8d51-0f00229d2e80",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

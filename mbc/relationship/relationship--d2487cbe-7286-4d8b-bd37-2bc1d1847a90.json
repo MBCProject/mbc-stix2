@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c7400164-1deb-4f2e-a598-751ddff18d8a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d2487cbe-7286-4d8b-bd37-2bc1d1847a90",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.38653Z",
+            "modified": "2023-10-03T15:28:10.38653Z",
+            "relationship_type": "uses",
+            "description": "Execution::Shared Modules (T1129) -- Mebromi links functions at runtime on Windows. [2]",
+            "source_ref": "malware--94cb6823-8c6c-4d3d-8e86-258e10c97da2",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

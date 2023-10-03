@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--77f2a260-7373-41c1-ac4a-a5ed34686cfd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a97a404a-d1fc-4466-bd9b-4cedddb93564",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.123071Z",
+            "modified": "2023-10-03T15:28:09.123071Z",
+            "relationship_type": "uses",
+            "description": "Execution::Conditional Execution (B0025.004) -- Macros check if there are at least 50 running processes with a graphical interface, check if a list of blacklisted processes are running, and checks if the application is running in Australia and is NOT affiliated with a select group of networks (Security Research, Hospitals, Universities, Veterans, etc.). [1]",
+            "source_ref": "malware--3227f4aa-415d-459c-b04c-8460c3a6437e",
+            "target_ref": "malware-method--efce34e7-bac1-4d20-bac8-491a9169df4d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

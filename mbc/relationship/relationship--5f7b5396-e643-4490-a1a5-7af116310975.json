@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b494ca7c-ae67-42bf-8466-9294219b2b82",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5f7b5396-e643-4490-a1a5-7af116310975",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.887863Z",
+            "modified": "2023-10-03T15:28:09.887863Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Decrypt Data (C0031) -- Kovter encrypts or decrypts via WinCrypt. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-behavior--7778eae9-e41c-4112-bdb6-448557481846",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

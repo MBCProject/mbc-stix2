@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--af83079a-fd91-440b-b47c-4d6cd7173b85",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f10e6a7c-f64e-4b31-8df1-76e5fee934a9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.828799Z",
+            "modified": "2023-10-03T15:28:10.828799Z",
+            "relationship_type": "uses",
+            "description": "Communication::DNS Communication::Resolve (C0011.001) -- Shamoon resolves DNS. [5]",
+            "source_ref": "malware--126fd545-8484-4d16-a8ac-7c20fb2c8b43",
+            "target_ref": "malware-method--8d2f6d63-16d3-4b1e-9a5c-2ea3cede8a96",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

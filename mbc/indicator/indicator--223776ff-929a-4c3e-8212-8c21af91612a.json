@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--d484c676-c4ba-43c4-aab5-af859e957b0d",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--223776ff-929a-4c3e-8212-8c21af91612a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:18.565263Z",
+            "modified": "2023-10-03T15:28:18.565263Z",
+            "name": "Locky Bart hash",
+            "description": "This is an IoC for Locky Bart",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = 'c285e376201e2941154ec1a9acd8658cd5e0ea975c694a3fe3e9a9897efc2680' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:18.565263Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

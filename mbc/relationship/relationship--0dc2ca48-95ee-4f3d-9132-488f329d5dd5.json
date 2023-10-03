@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b6675e71-97d4-4560-92bc-86a153d7877a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0dc2ca48-95ee-4f3d-9132-488f329d5dd5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.001564Z",
+            "modified": "2023-10-03T15:28:10.001564Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Virtual Machine Detection::Unique Hardware/Firmware Check (B0009.023) -- The malware checks if the manufacturer field in the Win32_Computer entry (in WMI) contains \"Virtual\", \"Vmware\", or \"Virtualbox.\" [2]",
+            "source_ref": "malware--5b8c2b12-1114-4445-9f40-869fd713df31",
+            "target_ref": "malware-method--610e10e9-530f-4871-9f31-2548e10d2d01",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

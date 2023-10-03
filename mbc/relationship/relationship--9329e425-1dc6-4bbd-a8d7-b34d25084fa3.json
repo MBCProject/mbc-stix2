@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4d556430-e65e-4683-8309-a6917907cb14",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9329e425-1dc6-4bbd-a8d7-b34d25084fa3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.552313Z",
+            "modified": "2023-10-03T15:28:16.552313Z",
+            "relationship_type": "uses",
+            "description": "File System::Create Directory (C0046) -- Gamut creates directories. [3]",
+            "source_ref": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917",
+            "target_ref": "malware-behavior--ad242752-7f47-4295-a734-53de5718b090",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

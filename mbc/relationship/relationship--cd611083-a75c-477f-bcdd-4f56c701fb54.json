@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--47c2dd23-9f60-42a2-af2e-aa61a06b957d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cd611083-a75c-477f-bcdd-4f56c701fb54",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.825089Z",
+            "modified": "2023-10-03T15:28:10.825089Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hijack Execution Flow::Abuse Windows Function Calls (F0015.006) -- Malware escalates privileges by impersonating the token through using LogonUser and ImpersonateLoggedOnUser then ImpersonateNamedPipeClient. [2]",
+            "source_ref": "malware--126fd545-8484-4d16-a8ac-7c20fb2c8b43",
+            "target_ref": "malware-method--392fb1f7-2fcb-4ee3-9f0a-2a89baf9adbf",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--555c5a45-f744-47a1-a977-1705baf739ec",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e9da4374-9338-4b9b-9562-a42fe791fbb0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.163793Z",
+            "modified": "2023-10-03T15:28:15.163793Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Debugger Detection::Timing/Delay Check GetTickCount (B0001.032) -- UP007 checks for a time delay via GetTickCount. [2]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-method--d575197c-ba13-4570-ada1-4d5f3a416484",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

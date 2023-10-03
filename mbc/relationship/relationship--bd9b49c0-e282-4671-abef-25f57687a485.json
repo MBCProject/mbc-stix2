@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c0d9cfcb-f73c-4408-a39e-e87393016997",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bd9b49c0-e282-4671-abef-25f57687a485",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.735775Z",
+            "modified": "2023-10-03T15:28:11.735775Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Registry Run Keys / Startup Folder (F0012) -- The malware creates an \"autorun\" registry key. [1]",
+            "source_ref": "malware--215c546e-44be-43f1-bbdd-831c356a5e95",
+            "target_ref": "malware-behavior--68bdb0c9-2213-437d-ac60-94852160b34a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

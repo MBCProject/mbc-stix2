@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b351e22b-6324-485f-a594-c64da5f8b488",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--71b1446d-10ff-45fa-822b-c4602e53d823",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.553675Z",
+            "modified": "2023-10-03T15:28:10.553675Z",
+            "relationship_type": "uses",
+            "description": "Discovery::File and Directory Discovery (E1083) -- Mebromi gets a file size. [2]",
+            "source_ref": "malware--94cb6823-8c6c-4d3d-8e86-258e10c97da2",
+            "target_ref": "malware-behavior--0d7ae86c-ab0b-44ff-a160-525ed224f6c9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

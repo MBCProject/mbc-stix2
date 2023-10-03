@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--64f6930b-4f77-4120-8639-77d5fae92deb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--75d08d9d-670e-4b7e-ad33-35d1b5fc7b86",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:13.872916Z",
+            "modified": "2023-10-03T15:28:13.872916Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete File (C0047) -- GoBotKR deletes files. [2]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "malware-behavior--bb415897-9886-4d23-8e61-b421808d6931",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

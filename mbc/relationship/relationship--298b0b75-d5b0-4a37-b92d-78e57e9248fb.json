@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1e29e5ea-980d-4818-8e48-daad32891421",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--298b0b75-d5b0-4a37-b92d-78e57e9248fb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.175065Z",
+            "modified": "2023-10-03T15:28:10.175065Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Registry Run Keys / Startup Folder (F0012) -- Malware adds registry keys to enable its automatic execution at every system startup. [1]",
+            "source_ref": "malware--526faaf2-073e-4da9-9a56-63082add55c0",
+            "target_ref": "malware-behavior--68bdb0c9-2213-437d-ac60-94852160b34a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c35aeb13-0dff-4c4a-b82b-0bd05d2b10f9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b1adfecb-1e50-4947-b973-139e5cc9c856",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.618302Z",
+            "modified": "2023-10-03T15:28:17.618302Z",
+            "relationship_type": "uses",
+            "description": "File System::Create Directory (C0046) -- Hupigon creates directories. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-behavior--ad242752-7f47-4295-a734-53de5718b090",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

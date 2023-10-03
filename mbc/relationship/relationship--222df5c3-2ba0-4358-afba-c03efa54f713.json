@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--380c1a83-746e-43bd-acd3-c4d55fadca3c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--222df5c3-2ba0-4358-afba-c03efa54f713",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.600116Z",
+            "modified": "2023-10-03T15:28:17.600116Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Process Injection (E1055) -- The malware injects itself into processes, such as cmd.exe and notepad.exe. [2]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-behavior--27a92199-2b4a-4f46-b18d-d2abf34bb478",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

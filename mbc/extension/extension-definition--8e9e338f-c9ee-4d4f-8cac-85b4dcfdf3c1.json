@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--84304da9-aa33-4529-8518-f0b3db8ca77c",
+    "objects": [
+        {
+            "type": "extension-definition",
+            "spec_version": "2.1",
+            "id": "extension-definition--8e9e338f-c9ee-4d4f-8cac-85b4dcfdf3c1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-03-12T10:12:00.000Z",
+            "modified": "2023-03-12T10:12:00.000Z",
+            "name": "Malware Behavior Extension for the Malware Object",
+            "description": "An extension to support MBC (Malware Behavior Catalog) for Malware SDO",
+            "schema": "https://raw.githubusercontent.com/oasis-open/cti-stix-common-objects/main/extension-definition-specifications/malware-behavior/extension-definition--8e9e338f-c9ee-4d4f-8cac-85b4dcfdf3c1.json",
+            "version": "1.0.0",
+            "extension_types": [
+                "property-extension"
+            ]
+        }
+    ]
+}

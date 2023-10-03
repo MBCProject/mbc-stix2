@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--333661af-8c53-41c5-b7a0-a8d8b5b6d2b1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c972fae2-33a2-4aee-9499-ef421874d2c6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:07.362355Z",
+            "modified": "2023-10-03T15:28:07.362355Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hide Artifacts::Hidden Window (T1564.003) -- The malware hides a graphical window. [4]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3ecf90b7-7db3-4a44-85e8-4b4c1099a97d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6adc27ee-cc23-4711-b10d-cc96e8b04422",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.439085Z",
+            "modified": "2023-10-03T15:28:11.439085Z",
+            "relationship_type": "uses",
+            "description": "Discovery::SMTP Connection Discovery (B0014) -- Snake attempts to login to an attacker controlled SMTP server before sending information. [1]",
+            "source_ref": "malware--6f5e70fa-e2f9-4489-8f17-10321bdef5af",
+            "target_ref": "malware-behavior--4720ed6f-88e8-4cd9-be5a-ab0c48fd45df",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

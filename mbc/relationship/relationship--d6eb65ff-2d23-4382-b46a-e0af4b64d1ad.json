@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a2eb52d7-9684-47f7-bbe4-267b1ec4a32c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d6eb65ff-2d23-4382-b46a-e0af4b64d1ad",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.257721Z",
+            "modified": "2023-10-03T15:28:09.257721Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Decrypt Data (C0031) -- BlackEnergy encrypts or decrypts via WinCrypt. [4]",
+            "source_ref": "malware--9e87672d-5122-474c-b71a-f0c9d09e51b7",
+            "target_ref": "malware-behavior--7778eae9-e41c-4112-bdb6-448557481846",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1080d9ce-ca25-4c06-96b6-2d338e53104b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--950e12ad-9554-47d7-bba7-c65442f4e61d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.611739Z",
+            "modified": "2023-10-03T15:28:17.611739Z",
+            "relationship_type": "uses",
+            "description": "Execution::Conditional Execution::Runs as Service (B0025.007) -- Hupigon runs as a service. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--efce34e7-bac1-4d20-bac8-491a9169df4d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

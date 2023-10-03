@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ccbe3f2a-089d-4cfe-a51f-338f545a5720",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2feb367f-27a1-47eb-81ee-66f4ec65edf4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.332562Z",
+            "modified": "2023-10-03T15:28:10.332562Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Service Discovery (T1007) -- Mebromi queries a service status. [2]",
+            "source_ref": "malware--94cb6823-8c6c-4d3d-8e86-258e10c97da2",
+            "target_ref": "attack-pattern--322bad5a-1c49-4d23-ab79-76d641794afa",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

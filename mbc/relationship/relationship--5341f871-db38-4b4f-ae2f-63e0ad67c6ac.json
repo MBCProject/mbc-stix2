@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6d0c2b8b-9bc2-4f6c-9d99-6c17b2a69816",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5341f871-db38-4b4f-ae2f-63e0ad67c6ac",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.991088Z",
+            "modified": "2023-10-03T15:28:16.991088Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Location Discovery (T1614) -- Hupigon gets geographical locations. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "attack-pattern--c877e33f-1df6-40d6-b1e7-ce70f16f4979",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

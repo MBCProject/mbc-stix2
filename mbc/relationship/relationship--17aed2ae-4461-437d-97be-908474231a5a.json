@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6bd69efc-90f0-43f5-bafd-c434795be156",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--17aed2ae-4461-437d-97be-908474231a5a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.836007Z",
+            "modified": "2023-10-03T15:28:08.836007Z",
+            "relationship_type": "uses",
+            "description": "Collection::Input Capture (E1056) -- The malware injects itself into a browser and captures user input data. [1]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-behavior--01b0fa0f-1d71-4cab-a76d-8d1c67d97b5b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

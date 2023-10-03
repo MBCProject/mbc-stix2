@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--11fefb89-fc1a-4cdf-8464-609df013112f",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--aa443205-14fb-4a25-8f40-bbb3494c8c12",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.885363Z",
+            "modified": "2023-10-03T15:28:10.885363Z",
+            "name": "Shamoon hash",
+            "description": "This is an IoC for Shamoon",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = 'c617120895646f73bc880c0aca18990deda3db9be03f6b3564013e26dedfa3f9' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:10.885363Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

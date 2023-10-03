@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9adbe66e-7209-49f4-920e-c27c468c48b2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--534d9f34-bf8a-487b-ba83-00d54d5b362e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:07.16013Z",
+            "modified": "2023-10-03T15:28:07.16013Z",
+            "relationship_type": "uses",
+            "description": "Impact::Data Encrypted for Impact (E1486) -- SamSam encrypts data to hold for ransom. [1]",
+            "source_ref": "malware--d36b5830-be79-40bd-aadf-092e77380409",
+            "target_ref": "malware-behavior--a2416cef-7fed-48e0-8bcc-d100ac72c509",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

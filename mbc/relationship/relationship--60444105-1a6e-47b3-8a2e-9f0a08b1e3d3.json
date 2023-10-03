@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4fb97ce8-65dc-441c-a2fd-2e4c02ac7b15",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--60444105-1a6e-47b3-8a2e-9f0a08b1e3d3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.607261Z",
+            "modified": "2023-10-03T15:28:17.607261Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encryption-Standard Algorithm (E1027.m05) -- Hupigon encrypts data using DES. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--58c152da-1826-4208-ad98-c33cde3c9090",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

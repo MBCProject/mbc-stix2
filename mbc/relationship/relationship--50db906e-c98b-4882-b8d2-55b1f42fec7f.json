@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b871756d-b488-42a7-b269-64e934ee8fd3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--50db906e-c98b-4882-b8d2-55b1f42fec7f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.25105Z",
+            "modified": "2023-10-03T15:28:09.25105Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Indicator Blocking (F0006) -- Malware clears windows event logs and removes the watermark associated with enabling the TESTSIGNING boot configuration option by removing the relevent strings in the user32.dll.mui of the system. [1]",
+            "source_ref": "malware--9e87672d-5122-474c-b71a-f0c9d09e51b7",
+            "target_ref": "malware-behavior--835d741c-f0af-4e50-bfd9-2eb94a1fec60",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

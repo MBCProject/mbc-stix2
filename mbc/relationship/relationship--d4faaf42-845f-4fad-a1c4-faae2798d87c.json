@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--41a0bcb8-ef67-4182-bbee-456906ac7d7b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d4faaf42-845f-4fad-a1c4-faae2798d87c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:12.21155Z",
+            "modified": "2023-10-03T15:28:12.21155Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Query Registry (T1012) -- Malware loader retrieves the network domain name and computer name.  [2]",
+            "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",
+            "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

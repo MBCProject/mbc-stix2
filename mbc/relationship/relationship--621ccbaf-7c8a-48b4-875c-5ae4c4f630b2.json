@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e73b3954-05e6-4a0a-b498-9072af72bc37",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--621ccbaf-7c8a-48b4-875c-5ae4c4f630b2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.619259Z",
+            "modified": "2023-10-03T15:28:17.619259Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete File (C0047) -- Hupigon deletes files. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-behavior--bb415897-9886-4d23-8e61-b421808d6931",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

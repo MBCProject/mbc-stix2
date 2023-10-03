@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b41a120f-97b2-4528-b135-61b7ba7f10c5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e7fce254-49c2-41a3-94fc-5597f109301a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.968208Z",
+            "modified": "2023-10-03T15:28:08.968208Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Disable or Evade Security Tool (F0004) -- The malware terminates the following anti-malware services: Window Defender, MBamService (Malwarebytes), SAVService (Sophos AV). [3]",
+            "source_ref": "malware--279171d8-134e-4fef-85f9-d4d2eb1639cb",
+            "target_ref": "malware-behavior--c2fab675-1804-4163-8d51-0f00229d2e80",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

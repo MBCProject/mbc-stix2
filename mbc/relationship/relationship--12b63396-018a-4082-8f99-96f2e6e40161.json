@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--811351d0-930f-46f1-bd90-e528977cf470",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--12b63396-018a-4082-8f99-96f2e6e40161",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:14.38452Z",
+            "modified": "2023-10-03T15:28:14.38452Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Domain Name Generation (B0031) -- Conficker uses a domain name generator seeded by the current date to ensure that every copy of the virus generates the same names on their respective days. [1]",
+            "source_ref": "malware--dc4519f9-017f-41b9-a5e2-13162ad51397",
+            "target_ref": "malware-behavior--87fe8c35-e993-49c2-a196-61f44a3f1ac1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

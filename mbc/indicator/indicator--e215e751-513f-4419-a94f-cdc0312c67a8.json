@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--87e5beda-b0a3-41af-803d-33c863541067",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--e215e751-513f-4419-a94f-cdc0312c67a8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.612387Z",
+            "modified": "2023-10-03T15:28:16.612387Z",
+            "name": "Gamut hash",
+            "description": "This is an IoC for Gamut",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '1a9c4807500d25e83c456185a6b4571108e0f00c45667b520725ca8ae6f34fa4' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:16.612387Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

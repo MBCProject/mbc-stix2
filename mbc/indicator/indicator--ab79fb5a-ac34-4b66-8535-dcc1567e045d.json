@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--b53d67b0-9219-4acf-bc39-1a18e3e726bb",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ab79fb5a-ac34-4b66-8535-dcc1567e045d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.261612Z",
+            "modified": "2023-10-03T15:28:11.261612Z",
+            "name": "Attor File Names",
+            "description": "This is an IoC for Attor",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:value = 'f7e30a3fa186361794699d7a4fac6a9b85ccbf40' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:11.261612Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--43110355-8b5a-4e19-8e7c-5e0226657588",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--53405ee9-8fee-45b1-a93b-56de169ce2cb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.38546Z",
+            "modified": "2023-10-03T15:28:11.38546Z",
+            "relationship_type": "uses",
+            "description": "Communication::Interprocess Communication::Write Pipe (C0003.004) -- Poison Ivy writes pipes. [5]",
+            "source_ref": "malware--f68cd3e5-afa7-48ef-bba0-11c58ab8026f",
+            "target_ref": "malware-method--66de65ba-2b85-4bce-a301-34eb74b6d057",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

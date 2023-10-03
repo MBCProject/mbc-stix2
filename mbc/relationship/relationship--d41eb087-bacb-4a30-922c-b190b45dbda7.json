@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--66eb0b6a-9b8f-4891-a8c8-4d5286e53fb9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d41eb087-bacb-4a30-922c-b190b45dbda7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.384643Z",
+            "modified": "2023-10-03T15:28:11.384643Z",
+            "relationship_type": "uses",
+            "description": "Process::Check Mutex (C0043) -- A Poison Ivy variant checks if the wireshark-is-running{} named mutex object exists. [3]",
+            "source_ref": "malware--f68cd3e5-afa7-48ef-bba0-11c58ab8026f",
+            "target_ref": "malware-behavior--3b0f15b6-e989-4cb3-8743-15601847efa1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

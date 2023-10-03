@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f34b9772-15a0-4207-ad8f-3a62e5c7a6fd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--16b06fac-13e1-45c8-89d2-eef2a1362c42",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.616575Z",
+            "modified": "2023-10-03T15:28:16.616575Z",
+            "relationship_type": "uses",
+            "description": "Memory::Change Memory Protection (C0008) -- SYNful Knock modifies the translation lookaside buffer (TLB) Read/Write attributes. [1]",
+            "source_ref": "malware--bf095730-bdab-441a-9fca-a86a6b706d4f",
+            "target_ref": "malware-behavior--93c4abef-b6f2-439d-a89e-d874e98c76b8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

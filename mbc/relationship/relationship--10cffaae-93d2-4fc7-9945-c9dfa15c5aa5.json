@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--475fdd1f-5005-4d2b-b0d4-79100b109c4e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--10cffaae-93d2-4fc7-9945-c9dfa15c5aa5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.848764Z",
+            "modified": "2023-10-03T15:28:08.848764Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Query Registry Value (C0036.006) -- Rombertik queries or enumerates registry values. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

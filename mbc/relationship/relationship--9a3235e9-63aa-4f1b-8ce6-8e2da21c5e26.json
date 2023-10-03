@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6221aaef-ef56-46e9-99cb-dfcf95abd270",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9a3235e9-63aa-4f1b-8ce6-8e2da21c5e26",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:14.61842Z",
+            "modified": "2023-10-03T15:28:14.61842Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Query Registry (T1012) -- The malware queries the registry to detect AVs and queries or enumerates registry values. [1] [2]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

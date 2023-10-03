@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--64ac7b96-c7bd-429c-8fbe-e7a33aeeb8ea",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0b1c91bc-6423-4917-95cf-a714fb4d8035",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.552049Z",
+            "modified": "2023-10-03T15:28:10.552049Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Create or Modify System Process::Windows Service (T1543.003) -- Mebromi starts services. [2]",
+            "source_ref": "malware--94cb6823-8c6c-4d3d-8e86-258e10c97da2",
+            "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

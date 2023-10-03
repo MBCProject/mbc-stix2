@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--18abbb4f-93c8-4d53-98ce-55d2689a740d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6bc5b279-5a49-42b7-9bd4-214e4d42a072",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.302549Z",
+            "modified": "2023-10-03T15:28:15.302549Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Software Packing::Custom Compression (F0001.005) -- Emotet uses custom packers which first decrypt the loaders and the loaders decrypt and load emotet's main payloads [2]",
+            "source_ref": "malware--b3879069-4f94-467f-a8eb-7bd11bc9527e",
+            "target_ref": "malware-method--df0c655c-74c8-417c-8e83-24da64e8be89",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

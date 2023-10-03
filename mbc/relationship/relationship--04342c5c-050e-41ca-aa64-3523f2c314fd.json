@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5445363b-156f-43da-8482-0141064bb9ad",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--04342c5c-050e-41ca-aa64-3523f2c314fd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:12.15367Z",
+            "modified": "2023-10-03T15:28:12.15367Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Location Discovery::System Language Discovery (T1614.001) -- Malware checks the language ID for the victim computer's language. If the language is part of the Commonwealth of Independent States (CIS), then the malware terminates.  [2]",
+            "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",
+            "target_ref": "attack-pattern--c1b68a96-3c48-49ea-a6c0-9b27359f9c19",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

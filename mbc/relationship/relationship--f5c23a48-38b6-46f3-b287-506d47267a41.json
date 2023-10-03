@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ac2b5496-c542-42ec-a942-d87174c2cda9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f5c23a48-38b6-46f3-b287-506d47267a41",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.558537Z",
+            "modified": "2023-10-03T15:28:16.558537Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Delete Registry Value (C0036.007) -- Gamut deletes registry values. [3]",
+            "source_ref": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917",
+            "target_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

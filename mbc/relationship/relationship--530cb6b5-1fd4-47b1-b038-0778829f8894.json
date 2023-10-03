@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--20ae6e30-aa9e-4edd-aa90-91b0d2cab27b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--530cb6b5-1fd4-47b1-b038-0778829f8894",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.965015Z",
+            "modified": "2023-10-03T15:28:08.965015Z",
+            "relationship_type": "uses",
+            "description": "Execution::Shared Modules (T1129) -- TrickBot parses PE headers. [7]",
+            "source_ref": "malware--279171d8-134e-4fef-85f9-d4d2eb1639cb",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

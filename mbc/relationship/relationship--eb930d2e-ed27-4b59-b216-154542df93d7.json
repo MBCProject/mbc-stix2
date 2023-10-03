@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4971b05e-0818-477f-97de-a17e4966f25b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--eb930d2e-ed27-4b59-b216-154542df93d7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.12498Z",
+            "modified": "2023-10-03T15:28:09.12498Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Debugger Detection::TLS Callbacks (B0001.028) -- The malware manipulates TLS Callbacks while injecting into a child process. [3]",
+            "source_ref": "malware--3227f4aa-415d-459c-b04c-8460c3a6437e",
+            "target_ref": "malware-method--d575197c-ba13-4570-ada1-4d5f3a416484",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

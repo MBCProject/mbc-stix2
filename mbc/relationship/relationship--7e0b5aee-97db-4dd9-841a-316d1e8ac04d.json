@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fa84fe43-f8b2-4a75-974f-79b5df3c08f3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7e0b5aee-97db-4dd9-841a-316d1e8ac04d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.733691Z",
+            "modified": "2023-10-03T15:28:15.733691Z",
+            "relationship_type": "uses",
+            "description": "Process::Set Thread Local Storage Value (C0041) -- Redhip sets thread local storage values. [2]",
+            "source_ref": "malware--7118a034-ac23-4a16-8277-32b790f890c5",
+            "target_ref": "malware-behavior--f06be5c1-9fc5-44bd-8788-31785f8b4586",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

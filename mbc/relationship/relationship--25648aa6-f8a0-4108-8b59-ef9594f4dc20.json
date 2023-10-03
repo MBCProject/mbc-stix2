@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0383c615-36b0-4dfa-b65c-7c81f4ed36d1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--25648aa6-f8a0-4108-8b59-ef9594f4dc20",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:14.976286Z",
+            "modified": "2023-10-03T15:28:14.976286Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Application Window Discovery (T1010) -- UP007 finds a graphical window. [2]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "attack-pattern--4ae4f953-fe58-4cc8-a327-33257e30a830",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2c424f53-3562-4896-802c-7c162465cb82",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fe38c694-2a73-44f0-b6b7-29c1e0e637a7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.120821Z",
+            "modified": "2023-10-03T15:28:09.120821Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- The malware uses Window's command prompt commands to gather system info, task list, installed drivers, and installed programs. [4]",
+            "source_ref": "malware--3227f4aa-415d-459c-b04c-8460c3a6437e",
+            "target_ref": "malware-behavior--584dc938-3789-4e53-995e-f914dff31b71",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

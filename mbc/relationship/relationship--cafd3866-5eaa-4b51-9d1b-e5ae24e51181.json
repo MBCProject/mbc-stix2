@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f61101a3-e1ae-44a5-b0a1-cc847003d2d4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cafd3866-5eaa-4b51-9d1b-e5ae24e51181",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.774446Z",
+            "modified": "2023-10-03T15:28:08.774446Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Location Discovery::System Language Discovery (T1614.001) -- Rombertik gets keyboard layout. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "attack-pattern--c1b68a96-3c48-49ea-a6c0-9b27359f9c19",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

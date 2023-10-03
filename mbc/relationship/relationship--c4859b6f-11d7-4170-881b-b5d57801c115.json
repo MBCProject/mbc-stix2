@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--05e06c1f-9e02-4713-9e4c-54cae1c72011",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c4859b6f-11d7-4170-881b-b5d57801c115",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.124Z",
+            "modified": "2023-10-03T15:28:09.124Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Domain Name Generation (B0031) -- Previous interations of Ursnif have used a Domain Name Generation algorithm. [2]",
+            "source_ref": "malware--3227f4aa-415d-459c-b04c-8460c3a6437e",
+            "target_ref": "malware-behavior--87fe8c35-e993-49c2-a196-61f44a3f1ac1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ff15ec33-ca52-4cd6-b7bb-0d840b4942b9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--77632646-dc76-4d2c-b8b4-99b47b032253",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:07.701018Z",
+            "modified": "2023-10-03T15:28:07.701018Z",
+            "relationship_type": "uses",
+            "description": "Execution::Shared Modules (T1129) -- The malware parses PE headers. [4]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

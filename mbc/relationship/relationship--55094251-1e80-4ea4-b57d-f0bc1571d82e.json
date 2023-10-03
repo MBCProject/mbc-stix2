@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--acbac9d8-6598-40fd-a9b9-1012ee09c83f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--55094251-1e80-4ea4-b57d-f0bc1571d82e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.72319Z",
+            "modified": "2023-10-03T15:28:15.72319Z",
+            "relationship_type": "uses",
+            "description": "File System::Copy File (C0045) -- Redhip copies files. [2]",
+            "source_ref": "malware--7118a034-ac23-4a16-8277-32b790f890c5",
+            "target_ref": "malware-behavior--7ea1c41a-ed8b-4836-a4bc-48129c33c60b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

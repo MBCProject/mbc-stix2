@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--cb05f7b3-0975-4cf2-87c4-64255089e993",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--26c26647-bb5c-4308-adeb-10063011417e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.320751Z",
+            "modified": "2023-10-03T15:28:11.320751Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hidden Files and Directories (F0005) -- CHOPSTICK creates a hidden file for temporary storage. [1]",
+            "source_ref": "malware--a22c6a4e-a0c2-4f69-97e1-c9e289818842",
+            "target_ref": "malware-behavior--02670a0e-a823-4dba-80f2-3a6c0a16bdec",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

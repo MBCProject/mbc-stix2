@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1863a1f5-04a0-45fd-8f21-5cc2d4d2b3cd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--67f691af-9d76-46d0-b66b-b0c64cd7774b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.853983Z",
+            "modified": "2023-10-03T15:28:17.853983Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Modify Registry (E1112) -- Clipminer edits the registry. [1]",
+            "source_ref": "malware--8b920874-48f9-472c-b9d2-84306afb74fc",
+            "target_ref": "malware-behavior--4a1da2ed-49c6-42b8-83e0-51eafdbdeea5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

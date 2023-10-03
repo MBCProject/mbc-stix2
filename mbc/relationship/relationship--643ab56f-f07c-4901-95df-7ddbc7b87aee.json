@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4445ac28-28ec-46a5-b4a3-a7f0d4e059b5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--643ab56f-f07c-4901-95df-7ddbc7b87aee",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.125866Z",
+            "modified": "2023-10-03T15:28:09.125866Z",
+            "relationship_type": "uses",
+            "description": "Execution::Remote Commands (B0011) -- The malware commands sent by a remote user can archive/upload files, capture screenshots, clear cookies, download and  execute other files, list running processes, reboot the affected system, steal certificates and cookies, update/download a configuration file, and upload a log file which contains stolen information. [5]",
+            "source_ref": "malware--3227f4aa-415d-459c-b04c-8460c3a6437e",
+            "target_ref": "malware-behavior--bb49ae05-47fd-401f-96c1-3daae570ff40",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

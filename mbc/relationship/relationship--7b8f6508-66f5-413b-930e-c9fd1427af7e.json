@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9ea01823-99ad-41ec-98f1-dca23bca000a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7b8f6508-66f5-413b-930e-c9fd1427af7e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.882885Z",
+            "modified": "2023-10-03T15:28:09.882885Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information (E1027) -- The malware will use a key to decrypt text from a URL to create additional malicious code. [1]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-behavior--a82579b7-d077-4842-8093-1aef42560f20",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

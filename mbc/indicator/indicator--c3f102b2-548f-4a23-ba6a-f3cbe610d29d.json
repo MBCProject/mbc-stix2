@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--93363ea4-fa55-45fb-9078-57938057abfa",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c3f102b2-548f-4a23-ba6a-f3cbe610d29d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.902042Z",
+            "modified": "2023-10-03T15:28:08.902042Z",
+            "name": "Rombertik C2 Server",
+            "description": "This is an IoC for Rombertik",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ url:value = 'www.centozos[.]org[.]in' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:08.902042Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

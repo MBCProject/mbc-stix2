@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1921ff70-e541-48df-90d2-c2161aac85af",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f1775abc-4491-4d37-9752-def3dcf27bc6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:07.829369Z",
+            "modified": "2023-10-03T15:28:07.829369Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::File and Directory Permissions Modification (T1222) -- DNSChanger sets file attributes. [3]",
+            "source_ref": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85",
+            "target_ref": "attack-pattern--65917ae0-b854-4139-83fe-bf2441cf0196",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

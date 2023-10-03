@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1fecc223-9a22-4ab4-b56e-c5f72eda1dad",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--aa6524be-b7cf-4533-b9be-db528f85effa",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:14.385628Z",
+            "modified": "2023-10-03T15:28:14.385628Z",
+            "relationship_type": "uses",
+            "description": "Memory::Overflow Buffer (C0010) -- Variants A, B, C, and E exploit a vulnerability in the Server Service on Windows computers in which an already compromised computer sends a specially-crafted RPC request to force a buffer overflow and execute shellcode on the target computer. [1]",
+            "source_ref": "malware--dc4519f9-017f-41b9-a5e2-13162ad51397",
+            "target_ref": "malware-behavior--0f87ef6f-7ebe-45c6-b8ba-85266d4c759e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--1199cba4-4f63-4443-a9c1-c38246d2e1a6",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--535f86c0-0a94-4abf-ad68-a6ace5969efa",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.034681Z",
+            "modified": "2023-10-03T15:28:09.034681Z",
+            "name": "TrickBot hash",
+            "description": "This is an IoC for TrickBot",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'MD5' = '135e4fa98e2ba7086133690dbd631785' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:09.034681Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

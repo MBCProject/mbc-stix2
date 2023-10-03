@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c9382cd4-1bad-405d-95ef-54750549d31b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3f733c4d-ae41-422a-a630-c070305afceb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:12.50096Z",
+            "modified": "2023-10-03T15:28:12.50096Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication::Receive Data (B0030.002) -- C2 server returns Base64 encoded data containing the information about the next command for the loader. [2]",
+            "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",
+            "target_ref": "malware-method--0c2bbe11-f83b-4b11-bbcd-7e83efdb4759",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

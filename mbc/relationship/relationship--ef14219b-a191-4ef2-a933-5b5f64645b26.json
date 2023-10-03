@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a955d19a-1453-481d-aabd-95581551dbd1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ef14219b-a191-4ef2-a933-5b5f64645b26",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.967824Z",
+            "modified": "2023-10-03T15:28:08.967824Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Registry Run Keys / Startup Folder (F0012) -- The malware has an auto-start service that allows it to run whenever the machine boots. [3]",
+            "source_ref": "malware--279171d8-134e-4fef-85f9-d4d2eb1639cb",
+            "target_ref": "malware-behavior--68bdb0c9-2213-437d-ac60-94852160b34a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

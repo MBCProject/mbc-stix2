@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--557a665b-a5f2-4c83-9340-f455aa248054",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--20ba9514-1a4f-43d0-81be-65c37a441bbe",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.741828Z",
+            "modified": "2023-10-03T15:28:11.741828Z",
+            "relationship_type": "uses",
+            "description": "Process::Resume Thread (C0054) -- CryptoLocker resumes thread. [2]",
+            "source_ref": "malware--215c546e-44be-43f1-bbdd-831c356a5e95",
+            "target_ref": "malware-behavior--2073c44d-8e1f-40c9-bfee-f27c7f747106",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--03bb3c37-bc6a-49ed-9177-546550fc7842",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9defdf1a-f492-4ce5-b18d-fa3970588df5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.000477Z",
+            "modified": "2023-10-03T15:28:10.000477Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Virtual Machine Detection (B0009) -- The malware checks the system temperature by recording thermal readings for detecting VMs. Heat levels indicate whether the system is a VM. [1]",
+            "source_ref": "malware--5b8c2b12-1114-4445-9f40-869fd713df31",
+            "target_ref": "malware-behavior--8d21a9e4-bf53-43aa-81fd-c3f72c12f7b3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

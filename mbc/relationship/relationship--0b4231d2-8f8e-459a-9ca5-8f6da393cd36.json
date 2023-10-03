@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--00865461-275b-4bf9-983b-f49b9de0a51f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0b4231d2-8f8e-459a-9ca5-8f6da393cd36",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:13.868179Z",
+            "modified": "2023-10-03T15:28:13.868179Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Modify Registry (E1112) -- GoBotKR can modify registry keys to disable Task Manager, Registry Editor and Command Prompt. [1]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "malware-behavior--4a1da2ed-49c6-42b8-83e0-51eafdbdeea5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

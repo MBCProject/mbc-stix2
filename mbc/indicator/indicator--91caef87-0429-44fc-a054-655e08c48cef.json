@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--32c93bb0-bbcd-4e42-bd9e-7eb029575c42",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--91caef87-0429-44fc-a054-655e08c48cef",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.368516Z",
+            "modified": "2023-10-03T15:28:11.368516Z",
+            "name": "CHOPSTICK hash",
+            "description": "This is an IoC for CHOPSTICK",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '8ec464c36951aa028554be9ed7c7d9aa0bfcc9fa65a7874759afa853a18ecea7' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:11.368516Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3134efaa-14e6-4ba5-966b-a57cbafe3a78",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--882bc2c6-7bd1-451f-8d8f-cbbb9dafe79c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:18.727151Z",
+            "modified": "2023-10-03T15:28:18.727151Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Process Discovery (T1057) -- The malware identifies running processes on the system. [1]",
+            "source_ref": "malware--f2e49fb4-f22a-4ca3-b9a8-fc000b2b3d5e",
+            "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

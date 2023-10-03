@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fdd72dcd-1621-48b3-af57-5a357074be58",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a5c5bd89-49cc-4619-95c5-7fe5070638f5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.73302Z",
+            "modified": "2023-10-03T15:28:15.73302Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Process::Create Suspended Process (C0017.003) -- Redhip creates a suspended process. [2]",
+            "source_ref": "malware--7118a034-ac23-4a16-8277-32b790f890c5",
+            "target_ref": "malware-method--ffaac7f4-a791-4e39-8889-f2bb17a0fbc8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0ac7ed3e-62c5-4bd3-845d-d92bff9491d5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--287f69a3-b7e4-4929-8f06-f85b5831ca18",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.849106Z",
+            "modified": "2023-10-03T15:28:08.849106Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Set Registry Key (C0036.001) -- Rombertik sets registry values. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

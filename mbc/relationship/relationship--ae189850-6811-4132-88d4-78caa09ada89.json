@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1a73a875-a716-4302-bde7-093fb0afa825",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ae189850-6811-4132-88d4-78caa09ada89",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.845504Z",
+            "modified": "2023-10-03T15:28:08.845504Z",
+            "relationship_type": "uses",
+            "description": "Communication::Socket Communication::Create TCP Socket (C0001.011) -- Rombertik creates TCP sockets. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-method--02d02ea0-408e-4f4e-95ef-f9b18f147a32",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

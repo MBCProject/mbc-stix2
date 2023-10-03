@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ed5f76fa-7d8e-4e88-bac4-d13eca09c842",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b9a454e2-a64e-4584-bd86-22ddb4a6075e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.15843Z",
+            "modified": "2023-10-03T15:28:15.15843Z",
+            "relationship_type": "uses",
+            "description": "Collection::Keylogging (F0002) -- The malware logs keystrokes to a file. [1]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-behavior--7d9f5f6d-dcc8-4a4b-ba8e-74f4e0cabde5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

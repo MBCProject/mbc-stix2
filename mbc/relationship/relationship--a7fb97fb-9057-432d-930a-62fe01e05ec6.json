@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4212506b-e62c-463e-8f3b-dddfcd5b887b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a7fb97fb-9057-432d-930a-62fe01e05ec6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.320401Z",
+            "modified": "2023-10-03T15:28:11.320401Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- CHOPSTICK collects information from the host including Windows version, CPU architecture, and UAC settings. [1]",
+            "source_ref": "malware--a22c6a4e-a0c2-4f69-97e1-c9e289818842",
+            "target_ref": "malware-behavior--584dc938-3789-4e53-995e-f914dff31b71",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ac677dee-f1d5-4ebc-a55d-67e5452a4a9c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e12ca8cb-01c7-4204-82b2-69a96ae69093",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.396376Z",
+            "modified": "2023-10-03T15:28:09.396376Z",
+            "relationship_type": "uses",
+            "description": "Execution::Install Additional Program (B0023) -- Vobfus downloads other malware family executables. [1]",
+            "source_ref": "malware--76b3b57d-d6a2-489c-a9bb-8d4c73f2f290",
+            "target_ref": "malware-behavior--2fb1d6c1-eb1b-4dc3-9685-c7c0b38c93f4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

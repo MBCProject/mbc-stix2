@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--5ea78e11-8204-4cd0-b0d4-443d32088f00",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--7d8cd4a3-7d1a-47c0-b90f-4224959b201c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:18.183669Z",
+            "modified": "2023-10-03T15:28:18.183669Z",
+            "name": "MazarBot hash",
+            "description": "This is an IoC for MazarBot",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '0432a460b1af4a31c0b0ab12106886ff9e5fd1b7a109c1a9e5ab29b4fafd6719' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:18.183669Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--bde067e5-7f33-4bd7-bdb3-4c2da50a774d",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c8f1a35b-f706-41cb-abbb-1d25671e80c1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.044962Z",
+            "modified": "2023-10-03T15:28:09.044962Z",
+            "name": "TrickBot Yara Rule",
+            "description": "This is an IoC for TrickBot",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ yara-rule:value = 'rule MALW_systeminfo_trickbot_module : Trojan { meta: author = \"Marc Salinas @Bondey_m\" description = \"Detects systeminfo module from Trickbot Trojan\" strings: $str_systeminf_01 = \"\" $str_systeminf_02 = \"\" $str_systeminf_03 = \"\" $str_systeminf_04 = \"GetSystemInfo.pdb\" $str_systeminf_05 = \"\" $str_systeminf_06 = \"\" condition: all of ($str_ systeminf_*) }' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:09.044962Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

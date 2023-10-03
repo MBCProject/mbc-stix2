@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d562eae7-a169-4aae-96b5-a0adb35238df",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--52228e5a-c654-4bdb-b030-8b49ad3611bf",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.303363Z",
+            "modified": "2023-10-03T15:28:15.303363Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Registry Run Keys / Startup Folder (F0012) -- To start itself at system boot, emotet adds the downloaded payload to the registry to maintain persistence [1]",
+            "source_ref": "malware--b3879069-4f94-467f-a8eb-7bd11bc9527e",
+            "target_ref": "malware-behavior--68bdb0c9-2213-437d-ac60-94852160b34a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

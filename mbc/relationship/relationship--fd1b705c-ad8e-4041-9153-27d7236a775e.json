@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--078a4eda-c340-4e94-b8dc-538671139deb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fd1b705c-ad8e-4041-9153-27d7236a775e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.601957Z",
+            "modified": "2023-10-03T15:28:17.601957Z",
+            "relationship_type": "uses",
+            "description": "Collection::Keylogging (F0002) -- Certain Hupigon variants may have keylogging functionality. [2]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-behavior--7d9f5f6d-dcc8-4a4b-ba8e-74f4e0cabde5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

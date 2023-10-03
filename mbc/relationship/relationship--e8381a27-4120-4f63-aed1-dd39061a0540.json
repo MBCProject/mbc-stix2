@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d80463d7-8e99-4596-8a8e-c669f6f94544",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e8381a27-4120-4f63-aed1-dd39061a0540",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:12.379969Z",
+            "modified": "2023-10-03T15:28:12.379969Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter::Windows Command Shell (T1059.003) -- Malware loader runs cmd.exe to start payload with admin privileges. The loader can also act like a bot.  [2]",
+            "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",
+            "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

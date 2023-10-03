@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d976462d-a06f-477a-822c-696e236252e3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e496ea37-687d-44ae-92eb-f2f9ec42513c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.127046Z",
+            "modified": "2023-10-03T15:28:16.127046Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication (B0030) -- CozyCar communicates with a C2 server. [1]",
+            "source_ref": "malware--5b31f1af-348c-46a7-a395-fcf473792606",
+            "target_ref": "malware-behavior--22eb2825-fe0c-4ef1-a156-f967a0ffcfb7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

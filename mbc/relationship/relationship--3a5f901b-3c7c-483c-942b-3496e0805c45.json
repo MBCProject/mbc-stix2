@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0506d2db-66d0-4f05-a756-7ad7f1005062",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3a5f901b-3c7c-483c-942b-3496e0805c45",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:13.871864Z",
+            "modified": "2023-10-03T15:28:13.871864Z",
+            "relationship_type": "uses",
+            "description": "Impact::Resource Hijacking (B0018) -- GoBotKR can use the compromised computer\u2019s network bandwidth to seed torrents or execute DDoS. [1]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "malware-behavior--a6d22894-e7fc-48b9-9a3b-472e62be6482",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

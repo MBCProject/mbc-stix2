@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--976fa943-bed9-4684-bfa4-b212b41c9420",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ee051019-cae7-479e-8e25-e8bb030def6e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.74354Z",
+            "modified": "2023-10-03T15:28:17.74354Z",
+            "name": "WannaCry hash",
+            "description": "This is an IoC for WannaCry",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'MD5' = 'f351e1fcca0c4ea05fc44d15a17f8b36' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:17.74354Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

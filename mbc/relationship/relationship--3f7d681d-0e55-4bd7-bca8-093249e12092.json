@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--29bc6475-4741-4d0b-b013-8c25376b201b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3f7d681d-0e55-4bd7-bca8-093249e12092",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.941893Z",
+            "modified": "2023-10-03T15:28:10.941893Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Subvert Trust Controls (T1553) -- The malware uses certificates to gain access to HTTPS traffic. [1]",
+            "source_ref": "malware--b2924e46-812f-491d-a441-b8571f7b221e",
+            "target_ref": "attack-pattern--b83e166d-13d7-4b52-8677-dff90c548fd7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

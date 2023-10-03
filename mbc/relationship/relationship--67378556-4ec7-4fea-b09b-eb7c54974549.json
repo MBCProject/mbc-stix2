@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--758998e3-dd2c-4c01-81f1-eb499f02ee77",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--67378556-4ec7-4fea-b09b-eb7c54974549",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:07.704695Z",
+            "modified": "2023-10-03T15:28:07.704695Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Registry Run Keys / Startup Folder (F0012) -- DarkComet adds several registry entries to enable automatic execution at startup. [2]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "malware-behavior--68bdb0c9-2213-437d-ac60-94852160b34a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

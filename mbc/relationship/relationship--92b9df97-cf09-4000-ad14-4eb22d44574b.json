@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--97bbc9bc-8fe4-4594-b8d0-c9589d4f94e1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--92b9df97-cf09-4000-ad14-4eb22d44574b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.730829Z",
+            "modified": "2023-10-03T15:28:16.730829Z",
+            "relationship_type": "uses",
+            "description": "Collection::Clipboard Data (T1115) -- Hupigon reads clipboard data. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "attack-pattern--30973a08-aed9-4edf-8604-9084ce1b5c4f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

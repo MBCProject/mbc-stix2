@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--bea1a39b-8ca9-4d2a-9db0-e0e355d270d6",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--0a8f91c1-d34e-4c68-a446-617de8098c37",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.048776Z",
+            "modified": "2023-10-03T15:28:09.048776Z",
+            "name": "TrickBot Yara Rule",
+            "description": "This is an IoC for TrickBot",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ yara-rule:value = 'rule MALW_dllinject_trickbot_module : Trojan { meta: author = \"Marc Salinas @Bondey_m\" description = \" Detects dllinject module from Trickbot Trojan\" strings: $str_dllinj_01 = \"user_pref(\" $str_dllinj_02 = \"\" $str_dllinj_03 = \"\" $str_dllinj_04 = \"\" condition: all of ($str_ dllinj_*) }' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:09.048776Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

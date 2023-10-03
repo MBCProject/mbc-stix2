@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--73b6c14d-db0e-4d2a-8bd0-9afebf2f9038",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f8fd643a-3213-4ebf-b66b-c2d38bc90d0c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.116175Z",
+            "modified": "2023-10-03T15:28:10.116175Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Browser Extensions (T1176) -- Geneio installs Safari Extensions that are adware. [1]",
+            "source_ref": "malware--035e0bf4-ee91-4a5b-bc42-edf29a4ac235",
+            "target_ref": "attack-pattern--389735f1-f21c-4208-b8f0-f8031e7169b8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

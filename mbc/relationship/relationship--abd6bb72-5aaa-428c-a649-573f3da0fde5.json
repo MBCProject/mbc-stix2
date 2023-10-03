@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d35ae3ba-99a7-44f0-bd55-e66edb70df1f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--abd6bb72-5aaa-428c-a649-573f3da0fde5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.10322Z",
+            "modified": "2023-10-03T15:28:11.10322Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- The malware installs a script to inject a JavaScript script and modify web traffic. [1]",
+            "source_ref": "malware--b2924e46-812f-491d-a441-b8571f7b221e",
+            "target_ref": "malware-behavior--819ed2ae-7ed5-4caf-a057-485563efc26f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

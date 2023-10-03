@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f33f364e-32d4-45b7-bb7f-22fdcfd578e2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bdde71f0-8e34-49c9-aa8f-c57c4ec07f4d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.440723Z",
+            "modified": "2023-10-03T15:28:10.440723Z",
+            "relationship_type": "uses",
+            "description": "Execution::System Services::Service Execution (T1569.002) -- Mebromi interacts with a driver via control codes. [2]",
+            "source_ref": "malware--94cb6823-8c6c-4d3d-8e86-258e10c97da2",
+            "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

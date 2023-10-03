@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1d74ca24-7f96-48e5-a5d0-f76c5c5fcaff",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8033222c-c8ed-4a96-9b71-d43361f06afd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.498162Z",
+            "modified": "2023-10-03T15:28:10.498162Z",
+            "relationship_type": "uses",
+            "description": "Impact::Service Stop (T1489) -- Mebromi stops services. [2]",
+            "source_ref": "malware--94cb6823-8c6c-4d3d-8e86-258e10c97da2",
+            "target_ref": "attack-pattern--20fb2507-d71c-455d-9b6d-6104461cf26b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

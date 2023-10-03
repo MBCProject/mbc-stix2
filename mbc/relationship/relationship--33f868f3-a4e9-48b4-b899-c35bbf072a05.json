@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f7400930-1b9e-4829-8f75-3a3ae71834db",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--33f868f3-a4e9-48b4-b899-c35bbf072a05",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.162581Z",
+            "modified": "2023-10-03T15:28:15.162581Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication::Send Data (B0030.001) -- The malware sends hardened HTTP headers disguised as Microsoft Update traffic. [1]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-method--0c2bbe11-f83b-4b11-bbcd-7e83efdb4759",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

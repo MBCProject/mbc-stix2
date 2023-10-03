@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--eae6e127-3a2f-44b2-af12-14a757808b6d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--796cebbc-a079-4503-ba5d-ce4d1acbfdef",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.971074Z",
+            "modified": "2023-10-03T15:28:08.971074Z",
+            "relationship_type": "uses",
+            "description": "Execution::Remote Commands (B0011) -- The malware receives various commands from the C2 server.  [2]",
+            "source_ref": "malware--279171d8-134e-4fef-85f9-d4d2eb1639cb",
+            "target_ref": "malware-behavior--bb49ae05-47fd-401f-96c1-3daae570ff40",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

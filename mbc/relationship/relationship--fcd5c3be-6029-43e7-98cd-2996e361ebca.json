@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--559d6148-80ed-495a-a18a-ed26484a8a2a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fcd5c3be-6029-43e7-98cd-2996e361ebca",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.382007Z",
+            "modified": "2023-10-03T15:28:11.382007Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Mutex (C0042) -- Poison Ivy has a default process mutex, but it can be altered at build time. [3]",
+            "source_ref": "malware--f68cd3e5-afa7-48ef-bba0-11c58ab8026f",
+            "target_ref": "malware-behavior--f710327b-7f89-4b45-9a84-2f5d23b23378",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

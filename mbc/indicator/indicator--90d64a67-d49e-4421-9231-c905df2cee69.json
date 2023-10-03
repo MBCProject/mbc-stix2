@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--4900e548-f7bb-405b-92eb-54f45bcb1328",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--90d64a67-d49e-4421-9231-c905df2cee69",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.792967Z",
+            "modified": "2023-10-03T15:28:11.792967Z",
+            "name": "CryptoLocker hash",
+            "description": "This is an IoC for CryptoLocker",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '0be1f445537f124b5175e1f2d1da87e2e57aa4ba09ea5fe72b7bafaf0b8f9ad2' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:11.792967Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

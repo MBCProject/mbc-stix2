@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--cf96e047-e89d-429a-86a5-b55232113efa",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b4b319ee-6b59-45f2-ac35-f80309d23d74",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.84693Z",
+            "modified": "2023-10-03T15:28:08.84693Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete File (C0047) -- Rombertik deletes files. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-behavior--bb415897-9886-4d23-8e61-b421808d6931",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

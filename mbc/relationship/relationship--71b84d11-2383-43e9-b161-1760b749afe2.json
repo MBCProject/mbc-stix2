@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fccdfa6e-e17b-4b77-88f2-1e91fa8fa4a9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--71b84d11-2383-43e9-b161-1760b749afe2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.88754Z",
+            "modified": "2023-10-03T15:28:09.88754Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Cryptographic Hash (C0029) -- Kovter hashes data via WinCrypt. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-behavior--b5e04c2d-3905-4afb-9435-5180ea213cb1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

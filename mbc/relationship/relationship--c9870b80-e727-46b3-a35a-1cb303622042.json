@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d31e5ef0-9a2f-46e2-90bf-935965f95fcc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c9870b80-e727-46b3-a35a-1cb303622042",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.689998Z",
+            "modified": "2023-10-03T15:28:17.689998Z",
+            "relationship_type": "uses",
+            "description": "Defense-Evasion::Self Deletion (F0007) -- WannaCry looks for a DNS entry and if the entry exists, it terminates and deletes itself. [1]",
+            "source_ref": "malware--b2e84cdc-8eef-42f3-9f27-a4587787f52a",
+            "target_ref": "malware-behavior--eb4ee065-753f-4302-b63c-0c75c3eb6a4d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

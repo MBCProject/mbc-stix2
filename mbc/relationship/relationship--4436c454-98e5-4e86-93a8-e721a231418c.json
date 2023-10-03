@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--70ef96b5-e381-4d9d-b170-e21c6968757c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4436c454-98e5-4e86-93a8-e721a231418c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.828605Z",
+            "modified": "2023-10-03T15:28:09.828605Z",
+            "relationship_type": "uses",
+            "description": "Execution::Shared Modules (T1129) -- Kovter gets ntdll base address. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

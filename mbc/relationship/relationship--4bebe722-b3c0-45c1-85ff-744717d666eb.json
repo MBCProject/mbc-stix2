@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--371d1beb-9871-4e1a-96ec-ec57cb5bd8b6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4bebe722-b3c0-45c1-85ff-744717d666eb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.539518Z",
+            "modified": "2023-10-03T15:28:16.539518Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Modify Registry (E1112) -- The malware adds a registry key. [1]",
+            "source_ref": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917",
+            "target_ref": "malware-behavior--4a1da2ed-49c6-42b8-83e0-51eafdbdeea5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

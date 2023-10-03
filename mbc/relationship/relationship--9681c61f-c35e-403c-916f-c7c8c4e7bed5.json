@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e820e163-24c0-496f-bdc7-5bc5bfcf082a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9681c61f-c35e-403c-916f-c7c8c4e7bed5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.849841Z",
+            "modified": "2023-10-03T15:28:08.849841Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Thread (C0038) -- Rombertik creates a thread. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-behavior--6769cac3-fb72-4892-a249-40d5756c9f4f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

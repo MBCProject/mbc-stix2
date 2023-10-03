@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fa48b383-d9d4-4480-a511-214205cbc6ce",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--18602499-cf08-4e55-b5bf-1dc65cdb800e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.691344Z",
+            "modified": "2023-10-03T15:28:17.691344Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Self Discovery (B0038.002) -- WannaCry checks a string, keylen and a magic number before decrypting a dll. [1]",
+            "source_ref": "malware--b2e84cdc-8eef-42f3-9f27-a4587787f52a",
+            "target_ref": "malware-method--19f6464f-bb51-40e0-ade7-6cbd1b0d5c43",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--acb97e7b-f68b-4db8-9add-d6d58a7f5e57",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--20d26ab5-fa7d-4af6-9058-745112ab575a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:12.497632Z",
+            "modified": "2023-10-03T15:28:12.497632Z",
+            "relationship_type": "uses",
+            "description": "Execution::Install Additional Program (B0023) -- Malware drops the first loader which is responsible for loading the main loader into memory.  [1]",
+            "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",
+            "target_ref": "malware-behavior--2fb1d6c1-eb1b-4dc3-9685-c7c0b38c93f4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

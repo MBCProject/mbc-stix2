@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1f3f902a-8378-41ef-bb87-d59403406570",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2bc7eae0-0cd6-4262-a847-d54aa023ca6f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:13.869687Z",
+            "modified": "2023-10-03T15:28:13.869687Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- GoBotKR uses\u00a0wmic,\u00a0systeminfo,\u00a0and\u00a0ver\u00a0commands to collect information about the system and the installed software and queries environment variables. [1] [2]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "malware-behavior--584dc938-3789-4e53-995e-f914dff31b71",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

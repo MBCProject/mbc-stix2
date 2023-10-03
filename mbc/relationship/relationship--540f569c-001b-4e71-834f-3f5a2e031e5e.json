@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--30f1807f-9b17-4cf8-9097-38d8121e594a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--540f569c-001b-4e71-834f-3f5a2e031e5e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:14.254325Z",
+            "modified": "2023-10-03T15:28:14.254325Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (T1082) -- ElectroRat detects the OS to determine which plugins to download. [1]",
+            "source_ref": "malware--78d2433b-c22e-457f-8f06-0b93d34cefb8",
+            "target_ref": "attack-pattern--354a7f88-63fb-41b5-a801-ce3b377b36f1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

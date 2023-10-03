@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--27ab2775-a725-4ae5-a144-906dce9a21ae",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--24dcd37b-0b24-476b-b0c3-5ed6750002c1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.606372Z",
+            "modified": "2023-10-03T15:28:10.606372Z",
+            "name": "Mebromi hash",
+            "description": "This is an IoC for Mebromi",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '4968ae59a46b60c290cf5db8b3d6749df06ceb4be668009a609e1139fe91a9ee' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:10.606372Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

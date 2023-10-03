@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d8583a5e-037b-4563-b1c1-49e6e430128a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7c4bb483-78d5-4d48-a595-c2a2dc7e07b7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:12.941297Z",
+            "modified": "2023-10-03T15:28:12.941297Z",
+            "relationship_type": "uses",
+            "description": "Initial Access::Drive-by Compromise (T1189) -- GoBotKR has been distributed through torrent file-sharing websites to South Korean victims, using games or Korean movie/TV series as a lure. [1]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

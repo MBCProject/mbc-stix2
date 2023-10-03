@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--3ad78f5a-ded4-4c59-b766-2702efac1fee",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--bc233423-d719-4abc-8462-5573766aeecb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.062152Z",
+            "modified": "2023-10-03T15:28:10.062152Z",
+            "name": "GravityRAT hash",
+            "description": "This is an IoC for GravityRAT",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '71264d9c67800d3bedc6facb6915e855f7531c12445af58f47167e81c735c892' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:10.062152Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

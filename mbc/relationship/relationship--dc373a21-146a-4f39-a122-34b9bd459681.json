@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--57b753c3-7b1e-4b6c-81cc-0168409646ed",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dc373a21-146a-4f39-a122-34b9bd459681",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.25886Z",
+            "modified": "2023-10-03T15:28:09.25886Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Generate Pseudo-random Sequence::Use API (C0021.003) -- BlackEnergy generates random numbers via WinAPI. [4]",
+            "source_ref": "malware--9e87672d-5122-474c-b71a-f0c9d09e51b7",
+            "target_ref": "malware-method--f762e3c0-d54d-44fb-8bdb-d58818cf9a8d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

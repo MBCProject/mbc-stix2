@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--98966dc4-1180-4a02-9724-2c9ba557052b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2f250676-4073-4dbf-a19b-7afa8567a034",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.615937Z",
+            "modified": "2023-10-03T15:28:17.615937Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encrypt Data::3DES (C0027.004) -- Hupigon encrypts data using DES. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--e3e76b72-4e03-434e-b817-345b07479c83",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

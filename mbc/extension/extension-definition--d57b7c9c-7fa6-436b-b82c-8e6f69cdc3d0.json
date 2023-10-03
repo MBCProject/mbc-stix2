@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ee6874b0-4fd1-41f0-ae2a-24d0bd100c5b",
+    "objects": [
+        {
+            "type": "extension-definition",
+            "spec_version": "2.1",
+            "id": "extension-definition--d57b7c9c-7fa6-436b-b82c-8e6f69cdc3d0",
+            "created_by_ref": "identity--ecaecc75-d8fd-4eec-bc5a-9cb815ba728d",
+            "created": "2023-03-12T10:12:00.000Z",
+            "modified": "2023-09-27T10:12:00.000Z",
+            "name": "Malware Behavior Extension",
+            "description": "This schema defines new SDOs to capture malware behaviors.",
+            "schema": "https://raw.githubusercontent.com/oasis-open/cti-stix-common-objects/main/extension-definition-specifications/malware-behavior/extension-definition--d57b7c9c-7fa6-436b-b82c-8e6f69cdc3d0.json",
+            "version": "1.0.0",
+            "extension_types": [
+                "new-sdo"
+            ]
+        }
+    ]
+}

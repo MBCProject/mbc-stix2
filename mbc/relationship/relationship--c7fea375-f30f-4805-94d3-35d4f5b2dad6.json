@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--815654e7-8b16-439e-8cd8-a00ea19a8e45",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c7fea375-f30f-4805-94d3-35d4f5b2dad6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.88711Z",
+            "modified": "2023-10-03T15:28:09.88711Z",
+            "relationship_type": "uses",
+            "description": "Communication::HTTP Communication::Create Request (C0002.012) -- Kovter creates HTTP requests. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-method--d20b288c-11cc-48cc-9526-c6cefe7739ee",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fc73c105-df08-4c0e-a017-4ec65e7514b5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--38cd6840-9c25-4852-b4da-ca4c90b5ce63",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.965948Z",
+            "modified": "2023-10-03T15:28:08.965948Z",
+            "relationship_type": "uses",
+            "description": "Discovery::File and Directory Discovery (E1083) -- The malware collects machine information and local files with specified file extensions. [1]",
+            "source_ref": "malware--279171d8-134e-4fef-85f9-d4d2eb1639cb",
+            "target_ref": "malware-behavior--0d7ae86c-ab0b-44ff-a160-525ed224f6c9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0f6538b0-f3d4-4b49-9436-2148d5fa6d21",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0ae6f421-7122-4500-9fee-57ed50dad677",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:13.205192Z",
+            "modified": "2023-10-03T15:28:13.205192Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Masquerading (T1036) -- GoBotKR uses filenames and registry key names associated with legitimate software. [1]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "attack-pattern--42e8de7b-37b2-4258-905a-6897815e58e0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

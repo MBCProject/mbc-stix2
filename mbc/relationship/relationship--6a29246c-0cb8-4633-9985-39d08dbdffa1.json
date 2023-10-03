@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1774eb8a-b7ef-4575-8468-79e944f730e0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6a29246c-0cb8-4633-9985-39d08dbdffa1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:13.870426Z",
+            "modified": "2023-10-03T15:28:13.870426Z",
+            "relationship_type": "uses",
+            "description": "Execution::Install Additional Program (B0023) -- GoBotKR reinstalls its running instance if it is removed. [1]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "malware-behavior--2fb1d6c1-eb1b-4dc3-9685-c7c0b38c93f4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--03e3753a-3638-41ad-93cd-fc168ea17cb4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1141c4e2-c8cd-48da-bb69-59de12a45256",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.165329Z",
+            "modified": "2023-10-03T15:28:15.165329Z",
+            "relationship_type": "uses",
+            "description": "File System::Create Directory (C0046) -- UP007 creates directories. [2]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-behavior--ad242752-7f47-4295-a734-53de5718b090",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

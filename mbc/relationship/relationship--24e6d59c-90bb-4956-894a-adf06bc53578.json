@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--50e3cdf6-be67-4fe6-b87c-b454cf167b12",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--24e6d59c-90bb-4956-894a-adf06bc53578",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:14.308908Z",
+            "modified": "2023-10-03T15:28:14.308908Z",
+            "relationship_type": "uses",
+            "description": "Discovery::File and Directory Discovery (E1083) -- ElectroRat looks for wallets to steal cryptocurrency  [1]",
+            "source_ref": "malware--78d2433b-c22e-457f-8f06-0b93d34cefb8",
+            "target_ref": "malware-behavior--0d7ae86c-ab0b-44ff-a160-525ed224f6c9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

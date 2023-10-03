@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9f6b6949-749e-4928-9103-98eafbcc6385",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b97f8c7c-e142-425b-86b8-6163b2f2b171",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.621572Z",
+            "modified": "2023-10-03T15:28:17.621572Z",
+            "relationship_type": "uses",
+            "description": "File System::Write File (C0052) -- Hupigon writes files on Windows. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-behavior--7cc1a672-d56d-4b3d-915f-e3845b24ef97",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

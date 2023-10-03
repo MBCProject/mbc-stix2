@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--cf420c9c-0f13-411a-b073-effa81d134e1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5e2a2453-f09a-4fc9-8815-8aa3404bc570",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.413577Z",
+            "modified": "2023-10-03T15:28:17.413577Z",
+            "relationship_type": "uses",
+            "description": "Impact::Service Stop (T1489) -- Hupigon stops services. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "attack-pattern--20fb2507-d71c-455d-9b6d-6104461cf26b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

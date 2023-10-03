@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1106481d-53f0-4a1f-bc6d-e8de0402b856",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6639d261-64d0-4aa2-ab19-b0490f881db6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.614417Z",
+            "modified": "2023-10-03T15:28:17.614417Z",
+            "relationship_type": "uses",
+            "description": "Communication::DNS Communication::Resolve (C0011.001) -- Hupigon resolves DNS. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--8d2f6d63-16d3-4b1e-9a5c-2ea3cede8a96",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

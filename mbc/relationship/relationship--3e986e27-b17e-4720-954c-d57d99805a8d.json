@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f8332a93-c70c-42f3-9d3b-16f3a552b020",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3e986e27-b17e-4720-954c-d57d99805a8d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.554784Z",
+            "modified": "2023-10-03T15:28:10.554784Z",
+            "relationship_type": "uses",
+            "description": "Execution::Conditional Execution (B0025) -- Malware only proceeds if it detects the BIOS ROM is Award BIOS. [1]",
+            "source_ref": "malware--94cb6823-8c6c-4d3d-8e86-258e10c97da2",
+            "target_ref": "malware-behavior--6862374a-93f5-455c-bc0c-2a3903e8bc08",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

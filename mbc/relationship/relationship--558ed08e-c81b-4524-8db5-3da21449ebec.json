@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0d6a139e-bd03-4620-aa41-2fe5fa9f55ea",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--558ed08e-c81b-4524-8db5-3da21449ebec",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.973685Z",
+            "modified": "2023-10-03T15:28:08.973685Z",
+            "relationship_type": "uses",
+            "description": "Memory::Allocate Memory (C0007) -- TrickBot allocates RWX memory. [7]",
+            "source_ref": "malware--279171d8-134e-4fef-85f9-d4d2eb1639cb",
+            "target_ref": "malware-behavior--18cd9166-26ef-4c2a-893b-daf909f418a6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--da60ee85-d7d7-4bae-988b-57022fe290ad",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--68fdd75e-e8c0-44b1-beba-1915e51b88b5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:13.924039Z",
+            "modified": "2023-10-03T15:28:13.924039Z",
+            "name": "GoBotKR hash",
+            "description": "This is an IoC for GoBotKR",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '492e8ee240492768232b717a60a880f216fd936b6ed9f5b6f67fe83db3bbc7d4' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:13.924039Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

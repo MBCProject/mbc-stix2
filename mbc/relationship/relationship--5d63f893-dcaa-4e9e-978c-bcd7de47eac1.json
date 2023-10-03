@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6d1ff360-3bcb-4aed-8879-193712c86ee0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5d63f893-dcaa-4e9e-978c-bcd7de47eac1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.306131Z",
+            "modified": "2023-10-03T15:28:15.306131Z",
+            "relationship_type": "uses",
+            "description": "Execution::Send Email (B0020) -- Spam email with the Emotet loader is sent automatically. [4]",
+            "source_ref": "malware--b3879069-4f94-467f-a8eb-7bd11bc9527e",
+            "target_ref": "malware-behavior--2a7e2929-23d3-48bf-9b57-c5c902524d55",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

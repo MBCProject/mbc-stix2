@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--39ade3dd-1754-43af-b590-b1c80eb8edf1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d1020522-148b-4033-b872-56bf9d8a9939",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.000811Z",
+            "modified": "2023-10-03T15:28:10.000811Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Virtual Machine Detection::Unique Hardware/Firmware Check - BIOS (B0009.024) -- The malware creates a WMI request to identify the BIOS version. [1]",
+            "source_ref": "malware--5b8c2b12-1114-4445-9f40-869fd713df31",
+            "target_ref": "malware-method--610e10e9-530f-4871-9f31-2548e10d2d01",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

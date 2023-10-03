@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7f57272f-290e-47c3-82dc-82dd0cc8e75c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fb4cf0f1-2f8c-4719-854b-42b00ad46f33",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:18.518191Z",
+            "modified": "2023-10-03T15:28:18.518191Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Thread (C0038) -- Locky Bart creates threads. [2]",
+            "source_ref": "malware--a8852a66-f28c-4a9f-a16d-aca871a5e54b",
+            "target_ref": "malware-behavior--6769cac3-fb72-4892-a249-40d5756c9f4f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--ee7488c2-1bc8-47c8-b49f-ecff13a2f064",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--f65664ed-443a-488f-91e7-936e6acb962b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.178415Z",
+            "modified": "2023-10-03T15:28:16.178415Z",
+            "name": "CozyCar IP Address",
+            "description": "This is an IoC for CozyCar",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ ipv4-addr:value = '103.226.132.7' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:16.178415Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

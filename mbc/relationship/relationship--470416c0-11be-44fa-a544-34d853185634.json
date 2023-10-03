@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ddced221-2f40-49a9-af71-8d87b6bd1751",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--470416c0-11be-44fa-a544-34d853185634",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:07.161099Z",
+            "modified": "2023-10-03T15:28:07.161099Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Executable Code Obfuscation (B0032) -- SamSam obfuscates functions, class names and strings, including the list of targeted file extensions, the help file contents and environment variables using DES encryption with a fixed hard-coded key and the IV. [2]",
+            "source_ref": "malware--d36b5830-be79-40bd-aadf-092e77380409",
+            "target_ref": "malware-behavior--7840e697-0a0f-40b7-8e10-f154de9ca193",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

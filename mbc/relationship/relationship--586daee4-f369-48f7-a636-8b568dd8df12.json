@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d956cba6-ebb9-4aec-80e2-ccf121b3282e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--586daee4-f369-48f7-a636-8b568dd8df12",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.885637Z",
+            "modified": "2023-10-03T15:28:09.885637Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Alternative Installation Location::Registry Install (B0027.002) -- Kovter stores malware files in the Registry instead of on the hard drive. [2]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-method--c031e5cc-8cef-4283-aa82-8efe476185e8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

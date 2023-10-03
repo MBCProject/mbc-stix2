@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5667c99e-f284-4248-870a-2ea74fde0ef4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--89edc6c4-631e-4d45-83e7-96af2082840e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.720958Z",
+            "modified": "2023-10-03T15:28:15.720958Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Cryptographic Hash::SHA1 (C0029.002) -- Redhip hashes data using SHA1. [2]",
+            "source_ref": "malware--7118a034-ac23-4a16-8277-32b790f890c5",
+            "target_ref": "malware-method--a6dfd5c7-a18f-4b59-aa65-fa6f6772bbe7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

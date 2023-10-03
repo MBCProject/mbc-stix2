@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--52e4b853-720b-4d23-a3fd-c4ec7ee54594",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9b109503-e350-4645-9b5e-7528fb5c0e18",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.9666Z",
+            "modified": "2023-10-03T15:28:08.9666Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Software Packing (F0001) -- The malware has a custom packer to obfuscate itself. [1]",
+            "source_ref": "malware--279171d8-134e-4fef-85f9-d4d2eb1639cb",
+            "target_ref": "malware-behavior--06c60f10-a2e6-49dd-9ce4-fe36c51a11b8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

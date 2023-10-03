@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2f960284-317d-4ecb-a2df-e9e4a3acb98c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--30b4b0f4-8e39-41ce-aa20-9825e87b7303",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:14.309274Z",
+            "modified": "2023-10-03T15:28:14.309274Z",
+            "relationship_type": "uses",
+            "description": "Execution::Install Additional Program (B0023) -- Upon execution, ElectroRat downloads additional executables. [1]",
+            "source_ref": "malware--78d2433b-c22e-457f-8f06-0b93d34cefb8",
+            "target_ref": "malware-behavior--2fb1d6c1-eb1b-4dc3-9685-c7c0b38c93f4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

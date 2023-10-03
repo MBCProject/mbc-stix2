@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bab4de30-e3f5-4a85-9289-bf9c7bced8f5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cd01b195-43ea-48fb-aed3-0eb3d158143f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:07.717044Z",
+            "modified": "2023-10-03T15:28:07.717044Z",
+            "relationship_type": "uses",
+            "description": "File System::Write File (C0052) -- DarkComet writes Fileon Windows. [4]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "malware-behavior--7cc1a672-d56d-4b3d-915f-e3845b24ef97",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

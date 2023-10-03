@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5c482e8f-f802-4a88-9b5c-4a83b4492846",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4d8b91fe-263b-4d7b-b641-7e4f3c3fa34d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:14.385064Z",
+            "modified": "2023-10-03T15:28:14.385064Z",
+            "relationship_type": "uses",
+            "description": "Execution::Conditional Execution (B0025) -- Conficker A variant has a routine that causes the process to suicide exit if the keyboard language layout is set to Ukranian. [1]",
+            "source_ref": "malware--dc4519f9-017f-41b9-a5e2-13162ad51397",
+            "target_ref": "malware-behavior--6862374a-93f5-455c-bc0c-2a3903e8bc08",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

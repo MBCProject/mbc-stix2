@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--89573c06-c3f7-44d1-803f-d20f68d43829",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--af747702-ee76-4c8a-ae6f-c4184d8c12e3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:07.706452Z",
+            "modified": "2023-10-03T15:28:07.706452Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Software Packing (F0001) -- DarkComet has the option to compress its payload using UPX or MPRESS. [2]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "malware-behavior--06c60f10-a2e6-49dd-9ce4-fe36c51a11b8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

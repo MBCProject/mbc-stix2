@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--973dc059-b037-47c8-9282-7a1d33c056c2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6e985b2e-597e-4020-b9a7-0812d4ebe071",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.555991Z",
+            "modified": "2023-10-03T15:28:16.555991Z",
+            "relationship_type": "uses",
+            "description": "File System::Move File (C0063) -- Gamut moves files. [3]",
+            "source_ref": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917",
+            "target_ref": "malware-behavior--b1be9b18-475f-4a13-9976-4118740b50c5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

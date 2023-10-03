@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--24d568ef-97fd-4da9-a129-6efc64fb184c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ff9aac1f-7bde-4bf5-8b47-56a61752715b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.611367Z",
+            "modified": "2023-10-03T15:28:17.611367Z",
+            "relationship_type": "uses",
+            "description": "Impact::Remote Access (B0022) -- The malware acts as a backdoor. [1]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-behavior--a9d84dd9-1e8b-435e-b48a-c9e8c5464e47",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

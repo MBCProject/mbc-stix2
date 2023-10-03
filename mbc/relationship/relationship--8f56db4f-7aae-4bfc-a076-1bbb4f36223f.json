@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--208fa3c5-0cd3-4fb8-8fb9-0776644db1e0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8f56db4f-7aae-4bfc-a076-1bbb4f36223f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.383715Z",
+            "modified": "2023-10-03T15:28:08.383715Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Application Layer Protocol::Web Protocols (T1071.001) -- The malware transmits data over HTTP. [1]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

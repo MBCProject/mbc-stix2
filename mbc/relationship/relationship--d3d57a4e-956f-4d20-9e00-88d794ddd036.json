@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--73a54832-20e2-4e99-8970-9057c2cfbbad",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d3d57a4e-956f-4d20-9e00-88d794ddd036",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.551403Z",
+            "modified": "2023-10-03T15:28:16.551403Z",
+            "relationship_type": "uses",
+            "description": "Execution::Install Additional Program (B0023) -- Gamut contains an embedded PE file. [3]",
+            "source_ref": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917",
+            "target_ref": "malware-behavior--2fb1d6c1-eb1b-4dc3-9685-c7c0b38c93f4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

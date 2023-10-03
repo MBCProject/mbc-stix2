@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b7f64f34-f969-4e77-a185-5bc1bdc3fc94",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--450e3c54-0ac0-4838-a261-300efca27731",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:07.71604Z",
+            "modified": "2023-10-03T15:28:07.71604Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete File (C0047) -- DarkComet deletes files. [4]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "malware-behavior--bb415897-9886-4d23-8e61-b421808d6931",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

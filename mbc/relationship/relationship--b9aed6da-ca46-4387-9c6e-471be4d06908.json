@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a4fec64a-a0ee-4317-96a4-0380c17322d0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b9aed6da-ca46-4387-9c6e-471be4d06908",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.739462Z",
+            "modified": "2023-10-03T15:28:11.739462Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Domain Name Generation (B0031) -- The malware uses an internal domain generation algorithm. [1]",
+            "source_ref": "malware--215c546e-44be-43f1-bbdd-831c356a5e95",
+            "target_ref": "malware-behavior--87fe8c35-e993-49c2-a196-61f44a3f1ac1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--43ac09b2-d71e-4d9f-bf96-3928217fd18a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5669137a-a4e8-4282-acc2-4758817d62ee",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.012131Z",
+            "modified": "2023-10-03T15:28:08.012131Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encrypt Data::RC4 (C0027.009) -- DNSChanger encrypts data using RC4 PRGA. [3]",
+            "source_ref": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85",
+            "target_ref": "malware-method--e3e76b72-4e03-434e-b817-345b07479c83",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

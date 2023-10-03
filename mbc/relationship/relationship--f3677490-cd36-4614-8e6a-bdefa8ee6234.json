@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--846e56ae-855b-4bcd-af2b-fcf8ffe8ca38",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f3677490-cd36-4614-8e6a-bdefa8ee6234",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:07.705269Z",
+            "modified": "2023-10-03T15:28:07.705269Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Indicator Blocking (F0006) -- DarkComet can disable security center functions like anti-virus and firewall. [2]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "malware-behavior--835d741c-f0af-4e50-bfd9-2eb94a1fec60",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

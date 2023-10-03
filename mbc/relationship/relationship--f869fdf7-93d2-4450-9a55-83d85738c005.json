@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e8b5f87e-003f-4ef1-9e3b-05e0fdc9dae1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f869fdf7-93d2-4450-9a55-83d85738c005",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.616398Z",
+            "modified": "2023-10-03T15:28:17.616398Z",
+            "relationship_type": "uses",
+            "description": "Data::Compression Library (C0060) -- Hupigon linked against ZLIB. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-behavior--73534995-281b-431d-8f12-a81cd5decbd7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

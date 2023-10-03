@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a145dd60-bfea-4420-81f1-7c7d3a74d7bb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8019beb0-e206-4466-beda-746ff9c52f18",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.855439Z",
+            "modified": "2023-10-03T15:28:17.855439Z",
+            "relationship_type": "uses",
+            "description": "Impact::Clipboard Modification (E1510) -- Clipminer monitors the clipboard for cryptocurrency addresses and replaces them with ones controlled by the adversary. [1]",
+            "source_ref": "malware--8b920874-48f9-472c-b9d2-84306afb74fc",
+            "target_ref": "malware-behavior--252ee351-ed69-4360-a405-67f8c318ba85",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

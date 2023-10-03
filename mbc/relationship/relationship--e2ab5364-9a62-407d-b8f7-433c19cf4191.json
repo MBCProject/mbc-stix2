@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--85d0d4fa-be26-4d6a-89e7-22b3413b8352",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e2ab5364-9a62-407d-b8f7-433c19cf4191",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:18.781494Z",
+            "modified": "2023-10-03T15:28:18.781494Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Time Discovery (T1124) -- The malware identifies the time/time zone on the system. [1]",
+            "source_ref": "malware--f2e49fb4-f22a-4ca3-b9a8-fc000b2b3d5e",
+            "target_ref": "attack-pattern--f3c544dc-673c-4ef3-accb-53229f1ae077",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

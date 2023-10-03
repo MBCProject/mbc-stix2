@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d83a7bfb-a96f-4777-8782-9385902ceffe",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4b07e142-3ae0-4f72-a5c4-32ebec9324a8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.840228Z",
+            "modified": "2023-10-03T15:28:08.840228Z",
+            "relationship_type": "uses",
+            "description": "Impact::Clipboard Modification (E1510) -- Rombertik replaces clipboard data. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-behavior--252ee351-ed69-4360-a405-67f8c318ba85",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

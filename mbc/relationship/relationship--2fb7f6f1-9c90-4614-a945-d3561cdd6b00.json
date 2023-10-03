@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--56886b8b-3949-4726-89ee-37b4f8a1ee70",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2fb7f6f1-9c90-4614-a945-d3561cdd6b00",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.612838Z",
+            "modified": "2023-10-03T15:28:17.612838Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Debugger Detection::Timing/Delay Check GetTickCount (B0001.032) -- Hupigon checks for a time delay via GetTickCount. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--d575197c-ba13-4570-ada1-4d5f3a416484",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--78c813b2-d0ec-4bca-a3a8-db13ddaae90f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e0c019b6-54f8-4230-ad6c-ea07ccf06534",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:13.874662Z",
+            "modified": "2023-10-03T15:28:13.874662Z",
+            "relationship_type": "uses",
+            "description": "Process::Terminate Process (C0018) -- GoBotKR terminates processes. [2]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "malware-behavior--52a18e74-ab5d-401d-a48c-37d84ece4896",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

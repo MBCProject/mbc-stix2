@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--9b4c64de-8f7e-4876-b8ce-226e12cb52e2",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--323369a6-2ed1-423b-8237-e9496c612258",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.189724Z",
+            "modified": "2023-10-03T15:28:09.189724Z",
+            "name": "Ursnif URL",
+            "description": "This is an IoC for Ursnif",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ url:value = '62.75.195[.]117' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:09.189724Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

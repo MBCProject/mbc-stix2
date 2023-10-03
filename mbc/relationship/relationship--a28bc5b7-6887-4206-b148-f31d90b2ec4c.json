@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9329ce76-e2af-45c1-948b-51c79c8f809c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a28bc5b7-6887-4206-b148-f31d90b2ec4c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.971896Z",
+            "modified": "2023-10-03T15:28:08.971896Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Dynamic Analysis Evasion (B0003.012) -- The malware uses numerous printf loops to delay the execution process and overload the sandbox with junk data (API Hammering). [6]",
+            "source_ref": "malware--279171d8-134e-4fef-85f9-d4d2eb1639cb",
+            "target_ref": "malware-method--a40744c8-e422-41b1-aee9-5484ea0ad078",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

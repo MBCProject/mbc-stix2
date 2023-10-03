@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--5bf25059-7344-41d6-b2d7-bb06ffc01052",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--4341ea3d-3333-4fbc-adc4-ad325b5b3abd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.863803Z",
+            "modified": "2023-10-03T15:28:11.863803Z",
+            "name": "YiSpecter File Names",
+            "description": "This is an IoC for YiSpecter",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:value = 'iosads.cdn.bb800[.]com: used to download promoted iOS apps and malicious components' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:11.863803Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

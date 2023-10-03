@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fc58737d-be7e-4f44-b433-d00c54b66f25",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a7479d83-9cde-44a0-ae07-c9e0db8a73b1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:09.126261Z",
+            "modified": "2023-10-03T15:28:09.126261Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Code Discovery::Enumerate PE Sections (B0046.001) -- Ursnif enumerates PE sections. [6]",
+            "source_ref": "malware--3227f4aa-415d-459c-b04c-8460c3a6437e",
+            "target_ref": "malware-method--51fef92e-9702-44ca-8e2c-22a52994f4f1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

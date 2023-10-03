@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e261030f-fb3b-4fe7-8771-5170ce880305",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c670d9ae-816c-47b5-837f-4ac3b60f181c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:08.84181Z",
+            "modified": "2023-10-03T15:28:08.84181Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Executable Code Obfuscation::Code Insertion (B0032.002) -- Most of the malware file consists of unnecessary code or unnecessary data. [1]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-method--4459fa62-0896-412a-9ab0-beb1b84126a3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

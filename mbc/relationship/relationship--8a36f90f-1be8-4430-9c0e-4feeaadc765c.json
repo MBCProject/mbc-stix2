@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7ebfc162-d237-4434-859c-2e64530b87c4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8a36f90f-1be8-4430-9c0e-4feeaadc765c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:15.787591Z",
+            "modified": "2023-10-03T15:28:15.787591Z",
+            "relationship_type": "uses",
+            "description": "Impact::Data Encrypted for Impact (E1486) -- Netwalker encrypts files for ransom. [1]",
+            "source_ref": "malware--8eed7e54-f63b-47f3-8a5e-d8223afcde56",
+            "target_ref": "malware-behavior--a2416cef-7fed-48e0-8bcc-d100ac72c509",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

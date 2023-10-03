@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b40329f0-c903-4b25-8be3-fc1c79cbd9cd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--22eba4db-c79d-496b-8a36-bd022e1ac48f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.615556Z",
+            "modified": "2023-10-03T15:28:17.615556Z",
+            "relationship_type": "uses",
+            "description": "Communication::Socket Communication::Create UDP Socket (C0001.010) -- Hupigon creates UDP sockets. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--02d02ea0-408e-4f4e-95ef-f9b18f147a32",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

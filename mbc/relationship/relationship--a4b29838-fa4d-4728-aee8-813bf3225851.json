@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1f935e7d-b4a9-432c-8d9d-cdd2517fc734",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a4b29838-fa4d-4728-aee8-813bf3225851",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:17.598733Z",
+            "modified": "2023-10-03T15:28:17.598733Z",
+            "relationship_type": "uses",
+            "description": "Privilege Escalation::Access Token Manipulation (T1134) -- Hupigon acquires debug privileges. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "attack-pattern--dcaa092b-7de9-4a21-977f-7fcb77e89c48",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

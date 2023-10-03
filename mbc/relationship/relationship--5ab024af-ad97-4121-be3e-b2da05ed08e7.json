@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--52bd475f-38e0-49e3-ba8b-4e9938b36468",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5ab024af-ad97-4121-be3e-b2da05ed08e7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:13.871172Z",
+            "modified": "2023-10-03T15:28:13.871172Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication::Receive Data (B0030.002) -- GoBotKR receives data from the C2. [1] [2]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "malware-method--0c2bbe11-f83b-4b11-bbcd-7e83efdb4759",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

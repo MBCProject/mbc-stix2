@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--b4743b4b-bead-4b09-9d89-d7d051563f4a",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--cf9bf65d-28e7-4f22-89d1-532512228082",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:11.154348Z",
+            "modified": "2023-10-03T15:28:11.154348Z",
+            "name": "SearchAwesome File Names",
+            "description": "This is an IoC for SearchAwesome",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:value = '~/Library/SPI/' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:11.154348Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7764c8b7-ffe5-4bfa-b862-17748876f041",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6849158f-403e-469d-859b-b2b6e2b1563e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:16.011343Z",
+            "modified": "2023-10-03T15:28:16.011343Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Mutex (C0042) -- Malware creates global mutexes that signal rootkit installation has occurred successfully. [1]",
+            "source_ref": "malware--695d06a7-4c91-4d98-8f8c-6360316a59e7",
+            "target_ref": "malware-behavior--f710327b-7f89-4b45-9a84-2f5d23b23378",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

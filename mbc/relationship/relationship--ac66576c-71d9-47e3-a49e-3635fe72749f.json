@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b411f19a-7aa0-4145-b4ff-89ae1b29fe6f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ac66576c-71d9-47e3-a49e-3635fe72749f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:10.830861Z",
+            "modified": "2023-10-03T15:28:10.830861Z",
+            "relationship_type": "uses",
+            "description": "File System::Move File (C0063) -- Shamoon moves files. [5]",
+            "source_ref": "malware--126fd545-8484-4d16-a8ac-7c20fb2c8b43",
+            "target_ref": "malware-behavior--b1be9b18-475f-4a13-9976-4118740b50c5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

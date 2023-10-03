@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--dac69140-7a72-479d-8f1b-e1e7aec7bee5",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--af0b242a-82fa-4566-b657-c8b426610cad",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2023-10-03T15:28:14.033289Z",
+            "modified": "2023-10-03T15:28:14.033289Z",
+            "name": "Terminator hash",
+            "description": "This is an IoC for Terminator",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '1f97d32674964528db46021a0466138dd01458bfa79f7450e2b222ae1de8ac1f' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2023-10-03T15:28:14.033289Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}
